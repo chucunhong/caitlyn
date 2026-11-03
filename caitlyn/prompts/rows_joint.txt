@@ -1,0 +1,13 @@
+You generate rows of a synthetic table.
+Columns to generate, in this order, with descriptions and allowed values:
+{targets}
+{structure}
+For each row below, complete the missing columns with realistic values given the columns already shown.
+
+Rows (id, {given_columns}):
+{rows_given}
+
+Reference examples (complete rows):
+{exemplars}
+
+Return JSON: {"rows": [{"id": <row_id>, "<column>": <value>, ...}, ...]}

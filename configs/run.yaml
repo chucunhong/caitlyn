@@ -1,0 +1,71 @@
+# Global run configuration (Sec. 3b of IMPLEMENTATION_GUIDE.md and Sec. 4.1 "Implementation" of the paper)
+
+llm:
+  # Alibaba Cloud Model Studio, OpenAI-compatible endpoint.
+  # provider: token_plan -> subscription key TOKEN_PLAN_API_KEY + plan endpoint below (credits, no per-token bill)
+  # provider: payg       -> pay-as-you-go key ALIBABA_CLOUD_API_KEY + workspace endpoint
+  provider: token_plan
+  token_plan_base_url: https://token-plan.ap-southeast-1.maas.aliyuncs.com/compatible-mode/v1
+  base_url: https://{workspace}.ap-southeast-1.maas.aliyuncs.com/compatible-mode/v1
+  api_key_env: ALIBABA_CLOUD_API_KEY    # read from the environment or from .env
+  model: qwen3.8-flash                  # main backbone (available on the plan)
+  open_model: deepseek-v4.1-flash       # second backbone family (--model open); GLM: --model glm-5.2
+  enable_thinking: false                # non-thinking calls for JSON generation (dropped if a model refuses it)
+  json_mode: true                       # response_format={"type": "json_object"}
+  timeout: 180
+  max_retries: 6
+  max_concurrency: 3                    # Essential plan: 2-3 concurrent agents
+  cache: results/llm_cache.sqlite
+  # USD per 1M tokens, only used for the cost table. CHECK CURRENT PRICES before reporting.
+  price_in_per_m: 0.40
+  price_out_per_m: 1.20
+
+seeds: [0, 1, 2]
+
+caitlyn:
+  K: 5                    # pi_role samples
+  role_temperature: 0.7
+  role_min_votes: 3
+  struct_temperature: 0.0 # pi_edge, pi_cycle
+  gen_temperature: 0.9
+  gen_top_p: 0.95
+  n_example_rows: 30      # few-shot rows shown to pi_role / pi_edge
+  delta: 0.01
+  tau_p: 0.2
+  alpha: 0.05
+  B: 200
+  tau: 0.05
+  M: 100
+  J: 5
+  eta: 0.001
+  gamma: 0.01
+  refine_cut: true        # joint cut under non-additive (joint) losses of the parents cut into one node
+  lam: 0.3
+  batch_size: 50          # rows per LLM call
+  grouping: layer         # one call per topological layer and group (A / non-A); "column" = one call per column
+  n_exemplars: 10         # exemplars per call when exemplars are drawn uniformly (variant uniformex)
+  match_k: 10             # matched exemplars: one of the match_k nearest training rows on pa(v), per batch row
+  novelty_rounds: 4       # minimal-edit regeneration of rows that copy a training row or repeat a synthetic row
+  max_topups: 5           # then generate the missing rows from fresh roots until synth_rows novel rows exist
+  max_retries_rows: 3
+  label_is_sink: true     # the label has no children in the plan
+  label_parents: true     # evidence gate also adds LRT-supported (Holm) parents of Y that the LLM plan missed
+  lrt_max_rows: 20000     # subsample for likelihood-ratio tests on large tables
+  n_jobs: 4               # parallel workers for permutation tests
+  synth_rows: 1000        # |D_synth| for every method and dataset (null -> |D_train|), as in StructSynth
+
+evaluation:
+  classifiers: [xgb, rf, lr, mlp]
+  min_group: 30
+  min_pos_neg: 5
+  bootstrap: 1000
+  privacy_max_rows: 3000  # subsample for Gower distances
+  fidelity_max_rows: 10000
+  pool_seeds_for: [german] # pool test predictions across seeds for intersectional metrics
+
+leakage:
+  M: 100
+  probe_per_batch: 5      # probe rows per call; the rest of the batch are neighbours
+  n_pairs: 3
+  twins_rows: 1000
+  twins_alt_cells: 2

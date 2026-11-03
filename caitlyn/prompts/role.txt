@@ -1,0 +1,8 @@
+Decision task: {task_description}
+Protected attributes: {protected}. Label: {label}.
+Columns with descriptions:
+{column_descriptions}
+Example rows:
+{rows}
+Which columns are legitimate grounds for this decision, i.e., factors a lender may lawfully and reasonably use even if they differ across protected groups? Exclude columns that mainly reflect who the applicant is rather than their ability or record to repay. Also list columns that may act as stand-ins for protected attributes.
+Return JSON: {"resolving": [{"column": "...", "rationale": "..."}], "proxy_candidates": [{"column": "...", "rationale": "..."}]}

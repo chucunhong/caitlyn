@@ -1,0 +1,14 @@
+You generate values for ONE column of a synthetic table.
+Column to generate: {target} — {target_description}
+Allowed values / range: {domain}
+
+For each row below, generate a realistic value of {target} given ONLY the listed columns.
+Do not assume or infer any other attribute of the person.
+
+Rows (id, {parent_columns}):
+{rows_parent_only}
+
+Reference examples ({parent_columns} -> {target}):
+{exemplars}
+
+Return JSON: {"values": {"<row_id>": <value>, ...}}

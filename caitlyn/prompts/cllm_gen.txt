@@ -1,0 +1,10 @@
+You are a synthetic data generator.
+Your goal is to produce data which mirrors the given examples in causal structure and feature and label distributions, but also produce as diverse samples as possible.
+Context: {task_description}
+Columns, descriptions and allowed values:
+{targets}
+
+Example data:
+{exemplars}
+
+Generate {n} new rows. Return JSON: {"rows": [{"id": <row_id>, "<column>": <value>, ...}, ...]} using ids {ids}.

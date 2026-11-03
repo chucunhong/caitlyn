@@ -1,0 +1,12 @@
+You are building a dependency graph over the columns of a table, used to decide the order in which columns are generated.
+Current column: {u} (role: {role_u})
+Current graph (edges with rationales):
+{graph}
+Column roles: {roles}
+Association of {u} with every other column (0-1, from the full data): {assoc}
+Example rows:
+{rows}
+
+List the columns that directly depend on {u}. Do not propose edges into protected columns.
+For each, give a one-sentence rationale grounded in the association scores or the data.
+Return JSON: {"children": [{"column": "...", "rationale": "..."}]}

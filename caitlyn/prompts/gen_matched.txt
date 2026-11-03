@@ -1,0 +1,17 @@
+You generate values for ONE column of a synthetic table.
+Column to generate: {target} — {target_description}
+Allowed values / range: {domain}
+
+For each row below, generate a realistic value of {target} given ONLY the listed columns.
+Do not assume or infer any other attribute of the person.
+
+Rows (id, {parent_columns}):
+{rows_parent_only}
+
+Reference examples: real records whose {parent_columns} are close to those of the rows above ({parent_columns} -> {target}):
+{exemplars}
+
+Use the reference examples to judge which values are likely for rows with similar inputs, including how often each value occurs.
+Sample each row's value from that pattern: do not copy a reference record, and keep the variety of values the examples show (rare values stay rare but do appear).
+
+Return JSON: {"values": {"<row_id>": <value>, ...}}

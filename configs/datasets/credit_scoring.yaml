@@ -1,0 +1,45 @@
+name: credit_scoring
+label: label
+protected: [sex, age]
+task: >-
+  Decide whether a FinTech loan applicant in Uzbekistan (Central Asia) has good credit, i.e., will repay the loan.
+label_description: "1 = good credit, 0 = bad credit"
+
+# Raw file: Kaggle (Davronov 2021), copied from ../zeri/data/credit-scoring.csv to data/raw/credit_scoring.csv.
+# 8,755 rows, 17 attributes + class-label (IR 8059:696 = 11.58). The release has integer codes and no codebook.
+raw:
+  path: data/raw/credit_scoring.csv
+  label_col: class-label            # 1 = good credit
+  sex_col: Sex
+  sex_map: {1: male, 2: female}     # as in Giang et al. 2024 and ../zeri/configs/data/credit_scoring.yaml
+  age_col: Age
+  age_threshold: median             # young = age <= median age (36); no convention exists for this dataset
+  # Marital (codes 1-7) has no public codebook; like SENNA, lucian and zeri it is kept as an ordinary
+  # categorical attribute with its raw codes (and may be detected as a proxy by Stage B).
+  drop: []
+
+# Label leakage in the Kaggle release: every bad-credit applicant has Changed-phone-number >= 1 and 98% have
+# Field = 0, so a classifier using them reaches AUC 1.0. Generators see all columns; downstream classifiers
+# (TSTR, augmentation, Real) are trained without these two.
+eval_drop: [Field, Changed-phone-number]
+
+# Descriptions of the processed columns. pi_role selects R from these, so keep them accurate.
+columns:
+  sex: "Sex of the applicant (female / male)"
+  age: "Age group of the applicant (<=36 years / >36 years)"
+  Marital: "Marital status of the applicant (category code 1-7)"
+  Language: "Language of the application (code 1 or 2)"
+  Has-Credit: "Whether the applicant has an existing credit (1 = yes, 2 = no)"
+  Field: "Field of employment of the applicant (category code)"
+  Month-of-birth: "Month of birth of the applicant"
+  Day-of-birth: "Day-of-birth group of the applicant"
+  Region: "Region of residence (category code)"
+  Number_of_credits: "Number of credits in the applicant's credit history"
+  Linked-cards: "Number of bank cards linked to the applicant's account"
+  INPS_mln_sum: "Total pension-fund (INPS) contributions of the applicant, in million UZS (a proxy for formal income)"
+  INPS-yes-no: "Whether the applicant has pension-fund (INPS) contributions (1 = yes, 0 = no)"
+  Score-level: "Credit bureau score level (0 = no score)"
+  Score-class: "Credit bureau score class (0 = no score)"
+  Score_point: "Credit bureau score in points (0 = no score)"
+  Changed-phone-number: "Number of times the applicant changed their phone number"
+  label: "1 = good credit, 0 = bad credit"

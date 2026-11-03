@@ -1,0 +1,22 @@
+name: adult
+label: income
+protected: [sex, race, age]
+task: >-
+  Decide whether a person's annual income exceeds 50,000 USD, as used for credit pre-screening.
+label_description: "1 if annual income > 50K USD, else 0"
+# Descriptions of the PROCESSED columns (shown to pi_role / pi_edge / pi_gen).
+columns:
+  age: "Age group of the person (<=30, 31-50, >50)"
+  workclass: "Type of employer (private, self-employed, government, ...)"
+  education: "Highest education level attained"
+  education_num: "Education level as number of years of schooling (1-16)"
+  marital_status: "Marital status"
+  occupation: "Occupation category"
+  relationship: "Role of the person in the household"
+  race: "Race (White / non-White)"
+  sex: "Sex (Female / Male)"
+  capital_gain: "Capital gains in the year, USD"
+  capital_loss: "Capital losses in the year, USD"
+  hours_per_week: "Usual working hours per week"
+  native_country: "Country of origin"
+  income: "1 if annual income > 50K USD, else 0"

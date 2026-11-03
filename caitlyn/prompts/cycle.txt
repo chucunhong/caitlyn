@@ -1,0 +1,4 @@
+The following edges form a cycle in a dependency graph, each with the rationale given when it was added:
+{cycle_with_rationales}
+Identify the single edge whose rationale is least supported by the data or least plausible.
+Return JSON: {"remove": ["<from>", "<to>"], "reason": "..."}

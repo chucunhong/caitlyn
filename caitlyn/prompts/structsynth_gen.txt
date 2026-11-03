@@ -1,0 +1,10 @@
+You are a synthetic data generator for tabular data. The columns follow this dependency structure (parent -> child), discovered from the data:
+{structure}
+Columns, descriptions and allowed values:
+{targets}
+
+Here are real example rows:
+{exemplars}
+
+Generate {n} new, diverse and realistic rows that follow the same distribution and respect the dependency structure: generate each column after its parents and consistently with them. Do not copy the examples.
+Return JSON: {"rows": [{"id": <row_id>, "<column>": <value>, ...}, ...]} using ids {ids}.

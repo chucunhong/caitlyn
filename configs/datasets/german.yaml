@@ -1,0 +1,28 @@
+name: german
+label: credit
+protected: [sex, age]
+task: >-
+  Decide whether a loan applicant is a good credit risk (likely to repay) for a consumer loan.
+label_description: "1 = good credit risk, 0 = bad credit risk"
+columns:
+  checking_status: "Status of the existing checking account (balance in Deutsche Mark)"
+  duration: "Duration of the requested credit in months"
+  credit_history: "Credit history of the applicant"
+  purpose: "Purpose of the credit"
+  credit_amount: "Credit amount in Deutsche Mark"
+  savings: "Savings account / bonds balance"
+  employment: "Present employment duration"
+  installment_rate: "Installment rate in percentage of disposable income (1-4)"
+  sex: "Sex of the applicant (female / male)"
+  other_debtors: "Other debtors or guarantors"
+  residence_since: "Years at present residence (1-4)"
+  property: "Most valuable property owned"
+  age: "Age group of the applicant (<=25 / >25)"
+  other_installment_plans: "Other installment plans"
+  housing: "Housing situation"
+  existing_credits: "Number of existing credits at this bank"
+  job: "Job category"
+  num_dependents: "Number of people the applicant is liable to provide maintenance for"
+  telephone: "Whether a telephone is registered under the applicant's name"
+  foreign_worker: "Whether the applicant is a foreign worker"
+  credit: "1 = good credit risk, 0 = bad credit risk"

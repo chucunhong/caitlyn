@@ -1,0 +1,12 @@
+You generate values for SEVERAL columns of a synthetic table.
+Columns to generate, in this order, with descriptions and allowed values:
+{targets}
+
+These columns have no inputs: generate one realistic row of values for each row id below, following the joint distribution of the reference examples.
+Row ids: {ids}
+
+Reference examples ({target_columns}):
+{exemplars}
+
+Return JSON whose keys are exactly the row ids above (as strings "0", "1", ...), each mapped to the list of values in the column order [{target_columns}]:
+{"values": {"0": [<value>, ...], "1": [<value>, ...], ...}}

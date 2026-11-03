@@ -1,0 +1,11 @@
+You generate values for ONE column of a synthetic table.
+Column to generate: {target} — {target_description}
+Allowed values / range: {domain}
+
+Generate one realistic value of {target} for each of the row ids below. The column has no inputs; follow the distribution of the reference examples.
+Row ids: {ids}
+
+Reference examples ({target}):
+{exemplars}
+
+Return JSON: {"values": {"<row_id>": <value>, ...}}

@@ -1,0 +1,15 @@
+You generate values for SEVERAL columns of a synthetic table.
+Columns to generate, in this order, with descriptions and allowed values:
+{targets}
+
+For each row below, generate realistic values of these columns given ONLY the listed columns.
+Do not assume or infer any other attribute of the person.
+
+Rows (id, {parent_columns}):
+{rows_parent_only}
+
+Reference examples ({parent_columns} -> {target_columns}):
+{exemplars}
+
+Return JSON mapping each row id to the list of generated values, in the column order [{target_columns}]:
+{"values": {"<row_id>": [<value>, ...], ...}}

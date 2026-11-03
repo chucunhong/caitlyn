@@ -1,0 +1,23 @@
+# Core (CAITLYN + evaluation)
+pandas>=2.1
+numpy>=1.26
+scipy>=1.11
+scikit-learn>=1.3
+xgboost>=2.0
+lightgbm>=4.1
+networkx>=3.2
+statsmodels>=0.14
+pyyaml>=6.0
+openai>=1.40          # DashScope (Alibaba Cloud Model Studio) exposes an OpenAI-compatible API
+tenacity>=8.2
+sdmetrics>=0.14
+scikit-posthocs>=0.9
+matplotlib>=3.8
+tqdm>=4.66
+
+# Optional
+causal-learn>=0.1.3.8   # PC-algorithm plan (ablation "PC plan instead of LLM plan")
+# Baselines: install in a SEPARATE venv (synthcity pins torch)
+#   sdv>=1.12            CTGAN
+#   synthcity>=0.2.10    DECAF, alpha-precision / beta-recall (optional; a local fallback exists)
+#   be-great>=0.0.8      GReaT
