@@ -1,0 +1,588 @@
+{
+ "G2": {
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+   {
+    "id": "Language"
+   },
+   {
+    "id": "Marital"
+   },
+   {
+    "id": "Has-Credit"
+   },
+   {
+    "id": "Field"
+   },
+   {
+    "id": "Month-of-birth"
+   },
+   {
+    "id": "Day-of-birth"
+   },
+   {
+    "id": "Region"
+   },
+   {
+    "id": "Number_of_credits"
+   },
+   {
+    "id": "Linked-cards"
+   },
+   {
+    "id": "INPS_mln_sum"
+   },
+   {
+    "id": "INPS-yes-no"
+   },
+   {
+    "id": "Score-level"
+   },
+   {
+    "id": "Score-class"
+   },
+   {
+    "id": "Score_point"
+   },
+   {
+    "id": "Changed-phone-number"
+   },
+   {
+    "id": "label"
+   },
+   {
+    "id": "sex"
+   },
+   {
+    "id": "age"
+   }
+  ],
+  "links": [
+   {
+    "rationale": "Language has its strongest association with Region (0.145), and the sample rows show Language values clustering by Region (e.g., Region 12/13 with Language 1, Region 0 with Language 2), so Region should be generated after Language.",
+    "source": "Language",
+    "target": "Region"
+   },
+   {
+    "rationale": "Marital has its strongest non-protected association with Field (0.234), and the sample rows show Field values clustering by Marital (e.g., Field 4/14/16 with Marital 4 for females vs Field 10/13/20 with Marital 5 for males), so Field should be generated after Marital.",
+    "source": "Marital",
+    "target": "Field"
+   },
+   {
+    "rationale": "Has-Credit has its highest association with Number_of_credits (0.144), and the sample rows show Number_of_credits=2 co-occurring with Has-Credit=2 (Field 0 row) versus Number_of_credits=1 for most Has-Credit=1 rows, suggesting Number_of_credits should be generated after Has-Credit.",
+    "source": "Has-Credit",
+    "target": "Number_of_credits"
+   },
+   {
+    "rationale": "Has-Credit associates with Linked-cards at 0.155, and the sample rows show Linked-cards=2 appearing alongside Has-Credit=2 (Field 0 row) while Has-Credit=1 rows mostly have Linked-cards=1, indicating Linked-cards should follow Has-Credit.",
+    "source": "Has-Credit",
+    "target": "Linked-cards"
+   },
+   {
+    "rationale": "Has-Credit has a strong association with INPS-yes-no (0.156), and the sample rows show INPS-yes-no=0 only in the Has-Credit=2 row while Has-Credit=1 rows have INPS-yes-no=1, so INPS-yes-no should be generated after Has-Credit.",
+    "source": "Has-Credit",
+    "target": "INPS-yes-no"
+   },
+   {
+    "rationale": "Field has its highest association with Changed-phone-number (0.454), and the sample rows show Changed-phone-number=1 only for a specific Field value (Field 0), indicating Changed-phone-number should be generated after Field.",
+    "source": "Field",
+    "target": "Changed-phone-number"
+   },
+   {
+    "rationale": "Field associates with INPS-yes-no at 0.298, and the sample rows show INPS-yes-no=0 co-occurring with specific Field values (Field 0 and Field 14), suggesting INPS-yes-no should follow Field.",
+    "source": "Field",
+    "target": "INPS-yes-no"
+   },
+   {
+    "rationale": "Month-of-birth has its highest association with Day-of-birth (0.048), and the sample rows show Day-of-birth values co-varying with Month-of-birth (e.g., Month 11 with Day 1/2, Month 12 with Day 1/2), so Day-of-birth should be generated after Month-of-birth.",
+    "source": "Month-of-birth",
+    "target": "Day-of-birth"
+   },
+   {
+    "rationale": "Month-of-birth associates with INPS_mln_sum at 0.053, the second-highest among its associations, and the sample rows show INPS_mln_sum values varying across Month-of-birth groups, so INPS_mln_sum should be generated after Month-of-birth.",
+    "source": "Month-of-birth",
+    "target": "INPS_mln_sum"
+   },
+   {
+    "rationale": "Month-of-birth associates with Score_point at 0.044, and the sample rows show Score_point values (0, 263, 277) appearing across different Month-of-birth values, suggesting Score_point should be generated after Month-of-birth.",
+    "source": "Month-of-birth",
+    "target": "Score_point"
+   },
+   {
+    "rationale": "Month-of-birth associates with Field at 0.04, and the sample rows show Field values clustering by Month-of-birth (e.g., Field 13/16 with Month 11, Field 4 with Month 7), indicating Field should be generated after Month-of-birth.",
+    "source": "Month-of-birth",
+    "target": "Field"
+   },
+   {
+    "rationale": "Month-of-birth associates with Linked-cards at 0.026, and the sample rows show Linked-cards=2 co-occurring with specific Month-of-birth values (e.g., Month 1, 8, 9), suggesting Linked-cards should be generated after Month-of-birth.",
+    "source": "Month-of-birth",
+    "target": "Linked-cards"
+   },
+   {
+    "rationale": "Day-of-birth has its highest association with Changed-phone-number (0.153), and the sample rows show Changed-phone-number=1 only for Day-of-birth=1 (Field 0 row) while Day-of-birth=2 rows have Changed-phone-number=0, suggesting Changed-phone-number should be generated after Day-of-birth.",
+    "source": "Day-of-birth",
+    "target": "Changed-phone-number"
+   },
+   {
+    "rationale": "Day-of-birth has a strong association with label (0.188), and the sample rows show label=0 only for a Day-of-birth=1 row while Day-of-birth=2 rows have label=1, indicating label should be generated after Day-of-birth.",
+    "source": "Day-of-birth",
+    "target": "label"
+   },
+   {
+    "rationale": "Day-of-birth associates with INPS-yes-no at 0.103, and the sample rows show INPS-yes-no=0 co-occurring with Day-of-birth=1 (Field 0 and Field 14 rows) while Day-of-birth=2 rows mostly have INPS-yes-no=1, so INPS-yes-no should follow Day-of-birth.",
+    "source": "Day-of-birth",
+    "target": "INPS-yes-no"
+   },
+   {
+    "rationale": "Day-of-birth associates with Field at 0.082, and the sample rows show Field values clustering by Day-of-birth (e.g., Field 0/14 with Day 1 vs Field 13/16 with Day 2), suggesting Field should be generated after Day-of-birth.",
+    "source": "Day-of-birth",
+    "target": "Field"
+   },
+   {
+    "rationale": "Region has its highest association with Score_point (0.185), and the sample rows show Score_point values (0, 263, 277) co-occurring with distinct Region values (13, 12, 0, 7, 10, 11), suggesting Score_point should be generated after Region.",
+    "source": "Region",
+    "target": "Score_point"
+   },
+   {
+    "rationale": "Region associates with Field at 0.13, and the sample rows show Field values varying across Region (e.g., Field 4/14/16 with Region 12/13 vs Field 3 with Region 7), indicating Field should be generated after Region.",
+    "source": "Region",
+    "target": "Field"
+   },
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "Number_of_credits",
+    "target": "label"
+   },
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "Linked-cards",
+    "target": "label"
+   },
+   {
+    "rationale": "INPS-yes-no has its highest association with Changed-phone-number (0.468), and the sample rows show Changed-phone-number=1 only when INPS-yes-no=0 (e.g., Field 0 row), indicating Changed-phone-number should be generated after INPS-yes-no.",
+    "source": "INPS-yes-no",
+    "target": "Changed-phone-number"
+   },
+   {
+    "rationale": "INPS-yes-no has the strongest overall association with label (0.545), and the sample rows show label=0 co-occurring with INPS-yes-no=0 while label=1 rows almost all have INPS-yes-no=1, so label should be generated after INPS-yes-no.",
+    "source": "INPS-yes-no",
+    "target": "label"
+   },
+   {
+    "rationale": "Score-class has a perfect association of 1.0 with Score-level, and the sample rows show them co-varying exactly (Score-class 0 with Score-level 0, Score-class 6 with Score-level 3, Score-class 7 with Score-level 3), so Score-class should be generated after Score-level.",
+    "source": "Score-level",
+    "target": "Score-class"
+   },
+   {
+    "rationale": "Score_point has a near-perfect association of 0.995 with Score-level, and the sample rows show Score_point values tracking Score-level (Score-level 0 with Score_point 0, Score-level 3 with Score_point 263/277), so Score_point should be generated after Score-level.",
+    "source": "Score-level",
+    "target": "Score_point"
+   },
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "Score-level",
+    "target": "label"
+   },
+   {
+    "rationale": "Score-class has a near-perfect association of 0.999 with Score_point, and the sample rows show Score_point values tracking Score-class levels (e.g., Score-class 6 with Score_point 263, Score-class 7 with Score_point 277), so Score_point should be generated after Score-class.",
+    "source": "Score-class",
+    "target": "Score_point"
+   },
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "Changed-phone-number",
+    "target": "label"
+   },
+   {
+    "rationale": "Association with sex is 0.99, essentially deterministic, indicating Marital is a near-perfect proxy for sex and must be generated after sex.",
+    "source": "sex",
+    "target": "Marital"
+   },
+   {
+    "rationale": "Association with sex is 0.224, the strongest non-Marital signal, and the sample rows show Field values clustering differently by sex (e.g., Field 4/14/16 for females vs Field 10/13/20 for males).",
+    "source": "sex",
+    "target": "Field"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "sex",
+    "target": "Region"
+   },
+   {
+    "rationale": "Age has the strongest association with Marital (0.4), and the sample rows show Marital values shifting with age (e.g., Marital 5 common for >36 males, Marital 4 for <=36 females), indicating Marital should be generated after age.",
+    "source": "age",
+    "target": "Marital"
+   },
+   {
+    "rationale": "Age shows a moderate association with Field (0.17), and the sample rows show Field values clustering differently by age (e.g., Field 13/10 for >36 vs Field 16/4 for <=36), so Field should follow age.",
+    "source": "age",
+    "target": "Field"
+   },
+   {
+    "rationale": "Age associates with Score-class at 0.119, and since Score-class is a proxy candidate tied to score levels that vary with age, it should be generated after age.",
+    "source": "age",
+    "target": "Score-class"
+   },
+   {
+    "rationale": "Age has an association of 0.116 with Changed-phone-number, indicating the likelihood of phone changes varies with age, so it should be generated after age.",
+    "source": "age",
+    "target": "Changed-phone-number"
+   },
+   {
+    "rationale": "Age associates with Score-level at 0.111, and score levels appear age-dependent in the data, so Score-level should be generated after age.",
+    "source": "age",
+    "target": "Score-level"
+   },
+   {
+    "rationale": "Age shows an association of 0.106 with Score_point, and score points co-vary with age-related score levels, so Score_point should follow age.",
+    "source": "age",
+    "target": "Score_point"
+   },
+   {
+    "rationale": "Age has a modest association with Region (0.091), suggesting regional distribution varies somewhat with age, so Region should be generated after age.",
+    "source": "age",
+    "target": "Region"
+   }
+  ]
+ },
+ "G": {
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+   {
+    "id": "Language"
+   },
+   {
+    "id": "Marital"
+   },
+   {
+    "id": "Has-Credit"
+   },
+   {
+    "id": "Field"
+   },
+   {
+    "id": "Month-of-birth"
+   },
+   {
+    "id": "Day-of-birth"
+   },
+   {
+    "id": "Region"
+   },
+   {
+    "id": "Number_of_credits"
+   },
+   {
+    "id": "Linked-cards"
+   },
+   {
+    "id": "INPS_mln_sum"
+   },
+   {
+    "id": "INPS-yes-no"
+   },
+   {
+    "id": "Score-level"
+   },
+   {
+    "id": "Score-class"
+   },
+   {
+    "id": "Score_point"
+   },
+   {
+    "id": "Changed-phone-number"
+   },
+   {
+    "id": "label"
+   },
+   {
+    "id": "sex"
+   },
+   {
+    "id": "age"
+   }
+  ],
+  "links": [
+   {
+    "rationale": "Language has its strongest association with Region (0.145), and the sample rows show Language values clustering by Region (e.g., Region 12/13 with Language 1, Region 0 with Language 2), so Region should be generated after Language.",
+    "source": "Language",
+    "target": "Region"
+   },
+   {
+    "rationale": "Marital has its strongest non-protected association with Field (0.234), and the sample rows show Field values clustering by Marital (e.g., Field 4/14/16 with Marital 4 for females vs Field 10/13/20 with Marital 5 for males), so Field should be generated after Marital.",
+    "source": "Marital",
+    "target": "Field"
+   },
+   {
+    "rationale": "Has-Credit has its highest association with Number_of_credits (0.144), and the sample rows show Number_of_credits=2 co-occurring with Has-Credit=2 (Field 0 row) versus Number_of_credits=1 for most Has-Credit=1 rows, suggesting Number_of_credits should be generated after Has-Credit.",
+    "source": "Has-Credit",
+    "target": "Number_of_credits"
+   },
+   {
+    "rationale": "Has-Credit associates with Linked-cards at 0.155, and the sample rows show Linked-cards=2 appearing alongside Has-Credit=2 (Field 0 row) while Has-Credit=1 rows mostly have Linked-cards=1, indicating Linked-cards should follow Has-Credit.",
+    "source": "Has-Credit",
+    "target": "Linked-cards"
+   },
+   {
+    "rationale": "Has-Credit has a strong association with INPS-yes-no (0.156), and the sample rows show INPS-yes-no=0 only in the Has-Credit=2 row while Has-Credit=1 rows have INPS-yes-no=1, so INPS-yes-no should be generated after Has-Credit.",
+    "source": "Has-Credit",
+    "target": "INPS-yes-no"
+   },
+   {
+    "rationale": "Field has its highest association with Changed-phone-number (0.454), and the sample rows show Changed-phone-number=1 only for a specific Field value (Field 0), indicating Changed-phone-number should be generated after Field.",
+    "source": "Field",
+    "target": "Changed-phone-number"
+   },
+   {
+    "rationale": "Field has the strongest overall association with label (0.532), and the sample rows show label=0 only for a particular Field value (Field 0), so label should be generated after Field.",
+    "source": "Field",
+    "target": "label"
+   },
+   {
+    "rationale": "Field associates with INPS-yes-no at 0.298, and the sample rows show INPS-yes-no=0 co-occurring with specific Field values (Field 0 and Field 14), suggesting INPS-yes-no should follow Field.",
+    "source": "Field",
+    "target": "INPS-yes-no"
+   },
+   {
+    "rationale": "Month-of-birth has its highest association with Day-of-birth (0.048), and the sample rows show Day-of-birth values co-varying with Month-of-birth (e.g., Month 11 with Day 1/2, Month 12 with Day 1/2), so Day-of-birth should be generated after Month-of-birth.",
+    "source": "Month-of-birth",
+    "target": "Day-of-birth"
+   },
+   {
+    "rationale": "Month-of-birth associates with INPS_mln_sum at 0.053, the second-highest among its associations, and the sample rows show INPS_mln_sum values varying across Month-of-birth groups, so INPS_mln_sum should be generated after Month-of-birth.",
+    "source": "Month-of-birth",
+    "target": "INPS_mln_sum"
+   },
+   {
+    "rationale": "Month-of-birth associates with Score_point at 0.044, and the sample rows show Score_point values (0, 263, 277) appearing across different Month-of-birth values, suggesting Score_point should be generated after Month-of-birth.",
+    "source": "Month-of-birth",
+    "target": "Score_point"
+   },
+   {
+    "rationale": "Month-of-birth associates with Field at 0.04, and the sample rows show Field values clustering by Month-of-birth (e.g., Field 13/16 with Month 11, Field 4 with Month 7), indicating Field should be generated after Month-of-birth.",
+    "source": "Month-of-birth",
+    "target": "Field"
+   },
+   {
+    "rationale": "Month-of-birth associates with Linked-cards at 0.026, and the sample rows show Linked-cards=2 co-occurring with specific Month-of-birth values (e.g., Month 1, 8, 9), suggesting Linked-cards should be generated after Month-of-birth.",
+    "source": "Month-of-birth",
+    "target": "Linked-cards"
+   },
+   {
+    "rationale": "Day-of-birth has its highest association with Changed-phone-number (0.153), and the sample rows show Changed-phone-number=1 only for Day-of-birth=1 (Field 0 row) while Day-of-birth=2 rows have Changed-phone-number=0, suggesting Changed-phone-number should be generated after Day-of-birth.",
+    "source": "Day-of-birth",
+    "target": "Changed-phone-number"
+   },
+   {
+    "rationale": "Day-of-birth has a strong association with label (0.188), and the sample rows show label=0 only for a Day-of-birth=1 row while Day-of-birth=2 rows have label=1, indicating label should be generated after Day-of-birth.",
+    "source": "Day-of-birth",
+    "target": "label"
+   },
+   {
+    "rationale": "Day-of-birth associates with INPS-yes-no at 0.103, and the sample rows show INPS-yes-no=0 co-occurring with Day-of-birth=1 (Field 0 and Field 14 rows) while Day-of-birth=2 rows mostly have INPS-yes-no=1, so INPS-yes-no should follow Day-of-birth.",
+    "source": "Day-of-birth",
+    "target": "INPS-yes-no"
+   },
+   {
+    "rationale": "Day-of-birth associates with Field at 0.082, and the sample rows show Field values clustering by Day-of-birth (e.g., Field 0/14 with Day 1 vs Field 13/16 with Day 2), suggesting Field should be generated after Day-of-birth.",
+    "source": "Day-of-birth",
+    "target": "Field"
+   },
+   {
+    "rationale": "Region has its highest association with Score_point (0.185), and the sample rows show Score_point values (0, 263, 277) co-occurring with distinct Region values (13, 12, 0, 7, 10, 11), suggesting Score_point should be generated after Region.",
+    "source": "Region",
+    "target": "Score_point"
+   },
+   {
+    "rationale": "Region associates with Field at 0.13, and the sample rows show Field values varying across Region (e.g., Field 4/14/16 with Region 12/13 vs Field 3 with Region 7), indicating Field should be generated after Region.",
+    "source": "Region",
+    "target": "Field"
+   },
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "Number_of_credits",
+    "target": "label"
+   },
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "Linked-cards",
+    "target": "label"
+   },
+   {
+    "rationale": "INPS-yes-no has its highest association with Changed-phone-number (0.468), and the sample rows show Changed-phone-number=1 only when INPS-yes-no=0 (e.g., Field 0 row), indicating Changed-phone-number should be generated after INPS-yes-no.",
+    "source": "INPS-yes-no",
+    "target": "Changed-phone-number"
+   },
+   {
+    "rationale": "INPS-yes-no has the strongest overall association with label (0.545), and the sample rows show label=0 co-occurring with INPS-yes-no=0 while label=1 rows almost all have INPS-yes-no=1, so label should be generated after INPS-yes-no.",
+    "source": "INPS-yes-no",
+    "target": "label"
+   },
+   {
+    "rationale": "Score-class has a perfect association of 1.0 with Score-level, and the sample rows show them co-varying exactly (Score-class 0 with Score-level 0, Score-class 6 with Score-level 3, Score-class 7 with Score-level 3), so Score-class should be generated after Score-level.",
+    "source": "Score-level",
+    "target": "Score-class"
+   },
+   {
+    "rationale": "Score_point has a near-perfect association of 0.995 with Score-level, and the sample rows show Score_point values tracking Score-level (Score-level 0 with Score_point 0, Score-level 3 with Score_point 263/277), so Score_point should be generated after Score-level.",
+    "source": "Score-level",
+    "target": "Score_point"
+   },
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "Score-level",
+    "target": "label"
+   },
+   {
+    "rationale": "Score-class has a near-perfect association of 0.999 with Score_point, and the sample rows show Score_point values tracking Score-class levels (e.g., Score-class 6 with Score_point 263, Score-class 7 with Score_point 277), so Score_point should be generated after Score-class.",
+    "source": "Score-class",
+    "target": "Score_point"
+   },
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "Score-class",
+    "target": "label"
+   },
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "Score_point",
+    "target": "label"
+   },
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "Changed-phone-number",
+    "target": "label"
+   },
+   {
+    "rationale": "Association with sex is 0.99, essentially deterministic, indicating Marital is a near-perfect proxy for sex and must be generated after sex.",
+    "source": "sex",
+    "target": "Marital"
+   },
+   {
+    "rationale": "Association with sex is 0.224, the strongest non-Marital signal, and the sample rows show Field values clustering differently by sex (e.g., Field 4/14/16 for females vs Field 10/13/20 for males).",
+    "source": "sex",
+    "target": "Field"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "sex",
+    "target": "label"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "sex",
+    "target": "Region"
+   },
+   {
+    "rationale": "Age has the strongest association with Marital (0.4), and the sample rows show Marital values shifting with age (e.g., Marital 5 common for >36 males, Marital 4 for <=36 females), indicating Marital should be generated after age.",
+    "source": "age",
+    "target": "Marital"
+   },
+   {
+    "rationale": "Age shows a moderate association with Field (0.17), and the sample rows show Field values clustering differently by age (e.g., Field 13/10 for >36 vs Field 16/4 for <=36), so Field should follow age.",
+    "source": "age",
+    "target": "Field"
+   },
+   {
+    "rationale": "Age has a notable association with label (0.123), the highest among resolving/label columns, suggesting the label distribution varies with age and should be generated after age.",
+    "source": "age",
+    "target": "label"
+   },
+   {
+    "rationale": "Age associates with Score-class at 0.119, and since Score-class is a proxy candidate tied to score levels that vary with age, it should be generated after age.",
+    "source": "age",
+    "target": "Score-class"
+   },
+   {
+    "rationale": "Age has an association of 0.116 with Changed-phone-number, indicating the likelihood of phone changes varies with age, so it should be generated after age.",
+    "source": "age",
+    "target": "Changed-phone-number"
+   },
+   {
+    "rationale": "Age associates with Score-level at 0.111, and score levels appear age-dependent in the data, so Score-level should be generated after age.",
+    "source": "age",
+    "target": "Score-level"
+   },
+   {
+    "rationale": "Age shows an association of 0.106 with Score_point, and score points co-vary with age-related score levels, so Score_point should follow age.",
+    "source": "age",
+    "target": "Score_point"
+   },
+   {
+    "rationale": "Age has a modest association with Region (0.091), suggesting regional distribution varies somewhat with age, so Region should be generated after age.",
+    "source": "age",
+    "target": "Region"
+   }
+  ]
+ },
+ "R": [
+  "Linked-cards",
+  "INPS_mln_sum",
+  "INPS-yes-no",
+  "Score-level",
+  "Changed-phone-number"
+ ],
+ "P": [
+  "Marital",
+  "Score-class"
+ ],
+ "cut": [
+  [
+   "Field",
+   "label"
+  ],
+  [
+   "Score-class",
+   "label"
+  ],
+  [
+   "Score_point",
+   "label"
+  ],
+  [
+   "age",
+   "label"
+  ],
+  [
+   "sex",
+   "label"
+  ]
+ ],
+ "ops": {
+  "Field->label": "cut",
+  "Score-class->label": "cut",
+  "sex->label": "cut",
+  "Score_point->label": "cut",
+  "age->label": "cut"
+ },
+ "cost": {
+  "Marital->Field": 0.001,
+  "Field->label": 0.00424259607480193,
+  "Region->Score_point": 0.001,
+  "Region->Field": 0.001,
+  "Score-class->Score_point": 0.001,
+  "Score-class->label": 0.001,
+  "Score_point->label": 0.001,
+  "sex->Marital": 0.2087540604404875,
+  "sex->Field": 0.001,
+  "sex->label": 0.001,
+  "sex->Region": 0.001,
+  "age->Marital": 0.07201728376510941,
+  "age->Field": 0.007317402356605898,
+  "age->label": 0.001,
+  "age->Score-class": 0.001,
+  "age->Score_point": 0.001,
+  "age->Region": 0.012853331122377853
+ },
+ "prior_driven": [],
+ "protected": [
+  "sex",
+  "age"
+ ],
+ "label": "label"
+}

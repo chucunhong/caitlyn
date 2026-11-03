@@ -1,0 +1,1235 @@
+{
+ "G2": {
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+   {
+    "id": "checking_status"
+   },
+   {
+    "id": "duration"
+   },
+   {
+    "id": "credit_history"
+   },
+   {
+    "id": "purpose"
+   },
+   {
+    "id": "credit_amount"
+   },
+   {
+    "id": "savings"
+   },
+   {
+    "id": "employment"
+   },
+   {
+    "id": "installment_rate"
+   },
+   {
+    "id": "other_debtors"
+   },
+   {
+    "id": "residence_since"
+   },
+   {
+    "id": "property"
+   },
+   {
+    "id": "age"
+   },
+   {
+    "id": "other_installment_plans"
+   },
+   {
+    "id": "housing"
+   },
+   {
+    "id": "existing_credits"
+   },
+   {
+    "id": "job"
+   },
+   {
+    "id": "num_dependents"
+   },
+   {
+    "id": "telephone"
+   },
+   {
+    "id": "foreign_worker"
+   },
+   {
+    "id": "sex"
+   },
+   {
+    "id": "credit"
+   }
+  ],
+  "links": [
+   {
+    "rationale": "The association score between checking_status and credit is the highest at 0.317, indicating that checking status is a strong predictor of the loan default outcome.",
+    "source": "checking_status",
+    "target": "credit"
+   },
+   {
+    "rationale": "With an association score of 0.172, checking_status shows a moderate dependency with credit_amount, likely reflecting how account balance influences the size of loans granted.",
+    "source": "checking_status",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "The association score of 0.16 suggests a link between checking_status and savings, as financial stability often correlates across different account types.",
+    "source": "checking_status",
+    "target": "savings"
+   },
+   {
+    "rationale": "With an association score of 0.129, there is a slight dependency where checking status may influence the approved duration of the credit.",
+    "source": "checking_status",
+    "target": "duration"
+   },
+   {
+    "rationale": "The association score of 0.12 reflects a connection between current checking status and past credit history, as both are indicators of financial reliability.",
+    "source": "checking_status",
+    "target": "credit_history"
+   },
+   {
+    "rationale": "The association score of 0.207 indicates that loan duration is a significant predictor of default risk, as longer terms increase the exposure to financial instability.",
+    "source": "duration",
+    "target": "credit"
+   },
+   {
+    "rationale": "With an association score of 0.33, there is a strong dependency where property ownership status influences the approved repayment duration, likely due to collateral availability reducing lender risk for longer terms.",
+    "source": "duration",
+    "target": "property"
+   },
+   {
+    "rationale": "An association score of 0.241 indicates that job category correlates with loan duration, as higher-skilled or stable employment profiles may qualify for longer-term financing options.",
+    "source": "duration",
+    "target": "job"
+   },
+   {
+    "rationale": "The association score of 0.176 reflects a dependency where foreign worker status may influence approved duration, potentially due to differing risk assessments or residency requirements affecting long-term lending eligibility.",
+    "source": "duration",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "The association score of 0.127 reflects a dependency where the chosen installment rate interacts with duration, as lenders balance monthly payment burdens against total loan length.",
+    "source": "duration",
+    "target": "installment_rate"
+   },
+   {
+    "rationale": "With an association score of 0.126, employment duration shows a slight link to loan term, as longer tenure in current employment may support approval for extended repayment periods.",
+    "source": "duration",
+    "target": "employment"
+   },
+   {
+    "rationale": "With an association score of 0.072, the number of existing credits shows minimal direct influence on the specific duration of a new loan.",
+    "source": "duration",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "With an association score of 0.222, there is a strong dependency where existing installment plans are closely linked to credit history, reflecting how current financial obligations interact with past reliability.",
+    "source": "credit_history",
+    "target": "other_installment_plans"
+   },
+   {
+    "rationale": "An association score of 0.168 indicates that credit history influences the size of loans granted, as lenders are more willing to extend larger amounts to individuals with proven repayment records.",
+    "source": "credit_history",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "The association score of 0.371 is the highest for purpose, indicating a strong dependency where the loan purpose significantly influences the requested credit amount.",
+    "source": "purpose",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "With an association score of 0.282, there is a moderate dependency suggesting that the purpose of the loan often dictates the approved repayment duration.",
+    "source": "purpose",
+    "target": "duration"
+   },
+   {
+    "rationale": "The association score of 0.184 indicates a link between housing status and loan purpose, likely reflecting how living arrangements influence borrowing needs such as furniture or renovation.",
+    "source": "purpose",
+    "target": "housing"
+   },
+   {
+    "rationale": "An association score of 0.187 suggests a weak but present relationship, possibly due to demographic correlations between telephone ownership and specific loan purposes like education or retraining.",
+    "source": "purpose",
+    "target": "telephone"
+   },
+   {
+    "rationale": "The association score of 0.179 reflects a connection where property ownership status may correlate with the type of loan purpose, such as business investments or car purchases.",
+    "source": "purpose",
+    "target": "property"
+   },
+   {
+    "rationale": "With an association score of 0.176, job category shows a dependency on loan purpose, as certain professions may be more likely to seek specific types of financing like business loans.",
+    "source": "purpose",
+    "target": "job"
+   },
+   {
+    "rationale": "An association score of 0.163 suggests a dependency where foreign worker status may influence the purpose of the loan, potentially related to migration costs or integration expenses.",
+    "source": "purpose",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "The association score of 0.154 indicates a moderate link, implying that household size can influence loan purposes such as family-related expenses or larger credit amounts.",
+    "source": "purpose",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "With an association score of 0.152, past credit history shows a dependency on loan purpose, as lenders may assess risk differently based on the intended use of funds.",
+    "source": "purpose",
+    "target": "credit_history"
+   },
+   {
+    "rationale": "The association score of 0.147 suggests a link where the presence of other debtors may correlate with specific loan purposes, particularly those requiring co-applicants or joint liability.",
+    "source": "purpose",
+    "target": "other_debtors"
+   },
+   {
+    "rationale": "An association score of 0.124 indicates a weak dependency, reflecting how the chosen installment rate might vary slightly depending on the nature of the loan purpose.",
+    "source": "purpose",
+    "target": "installment_rate"
+   },
+   {
+    "rationale": "With an association score of 0.11, there is a slight dependency suggesting that existing installment plans may influence the selection of new loan purposes.",
+    "source": "purpose",
+    "target": "other_installment_plans"
+   },
+   {
+    "rationale": "The association score of 0.106 indicates a weak link, implying that length of residence may have a minor correlation with the type of loan purpose sought.",
+    "source": "purpose",
+    "target": "residence_since"
+   },
+   {
+    "rationale": "An association score of 0.091 suggests a very weak dependency, where the number of existing credits has minimal direct influence on the specific purpose of a new loan.",
+    "source": "purpose",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "The association score of 0.059 indicates a negligible relationship, showing that employment duration has little direct impact on determining loan purpose in this dataset.",
+    "source": "purpose",
+    "target": "employment"
+   },
+   {
+    "rationale": "With an association score of 0.044, savings status shows almost no dependency on loan purpose, reflecting its independence from the reason for borrowing.",
+    "source": "purpose",
+    "target": "savings"
+   },
+   {
+    "rationale": "The association score of 0.18 between credit_amount and the label 'credit' indicates that the size of the loan is a significant predictor of default risk, likely due to higher repayment burdens associated with larger amounts.",
+    "source": "credit_amount",
+    "target": "credit"
+   },
+   {
+    "rationale": "The association score of 0.17 between savings and credit is the highest among all columns linked to savings, indicating that savings status is a strong predictor of loan default outcomes.",
+    "source": "savings",
+    "target": "credit"
+   },
+   {
+    "rationale": "With an association score of 0.141, there is a moderate dependency where savings levels may influence the approved duration of the credit, likely reflecting risk-based lending practices for longer terms.",
+    "source": "savings",
+    "target": "duration"
+   },
+   {
+    "rationale": "The association score of 0.122 suggests a link between savings and credit_amount, as financial stability reflected in savings often correlates with the size of loans granted.",
+    "source": "savings",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "With an association score of 0.137, employment duration shows a moderate dependency with credit amount, as longer tenure in current employment often supports approval for larger loan sizes due to perceived income stability.",
+    "source": "employment",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "The association score of 0.134 indicates a link between employment duration and property ownership status, reflecting how stable, long-term employment facilitates asset accumulation such as real estate or savings agreements.",
+    "source": "employment",
+    "target": "property"
+   },
+   {
+    "rationale": "An association score of 0.108 suggests that the number of existing credits correlates with employment duration, likely because individuals with longer job tenures have had more time to establish borrowing histories.",
+    "source": "employment",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "The association score of 0.152 indicates a moderate dependency where the presence of other debtors correlates with foreign worker status, likely reflecting differing financial support structures or co-applicant requirements for non-native residents.",
+    "source": "other_debtors",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "The association score of 0.14 suggests that the size of the requested credit amount is influenced by the presence of other debtors, as joint liability or additional guarantors can enable larger loan approvals.",
+    "source": "other_debtors",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "An association score of 0.123 reflects a connection where property ownership status correlates with having other debtors, possibly indicating that asset holders are more likely to have complex financial arrangements involving third parties.",
+    "source": "other_debtors",
+    "target": "property"
+   },
+   {
+    "rationale": "The association score of 0.09 indicates that the presence of other debtors has a slight predictive relationship with the loan default outcome, potentially due to shared risk profiles in joint applications.",
+    "source": "other_debtors",
+    "target": "credit"
+   },
+   {
+    "rationale": "With an association score of 0.082, there is a weak dependency suggesting that checking account status may correlate with the presence of other debtors, reflecting broader financial stability patterns.",
+    "source": "other_debtors",
+    "target": "checking_status"
+   },
+   {
+    "rationale": "The association score of 0.08 suggests a very weak dependency where the approved loan duration shows minimal direct influence from the presence of other debtors.",
+    "source": "other_debtors",
+    "target": "duration"
+   },
+   {
+    "rationale": "The association score of 0.265 indicates a moderate dependency where length of residence correlates with employment duration, likely reflecting that individuals who have resided in an area longer tend to have more stable or longer-term employment histories.",
+    "source": "residence_since",
+    "target": "employment"
+   },
+   {
+    "rationale": "An association score of 0.114 reflects a slight dependency where property ownership status correlates with length of residence, as accumulating assets like real estate often requires time and stability associated with longer residency.",
+    "source": "residence_since",
+    "target": "property"
+   },
+   {
+    "rationale": "With an association score of 0.108, there is a weak dependency suggesting that loan amounts may be slightly influenced by residence duration, as lenders might view longer residency as a factor in creditworthiness for larger loans.",
+    "source": "residence_since",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "The association score of 0.17 indicates that property ownership status is a significant predictor of the loan default outcome, as assets serve as collateral or stability indicators for lenders.",
+    "source": "property",
+    "target": "credit"
+   },
+   {
+    "rationale": "With an association score of 0.372, there is a strong dependency where property ownership influences the size of loans granted, likely because individuals with assets qualify for higher credit limits due to reduced risk.",
+    "source": "property",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "housing"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "employment"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "telephone"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "purpose"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "job"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "The association score of 0.551 is the highest for housing, indicating a very strong dependency where housing status (e.g., owning vs. renting) directly correlates with property ownership categories like real estate or savings agreements.",
+    "source": "housing",
+    "target": "property"
+   },
+   {
+    "rationale": "The association score of 0.278 suggests that housing status influences the size of loans granted, likely because homeowners may qualify for larger amounts due to perceived stability or collateral value.",
+    "source": "housing",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "An association score of 0.251 indicates a moderate dependency where housing status impacts the approved loan duration, as stable housing situations often support longer-term financial commitments.",
+    "source": "housing",
+    "target": "duration"
+   },
+   {
+    "rationale": "The association score of 0.225 reflects a link between housing status and length of residence, implying that individuals who own their homes tend to have longer residency periods compared to renters.",
+    "source": "housing",
+    "target": "residence_since"
+   },
+   {
+    "rationale": "An association score of 0.172 suggests a link between housing status and employment duration, reflecting how job stability contributes to the ability to maintain specific housing arrangements like ownership.",
+    "source": "housing",
+    "target": "employment"
+   },
+   {
+    "rationale": "The association score of 0.13 suggests a dependency where job category correlates with housing status, as higher-skilled or stable employment profiles are more likely to be associated with home ownership.",
+    "source": "housing",
+    "target": "job"
+   },
+   {
+    "rationale": "An association score of 0.11 reflects a weak but present link between housing status and the number of existing credits, possibly indicating that homeowners manage multiple financial obligations differently than renters.",
+    "source": "housing",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "With an association score of 0.105, there is a minor link between housing status and past credit history, suggesting that reliable repayment behavior may correlate with stable housing situations.",
+    "source": "housing",
+    "target": "credit_history"
+   },
+   {
+    "rationale": "An association score of 0.081 indicates a very weak dependency, where existing installment plans have minimal direct influence on the specific housing status of the applicant.",
+    "source": "housing",
+    "target": "other_installment_plans"
+   },
+   {
+    "rationale": "The association score of 0.074 reflects a negligible relationship, showing that the chosen installment rate has little direct impact on determining housing status in this context.",
+    "source": "housing",
+    "target": "installment_rate"
+   },
+   {
+    "rationale": "With an association score of 0.052, foreign worker status shows almost no dependency on housing, reflecting its independence from living arrangements in this dataset.",
+    "source": "housing",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "With an association score of 0.358, job category shows a strong dependency on credit amount, as higher-skilled or management roles typically qualify for larger loan amounts due to perceived income stability.",
+    "source": "job",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "An association score of 0.309 indicates that job type is closely linked to employment duration, reflecting how specific professional categories correlate with typical tenure lengths in the dataset.",
+    "source": "job",
+    "target": "employment"
+   },
+   {
+    "rationale": "The association score of 0.193 suggests a moderate link where job status influences property ownership categories, likely because stable employment facilitates asset accumulation such as real estate or savings agreements.",
+    "source": "job",
+    "target": "property"
+   },
+   {
+    "rationale": "With an association score of 0.13, job category shows a link to foreign worker status, possibly due to differing labor market participation rates among native and non-native workers across various job types.",
+    "source": "job",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "An association score of 0.121 suggests a weak but present relationship where job status correlates with the number of existing credits, indicating that employment profile influences borrowing history.",
+    "source": "job",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "An association score of 0.143 indicates that housing status depends on num_dependents, as households with more members often require different living arrangements or ownership types.",
+    "source": "num_dependents",
+    "target": "housing"
+   },
+   {
+    "rationale": "The association score of 0.131 reflects a link where the number of existing credits correlates with household size, possibly due to greater financial needs or obligations associated with more dependents.",
+    "source": "num_dependents",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "With an association score of 0.13, job category shows a dependency on num_dependents, potentially because certain professions or employment levels are associated with specific demographic profiles including family size.",
+    "source": "num_dependents",
+    "target": "job"
+   },
+   {
+    "rationale": "The association score of 0.129 suggests that credit history is influenced by num_dependents, as financial reliability assessments may account for household stability and burden indicated by dependent count.",
+    "source": "num_dependents",
+    "target": "credit_history"
+   },
+   {
+    "rationale": "An association score of 0.127 indicates that property ownership status depends on num_dependents, likely reflecting how asset accumulation strategies vary with household composition.",
+    "source": "num_dependents",
+    "target": "property"
+   },
+   {
+    "rationale": "The association score of 0.113 reflects a moderate link where existing installment plans correlate with household size, suggesting that larger families may have more ongoing financial commitments.",
+    "source": "num_dependents",
+    "target": "other_installment_plans"
+   },
+   {
+    "rationale": "With an association score of 0.103, foreign worker status shows a slight dependency on num_dependents, possibly due to differing migration patterns or family reunification trends among foreign workers.",
+    "source": "num_dependents",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "The association score of 0.085 suggests a weak but present relationship where length of residence correlates with household size, potentially indicating stability factors linked to family structure.",
+    "source": "num_dependents",
+    "target": "residence_since"
+   },
+   {
+    "rationale": "The association score of 0.058 reflects a negligible relationship, showing that the chosen installment rate has little direct impact determined by household size in this dataset.",
+    "source": "num_dependents",
+    "target": "installment_rate"
+   },
+   {
+    "rationale": "With an association score of 0.037, credit amount shows almost no dependency on num_dependents, indicating that loan size is primarily driven by other factors rather than household composition alone.",
+    "source": "num_dependents",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "The association score of 0.034 suggests a very weak link, implying that employment duration has minimal correlation with the number of dependents in this context.",
+    "source": "num_dependents",
+    "target": "employment"
+   },
+   {
+    "rationale": "An association score of 0.013 indicates that loan duration is nearly independent of num_dependents, reflecting its lack of significant influence on repayment term selection.",
+    "source": "num_dependents",
+    "target": "duration"
+   },
+   {
+    "rationale": "The association score of 0.408 is the highest for telephone, indicating a strong dependency where job category correlates with telephone ownership, likely reflecting socioeconomic status or professional requirements.",
+    "source": "telephone",
+    "target": "job"
+   },
+   {
+    "rationale": "With an association score of 0.263, there is a moderate dependency suggesting that telephone ownership may correlate with the size of loans granted, possibly as a proxy for financial stability or creditworthiness.",
+    "source": "telephone",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "The association score of 0.169 suggests a connection where property ownership status correlates with telephone availability, likely due to shared underlying factors like economic standing or asset accumulation.",
+    "source": "telephone",
+    "target": "property"
+   },
+   {
+    "rationale": "With an association score of 0.158, there is a weak but present relationship implying that telephone ownership may influence approved repayment duration, possibly through risk assessment models that consider contactability or stability indicators.",
+    "source": "telephone",
+    "target": "duration"
+   },
+   {
+    "rationale": "An association score of 0.14 reflects a dependency where foreign worker status may correlate with telephone ownership, potentially due to differing integration levels, residency requirements, or access to local communication infrastructure.",
+    "source": "telephone",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "The association score of 0.122 suggests a link between employment duration and telephone status, as longer tenure in current employment may support the maintenance of personal assets like telephone lines.",
+    "source": "telephone",
+    "target": "employment"
+   },
+   {
+    "rationale": "With an association score of 0.105, there is a slight dependency indicating that the number of existing credits shows a minor correlation with telephone ownership, possibly reflecting broader financial activity patterns.",
+    "source": "telephone",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "An association score of 0.101 suggests a weak relationship, possibly indicating demographic correlations where telephone ownership aligns with specific housing statuses such as owning versus renting.",
+    "source": "telephone",
+    "target": "housing"
+   },
+   {
+    "rationale": "The association score of 0.051 indicates a weak link, implying that length of residence has a minor correlation with telephone ownership, possibly due to stability indicators.",
+    "source": "telephone",
+    "target": "residence_since"
+   },
+   {
+    "rationale": "An association score of 0.042 suggests a negligible relationship, showing that savings status has little direct impact on determining telephone ownership in this context.",
+    "source": "telephone",
+    "target": "savings"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "sex",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "sex",
+    "target": "employment"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "sex",
+    "target": "housing"
+   }
+  ]
+ },
+ "G": {
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+   {
+    "id": "checking_status"
+   },
+   {
+    "id": "duration"
+   },
+   {
+    "id": "credit_history"
+   },
+   {
+    "id": "purpose"
+   },
+   {
+    "id": "credit_amount"
+   },
+   {
+    "id": "savings"
+   },
+   {
+    "id": "employment"
+   },
+   {
+    "id": "installment_rate"
+   },
+   {
+    "id": "other_debtors"
+   },
+   {
+    "id": "residence_since"
+   },
+   {
+    "id": "property"
+   },
+   {
+    "id": "age"
+   },
+   {
+    "id": "other_installment_plans"
+   },
+   {
+    "id": "housing"
+   },
+   {
+    "id": "existing_credits"
+   },
+   {
+    "id": "job"
+   },
+   {
+    "id": "num_dependents"
+   },
+   {
+    "id": "telephone"
+   },
+   {
+    "id": "foreign_worker"
+   },
+   {
+    "id": "sex"
+   },
+   {
+    "id": "credit"
+   }
+  ],
+  "links": [
+   {
+    "rationale": "The association score between checking_status and credit is the highest at 0.317, indicating that checking status is a strong predictor of the loan default outcome.",
+    "source": "checking_status",
+    "target": "credit"
+   },
+   {
+    "rationale": "With an association score of 0.172, checking_status shows a moderate dependency with credit_amount, likely reflecting how account balance influences the size of loans granted.",
+    "source": "checking_status",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "The association score of 0.16 suggests a link between checking_status and savings, as financial stability often correlates across different account types.",
+    "source": "checking_status",
+    "target": "savings"
+   },
+   {
+    "rationale": "With an association score of 0.129, there is a slight dependency where checking status may influence the approved duration of the credit.",
+    "source": "checking_status",
+    "target": "duration"
+   },
+   {
+    "rationale": "The association score of 0.12 reflects a connection between current checking status and past credit history, as both are indicators of financial reliability.",
+    "source": "checking_status",
+    "target": "credit_history"
+   },
+   {
+    "rationale": "The association score of 0.207 indicates that loan duration is a significant predictor of default risk, as longer terms increase the exposure to financial instability.",
+    "source": "duration",
+    "target": "credit"
+   },
+   {
+    "rationale": "With an association score of 0.33, there is a strong dependency where property ownership status influences the approved repayment duration, likely due to collateral availability reducing lender risk for longer terms.",
+    "source": "duration",
+    "target": "property"
+   },
+   {
+    "rationale": "An association score of 0.241 indicates that job category correlates with loan duration, as higher-skilled or stable employment profiles may qualify for longer-term financing options.",
+    "source": "duration",
+    "target": "job"
+   },
+   {
+    "rationale": "The association score of 0.176 reflects a dependency where foreign worker status may influence approved duration, potentially due to differing risk assessments or residency requirements affecting long-term lending eligibility.",
+    "source": "duration",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "The association score of 0.127 reflects a dependency where the chosen installment rate interacts with duration, as lenders balance monthly payment burdens against total loan length.",
+    "source": "duration",
+    "target": "installment_rate"
+   },
+   {
+    "rationale": "With an association score of 0.126, employment duration shows a slight link to loan term, as longer tenure in current employment may support approval for extended repayment periods.",
+    "source": "duration",
+    "target": "employment"
+   },
+   {
+    "rationale": "With an association score of 0.072, the number of existing credits shows minimal direct influence on the specific duration of a new loan.",
+    "source": "duration",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "The association score of 0.247 indicates that credit_history is a significant predictor of the loan default outcome, as past repayment behavior directly informs risk assessment.",
+    "source": "credit_history",
+    "target": "credit"
+   },
+   {
+    "rationale": "With an association score of 0.222, there is a strong dependency where existing installment plans are closely linked to credit history, reflecting how current financial obligations interact with past reliability.",
+    "source": "credit_history",
+    "target": "other_installment_plans"
+   },
+   {
+    "rationale": "An association score of 0.168 indicates that credit history influences the size of loans granted, as lenders are more willing to extend larger amounts to individuals with proven repayment records.",
+    "source": "credit_history",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "The association score of 0.371 is the highest for purpose, indicating a strong dependency where the loan purpose significantly influences the requested credit amount.",
+    "source": "purpose",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "With an association score of 0.282, there is a moderate dependency suggesting that the purpose of the loan often dictates the approved repayment duration.",
+    "source": "purpose",
+    "target": "duration"
+   },
+   {
+    "rationale": "The association score of 0.184 indicates a link between housing status and loan purpose, likely reflecting how living arrangements influence borrowing needs such as furniture or renovation.",
+    "source": "purpose",
+    "target": "housing"
+   },
+   {
+    "rationale": "An association score of 0.187 suggests a weak but present relationship, possibly due to demographic correlations between telephone ownership and specific loan purposes like education or retraining.",
+    "source": "purpose",
+    "target": "telephone"
+   },
+   {
+    "rationale": "The association score of 0.179 reflects a connection where property ownership status may correlate with the type of loan purpose, such as business investments or car purchases.",
+    "source": "purpose",
+    "target": "property"
+   },
+   {
+    "rationale": "With an association score of 0.176, job category shows a dependency on loan purpose, as certain professions may be more likely to seek specific types of financing like business loans.",
+    "source": "purpose",
+    "target": "job"
+   },
+   {
+    "rationale": "An association score of 0.163 suggests a dependency where foreign worker status may influence the purpose of the loan, potentially related to migration costs or integration expenses.",
+    "source": "purpose",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "The association score of 0.154 indicates a moderate link, implying that household size can influence loan purposes such as family-related expenses or larger credit amounts.",
+    "source": "purpose",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "With an association score of 0.152, past credit history shows a dependency on loan purpose, as lenders may assess risk differently based on the intended use of funds.",
+    "source": "purpose",
+    "target": "credit_history"
+   },
+   {
+    "rationale": "The association score of 0.147 suggests a link where the presence of other debtors may correlate with specific loan purposes, particularly those requiring co-applicants or joint liability.",
+    "source": "purpose",
+    "target": "other_debtors"
+   },
+   {
+    "rationale": "An association score of 0.124 indicates a weak dependency, reflecting how the chosen installment rate might vary slightly depending on the nature of the loan purpose.",
+    "source": "purpose",
+    "target": "installment_rate"
+   },
+   {
+    "rationale": "With an association score of 0.11, there is a slight dependency suggesting that existing installment plans may influence the selection of new loan purposes.",
+    "source": "purpose",
+    "target": "other_installment_plans"
+   },
+   {
+    "rationale": "The association score of 0.106 indicates a weak link, implying that length of residence may have a minor correlation with the type of loan purpose sought.",
+    "source": "purpose",
+    "target": "residence_since"
+   },
+   {
+    "rationale": "An association score of 0.091 suggests a very weak dependency, where the number of existing credits has minimal direct influence on the specific purpose of a new loan.",
+    "source": "purpose",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "The association score of 0.059 indicates a negligible relationship, showing that employment duration has little direct impact on determining loan purpose in this dataset.",
+    "source": "purpose",
+    "target": "employment"
+   },
+   {
+    "rationale": "With an association score of 0.044, savings status shows almost no dependency on loan purpose, reflecting its independence from the reason for borrowing.",
+    "source": "purpose",
+    "target": "savings"
+   },
+   {
+    "rationale": "The association score of 0.18 between credit_amount and the label 'credit' indicates that the size of the loan is a significant predictor of default risk, likely due to higher repayment burdens associated with larger amounts.",
+    "source": "credit_amount",
+    "target": "credit"
+   },
+   {
+    "rationale": "The association score of 0.17 between savings and credit is the highest among all columns linked to savings, indicating that savings status is a strong predictor of loan default outcomes.",
+    "source": "savings",
+    "target": "credit"
+   },
+   {
+    "rationale": "With an association score of 0.141, there is a moderate dependency where savings levels may influence the approved duration of the credit, likely reflecting risk-based lending practices for longer terms.",
+    "source": "savings",
+    "target": "duration"
+   },
+   {
+    "rationale": "The association score of 0.122 suggests a link between savings and credit_amount, as financial stability reflected in savings often correlates with the size of loans granted.",
+    "source": "savings",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "With an association score of 0.137, employment duration shows a moderate dependency with credit amount, as longer tenure in current employment often supports approval for larger loan sizes due to perceived income stability.",
+    "source": "employment",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "The association score of 0.134 indicates a link between employment duration and property ownership status, reflecting how stable, long-term employment facilitates asset accumulation such as real estate or savings agreements.",
+    "source": "employment",
+    "target": "property"
+   },
+   {
+    "rationale": "An association score of 0.108 suggests that the number of existing credits correlates with employment duration, likely because individuals with longer job tenures have had more time to establish borrowing histories.",
+    "source": "employment",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "The association score of 0.152 indicates a moderate dependency where the presence of other debtors correlates with foreign worker status, likely reflecting differing financial support structures or co-applicant requirements for non-native residents.",
+    "source": "other_debtors",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "The association score of 0.14 suggests that the size of the requested credit amount is influenced by the presence of other debtors, as joint liability or additional guarantors can enable larger loan approvals.",
+    "source": "other_debtors",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "An association score of 0.123 reflects a connection where property ownership status correlates with having other debtors, possibly indicating that asset holders are more likely to have complex financial arrangements involving third parties.",
+    "source": "other_debtors",
+    "target": "property"
+   },
+   {
+    "rationale": "The association score of 0.09 indicates that the presence of other debtors has a slight predictive relationship with the loan default outcome, potentially due to shared risk profiles in joint applications.",
+    "source": "other_debtors",
+    "target": "credit"
+   },
+   {
+    "rationale": "With an association score of 0.082, there is a weak dependency suggesting that checking account status may correlate with the presence of other debtors, reflecting broader financial stability patterns.",
+    "source": "other_debtors",
+    "target": "checking_status"
+   },
+   {
+    "rationale": "The association score of 0.08 suggests a very weak dependency where the approved loan duration shows minimal direct influence from the presence of other debtors.",
+    "source": "other_debtors",
+    "target": "duration"
+   },
+   {
+    "rationale": "The association score of 0.265 indicates a moderate dependency where length of residence correlates with employment duration, likely reflecting that individuals who have resided in an area longer tend to have more stable or longer-term employment histories.",
+    "source": "residence_since",
+    "target": "employment"
+   },
+   {
+    "rationale": "An association score of 0.114 reflects a slight dependency where property ownership status correlates with length of residence, as accumulating assets like real estate often requires time and stability associated with longer residency.",
+    "source": "residence_since",
+    "target": "property"
+   },
+   {
+    "rationale": "The association score of 0.109 indicates a minor link between checking account status and residence_since, possibly because financial stability reflected in checking accounts correlates with the ability to maintain long-term residence.",
+    "source": "residence_since",
+    "target": "checking_status"
+   },
+   {
+    "rationale": "With an association score of 0.108, there is a weak dependency suggesting that loan amounts may be slightly influenced by residence duration, as lenders might view longer residency as a factor in creditworthiness for larger loans.",
+    "source": "residence_since",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "The association score of 0.17 indicates that property ownership status is a significant predictor of the loan default outcome, as assets serve as collateral or stability indicators for lenders.",
+    "source": "property",
+    "target": "credit"
+   },
+   {
+    "rationale": "With an association score of 0.372, there is a strong dependency where property ownership influences the size of loans granted, likely because individuals with assets qualify for higher credit limits due to reduced risk.",
+    "source": "property",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "housing"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "employment"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "telephone"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "purpose"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "checking_status"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "job"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "The association score of 0.119 indicates that the presence of other installment plans is a moderate predictor of loan default risk, as existing financial obligations increase the burden on repayment capacity.",
+    "source": "other_installment_plans",
+    "target": "credit"
+   },
+   {
+    "rationale": "The association score of 0.551 is the highest for housing, indicating a very strong dependency where housing status (e.g., owning vs. renting) directly correlates with property ownership categories like real estate or savings agreements.",
+    "source": "housing",
+    "target": "property"
+   },
+   {
+    "rationale": "The association score of 0.278 suggests that housing status influences the size of loans granted, likely because homeowners may qualify for larger amounts due to perceived stability or collateral value.",
+    "source": "housing",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "An association score of 0.251 indicates a moderate dependency where housing status impacts the approved loan duration, as stable housing situations often support longer-term financial commitments.",
+    "source": "housing",
+    "target": "duration"
+   },
+   {
+    "rationale": "The association score of 0.225 reflects a link between housing status and length of residence, implying that individuals who own their homes tend to have longer residency periods compared to renters.",
+    "source": "housing",
+    "target": "residence_since"
+   },
+   {
+    "rationale": "An association score of 0.172 suggests a link between housing status and employment duration, reflecting how job stability contributes to the ability to maintain specific housing arrangements like ownership.",
+    "source": "housing",
+    "target": "employment"
+   },
+   {
+    "rationale": "With an association score of 0.143, housing status shows a direct predictive relationship with the credit outcome, as lenders assess default risk based on the applicant's living situation.",
+    "source": "housing",
+    "target": "credit"
+   },
+   {
+    "rationale": "The association score of 0.13 suggests a dependency where job category correlates with housing status, as higher-skilled or stable employment profiles are more likely to be associated with home ownership.",
+    "source": "housing",
+    "target": "job"
+   },
+   {
+    "rationale": "An association score of 0.11 reflects a weak but present link between housing status and the number of existing credits, possibly indicating that homeowners manage multiple financial obligations differently than renters.",
+    "source": "housing",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "The association score of 0.105 indicates a slight dependency where checking account status correlates with housing, as financial liquidity often aligns with living arrangements.",
+    "source": "housing",
+    "target": "checking_status"
+   },
+   {
+    "rationale": "With an association score of 0.105, there is a minor link between housing status and past credit history, suggesting that reliable repayment behavior may correlate with stable housing situations.",
+    "source": "housing",
+    "target": "credit_history"
+   },
+   {
+    "rationale": "An association score of 0.081 indicates a very weak dependency, where existing installment plans have minimal direct influence on the specific housing status of the applicant.",
+    "source": "housing",
+    "target": "other_installment_plans"
+   },
+   {
+    "rationale": "The association score of 0.074 reflects a negligible relationship, showing that the chosen installment rate has little direct impact on determining housing status in this context.",
+    "source": "housing",
+    "target": "installment_rate"
+   },
+   {
+    "rationale": "With an association score of 0.052, foreign worker status shows almost no dependency on housing, reflecting its independence from living arrangements in this dataset.",
+    "source": "housing",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "With an association score of 0.358, job category shows a strong dependency on credit amount, as higher-skilled or management roles typically qualify for larger loan amounts due to perceived income stability.",
+    "source": "job",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "An association score of 0.309 indicates that job type is closely linked to employment duration, reflecting how specific professional categories correlate with typical tenure lengths in the dataset.",
+    "source": "job",
+    "target": "employment"
+   },
+   {
+    "rationale": "The association score of 0.193 suggests a moderate link where job status influences property ownership categories, likely because stable employment facilitates asset accumulation such as real estate or savings agreements.",
+    "source": "job",
+    "target": "property"
+   },
+   {
+    "rationale": "With an association score of 0.13, job category shows a link to foreign worker status, possibly due to differing labor market participation rates among native and non-native workers across various job types.",
+    "source": "job",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "An association score of 0.121 suggests a weak but present relationship where job status correlates with the number of existing credits, indicating that employment profile influences borrowing history.",
+    "source": "job",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "An association score of 0.143 indicates that housing status depends on num_dependents, as households with more members often require different living arrangements or ownership types.",
+    "source": "num_dependents",
+    "target": "housing"
+   },
+   {
+    "rationale": "The association score of 0.131 reflects a link where the number of existing credits correlates with household size, possibly due to greater financial needs or obligations associated with more dependents.",
+    "source": "num_dependents",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "With an association score of 0.13, job category shows a dependency on num_dependents, potentially because certain professions or employment levels are associated with specific demographic profiles including family size.",
+    "source": "num_dependents",
+    "target": "job"
+   },
+   {
+    "rationale": "The association score of 0.129 suggests that credit history is influenced by num_dependents, as financial reliability assessments may account for household stability and burden indicated by dependent count.",
+    "source": "num_dependents",
+    "target": "credit_history"
+   },
+   {
+    "rationale": "An association score of 0.127 indicates that property ownership status depends on num_dependents, likely reflecting how asset accumulation strategies vary with household composition.",
+    "source": "num_dependents",
+    "target": "property"
+   },
+   {
+    "rationale": "The association score of 0.113 reflects a moderate link where existing installment plans correlate with household size, suggesting that larger families may have more ongoing financial commitments.",
+    "source": "num_dependents",
+    "target": "other_installment_plans"
+   },
+   {
+    "rationale": "With an association score of 0.103, foreign worker status shows a slight dependency on num_dependents, possibly due to differing migration patterns or family reunification trends among foreign workers.",
+    "source": "num_dependents",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "The association score of 0.085 suggests a weak but present relationship where length of residence correlates with household size, potentially indicating stability factors linked to family structure.",
+    "source": "num_dependents",
+    "target": "residence_since"
+   },
+   {
+    "rationale": "The association score of 0.058 reflects a negligible relationship, showing that the chosen installment rate has little direct impact determined by household size in this dataset.",
+    "source": "num_dependents",
+    "target": "installment_rate"
+   },
+   {
+    "rationale": "With an association score of 0.037, credit amount shows almost no dependency on num_dependents, indicating that loan size is primarily driven by other factors rather than household composition alone.",
+    "source": "num_dependents",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "The association score of 0.034 suggests a very weak link, implying that employment duration has minimal correlation with the number of dependents in this context.",
+    "source": "num_dependents",
+    "target": "employment"
+   },
+   {
+    "rationale": "An association score of 0.013 indicates that loan duration is nearly independent of num_dependents, reflecting its lack of significant influence on repayment term selection.",
+    "source": "num_dependents",
+    "target": "duration"
+   },
+   {
+    "rationale": "The association score of 0.408 is the highest for telephone, indicating a strong dependency where job category correlates with telephone ownership, likely reflecting socioeconomic status or professional requirements.",
+    "source": "telephone",
+    "target": "job"
+   },
+   {
+    "rationale": "With an association score of 0.263, there is a moderate dependency suggesting that telephone ownership may correlate with the size of loans granted, possibly as a proxy for financial stability or creditworthiness.",
+    "source": "telephone",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "The association score of 0.169 suggests a connection where property ownership status correlates with telephone availability, likely due to shared underlying factors like economic standing or asset accumulation.",
+    "source": "telephone",
+    "target": "property"
+   },
+   {
+    "rationale": "With an association score of 0.158, there is a weak but present relationship implying that telephone ownership may influence approved repayment duration, possibly through risk assessment models that consider contactability or stability indicators.",
+    "source": "telephone",
+    "target": "duration"
+   },
+   {
+    "rationale": "An association score of 0.14 reflects a dependency where foreign worker status may correlate with telephone ownership, potentially due to differing integration levels, residency requirements, or access to local communication infrastructure.",
+    "source": "telephone",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "The association score of 0.122 suggests a link between employment duration and telephone status, as longer tenure in current employment may support the maintenance of personal assets like telephone lines.",
+    "source": "telephone",
+    "target": "employment"
+   },
+   {
+    "rationale": "With an association score of 0.105, there is a slight dependency indicating that the number of existing credits shows a minor correlation with telephone ownership, possibly reflecting broader financial activity patterns.",
+    "source": "telephone",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "An association score of 0.101 suggests a weak relationship, possibly indicating demographic correlations where telephone ownership aligns with specific housing statuses such as owning versus renting.",
+    "source": "telephone",
+    "target": "housing"
+   },
+   {
+    "rationale": "The association score of 0.094 indicates a very weak dependency, reflecting minimal direct influence of checking account status on telephone ownership in this dataset context.",
+    "source": "telephone",
+    "target": "checking_status"
+   },
+   {
+    "rationale": "The association score of 0.051 indicates a weak link, implying that length of residence has a minor correlation with telephone ownership, possibly due to stability indicators.",
+    "source": "telephone",
+    "target": "residence_since"
+   },
+   {
+    "rationale": "With an association score of 0.049, telephone status shows almost no predictive power for the loan default outcome, reflecting its independence from the final credit decision in this model.",
+    "source": "telephone",
+    "target": "credit"
+   },
+   {
+    "rationale": "An association score of 0.042 suggests a negligible relationship, showing that savings status has little direct impact on determining telephone ownership in this context.",
+    "source": "telephone",
+    "target": "savings"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "sex",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "sex",
+    "target": "employment"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "sex",
+    "target": "housing"
+   }
+  ]
+ },
+ "R": [
+  "duration",
+  "purpose",
+  "credit_amount",
+  "savings",
+  "property"
+ ],
+ "P": [
+  "checking_status",
+  "credit_history",
+  "housing"
+ ],
+ "cut": [
+  [
+   "age",
+   "checking_status"
+  ],
+  [
+   "credit_history",
+   "credit"
+  ],
+  [
+   "housing",
+   "checking_status"
+  ],
+  [
+   "housing",
+   "credit"
+  ],
+  [
+   "other_installment_plans",
+   "credit"
+  ],
+  [
+   "residence_since",
+   "checking_status"
+  ],
+  [
+   "telephone",
+   "checking_status"
+  ],
+  [
+   "telephone",
+   "credit"
+  ]
+ ],
+ "ops": {
+  "age->checking_status": "cut",
+  "telephone->credit": "cut",
+  "residence_since->checking_status": "cut",
+  "housing->credit": "cut",
+  "telephone->checking_status": "cut",
+  "other_installment_plans->credit": "cut",
+  "credit_history->credit": "cut",
+  "housing->checking_status": "cut"
+ },
+ "cost": {
+  "checking_status->credit": 0.026831875607385987,
+  "checking_status->credit_history": 0.04600156852468441,
+  "credit_history->credit": 0.001,
+  "credit_history->other_installment_plans": 0.05692519191690549,
+  "residence_since->checking_status": 0.001,
+  "age->housing": 0.04462881834039756,
+  "age->num_dependents": 0.011290230689640968,
+  "age->telephone": 0.02800670903954794,
+  "age->checking_status": 0.001,
+  "other_installment_plans->credit": 0.001,
+  "housing->residence_since": 0.05618711310119907,
+  "housing->credit": 0.001,
+  "housing->checking_status": 0.001,
+  "housing->credit_history": 0.001,
+  "housing->other_installment_plans": 0.032870110259460746,
+  "num_dependents->housing": 0.0034440041267058685,
+  "num_dependents->credit_history": 0.015675754258089536,
+  "num_dependents->other_installment_plans": 0.001,
+  "num_dependents->residence_since": 0.001813640344511036,
+  "telephone->housing": 0.014991256964024369,
+  "telephone->checking_status": 0.001,
+  "telephone->residence_since": 0.01680035348879949,
+  "telephone->credit": 0.001,
+  "sex->num_dependents": 0.03937258189284709,
+  "sex->housing": 0.015974245265578224
+ },
+ "prior_driven": [],
+ "protected": [
+  "sex",
+  "age"
+ ],
+ "label": "credit"
+}

@@ -1,0 +1,764 @@
+{
+ "G2": {
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+   {
+    "id": "checking_status"
+   },
+   {
+    "id": "duration"
+   },
+   {
+    "id": "credit_history"
+   },
+   {
+    "id": "purpose"
+   },
+   {
+    "id": "credit_amount"
+   },
+   {
+    "id": "savings"
+   },
+   {
+    "id": "employment"
+   },
+   {
+    "id": "installment_rate"
+   },
+   {
+    "id": "other_debtors"
+   },
+   {
+    "id": "residence_since"
+   },
+   {
+    "id": "property"
+   },
+   {
+    "id": "age"
+   },
+   {
+    "id": "other_installment_plans"
+   },
+   {
+    "id": "housing"
+   },
+   {
+    "id": "existing_credits"
+   },
+   {
+    "id": "job"
+   },
+   {
+    "id": "num_dependents"
+   },
+   {
+    "id": "telephone"
+   },
+   {
+    "id": "foreign_worker"
+   },
+   {
+    "id": "sex"
+   },
+   {
+    "id": "credit"
+   }
+  ],
+  "links": [
+   {
+    "rationale": "The label 'credit' has the highest association with checking_status (0.347), indicating that the status of the borrower's checking account is a primary determinant of loan default risk or approval status.",
+    "source": "checking_status",
+    "target": "credit"
+   },
+   {
+    "rationale": "Credit amount shows a moderate association with checking_status (0.163), suggesting that borrowers with better checking account histories may qualify for larger loan amounts due to perceived financial stability.",
+    "source": "checking_status",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "Credit history has an association of 0.139 with checking_status, reflecting that past repayment behavior and current account status are correlated indicators of overall creditworthiness.",
+    "source": "checking_status",
+    "target": "credit_history"
+   },
+   {
+    "rationale": "Savings account status is associated with checking_status (0.139), implying that individuals with active or positive checking accounts often also maintain savings accounts, reflecting broader financial engagement.",
+    "source": "checking_status",
+    "target": "savings"
+   },
+   {
+    "rationale": "Loan duration has an association of 0.137 with checking_status, indicating that the length of the repayment term may be influenced by the applicant's banking relationship and financial reliability.",
+    "source": "checking_status",
+    "target": "duration"
+   },
+   {
+    "rationale": "Loan purpose has an association of 0.116 with checking_status, suggesting that specific borrowing reasons (e.g., business vs. consumer goods) correlate with the type of checking account held.",
+    "source": "checking_status",
+    "target": "purpose"
+   },
+   {
+    "rationale": "Residence duration is associated with checking_status (0.100), reflecting that stable living situations often coincide with established and consistent banking relationships.",
+    "source": "checking_status",
+    "target": "residence_since"
+   },
+   {
+    "rationale": "The label 'credit' has a moderate association with duration (0.212), indicating that loan repayment terms significantly influence the likelihood of default or approval status.",
+    "source": "duration",
+    "target": "credit"
+   },
+   {
+    "rationale": "The label 'credit' has a strong association with credit_history (0.248), indicating that past repayment behavior is a primary determinant of loan default risk or approval status.",
+    "source": "credit_history",
+    "target": "credit"
+   },
+   {
+    "rationale": "Loan duration shows a moderate association with credit_history (0.208), suggesting that borrowers with better credit histories may be approved for longer repayment terms due to perceived lower risk.",
+    "source": "credit_history",
+    "target": "duration"
+   },
+   {
+    "rationale": "Credit amount has an association of 0.192 with credit_history, reflecting that individuals with positive credit histories are often eligible for larger loan amounts based on their demonstrated reliability.",
+    "source": "credit_history",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "Credit amount has the highest association with purpose (0.351), as high-value purposes like new cars or real estate necess significantly larger loan amounts compared to low-value items.",
+    "source": "purpose",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "Loan duration shows a moderate association with purpose (0.258), indicating that certain borrowing reasons, such as business investments or large purchases, often require longer repayment periods than smaller consumer goods.",
+    "source": "purpose",
+    "target": "duration"
+   },
+   {
+    "rationale": "Property ownership status is associated with purpose (0.209), as specific loan purposes like home repairs or furniture purchases are more common among individuals who already own property or have specific asset holdings.",
+    "source": "purpose",
+    "target": "property"
+   },
+   {
+    "rationale": "Housing status has an association of 0.207 with purpose, reflecting that certain borrowing reasons like repairs or furniture are more prevalent among homeowners compared to renters or those in free housing.",
+    "source": "purpose",
+    "target": "housing"
+   },
+   {
+    "rationale": "Telephone availability is associated with purpose (0.206), suggesting a correlation where borrowers seeking loans for specific purposes may differ in their access to communication infrastructure based on socioeconomic factors linked to the loan reason.",
+    "source": "purpose",
+    "target": "telephone"
+   },
+   {
+    "rationale": "Job category has an association of 0.195 with purpose, implying that specific employment roles or levels of qualification often correlate with the type of loan sought, such as management roles being linked to higher-value purposes.",
+    "source": "purpose",
+    "target": "job"
+   },
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "purpose",
+    "target": "credit"
+   },
+   {
+    "rationale": "Loan duration has the highest association score with credit_amount (0.609), indicating that larger loan amounts typically require longer repayment periods to maintain manageable installment rates.",
+    "source": "credit_amount",
+    "target": "duration"
+   },
+   {
+    "rationale": "Job category is strongly associated with credit_amount (0.361), reflecting that higher-qualification roles such as management or highly qualified employees are linked to eligibility for larger loans due to higher income potential.",
+    "source": "credit_amount",
+    "target": "job"
+   },
+   {
+    "rationale": "Installment rate has a moderate association with credit_amount (0.277), suggesting that borrowers seeking larger amounts often negotiate lower monthly payment ratios, which directly influences the total amount approved.",
+    "source": "credit_amount",
+    "target": "installment_rate"
+   },
+   {
+    "rationale": "The label 'credit' has the highest association with savings (0.193), indicating that the status of the borrower's savings account is a significant determinant of loan default risk or approval status.",
+    "source": "savings",
+    "target": "credit"
+   },
+   {
+    "rationale": "Credit amount shows a moderate association with savings (0.162), suggesting that borrowers with active or higher-balance savings accounts may qualify for larger loan amounts due to perceived financial stability and collateral capacity.",
+    "source": "savings",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "Loan duration has an association of 0.141 with savings, implying that individuals with established savings histories may be approved for longer repayment terms as they are viewed as lower-risk candidates capable of managing extended obligations.",
+    "source": "savings",
+    "target": "duration"
+   },
+   {
+    "rationale": "Job has the highest association score with employment (0.304), indicating that specific job categories are strongly linked to employment duration, likely reflecting career progression or stability.",
+    "source": "employment",
+    "target": "job"
+   },
+   {
+    "rationale": "Residence duration shows a strong association with employment (0.278), suggesting that individuals with longer employment histories may have more stable living situations and thus longer residence times.",
+    "source": "employment",
+    "target": "residence_since"
+   },
+   {
+    "rationale": "Property ownership status is associated with employment (0.156), as longer employment tenure often correlates with greater financial capacity to acquire assets like real estate or savings agreements.",
+    "source": "employment",
+    "target": "property"
+   },
+   {
+    "rationale": "The association score of 0.152 is the highest among all columns, suggesting that the presence of co-applicants or guarantors (other_debtors) strongly correlates with specific loan purposes, such as business investments or large purchases where additional financial backing is often required.",
+    "source": "other_debtors",
+    "target": "purpose"
+   },
+   {
+    "rationale": "With an association score of 0.144, there is a notable link between having other debtors and foreign worker status, implying that non-native applicants may more frequently rely on co-applicants or guarantors to secure credit due to potentially limited local credit history.",
+    "source": "other_debtors",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "The moderate association of 0.132 indicates that individuals who own property or have savings agreements are more likely to have other debtors involved in their loans, possibly using assets as collateral alongside third-party guarantees.",
+    "source": "other_debtors",
+    "target": "property"
+   },
+   {
+    "rationale": "An association of 0.109 suggests that larger loan amounts are correlated with the presence of other debtors, as borrowers seeking higher sums often need co-applicants or guarantors to meet eligibility criteria.",
+    "source": "other_debtors",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "The label 'credit' has an association of 0.102 with other_debtors, indicating that the involvement of third parties in the loan application is a relevant factor in determining default risk or approval status.",
+    "source": "other_debtors",
+    "target": "credit"
+   },
+   {
+    "rationale": "Credit amount has a strong association with property (0.324), suggesting that individuals with significant assets like real estate or savings agreements may qualify for larger loan amounts due to better collateral or financial stability.",
+    "source": "property",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "Loan duration shows a moderate association with property (0.282), indicating that asset ownership status might influence the term length of credit, potentially allowing for longer repayment periods for those with stable assets.",
+    "source": "property",
+    "target": "duration"
+   },
+   {
+    "rationale": "Telephone availability is associated with property (0.216), reflecting a correlation where individuals with established assets or higher socioeconomic status are more likely to have reliable communication infrastructure.",
+    "source": "property",
+    "target": "telephone"
+   },
+   {
+    "rationale": "Job category has an association of 0.21 with property, implying that specific employment roles or levels of qualification often correlate with the type and extent of personal assets held.",
+    "source": "property",
+    "target": "job"
+   },
+   {
+    "rationale": "Housing has the highest association score with age (0.332), indicating that age is a strong predictor of housing status, likely reflecting life-stage differences in homeownership or rental arrangements.",
+    "source": "age",
+    "target": "housing"
+   },
+   {
+    "rationale": "Employment duration categories are strongly associated with age (0.227), as older individuals typically have longer employment histories than younger ones.",
+    "source": "age",
+    "target": "employment"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "job"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "telephone"
+   },
+   {
+    "rationale": "The label 'credit' has an association of 0.131 with other_installment_plans, indicating that the presence of installment plans from banks or stores is a relevant factor in determining loan default risk or approval status.",
+    "source": "other_installment_plans",
+    "target": "credit"
+   },
+   {
+    "rationale": "Loan purpose shows a moderate association of 0.139 with other_installment_plans, suggesting that specific borrowing reasons (e.g., business vs. consumer goods) correlate with whether the applicant already utilizes external installment financing.",
+    "source": "other_installment_plans",
+    "target": "purpose"
+   },
+   {
+    "rationale": "Property has the highest association score with housing (0.549), indicating a strong link where homeownership status often correlates with specific types of assets or lack thereof.",
+    "source": "housing",
+    "target": "property"
+   },
+   {
+    "rationale": "Residence duration shows a moderate association with housing (0.221), suggesting that individuals who own their homes may have lived there longer than renters or those in free housing.",
+    "source": "housing",
+    "target": "residence_since"
+   },
+   {
+    "rationale": "Credit amount is associated with housing (0.211), likely reflecting that homeowners may qualify for larger loans due to collateral, whereas renters might seek smaller amounts.",
+    "source": "housing",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "The label 'credit' has a strong association with credit_history (0.248), and existing_credits shows the highest association with credit_history (0.382) among all columns, indicating that the number of existing credits is a primary determinant of the borrower's recorded credit history status.",
+    "source": "existing_credits",
+    "target": "credit_history"
+   },
+   {
+    "rationale": "Existing credits show a moderate association with num_dependents (0.155), suggesting that borrowers with more dependents may have different patterns of existing credit obligations due to household financial needs.",
+    "source": "existing_credits",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "Job category has an association of 0.128 with existing_credits, implying that employment type or qualification level correlates with the number of active credit lines held by the applicant.",
+    "source": "existing_credits",
+    "target": "job"
+   },
+   {
+    "rationale": "Loan duration shows an association of 0.114 with existing_credits, indicating that the length of the current loan term may be influenced by the applicant's existing credit portfolio size.",
+    "source": "existing_credits",
+    "target": "duration"
+   },
+   {
+    "rationale": "Employment duration has an association of 0.110 with existing_credits, suggesting that longer employment histories often coincide with a greater number of established credit relationships.",
+    "source": "existing_credits",
+    "target": "employment"
+   },
+   {
+    "rationale": "Telephone availability has the highest association with job (0.411), suggesting that higher-qualification roles or management positions are strongly correlated with having reliable communication infrastructure, likely due to professional necessity or socioeconomic status.",
+    "source": "job",
+    "target": "telephone"
+   },
+   {
+    "rationale": "Loan duration shows a moderate association with job (0.25), indicating that individuals in stable or high-qualification employment may be approved for longer repayment terms compared to those in less secure job categories.",
+    "source": "job",
+    "target": "duration"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "sex",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "sex",
+    "target": "employment"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "sex",
+    "target": "housing"
+   }
+  ]
+ },
+ "G": {
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+   {
+    "id": "checking_status"
+   },
+   {
+    "id": "duration"
+   },
+   {
+    "id": "credit_history"
+   },
+   {
+    "id": "purpose"
+   },
+   {
+    "id": "credit_amount"
+   },
+   {
+    "id": "savings"
+   },
+   {
+    "id": "employment"
+   },
+   {
+    "id": "installment_rate"
+   },
+   {
+    "id": "other_debtors"
+   },
+   {
+    "id": "residence_since"
+   },
+   {
+    "id": "property"
+   },
+   {
+    "id": "age"
+   },
+   {
+    "id": "other_installment_plans"
+   },
+   {
+    "id": "housing"
+   },
+   {
+    "id": "existing_credits"
+   },
+   {
+    "id": "job"
+   },
+   {
+    "id": "num_dependents"
+   },
+   {
+    "id": "telephone"
+   },
+   {
+    "id": "foreign_worker"
+   },
+   {
+    "id": "sex"
+   },
+   {
+    "id": "credit"
+   }
+  ],
+  "links": [
+   {
+    "rationale": "The label 'credit' has the highest association with checking_status (0.347), indicating that the status of the borrower's checking account is a primary determinant of loan default risk or approval status.",
+    "source": "checking_status",
+    "target": "credit"
+   },
+   {
+    "rationale": "Credit amount shows a moderate association with checking_status (0.163), suggesting that borrowers with better checking account histories may qualify for larger loan amounts due to perceived financial stability.",
+    "source": "checking_status",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "Credit history has an association of 0.139 with checking_status, reflecting that past repayment behavior and current account status are correlated indicators of overall creditworthiness.",
+    "source": "checking_status",
+    "target": "credit_history"
+   },
+   {
+    "rationale": "Savings account status is associated with checking_status (0.139), implying that individuals with active or positive checking accounts often also maintain savings accounts, reflecting broader financial engagement.",
+    "source": "checking_status",
+    "target": "savings"
+   },
+   {
+    "rationale": "Loan duration has an association of 0.137 with checking_status, indicating that the length of the repayment term may be influenced by the applicant's banking relationship and financial reliability.",
+    "source": "checking_status",
+    "target": "duration"
+   },
+   {
+    "rationale": "Loan purpose has an association of 0.116 with checking_status, suggesting that specific borrowing reasons (e.g., business vs. consumer goods) correlate with the type of checking account held.",
+    "source": "checking_status",
+    "target": "purpose"
+   },
+   {
+    "rationale": "Residence duration is associated with checking_status (0.100), reflecting that stable living situations often coincide with established and consistent banking relationships.",
+    "source": "checking_status",
+    "target": "residence_since"
+   },
+   {
+    "rationale": "The label 'credit' has a moderate association with duration (0.212), indicating that loan repayment terms significantly influence the likelihood of default or approval status.",
+    "source": "duration",
+    "target": "credit"
+   },
+   {
+    "rationale": "The label 'credit' has a strong association with credit_history (0.248), indicating that past repayment behavior is a primary determinant of loan default risk or approval status.",
+    "source": "credit_history",
+    "target": "credit"
+   },
+   {
+    "rationale": "Loan duration shows a moderate association with credit_history (0.208), suggesting that borrowers with better credit histories may be approved for longer repayment terms due to perceived lower risk.",
+    "source": "credit_history",
+    "target": "duration"
+   },
+   {
+    "rationale": "Credit amount has an association of 0.192 with credit_history, reflecting that individuals with positive credit histories are often eligible for larger loan amounts based on their demonstrated reliability.",
+    "source": "credit_history",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "Credit amount has the highest association with purpose (0.351), as high-value purposes like new cars or real estate necess significantly larger loan amounts compared to low-value items.",
+    "source": "purpose",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "Loan duration shows a moderate association with purpose (0.258), indicating that certain borrowing reasons, such as business investments or large purchases, often require longer repayment periods than smaller consumer goods.",
+    "source": "purpose",
+    "target": "duration"
+   },
+   {
+    "rationale": "Property ownership status is associated with purpose (0.209), as specific loan purposes like home repairs or furniture purchases are more common among individuals who already own property or have specific asset holdings.",
+    "source": "purpose",
+    "target": "property"
+   },
+   {
+    "rationale": "Housing status has an association of 0.207 with purpose, reflecting that certain borrowing reasons like repairs or furniture are more prevalent among homeowners compared to renters or those in free housing.",
+    "source": "purpose",
+    "target": "housing"
+   },
+   {
+    "rationale": "Telephone availability is associated with purpose (0.206), suggesting a correlation where borrowers seeking loans for specific purposes may differ in their access to communication infrastructure based on socioeconomic factors linked to the loan reason.",
+    "source": "purpose",
+    "target": "telephone"
+   },
+   {
+    "rationale": "Job category has an association of 0.195 with purpose, implying that specific employment roles or levels of qualification often correlate with the type of loan sought, such as management roles being linked to higher-value purposes.",
+    "source": "purpose",
+    "target": "job"
+   },
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "purpose",
+    "target": "credit"
+   },
+   {
+    "rationale": "Loan duration has the highest association score with credit_amount (0.609), indicating that larger loan amounts typically require longer repayment periods to maintain manageable installment rates.",
+    "source": "credit_amount",
+    "target": "duration"
+   },
+   {
+    "rationale": "Job category is strongly associated with credit_amount (0.361), reflecting that higher-qualification roles such as management or highly qualified employees are linked to eligibility for larger loans due to higher income potential.",
+    "source": "credit_amount",
+    "target": "job"
+   },
+   {
+    "rationale": "Installment rate has a moderate association with credit_amount (0.277), suggesting that borrowers seeking larger amounts often negotiate lower monthly payment ratios, which directly influences the total amount approved.",
+    "source": "credit_amount",
+    "target": "installment_rate"
+   },
+   {
+    "rationale": "The label 'credit' has the highest association with savings (0.193), indicating that the status of the borrower's savings account is a significant determinant of loan default risk or approval status.",
+    "source": "savings",
+    "target": "credit"
+   },
+   {
+    "rationale": "Credit amount shows a moderate association with savings (0.162), suggesting that borrowers with active or higher-balance savings accounts may qualify for larger loan amounts due to perceived financial stability and collateral capacity.",
+    "source": "savings",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "Loan duration has an association of 0.141 with savings, implying that individuals with established savings histories may be approved for longer repayment terms as they are viewed as lower-risk candidates capable of managing extended obligations.",
+    "source": "savings",
+    "target": "duration"
+   },
+   {
+    "rationale": "Job has the highest association score with employment (0.304), indicating that specific job categories are strongly linked to employment duration, likely reflecting career progression or stability.",
+    "source": "employment",
+    "target": "job"
+   },
+   {
+    "rationale": "Residence duration shows a strong association with employment (0.278), suggesting that individuals with longer employment histories may have more stable living situations and thus longer residence times.",
+    "source": "employment",
+    "target": "residence_since"
+   },
+   {
+    "rationale": "Property ownership status is associated with employment (0.156), as longer employment tenure often correlates with greater financial capacity to acquire assets like real estate or savings agreements.",
+    "source": "employment",
+    "target": "property"
+   },
+   {
+    "rationale": "The label 'credit' has a moderate association with installment_rate (0.065), indicating that the burden of monthly payments relative to income is a significant factor in determining loan default risk or approval status.",
+    "source": "installment_rate",
+    "target": "credit"
+   },
+   {
+    "rationale": "The association score of 0.152 is the highest among all columns, suggesting that the presence of co-applicants or guarantors (other_debtors) strongly correlates with specific loan purposes, such as business investments or large purchases where additional financial backing is often required.",
+    "source": "other_debtors",
+    "target": "purpose"
+   },
+   {
+    "rationale": "With an association score of 0.144, there is a notable link between having other debtors and foreign worker status, implying that non-native applicants may more frequently rely on co-applicants or guarantors to secure credit due to potentially limited local credit history.",
+    "source": "other_debtors",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "The moderate association of 0.132 indicates that individuals who own property or have savings agreements are more likely to have other debtors involved in their loans, possibly using assets as collateral alongside third-party guarantees.",
+    "source": "other_debtors",
+    "target": "property"
+   },
+   {
+    "rationale": "An association of 0.109 suggests that larger loan amounts are correlated with the presence of other debtors, as borrowers seeking higher sums often need co-applicants or guarantors to meet eligibility criteria.",
+    "source": "other_debtors",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "The label 'credit' has an association of 0.102 with other_debtors, indicating that the involvement of third parties in the loan application is a relevant factor in determining default risk or approval status.",
+    "source": "other_debtors",
+    "target": "credit"
+   },
+   {
+    "rationale": "Credit amount has a strong association with property (0.324), suggesting that individuals with significant assets like real estate or savings agreements may qualify for larger loan amounts due to better collateral or financial stability.",
+    "source": "property",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "Loan duration shows a moderate association with property (0.282), indicating that asset ownership status might influence the term length of credit, potentially allowing for longer repayment periods for those with stable assets.",
+    "source": "property",
+    "target": "duration"
+   },
+   {
+    "rationale": "Telephone availability is associated with property (0.216), reflecting a correlation where individuals with established assets or higher socioeconomic status are more likely to have reliable communication infrastructure.",
+    "source": "property",
+    "target": "telephone"
+   },
+   {
+    "rationale": "Job category has an association of 0.21 with property, implying that specific employment roles or levels of qualification often correlate with the type and extent of personal assets held.",
+    "source": "property",
+    "target": "job"
+   },
+   {
+    "rationale": "Housing has the highest association score with age (0.332), indicating that age is a strong predictor of housing status, likely reflecting life-stage differences in homeownership or rental arrangements.",
+    "source": "age",
+    "target": "housing"
+   },
+   {
+    "rationale": "Employment duration categories are strongly associated with age (0.227), as older individuals typically have longer employment histories than younger ones.",
+    "source": "age",
+    "target": "employment"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "job"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "telephone"
+   },
+   {
+    "rationale": "The label 'credit' has an association of 0.131 with other_installment_plans, indicating that the presence of installment plans from banks or stores is a relevant factor in determining loan default risk or approval status.",
+    "source": "other_installment_plans",
+    "target": "credit"
+   },
+   {
+    "rationale": "Loan purpose shows a moderate association of 0.139 with other_installment_plans, suggesting that specific borrowing reasons (e.g., business vs. consumer goods) correlate with whether the applicant already utilizes external installment financing.",
+    "source": "other_installment_plans",
+    "target": "purpose"
+   },
+   {
+    "rationale": "Property has the highest association score with housing (0.549), indicating a strong link where homeownership status often correlates with specific types of assets or lack thereof.",
+    "source": "housing",
+    "target": "property"
+   },
+   {
+    "rationale": "Residence duration shows a moderate association with housing (0.221), suggesting that individuals who own their homes may have lived there longer than renters or those in free housing.",
+    "source": "housing",
+    "target": "residence_since"
+   },
+   {
+    "rationale": "Credit amount is associated with housing (0.211), likely reflecting that homeowners may qualify for larger loans due to collateral, whereas renters might seek smaller amounts.",
+    "source": "housing",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "The label 'credit' has a strong association with credit_history (0.248), and existing_credits shows the highest association with credit_history (0.382) among all columns, indicating that the number of existing credits is a primary determinant of the borrower's recorded credit history status.",
+    "source": "existing_credits",
+    "target": "credit_history"
+   },
+   {
+    "rationale": "Existing credits show a moderate association with num_dependents (0.155), suggesting that borrowers with more dependents may have different patterns of existing credit obligations due to household financial needs.",
+    "source": "existing_credits",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "Job category has an association of 0.128 with existing_credits, implying that employment type or qualification level correlates with the number of active credit lines held by the applicant.",
+    "source": "existing_credits",
+    "target": "job"
+   },
+   {
+    "rationale": "Loan duration shows an association of 0.114 with existing_credits, indicating that the length of the current loan term may be influenced by the applicant's existing credit portfolio size.",
+    "source": "existing_credits",
+    "target": "duration"
+   },
+   {
+    "rationale": "Employment duration has an association of 0.110 with existing_credits, suggesting that longer employment histories often coincide with a greater number of established credit relationships.",
+    "source": "existing_credits",
+    "target": "employment"
+   },
+   {
+    "rationale": "Telephone availability has the highest association with job (0.411), suggesting that higher-qualification roles or management positions are strongly correlated with having reliable communication infrastructure, likely due to professional necessity or socioeconomic status.",
+    "source": "job",
+    "target": "telephone"
+   },
+   {
+    "rationale": "Loan duration shows a moderate association with job (0.25), indicating that individuals in stable or high-qualification employment may be approved for longer repayment terms compared to those in less secure job categories.",
+    "source": "job",
+    "target": "duration"
+   },
+   {
+    "rationale": "The label 'credit' has an association score of 0.0 with telephone, indicating no direct dependency or predictive relationship between telephone availability and the loan default status.",
+    "source": "telephone",
+    "target": "credit"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "sex",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "sex",
+    "target": "employment"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "sex",
+    "target": "housing"
+   }
+  ]
+ },
+ "R": [
+  "checking_status",
+  "duration",
+  "savings",
+  "other_debtors",
+  "property",
+  "other_installment_plans"
+ ],
+ "P": [
+  "credit_amount",
+  "employment",
+  "job"
+ ],
+ "cut": [
+  [
+   "installment_rate",
+   "credit"
+  ],
+  [
+   "telephone",
+   "credit"
+  ]
+ ],
+ "ops": {
+  "telephone->credit": "cut",
+  "installment_rate->credit": "cut"
+ },
+ "cost": {
+  "credit_amount->job": 0.001,
+  "credit_amount->installment_rate": 0.05481495768161771,
+  "employment->job": 0.07949945504541801,
+  "installment_rate->credit": 0.001,
+  "age->housing": 0.052140319059350126,
+  "age->employment": 0.005528150751957561,
+  "age->job": 0.00403814351227938,
+  "age->telephone": 0.01080109913337568,
+  "housing->credit_amount": 0.001,
+  "job->telephone": 0.03842528006763902,
+  "telephone->credit": 0.0019436345966958868,
+  "sex->employment": 0.01587472857153016,
+  "sex->housing": 0.001
+ },
+ "prior_driven": [],
+ "protected": [
+  "sex",
+  "age"
+ ],
+ "label": "credit"
+}

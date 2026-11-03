@@ -1,0 +1,1332 @@
+{
+ "G2": {
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+   {
+    "id": "checking_status"
+   },
+   {
+    "id": "duration"
+   },
+   {
+    "id": "credit_history"
+   },
+   {
+    "id": "purpose"
+   },
+   {
+    "id": "credit_amount"
+   },
+   {
+    "id": "savings"
+   },
+   {
+    "id": "employment"
+   },
+   {
+    "id": "installment_rate"
+   },
+   {
+    "id": "other_debtors"
+   },
+   {
+    "id": "residence_since"
+   },
+   {
+    "id": "property"
+   },
+   {
+    "id": "age"
+   },
+   {
+    "id": "other_installment_plans"
+   },
+   {
+    "id": "housing"
+   },
+   {
+    "id": "existing_credits"
+   },
+   {
+    "id": "job"
+   },
+   {
+    "id": "num_dependents"
+   },
+   {
+    "id": "telephone"
+   },
+   {
+    "id": "foreign_worker"
+   },
+   {
+    "id": "sex"
+   },
+   {
+    "id": "credit"
+   },
+   {
+    "hidden": true,
+    "surrogate_of": "age",
+    "masked": [],
+    "id": "age__sur"
+   }
+  ],
+  "links": [
+   {
+    "rationale": "Checking_status has its highest non-label association with credit_amount (0.172), suggesting the loan amount depends on checking status.",
+    "source": "checking_status",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "Checking_status shows a notable association with savings (0.16), indicating savings category depends on checking status.",
+    "source": "checking_status",
+    "target": "savings"
+   },
+   {
+    "rationale": "Checking_status shows an association with duration (0.129), indicating loan duration depends on checking status.",
+    "source": "checking_status",
+    "target": "duration"
+   },
+   {
+    "rationale": "Checking_status has an association with purpose (0.121), suggesting loan purpose depends on checking status.",
+    "source": "checking_status",
+    "target": "purpose"
+   },
+   {
+    "rationale": "Checking_status shows an association with credit_history (0.12), indicating credit history depends on checking status.",
+    "source": "checking_status",
+    "target": "credit_history"
+   },
+   {
+    "rationale": "Checking_status has an association with residence_since (0.109), suggesting length of residence depends on checking status.",
+    "source": "checking_status",
+    "target": "residence_since"
+   },
+   {
+    "rationale": "Checking_status shows an association with housing (0.105), indicating housing status depends on checking status.",
+    "source": "checking_status",
+    "target": "housing"
+   },
+   {
+    "rationale": "Checking_status has an association with telephone (0.094), suggesting telephone status depends on checking status.",
+    "source": "checking_status",
+    "target": "telephone"
+   },
+   {
+    "rationale": "Checking_status shows an association with other_debtors (0.082), indicating presence of other debtors depends on checking status.",
+    "source": "checking_status",
+    "target": "other_debtors"
+   },
+   {
+    "rationale": "Checking_status has an association with job (0.074), suggesting job category depends on checking status.",
+    "source": "checking_status",
+    "target": "job"
+   },
+   {
+    "rationale": "Checking_status shows an association with property (0.071), indicating property category depends on checking status.",
+    "source": "checking_status",
+    "target": "property"
+   },
+   {
+    "rationale": "Checking_status has an association with foreign_worker (0.069), suggesting foreign worker status depends on checking status.",
+    "source": "checking_status",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "Checking_status shows an association with existing_credits (0.058), indicating the number of existing credits depends on checking status.",
+    "source": "checking_status",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "Checking_status has an association with employment (0.044), suggesting employment category depends on checking status.",
+    "source": "checking_status",
+    "target": "employment"
+   },
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "checking_status",
+    "target": "credit"
+   },
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "duration",
+    "target": "credit"
+   },
+   {
+    "rationale": "Credit_history has its strongest association with existing_credits (0.382), indicating the number of existing credits depends on credit history.",
+    "source": "credit_history",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "Credit_history shows a strong association with other_installment_plans (0.222), suggesting the type of other installment plans depends on credit history.",
+    "source": "credit_history",
+    "target": "other_installment_plans"
+   },
+   {
+    "rationale": "Credit_history has an association with duration (0.171), indicating loan duration depends on credit history.",
+    "source": "credit_history",
+    "target": "duration"
+   },
+   {
+    "rationale": "Credit_history shows an association with credit_amount (0.168), suggesting the loan amount depends on credit history.",
+    "source": "credit_history",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "Credit_history has an association with purpose (0.152), indicating loan purpose depends on credit history.",
+    "source": "credit_history",
+    "target": "purpose"
+   },
+   {
+    "rationale": "Credit_history shows an association with num_dependents (0.129), suggesting the number of dependents depends on credit history.",
+    "source": "credit_history",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "Credit_history shows an association with housing (0.105), suggesting housing status depends on credit history.",
+    "source": "credit_history",
+    "target": "housing"
+   },
+   {
+    "rationale": "Credit_history has an association with employment (0.09), indicating employment category depends on credit history.",
+    "source": "credit_history",
+    "target": "employment"
+   },
+   {
+    "rationale": "Credit_history shows an association with foreign_worker (0.067), suggesting foreign worker status depends on credit history.",
+    "source": "credit_history",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "Credit_history has an association with other_debtors (0.052), indicating presence of other debtors depends on credit history.",
+    "source": "credit_history",
+    "target": "other_debtors"
+   },
+   {
+    "rationale": "Credit_history shows an association with property (0.049), suggesting property category depends on credit history.",
+    "source": "credit_history",
+    "target": "property"
+   },
+   {
+    "rationale": "Credit_history has an association with savings (0.038), indicating savings category depends on credit history.",
+    "source": "credit_history",
+    "target": "savings"
+   },
+   {
+    "rationale": "Credit_history shows an association with residence_since (0.029), suggesting length of residence depends on credit history.",
+    "source": "credit_history",
+    "target": "residence_since"
+   },
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "credit_history",
+    "target": "credit"
+   },
+   {
+    "rationale": "Purpose has its strongest association with duration (0.282), indicating loan duration depends on the loan purpose.",
+    "source": "purpose",
+    "target": "duration"
+   },
+   {
+    "rationale": "Purpose has a notable association with housing (0.184), indicating housing status depends on the loan purpose.",
+    "source": "purpose",
+    "target": "housing"
+   },
+   {
+    "rationale": "Purpose shows an association with telephone (0.187), suggesting telephone status depends on the loan purpose.",
+    "source": "purpose",
+    "target": "telephone"
+   },
+   {
+    "rationale": "Purpose has an association with property (0.179), indicating property category depends on the loan purpose.",
+    "source": "purpose",
+    "target": "property"
+   },
+   {
+    "rationale": "Purpose has an association with foreign_worker (0.163), indicating foreign worker status depends on the loan purpose.",
+    "source": "purpose",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "Purpose shows an association with num_dependents (0.154), suggesting the number of dependents depends on the loan purpose.",
+    "source": "purpose",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "Purpose shows an association with other_debtors (0.147), suggesting the presence of other debtors depends on the loan purpose.",
+    "source": "purpose",
+    "target": "other_debtors"
+   },
+   {
+    "rationale": "Purpose has an association with installment_rate (0.124), indicating the installment rate depends on the loan purpose.",
+    "source": "purpose",
+    "target": "installment_rate"
+   },
+   {
+    "rationale": "Purpose has an association with other_installment_plans (0.11), indicating the type of other installment plans depends on the loan purpose.",
+    "source": "purpose",
+    "target": "other_installment_plans"
+   },
+   {
+    "rationale": "Purpose shows an association with residence_since (0.106), suggesting length of residence depends on the loan purpose.",
+    "source": "purpose",
+    "target": "residence_since"
+   },
+   {
+    "rationale": "Purpose has an association with existing_credits (0.091), indicating the number of existing credits depends on the loan purpose.",
+    "source": "purpose",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "purpose",
+    "target": "credit"
+   },
+   {
+    "rationale": "Duration has the strongest association with credit_amount (0.588), indicating loan duration depends on the loan amount.",
+    "source": "credit_amount",
+    "target": "duration"
+   },
+   {
+    "rationale": "Purpose shows a strong association with credit_amount (0.371), suggesting loan purpose depends on the amount.",
+    "source": "credit_amount",
+    "target": "purpose"
+   },
+   {
+    "rationale": "Property has a strong association with credit_amount (0.372), indicating property category depends on the loan amount.",
+    "source": "credit_amount",
+    "target": "property"
+   },
+   {
+    "rationale": "Job shows a strong association with credit_amount (0.358), suggesting job category depends on the loan amount.",
+    "source": "credit_amount",
+    "target": "job"
+   },
+   {
+    "rationale": "Housing has a notable association with credit_amount (0.278), indicating housing status depends on the loan amount.",
+    "source": "credit_amount",
+    "target": "housing"
+   },
+   {
+    "rationale": "Installment_rate shows a notable association with credit_amount (0.263), suggesting the installment rate depends on the loan amount.",
+    "source": "credit_amount",
+    "target": "installment_rate"
+   },
+   {
+    "rationale": "Telephone has a notable association with credit_amount (0.263), indicating telephone status depends on the loan amount.",
+    "source": "credit_amount",
+    "target": "telephone"
+   },
+   {
+    "rationale": "Other_debtors shows an association with credit_amount (0.14), suggesting the presence of other debtors depends on the loan amount.",
+    "source": "credit_amount",
+    "target": "other_debtors"
+   },
+   {
+    "rationale": "Employment has an association with credit_amount (0.137), indicating employment category depends on the loan amount.",
+    "source": "credit_amount",
+    "target": "employment"
+   },
+   {
+    "rationale": "Savings shows an association with credit_amount (0.122), suggesting savings category depends on the loan amount.",
+    "source": "credit_amount",
+    "target": "savings"
+   },
+   {
+    "rationale": "Residence_since has an association with credit_amount (0.108), indicating length of residence depends on the loan amount.",
+    "source": "credit_amount",
+    "target": "residence_since"
+   },
+   {
+    "rationale": "Foreign_worker shows an association with credit_amount (0.097), suggesting foreign worker status depends on the loan amount.",
+    "source": "credit_amount",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "savings",
+    "target": "credit"
+   },
+   {
+    "rationale": "Employment shows a strong association with residence_since (0.265), suggesting length of residence depends on employment.",
+    "source": "employment",
+    "target": "residence_since"
+   },
+   {
+    "rationale": "Employment has a notable association with housing (0.172), indicating housing status depends on employment.",
+    "source": "employment",
+    "target": "housing"
+   },
+   {
+    "rationale": "Employment shows an association with duration (0.126), suggesting loan duration depends on employment.",
+    "source": "employment",
+    "target": "duration"
+   },
+   {
+    "rationale": "Employment shows an association with existing_credits (0.108), suggesting the number of existing credits depends on employment.",
+    "source": "employment",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "Housing has the strongest association with property (0.551), indicating property category depends on housing status.",
+    "source": "property",
+    "target": "housing"
+   },
+   {
+    "rationale": "Duration shows a notable association with property (0.33), suggesting loan duration depends on property category.",
+    "source": "property",
+    "target": "duration"
+   },
+   {
+    "rationale": "The label credit has an association with property (0.17), indicating the label depends on property.",
+    "source": "property",
+    "target": "credit"
+   },
+   {
+    "rationale": "Telephone has an association with property (0.169), indicating telephone status depends on property.",
+    "source": "property",
+    "target": "telephone"
+   },
+   {
+    "rationale": "Foreign_worker shows an association with property (0.165), suggesting foreign worker status depends on property.",
+    "source": "property",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "Number of dependents shows an association with property (0.127), suggesting it depends on property.",
+    "source": "property",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "Other_debtors has an association with property (0.123), indicating presence of other debtors depends on property.",
+    "source": "property",
+    "target": "other_debtors"
+   },
+   {
+    "rationale": "Residence_since shows an association with property (0.114), suggesting length of residence depends on property.",
+    "source": "property",
+    "target": "residence_since"
+   },
+   {
+    "rationale": "Housing has the strongest association with age (0.319), indicating housing status depends on age.",
+    "source": "age",
+    "target": "housing"
+   },
+   {
+    "rationale": "Employment shows a substantial association with age (0.209), suggesting employment category depends on age.",
+    "source": "age",
+    "target": "employment"
+   },
+   {
+    "rationale": "Telephone shows a notable association with age (0.167), suggesting telephone status depends on age.",
+    "source": "age",
+    "target": "telephone"
+   },
+   {
+    "rationale": "Purpose has a notable association with age (0.165), indicating loan purpose depends on age.",
+    "source": "age",
+    "target": "purpose"
+   },
+   {
+    "rationale": "Job shows a notable association with age (0.164), suggesting job category depends on age.",
+    "source": "age",
+    "target": "job"
+   },
+   {
+    "rationale": "Number of dependents has a notable association with age (0.157), indicating it depends on age.",
+    "source": "age",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "Existing_credits shows a moderate association with age (0.141), indicating it depends on age.",
+    "source": "age",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "Num_dependents shows a notable association with other_installment_plans (0.113), indicating the number of dependents depends on the type of other installment plans.",
+    "source": "other_installment_plans",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "Housing shows an association with other_installment_plans (0.081), indicating housing status depends on the type of other installment plans.",
+    "source": "other_installment_plans",
+    "target": "housing"
+   },
+   {
+    "rationale": "Duration has an association with other_installment_plans (0.063), suggesting loan duration depends on the type of other installment plans.",
+    "source": "other_installment_plans",
+    "target": "duration"
+   },
+   {
+    "rationale": "Foreign_worker shows an association with other_installment_plans (0.057), suggesting foreign worker status depends on the type of other installment plans.",
+    "source": "other_installment_plans",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "other_installment_plans",
+    "target": "credit"
+   },
+   {
+    "rationale": "Housing shows a notable association with duration (0.251), suggesting loan duration depends on housing.",
+    "source": "housing",
+    "target": "duration"
+   },
+   {
+    "rationale": "Housing has a notable association with residence_since (0.225), indicating length of residence depends on housing.",
+    "source": "housing",
+    "target": "residence_since"
+   },
+   {
+    "rationale": "Housing shows an association with num_dependents (0.143), suggesting number of dependents depends on housing.",
+    "source": "housing",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "Housing shows an association with existing_credits (0.11), suggesting the number of existing credits depends on housing.",
+    "source": "housing",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "Job has its strongest association with telephone (0.408), indicating telephone status depends on job category.",
+    "source": "job",
+    "target": "telephone"
+   },
+   {
+    "rationale": "Job has a strong association with employment (0.309), indicating employment category depends on job.",
+    "source": "job",
+    "target": "employment"
+   },
+   {
+    "rationale": "Job has an association with duration (0.241), suggesting loan duration depends on job category.",
+    "source": "job",
+    "target": "duration"
+   },
+   {
+    "rationale": "Job shows an association with property (0.193), indicating property category depends on job.",
+    "source": "job",
+    "target": "property"
+   },
+   {
+    "rationale": "Job has an association with purpose (0.176), suggesting loan purpose depends on job category.",
+    "source": "job",
+    "target": "purpose"
+   },
+   {
+    "rationale": "Job shows an association with housing (0.13), indicating housing status depends on job.",
+    "source": "job",
+    "target": "housing"
+   },
+   {
+    "rationale": "Job has an association with existing_credits (0.121), suggesting the number of existing credits depends on job.",
+    "source": "job",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "Job shows an association with num_dependents (0.13), suggesting the number of dependents depends on job.",
+    "source": "job",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "Job has an association with foreign_worker (0.13), suggesting foreign worker status depends on job.",
+    "source": "job",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "Telephone has an association with duration (0.158), indicating loan duration depends on telephone status.",
+    "source": "telephone",
+    "target": "duration"
+   },
+   {
+    "rationale": "Telephone shows an association with foreign_worker (0.14), suggesting foreign worker status depends on telephone status.",
+    "source": "telephone",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "Telephone shows an association with existing_credits (0.105), suggesting the number of existing credits depends on telephone status.",
+    "source": "telephone",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "Employment has a high association with sex (0.253), suggesting the employment category distribution depends on sex.",
+    "source": "sex",
+    "target": "employment"
+   },
+   {
+    "rationale": "Housing shows a notable association with sex (0.219), indicating housing status depends on sex.",
+    "source": "sex",
+    "target": "housing"
+   },
+   {
+    "rationale": "Number of dependents has a substantial association with sex (0.205), suggesting it depends on sex.",
+    "source": "sex",
+    "target": "num_dependents"
+   },
+   {
+    "source": "age__sur",
+    "target": "checking_status"
+   }
+  ]
+ },
+ "G": {
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+   {
+    "id": "checking_status"
+   },
+   {
+    "id": "duration"
+   },
+   {
+    "id": "credit_history"
+   },
+   {
+    "id": "purpose"
+   },
+   {
+    "id": "credit_amount"
+   },
+   {
+    "id": "savings"
+   },
+   {
+    "id": "employment"
+   },
+   {
+    "id": "installment_rate"
+   },
+   {
+    "id": "other_debtors"
+   },
+   {
+    "id": "residence_since"
+   },
+   {
+    "id": "property"
+   },
+   {
+    "id": "age"
+   },
+   {
+    "id": "other_installment_plans"
+   },
+   {
+    "id": "housing"
+   },
+   {
+    "id": "existing_credits"
+   },
+   {
+    "id": "job"
+   },
+   {
+    "id": "num_dependents"
+   },
+   {
+    "id": "telephone"
+   },
+   {
+    "id": "foreign_worker"
+   },
+   {
+    "id": "sex"
+   },
+   {
+    "id": "credit"
+   }
+  ],
+  "links": [
+   {
+    "rationale": "Checking_status has its highest non-label association with credit_amount (0.172), suggesting the loan amount depends on checking status.",
+    "source": "checking_status",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "Checking_status shows a notable association with savings (0.16), indicating savings category depends on checking status.",
+    "source": "checking_status",
+    "target": "savings"
+   },
+   {
+    "rationale": "Checking_status shows an association with duration (0.129), indicating loan duration depends on checking status.",
+    "source": "checking_status",
+    "target": "duration"
+   },
+   {
+    "rationale": "Checking_status has an association with purpose (0.121), suggesting loan purpose depends on checking status.",
+    "source": "checking_status",
+    "target": "purpose"
+   },
+   {
+    "rationale": "Checking_status shows an association with credit_history (0.12), indicating credit history depends on checking status.",
+    "source": "checking_status",
+    "target": "credit_history"
+   },
+   {
+    "rationale": "Checking_status has an association with residence_since (0.109), suggesting length of residence depends on checking status.",
+    "source": "checking_status",
+    "target": "residence_since"
+   },
+   {
+    "rationale": "Checking_status shows an association with housing (0.105), indicating housing status depends on checking status.",
+    "source": "checking_status",
+    "target": "housing"
+   },
+   {
+    "rationale": "Checking_status has an association with telephone (0.094), suggesting telephone status depends on checking status.",
+    "source": "checking_status",
+    "target": "telephone"
+   },
+   {
+    "rationale": "Checking_status shows an association with other_debtors (0.082), indicating presence of other debtors depends on checking status.",
+    "source": "checking_status",
+    "target": "other_debtors"
+   },
+   {
+    "rationale": "Checking_status has an association with job (0.074), suggesting job category depends on checking status.",
+    "source": "checking_status",
+    "target": "job"
+   },
+   {
+    "rationale": "Checking_status shows an association with property (0.071), indicating property category depends on checking status.",
+    "source": "checking_status",
+    "target": "property"
+   },
+   {
+    "rationale": "Checking_status has an association with foreign_worker (0.069), suggesting foreign worker status depends on checking status.",
+    "source": "checking_status",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "Checking_status shows an association with existing_credits (0.058), indicating the number of existing credits depends on checking status.",
+    "source": "checking_status",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "Checking_status has an association with employment (0.044), suggesting employment category depends on checking status.",
+    "source": "checking_status",
+    "target": "employment"
+   },
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "checking_status",
+    "target": "credit"
+   },
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "duration",
+    "target": "credit"
+   },
+   {
+    "rationale": "Credit_history has its strongest association with existing_credits (0.382), indicating the number of existing credits depends on credit history.",
+    "source": "credit_history",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "Credit_history shows a strong association with other_installment_plans (0.222), suggesting the type of other installment plans depends on credit history.",
+    "source": "credit_history",
+    "target": "other_installment_plans"
+   },
+   {
+    "rationale": "Credit_history has an association with duration (0.171), indicating loan duration depends on credit history.",
+    "source": "credit_history",
+    "target": "duration"
+   },
+   {
+    "rationale": "Credit_history shows an association with credit_amount (0.168), suggesting the loan amount depends on credit history.",
+    "source": "credit_history",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "Credit_history has an association with purpose (0.152), indicating loan purpose depends on credit history.",
+    "source": "credit_history",
+    "target": "purpose"
+   },
+   {
+    "rationale": "Credit_history shows an association with num_dependents (0.129), suggesting the number of dependents depends on credit history.",
+    "source": "credit_history",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "Credit_history shows an association with housing (0.105), suggesting housing status depends on credit history.",
+    "source": "credit_history",
+    "target": "housing"
+   },
+   {
+    "rationale": "Credit_history has an association with employment (0.09), indicating employment category depends on credit history.",
+    "source": "credit_history",
+    "target": "employment"
+   },
+   {
+    "rationale": "Credit_history shows an association with foreign_worker (0.067), suggesting foreign worker status depends on credit history.",
+    "source": "credit_history",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "Credit_history has an association with other_debtors (0.052), indicating presence of other debtors depends on credit history.",
+    "source": "credit_history",
+    "target": "other_debtors"
+   },
+   {
+    "rationale": "Credit_history shows an association with property (0.049), suggesting property category depends on credit history.",
+    "source": "credit_history",
+    "target": "property"
+   },
+   {
+    "rationale": "Credit_history has an association with savings (0.038), indicating savings category depends on credit history.",
+    "source": "credit_history",
+    "target": "savings"
+   },
+   {
+    "rationale": "Credit_history shows an association with residence_since (0.029), suggesting length of residence depends on credit history.",
+    "source": "credit_history",
+    "target": "residence_since"
+   },
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "credit_history",
+    "target": "credit"
+   },
+   {
+    "rationale": "Purpose has its strongest association with duration (0.282), indicating loan duration depends on the loan purpose.",
+    "source": "purpose",
+    "target": "duration"
+   },
+   {
+    "rationale": "Purpose has a notable association with housing (0.184), indicating housing status depends on the loan purpose.",
+    "source": "purpose",
+    "target": "housing"
+   },
+   {
+    "rationale": "Purpose shows an association with telephone (0.187), suggesting telephone status depends on the loan purpose.",
+    "source": "purpose",
+    "target": "telephone"
+   },
+   {
+    "rationale": "Purpose has an association with property (0.179), indicating property category depends on the loan purpose.",
+    "source": "purpose",
+    "target": "property"
+   },
+   {
+    "rationale": "Purpose has an association with foreign_worker (0.163), indicating foreign worker status depends on the loan purpose.",
+    "source": "purpose",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "Purpose shows an association with num_dependents (0.154), suggesting the number of dependents depends on the loan purpose.",
+    "source": "purpose",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "Purpose shows an association with other_debtors (0.147), suggesting the presence of other debtors depends on the loan purpose.",
+    "source": "purpose",
+    "target": "other_debtors"
+   },
+   {
+    "rationale": "Purpose has an association with installment_rate (0.124), indicating the installment rate depends on the loan purpose.",
+    "source": "purpose",
+    "target": "installment_rate"
+   },
+   {
+    "rationale": "Purpose has an association with other_installment_plans (0.11), indicating the type of other installment plans depends on the loan purpose.",
+    "source": "purpose",
+    "target": "other_installment_plans"
+   },
+   {
+    "rationale": "Purpose shows an association with residence_since (0.106), suggesting length of residence depends on the loan purpose.",
+    "source": "purpose",
+    "target": "residence_since"
+   },
+   {
+    "rationale": "Purpose has an association with existing_credits (0.091), indicating the number of existing credits depends on the loan purpose.",
+    "source": "purpose",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "purpose",
+    "target": "credit"
+   },
+   {
+    "rationale": "Duration has the strongest association with credit_amount (0.588), indicating loan duration depends on the loan amount.",
+    "source": "credit_amount",
+    "target": "duration"
+   },
+   {
+    "rationale": "Purpose shows a strong association with credit_amount (0.371), suggesting loan purpose depends on the amount.",
+    "source": "credit_amount",
+    "target": "purpose"
+   },
+   {
+    "rationale": "Property has a strong association with credit_amount (0.372), indicating property category depends on the loan amount.",
+    "source": "credit_amount",
+    "target": "property"
+   },
+   {
+    "rationale": "Job shows a strong association with credit_amount (0.358), suggesting job category depends on the loan amount.",
+    "source": "credit_amount",
+    "target": "job"
+   },
+   {
+    "rationale": "Housing has a notable association with credit_amount (0.278), indicating housing status depends on the loan amount.",
+    "source": "credit_amount",
+    "target": "housing"
+   },
+   {
+    "rationale": "Installment_rate shows a notable association with credit_amount (0.263), suggesting the installment rate depends on the loan amount.",
+    "source": "credit_amount",
+    "target": "installment_rate"
+   },
+   {
+    "rationale": "Telephone has a notable association with credit_amount (0.263), indicating telephone status depends on the loan amount.",
+    "source": "credit_amount",
+    "target": "telephone"
+   },
+   {
+    "rationale": "Other_debtors shows an association with credit_amount (0.14), suggesting the presence of other debtors depends on the loan amount.",
+    "source": "credit_amount",
+    "target": "other_debtors"
+   },
+   {
+    "rationale": "Employment has an association with credit_amount (0.137), indicating employment category depends on the loan amount.",
+    "source": "credit_amount",
+    "target": "employment"
+   },
+   {
+    "rationale": "Savings shows an association with credit_amount (0.122), suggesting savings category depends on the loan amount.",
+    "source": "credit_amount",
+    "target": "savings"
+   },
+   {
+    "rationale": "Residence_since has an association with credit_amount (0.108), indicating length of residence depends on the loan amount.",
+    "source": "credit_amount",
+    "target": "residence_since"
+   },
+   {
+    "rationale": "Foreign_worker shows an association with credit_amount (0.097), suggesting foreign worker status depends on the loan amount.",
+    "source": "credit_amount",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "savings",
+    "target": "credit"
+   },
+   {
+    "rationale": "Employment shows a strong association with residence_since (0.265), suggesting length of residence depends on employment.",
+    "source": "employment",
+    "target": "residence_since"
+   },
+   {
+    "rationale": "Employment has a notable association with housing (0.172), indicating housing status depends on employment.",
+    "source": "employment",
+    "target": "housing"
+   },
+   {
+    "rationale": "Employment shows an association with duration (0.126), suggesting loan duration depends on employment.",
+    "source": "employment",
+    "target": "duration"
+   },
+   {
+    "rationale": "Employment shows an association with existing_credits (0.108), suggesting the number of existing credits depends on employment.",
+    "source": "employment",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "Housing has the strongest association with property (0.551), indicating property category depends on housing status.",
+    "source": "property",
+    "target": "housing"
+   },
+   {
+    "rationale": "Duration shows a notable association with property (0.33), suggesting loan duration depends on property category.",
+    "source": "property",
+    "target": "duration"
+   },
+   {
+    "rationale": "The label credit has an association with property (0.17), indicating the label depends on property.",
+    "source": "property",
+    "target": "credit"
+   },
+   {
+    "rationale": "Telephone has an association with property (0.169), indicating telephone status depends on property.",
+    "source": "property",
+    "target": "telephone"
+   },
+   {
+    "rationale": "Foreign_worker shows an association with property (0.165), suggesting foreign worker status depends on property.",
+    "source": "property",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "Number of dependents shows an association with property (0.127), suggesting it depends on property.",
+    "source": "property",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "Other_debtors has an association with property (0.123), indicating presence of other debtors depends on property.",
+    "source": "property",
+    "target": "other_debtors"
+   },
+   {
+    "rationale": "Residence_since shows an association with property (0.114), suggesting length of residence depends on property.",
+    "source": "property",
+    "target": "residence_since"
+   },
+   {
+    "rationale": "Housing has the strongest association with age (0.319), indicating housing status depends on age.",
+    "source": "age",
+    "target": "housing"
+   },
+   {
+    "rationale": "Employment shows a substantial association with age (0.209), suggesting employment category depends on age.",
+    "source": "age",
+    "target": "employment"
+   },
+   {
+    "rationale": "Credit_history has a notable association with age (0.169), indicating credit history depends on age.",
+    "source": "age",
+    "target": "credit_history"
+   },
+   {
+    "rationale": "Telephone shows a notable association with age (0.167), suggesting telephone status depends on age.",
+    "source": "age",
+    "target": "telephone"
+   },
+   {
+    "rationale": "Purpose has a notable association with age (0.165), indicating loan purpose depends on age.",
+    "source": "age",
+    "target": "purpose"
+   },
+   {
+    "rationale": "Job shows a notable association with age (0.164), suggesting job category depends on age.",
+    "source": "age",
+    "target": "job"
+   },
+   {
+    "rationale": "Number of dependents has a notable association with age (0.157), indicating it depends on age.",
+    "source": "age",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "Checking_status has a moderate association with age (0.145), suggesting checking status depends on age.",
+    "source": "age",
+    "target": "checking_status"
+   },
+   {
+    "rationale": "Existing_credits shows a moderate association with age (0.141), indicating it depends on age.",
+    "source": "age",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "Credit (label) has a moderate association with age (0.122), indicating the label depends on age.",
+    "source": "age",
+    "target": "credit"
+   },
+   {
+    "rationale": "Num_dependents shows a notable association with other_installment_plans (0.113), indicating the number of dependents depends on the type of other installment plans.",
+    "source": "other_installment_plans",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "Housing shows an association with other_installment_plans (0.081), indicating housing status depends on the type of other installment plans.",
+    "source": "other_installment_plans",
+    "target": "housing"
+   },
+   {
+    "rationale": "Duration has an association with other_installment_plans (0.063), suggesting loan duration depends on the type of other installment plans.",
+    "source": "other_installment_plans",
+    "target": "duration"
+   },
+   {
+    "rationale": "Foreign_worker shows an association with other_installment_plans (0.057), suggesting foreign worker status depends on the type of other installment plans.",
+    "source": "other_installment_plans",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "other_installment_plans",
+    "target": "credit"
+   },
+   {
+    "rationale": "Housing shows a notable association with duration (0.251), suggesting loan duration depends on housing.",
+    "source": "housing",
+    "target": "duration"
+   },
+   {
+    "rationale": "Housing has a notable association with residence_since (0.225), indicating length of residence depends on housing.",
+    "source": "housing",
+    "target": "residence_since"
+   },
+   {
+    "rationale": "Housing has an association with the label credit (0.143), indicating the label depends on housing.",
+    "source": "housing",
+    "target": "credit"
+   },
+   {
+    "rationale": "Housing shows an association with num_dependents (0.143), suggesting number of dependents depends on housing.",
+    "source": "housing",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "Housing shows an association with existing_credits (0.11), suggesting the number of existing credits depends on housing.",
+    "source": "housing",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "Job has its strongest association with telephone (0.408), indicating telephone status depends on job category.",
+    "source": "job",
+    "target": "telephone"
+   },
+   {
+    "rationale": "Job has a strong association with employment (0.309), indicating employment category depends on job.",
+    "source": "job",
+    "target": "employment"
+   },
+   {
+    "rationale": "Job has an association with duration (0.241), suggesting loan duration depends on job category.",
+    "source": "job",
+    "target": "duration"
+   },
+   {
+    "rationale": "Job shows an association with property (0.193), indicating property category depends on job.",
+    "source": "job",
+    "target": "property"
+   },
+   {
+    "rationale": "Job has an association with purpose (0.176), suggesting loan purpose depends on job category.",
+    "source": "job",
+    "target": "purpose"
+   },
+   {
+    "rationale": "Job shows an association with housing (0.13), indicating housing status depends on job.",
+    "source": "job",
+    "target": "housing"
+   },
+   {
+    "rationale": "Job has an association with existing_credits (0.121), suggesting the number of existing credits depends on job.",
+    "source": "job",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "Job shows an association with num_dependents (0.13), suggesting the number of dependents depends on job.",
+    "source": "job",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "Job has an association with foreign_worker (0.13), suggesting foreign worker status depends on job.",
+    "source": "job",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "Telephone has an association with duration (0.158), indicating loan duration depends on telephone status.",
+    "source": "telephone",
+    "target": "duration"
+   },
+   {
+    "rationale": "Telephone shows an association with foreign_worker (0.14), suggesting foreign worker status depends on telephone status.",
+    "source": "telephone",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "Telephone shows an association with existing_credits (0.105), suggesting the number of existing credits depends on telephone status.",
+    "source": "telephone",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "Employment has a high association with sex (0.253), suggesting the employment category distribution depends on sex.",
+    "source": "sex",
+    "target": "employment"
+   },
+   {
+    "rationale": "Housing shows a notable association with sex (0.219), indicating housing status depends on sex.",
+    "source": "sex",
+    "target": "housing"
+   },
+   {
+    "rationale": "Number of dependents has a substantial association with sex (0.205), suggesting it depends on sex.",
+    "source": "sex",
+    "target": "num_dependents"
+   }
+  ]
+ },
+ "R": [
+  "duration",
+  "purpose",
+  "credit_amount",
+  "savings",
+  "property"
+ ],
+ "P": [
+  "checking_status",
+  "credit_history",
+  "job"
+ ],
+ "cut": [
+  [
+   "age",
+   "checking_status"
+  ],
+  [
+   "age",
+   "credit"
+  ],
+  [
+   "age",
+   "credit_history"
+  ],
+  [
+   "housing",
+   "credit"
+  ]
+ ],
+ "ops": {
+  "housing->credit": "cut",
+  "age->checking_status": "surrogate",
+  "age->credit_history": "cut",
+  "age->credit": "cut"
+ },
+ "cost": {
+  "checking_status->credit_history": 0.07585975656995582,
+  "checking_status->housing": 0.001,
+  "checking_status->job": 0.001,
+  "checking_status->employment": 0.001,
+  "checking_status->credit": 0.026491739552963918,
+  "credit_history->other_installment_plans": 0.09940784992076858,
+  "credit_history->housing": 0.001,
+  "credit_history->employment": 0.001,
+  "credit_history->credit": 0.001,
+  "employment->housing": 0.004338343659592625,
+  "age->housing": 0.04140197679213364,
+  "age->employment": 0.01437996240935302,
+  "age->credit_history": 0.001,
+  "age->job": 0.02055432854546746,
+  "age->checking_status": 0.015565471775581652,
+  "age->credit": 0.001554907677356443,
+  "other_installment_plans->housing": 0.004785602119287691,
+  "other_installment_plans->credit": 0.001,
+  "housing->credit": 0.001,
+  "job->employment": 0.053778164668458535,
+  "job->housing": 0.001,
+  "sex->employment": 0.028533756012088296,
+  "sex->housing": 0.004475582333636985
+ },
+ "prior_driven": [
+  {
+   "edge": [
+    "age",
+    "property"
+   ],
+   "assoc": 0.11722703289826374,
+   "p_holm": 0.18803418803418806,
+   "rationale": "Property has a moderate association with age (0.117), suggesting property category depends on age."
+  },
+  {
+   "edge": [
+    "sex",
+    "residence_since"
+   ],
+   "assoc": 0.11697098873908968,
+   "p_holm": 0.14792899408284024,
+   "rationale": "Residence_since has a moderate association with sex (0.117), indicating a direct dependency."
+  },
+  {
+   "edge": [
+    "sex",
+    "credit_amount"
+   ],
+   "assoc": 0.11036670248190673,
+   "p_holm": 0.17357001972386588,
+   "rationale": "Credit_amount shows an association with sex (0.11), suggesting the amount depends on sex."
+  },
+  {
+   "edge": [
+    "sex",
+    "installment_rate"
+   ],
+   "assoc": 0.10994967536141319,
+   "p_holm": 0.17357001972386588,
+   "rationale": "Installment_rate has an association with sex (0.11), indicating a direct dependency."
+  },
+  {
+   "edge": [
+    "sex",
+    "property"
+   ],
+   "assoc": 0.09994955553051119,
+   "p_holm": 0.4339250493096647,
+   "rationale": "Property has a moderate association with sex (0.1), suggesting property category depends on sex."
+  },
+  {
+   "edge": [
+    "sex",
+    "credit_history"
+   ],
+   "assoc": 0.09462994503964335,
+   "p_holm": 0.6627218934911242,
+   "rationale": "Credit_history shows an association with sex (0.095), indicating a direct dependency."
+  },
+  {
+   "edge": [
+    "sex",
+    "purpose"
+   ],
+   "assoc": 0.09212172058146267,
+   "p_holm": 1.0,
+   "rationale": "Purpose has an association with sex (0.092), suggesting loan purpose depends on sex."
+  },
+  {
+   "edge": [
+    "sex",
+    "telephone"
+   ],
+   "assoc": 0.09105742939051249,
+   "p_holm": 0.1932938856015779,
+   "rationale": "Telephone has an association with sex (0.091), indicating a direct dependency."
+  },
+  {
+   "edge": [
+    "sex",
+    "duration"
+   ],
+   "assoc": 0.07848719388765078,
+   "p_holm": 0.6627218934911242,
+   "rationale": "Duration shows an association with sex (0.078), suggesting loan duration depends on sex."
+  },
+  {
+   "edge": [
+    "sex",
+    "existing_credits"
+   ],
+   "assoc": 0.06861475066018247,
+   "p_holm": 1.0,
+   "rationale": "Existing_credits has an association with sex (0.069), indicating a direct dependency."
+  },
+  {
+   "edge": [
+    "sex",
+    "foreign_worker"
+   ],
+   "assoc": 0.06338036023086548,
+   "p_holm": 0.8941485864562788,
+   "rationale": "Foreign_worker shows an association with sex (0.063), suggesting a direct dependency."
+  },
+  {
+   "edge": [
+    "sex",
+    "credit"
+   ],
+   "assoc": 0.06303168680795118,
+   "p_holm": 1.0,
+   "rationale": "Credit (label) has an association with sex (0.063), indicating the label depends on sex."
+  }
+ ],
+ "protected": [
+  "sex",
+  "age"
+ ],
+ "label": "credit"
+}

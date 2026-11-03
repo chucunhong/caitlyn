@@ -1,0 +1,713 @@
+{
+ "G2": {
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+   {
+    "id": "age"
+   },
+   {
+    "id": "workclass"
+   },
+   {
+    "id": "education"
+   },
+   {
+    "id": "education_num"
+   },
+   {
+    "id": "marital_status"
+   },
+   {
+    "id": "occupation"
+   },
+   {
+    "id": "relationship"
+   },
+   {
+    "id": "race"
+   },
+   {
+    "id": "sex"
+   },
+   {
+    "id": "capital_gain"
+   },
+   {
+    "id": "capital_loss"
+   },
+   {
+    "id": "hours_per_week"
+   },
+   {
+    "id": "native_country"
+   },
+   {
+    "id": "income"
+   }
+  ],
+  "links": [
+   {
+    "rationale": "Age has its strongest association with marital_status (0.426), and the rows show age-linked marital categories (e.g., <=30 Never-married vs. >50 Married-civ-spouse/Widowed), indicating marital_status depends on age.",
+    "source": "age",
+    "target": "marital_status"
+   },
+   {
+    "rationale": "Age is strongly associated with relationship (0.357), and rows show age-linked relationship categories (e.g., <=30 Own-child/Not-in-family vs. >50 Husband/Wife), suggesting relationship depends on age.",
+    "source": "age",
+    "target": "relationship"
+   },
+   {
+    "rationale": "Age has a moderate association with hours_per_week (0.231), and rows show differing work-hour patterns by age (e.g., <=30 at 39-60 vs. >50 at 4-45), suggesting hours_per_week depends on age.",
+    "source": "age",
+    "target": "hours_per_week"
+   },
+   {
+    "rationale": "Age is associated with education (0.173), and rows show age-linked education levels (e.g., <=30 Bachelors vs. >50 7th-8th/HS-grad), indicating education depends on age.",
+    "source": "age",
+    "target": "education"
+   },
+   {
+    "rationale": "Age has a moderate association with occupation (0.159), and rows show age-typed occupations (e.g., <=30 Handlers-cleaners/Sales vs. >50 Exec-managerial/Tech-support), suggesting occupation depends on age.",
+    "source": "age",
+    "target": "occupation"
+   },
+   {
+    "rationale": "Age is associated with workclass (0.151), and rows show differing workclass patterns by age (e.g., <=30 mostly Private vs. >50 Self-emp-inc/Local-gov), indicating workclass depends on age.",
+    "source": "age",
+    "target": "workclass"
+   },
+   {
+    "rationale": "Age is associated with education_num (0.129), and rows show age-linked numeric education levels (e.g., <=30 at 13 vs. >50 at 4-9), suggesting education_num depends on age.",
+    "source": "age",
+    "target": "education_num"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "native_country"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "capital_loss"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "capital_gain"
+   },
+   {
+    "rationale": "Workclass has its highest association with occupation (0.218), and rows show workclass-linked occupations (e.g., Self-emp-inc with Exec-managerial vs. Private with Other-service/Handlers-cleaners), suggesting occupation depends on workclass.",
+    "source": "workclass",
+    "target": "occupation"
+   },
+   {
+    "rationale": "Workclass shows a notable association with education_num (0.192), and rows show differing numeric education levels by workclass (e.g., Self-emp-inc/Local-gov rows at 10-11 vs. Private rows at 4-9), indicating education_num depends on workclass.",
+    "source": "workclass",
+    "target": "education_num"
+   },
+   {
+    "rationale": "Workclass is associated with hours_per_week (0.165), and rows show differing work-hour patterns by workclass (e.g., Self-emp-inc at 60 vs. Private at 4-40), suggesting hours_per_week depends on workclass.",
+    "source": "workclass",
+    "target": "hours_per_week"
+   },
+   {
+    "rationale": "Workclass shows an association with income (0.16), and rows show income differences across workclass categories (e.g., Self-emp-inc rows with capital gains and income=1 vs. Private rows with income=0), indicating income depends on workclass.",
+    "source": "workclass",
+    "target": "income"
+   },
+   {
+    "rationale": "Workclass has an association with capital_gain (0.103), and rows show capital gains concentrated in specific workclass rows (e.g., Self-emp-inc with gains vs. Private mostly at 0), suggesting capital_gain depends on workclass.",
+    "source": "workclass",
+    "target": "capital_gain"
+   },
+   {
+    "rationale": "Education and education_num have a perfect association of 1.0, and the rows show a deterministic mapping (e.g., HS-grad=9, Bachelors=13, 7th-8th=4), so education_num is directly determined by education.",
+    "source": "education",
+    "target": "education_num"
+   },
+   {
+    "rationale": "Education has its strongest non-education_num association with income (0.367), and the rows show higher income among more educated rows (e.g., Bachelors/Doctorate with capital gains and income=1 vs. HS-grad/7th-8th with income=0), indicating income depends on education.",
+    "source": "education",
+    "target": "income"
+   },
+   {
+    "rationale": "Education shows a notable association with capital_gain (0.224), and the rows show capital gains concentrated in higher-education rows (e.g., Bachelors/Doctorate with gains vs. HS-grad/7th-8th at 0), suggesting capital_gain depends on education.",
+    "source": "education",
+    "target": "capital_gain"
+   },
+   {
+    "rationale": "Education has a moderate association with occupation (0.197), and the rows show education-linked occupations (e.g., Doctorate/Bachelors in Prof-specialty/Exec-managerial vs. 7th-8th in Craft-repair/Other-service), indicating occupation depends on education.",
+    "source": "education",
+    "target": "occupation"
+   },
+   {
+    "rationale": "Education is associated with hours_per_week (0.194), and the rows show differing work-hour patterns by education (e.g., Bachelors at 50-60 vs. HS-grad at 4-40), suggesting hours_per_week depends on education.",
+    "source": "education",
+    "target": "hours_per_week"
+   },
+   {
+    "rationale": "Education shows an association with native_country (0.135), and the rows show education-linked country patterns (e.g., Doctorate from Taiwan, 7th-8th from Mexico), indicating native_country depends on education.",
+    "source": "education",
+    "target": "native_country"
+   },
+   {
+    "rationale": "Education is associated with relationship (0.116), and the rows show education-linked relationship categories (e.g., Bachelors with Not-in-family/Own-child vs. HS-grad with Husband/Wife), suggesting relationship depends on education.",
+    "source": "education",
+    "target": "relationship"
+   },
+   {
+    "rationale": "Education shows an association with workclass (0.112), and the rows show differing workclass patterns by education (e.g., Assoc-voc/Some-college in Local-gov/Self-emp-inc vs. HS-grad mostly Private), indicating workclass depends on education.",
+    "source": "education",
+    "target": "workclass"
+   },
+   {
+    "rationale": "Education has an association with capital_loss (0.103), and the rows show capital losses in specific education rows (e.g., 7th-8th with loss=1651 vs. most others at 0), suggesting capital_loss depends on education.",
+    "source": "education",
+    "target": "capital_loss"
+   },
+   {
+    "rationale": "education_num has its highest non-education association with occupation (0.572), and the rows show education-linked occupations (e.g., education_num 16 Doctorate in Prof-specialty vs. education_num 4 in Craft-repair/Other-service), indicating occupation depends on education_num.",
+    "source": "education_num",
+    "target": "occupation"
+   },
+   {
+    "rationale": "education_num shows a strong association with income (0.335), and rows show higher income at higher education_num levels (e.g., education_num 13/16 with capital gains and income=1 vs. education_num 4/9 with income=0), indicating income depends on education_num.",
+    "source": "education_num",
+    "target": "income"
+   },
+   {
+    "rationale": "education_num has a notable association with native_country (0.288), and rows show education_num-linked country patterns (e.g., education_num 16 from Taiwan, education_num 4 from Mexico/China), suggesting native_country depends on education_num.",
+    "source": "education_num",
+    "target": "native_country"
+   },
+   {
+    "rationale": "education_num is associated with relationship (0.157), and rows show education_num-linked relationship categories (e.g., education_num 13 with Not-in-family/Own-child vs. education_num 9 with Husband/Wife), suggesting relationship depends on education_num.",
+    "source": "education_num",
+    "target": "relationship"
+   },
+   {
+    "rationale": "education_num has a moderate association with hours_per_week (0.148), and rows show differing work-hour patterns by education_num (e.g., education_num 13 at 50-60 vs. education_num 9 at 4-40), suggesting hours_per_week depends on education_num.",
+    "source": "education_num",
+    "target": "hours_per_week"
+   },
+   {
+    "rationale": "education_num shows an association with capital_gain (0.13), and rows show capital gains concentrated at higher education_num levels (e.g., education_num 13/16 with gains vs. education_num 4/9 at 0), suggesting capital_gain depends on education_num.",
+    "source": "education_num",
+    "target": "capital_gain"
+   },
+   {
+    "rationale": "education_num shows an association with marital_status (0.107), and rows show education_num-linked marital categories (e.g., education_num 13 with Never-married/Married-civ-spouse vs. education_num 4 with Married-civ-spouse), indicating marital_status depends on education_num.",
+    "source": "education_num",
+    "target": "marital_status"
+   },
+   {
+    "rationale": "education_num has an association with capital_loss (0.083), and rows show capital losses at specific education_num levels (e.g., education_num 4 with loss=1651 vs. most others at 0), suggesting capital_loss depends on education_num.",
+    "source": "education_num",
+    "target": "capital_loss"
+   },
+   {
+    "rationale": "Relationship has its strongest non-sex association with marital_status (0.487), and the rows show relationship categories tightly coupled to marital categories (e.g., Husband/Wife with Married-civ-spouse, Unmarried with Never-married/Divorced), indicating marital_status depends on relationship.",
+    "source": "relationship",
+    "target": "marital_status"
+   },
+   {
+    "rationale": "Relationship has a notable association with hours_per_week (0.324), and rows show differing work-hour patterns by relationship (e.g., Husband at 40-60 vs. Wife at 4/40), indicating hours_per_week depends on relationship.",
+    "source": "relationship",
+    "target": "hours_per_week"
+   },
+   {
+    "rationale": "Relationship shows a moderate association with occupation (0.176), and rows show relationship-linked occupations (e.g., Husband in Craft-repair/Transport-moving vs. Not-in-family in Prof-specialty/Exec-managerial), suggesting occupation depends on relationship.",
+    "source": "relationship",
+    "target": "occupation"
+   },
+   {
+    "rationale": "Race has by far its strongest association with native_country (0.383), and the rows show race-linked country patterns (e.g., non-White rows from China, Mexico, Taiwan), indicating native_country depends on race.",
+    "source": "race",
+    "target": "native_country"
+   },
+   {
+    "rationale": "Race shows a notable association with relationship (0.166), and rows show race-linked relationship categories (e.g., non-White Husband/Wife vs. White Not-in-family), suggesting relationship depends on race.",
+    "source": "race",
+    "target": "relationship"
+   },
+   {
+    "rationale": "Race is associated with marital_status (0.132), and rows show differing marital categories by race (e.g., non-White Married-civ-spouse vs. White Never-married), indicating a direct dependency.",
+    "source": "race",
+    "target": "marital_status"
+   },
+   {
+    "rationale": "Race has a moderate association with occupation (0.129), and rows show race-typed occupations (e.g., non-White Other-service/Transport-moving vs. White Exec-managerial), suggesting occupation depends on race.",
+    "source": "race",
+    "target": "occupation"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "race",
+    "target": "workclass"
+   },
+   {
+    "rationale": "Sex has the strongest association with relationship (0.65), and the rows show a deterministic mapping (e.g., Wife/Husband vs. Unmarried/Not-in-family), so relationship is directly determined by sex.",
+    "source": "sex",
+    "target": "relationship"
+   },
+   {
+    "rationale": "Sex is strongly associated with marital_status (0.464), and the data show sex-linked marital categories (e.g., Married-civ-spouse with Husband/Wife), indicating a direct dependency.",
+    "source": "sex",
+    "target": "marital_status"
+   },
+   {
+    "rationale": "Sex has a high association with occupation (0.438), and rows show sex-typed occupations (e.g., Adm-clerical/Other-service for females vs. Craft-repair/Transport-moving for males), suggesting occupation depends on sex.",
+    "source": "sex",
+    "target": "occupation"
+   },
+   {
+    "rationale": "Sex shows a moderate association with hours_per_week (0.232), and the rows show differing work-hour patterns by sex (e.g., females at 4/20/40 vs. males at 40-60), indicating a direct dependency.",
+    "source": "sex",
+    "target": "hours_per_week"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "sex",
+    "target": "workclass"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "sex",
+    "target": "education"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "sex",
+    "target": "capital_gain"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "sex",
+    "target": "native_country"
+   }
+  ]
+ },
+ "G": {
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+   {
+    "id": "age"
+   },
+   {
+    "id": "workclass"
+   },
+   {
+    "id": "education"
+   },
+   {
+    "id": "education_num"
+   },
+   {
+    "id": "marital_status"
+   },
+   {
+    "id": "occupation"
+   },
+   {
+    "id": "relationship"
+   },
+   {
+    "id": "race"
+   },
+   {
+    "id": "sex"
+   },
+   {
+    "id": "capital_gain"
+   },
+   {
+    "id": "capital_loss"
+   },
+   {
+    "id": "hours_per_week"
+   },
+   {
+    "id": "native_country"
+   },
+   {
+    "id": "income"
+   }
+  ],
+  "links": [
+   {
+    "rationale": "Age has its strongest association with marital_status (0.426), and the rows show age-linked marital categories (e.g., <=30 Never-married vs. >50 Married-civ-spouse/Widowed), indicating marital_status depends on age.",
+    "source": "age",
+    "target": "marital_status"
+   },
+   {
+    "rationale": "Age is strongly associated with relationship (0.357), and rows show age-linked relationship categories (e.g., <=30 Own-child/Not-in-family vs. >50 Husband/Wife), suggesting relationship depends on age.",
+    "source": "age",
+    "target": "relationship"
+   },
+   {
+    "rationale": "Age shows a notable association with income (0.283), and rows show higher income among older age brackets (e.g., >50 with capital gains and income=1), indicating income depends on age.",
+    "source": "age",
+    "target": "income"
+   },
+   {
+    "rationale": "Age has a moderate association with hours_per_week (0.231), and rows show differing work-hour patterns by age (e.g., <=30 at 39-60 vs. >50 at 4-45), suggesting hours_per_week depends on age.",
+    "source": "age",
+    "target": "hours_per_week"
+   },
+   {
+    "rationale": "Age is associated with education (0.173), and rows show age-linked education levels (e.g., <=30 Bachelors vs. >50 7th-8th/HS-grad), indicating education depends on age.",
+    "source": "age",
+    "target": "education"
+   },
+   {
+    "rationale": "Age has a moderate association with occupation (0.159), and rows show age-typed occupations (e.g., <=30 Handlers-cleaners/Sales vs. >50 Exec-managerial/Tech-support), suggesting occupation depends on age.",
+    "source": "age",
+    "target": "occupation"
+   },
+   {
+    "rationale": "Age is associated with workclass (0.151), and rows show differing workclass patterns by age (e.g., <=30 mostly Private vs. >50 Self-emp-inc/Local-gov), indicating workclass depends on age.",
+    "source": "age",
+    "target": "workclass"
+   },
+   {
+    "rationale": "Age is associated with education_num (0.129), and rows show age-linked numeric education levels (e.g., <=30 at 13 vs. >50 at 4-9), suggesting education_num depends on age.",
+    "source": "age",
+    "target": "education_num"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "native_country"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "capital_loss"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "capital_gain"
+   },
+   {
+    "rationale": "Workclass has its highest association with occupation (0.218), and rows show workclass-linked occupations (e.g., Self-emp-inc with Exec-managerial vs. Private with Other-service/Handlers-cleaners), suggesting occupation depends on workclass.",
+    "source": "workclass",
+    "target": "occupation"
+   },
+   {
+    "rationale": "Workclass shows a notable association with education_num (0.192), and rows show differing numeric education levels by workclass (e.g., Self-emp-inc/Local-gov rows at 10-11 vs. Private rows at 4-9), indicating education_num depends on workclass.",
+    "source": "workclass",
+    "target": "education_num"
+   },
+   {
+    "rationale": "Workclass is associated with hours_per_week (0.165), and rows show differing work-hour patterns by workclass (e.g., Self-emp-inc at 60 vs. Private at 4-40), suggesting hours_per_week depends on workclass.",
+    "source": "workclass",
+    "target": "hours_per_week"
+   },
+   {
+    "rationale": "Workclass shows an association with income (0.16), and rows show income differences across workclass categories (e.g., Self-emp-inc rows with capital gains and income=1 vs. Private rows with income=0), indicating income depends on workclass.",
+    "source": "workclass",
+    "target": "income"
+   },
+   {
+    "rationale": "Workclass has an association with capital_gain (0.103), and rows show capital gains concentrated in specific workclass rows (e.g., Self-emp-inc with gains vs. Private mostly at 0), suggesting capital_gain depends on workclass.",
+    "source": "workclass",
+    "target": "capital_gain"
+   },
+   {
+    "rationale": "Education and education_num have a perfect association of 1.0, and the rows show a deterministic mapping (e.g., HS-grad=9, Bachelors=13, 7th-8th=4), so education_num is directly determined by education.",
+    "source": "education",
+    "target": "education_num"
+   },
+   {
+    "rationale": "Education has its strongest non-education_num association with income (0.367), and the rows show higher income among more educated rows (e.g., Bachelors/Doctorate with capital gains and income=1 vs. HS-grad/7th-8th with income=0), indicating income depends on education.",
+    "source": "education",
+    "target": "income"
+   },
+   {
+    "rationale": "Education shows a notable association with capital_gain (0.224), and the rows show capital gains concentrated in higher-education rows (e.g., Bachelors/Doctorate with gains vs. HS-grad/7th-8th at 0), suggesting capital_gain depends on education.",
+    "source": "education",
+    "target": "capital_gain"
+   },
+   {
+    "rationale": "Education has a moderate association with occupation (0.197), and the rows show education-linked occupations (e.g., Doctorate/Bachelors in Prof-specialty/Exec-managerial vs. 7th-8th in Craft-repair/Other-service), indicating occupation depends on education.",
+    "source": "education",
+    "target": "occupation"
+   },
+   {
+    "rationale": "Education is associated with hours_per_week (0.194), and the rows show differing work-hour patterns by education (e.g., Bachelors at 50-60 vs. HS-grad at 4-40), suggesting hours_per_week depends on education.",
+    "source": "education",
+    "target": "hours_per_week"
+   },
+   {
+    "rationale": "Education shows an association with native_country (0.135), and the rows show education-linked country patterns (e.g., Doctorate from Taiwan, 7th-8th from Mexico), indicating native_country depends on education.",
+    "source": "education",
+    "target": "native_country"
+   },
+   {
+    "rationale": "Education is associated with relationship (0.116), and the rows show education-linked relationship categories (e.g., Bachelors with Not-in-family/Own-child vs. HS-grad with Husband/Wife), suggesting relationship depends on education.",
+    "source": "education",
+    "target": "relationship"
+   },
+   {
+    "rationale": "Education shows an association with workclass (0.112), and the rows show differing workclass patterns by education (e.g., Assoc-voc/Some-college in Local-gov/Self-emp-inc vs. HS-grad mostly Private), indicating workclass depends on education.",
+    "source": "education",
+    "target": "workclass"
+   },
+   {
+    "rationale": "Education has an association with capital_loss (0.103), and the rows show capital losses in specific education rows (e.g., 7th-8th with loss=1651 vs. most others at 0), suggesting capital_loss depends on education.",
+    "source": "education",
+    "target": "capital_loss"
+   },
+   {
+    "rationale": "education_num has its highest non-education association with occupation (0.572), and the rows show education-linked occupations (e.g., education_num 16 Doctorate in Prof-specialty vs. education_num 4 in Craft-repair/Other-service), indicating occupation depends on education_num.",
+    "source": "education_num",
+    "target": "occupation"
+   },
+   {
+    "rationale": "education_num shows a strong association with income (0.335), and rows show higher income at higher education_num levels (e.g., education_num 13/16 with capital gains and income=1 vs. education_num 4/9 with income=0), indicating income depends on education_num.",
+    "source": "education_num",
+    "target": "income"
+   },
+   {
+    "rationale": "education_num has a notable association with native_country (0.288), and rows show education_num-linked country patterns (e.g., education_num 16 from Taiwan, education_num 4 from Mexico/China), suggesting native_country depends on education_num.",
+    "source": "education_num",
+    "target": "native_country"
+   },
+   {
+    "rationale": "education_num is associated with relationship (0.157), and rows show education_num-linked relationship categories (e.g., education_num 13 with Not-in-family/Own-child vs. education_num 9 with Husband/Wife), suggesting relationship depends on education_num.",
+    "source": "education_num",
+    "target": "relationship"
+   },
+   {
+    "rationale": "education_num has a moderate association with hours_per_week (0.148), and rows show differing work-hour patterns by education_num (e.g., education_num 13 at 50-60 vs. education_num 9 at 4-40), suggesting hours_per_week depends on education_num.",
+    "source": "education_num",
+    "target": "hours_per_week"
+   },
+   {
+    "rationale": "education_num shows an association with capital_gain (0.13), and rows show capital gains concentrated at higher education_num levels (e.g., education_num 13/16 with gains vs. education_num 4/9 at 0), suggesting capital_gain depends on education_num.",
+    "source": "education_num",
+    "target": "capital_gain"
+   },
+   {
+    "rationale": "education_num shows an association with marital_status (0.107), and rows show education_num-linked marital categories (e.g., education_num 13 with Never-married/Married-civ-spouse vs. education_num 4 with Married-civ-spouse), indicating marital_status depends on education_num.",
+    "source": "education_num",
+    "target": "marital_status"
+   },
+   {
+    "rationale": "education_num has an association with capital_loss (0.083), and rows show capital losses at specific education_num levels (e.g., education_num 4 with loss=1651 vs. most others at 0), suggesting capital_loss depends on education_num.",
+    "source": "education_num",
+    "target": "capital_loss"
+   },
+   {
+    "rationale": "marital_status has a strong association with income (0.447), and the rows show income differences across marital categories (e.g., Married-civ-spouse rows with capital gains and income=1 vs. Never-married/Divorced rows with income=0), indicating income depends on marital_status.",
+    "source": "marital_status",
+    "target": "income"
+   },
+   {
+    "rationale": "Occupation has a notable association with income (0.346), and the rows show income differences across occupations (e.g., Exec-managerial/Prof-specialty rows with capital gains and income=1 vs. Handlers-cleaners/Other-service rows with income=0), indicating income depends on occupation.",
+    "source": "occupation",
+    "target": "income"
+   },
+   {
+    "rationale": "Relationship has its strongest non-sex association with marital_status (0.487), and the rows show relationship categories tightly coupled to marital categories (e.g., Husband/Wife with Married-civ-spouse, Unmarried with Never-married/Divorced), indicating marital_status depends on relationship.",
+    "source": "relationship",
+    "target": "marital_status"
+   },
+   {
+    "rationale": "Relationship is strongly associated with income (0.454), and rows show income differences across relationship categories (e.g., Husband rows with capital gains and income=1 vs. Not-in-family/Own-child rows with income=0), suggesting income depends on relationship.",
+    "source": "relationship",
+    "target": "income"
+   },
+   {
+    "rationale": "Relationship has a notable association with hours_per_week (0.324), and rows show differing work-hour patterns by relationship (e.g., Husband at 40-60 vs. Wife at 4/40), indicating hours_per_week depends on relationship.",
+    "source": "relationship",
+    "target": "hours_per_week"
+   },
+   {
+    "rationale": "Relationship shows a moderate association with occupation (0.176), and rows show relationship-linked occupations (e.g., Husband in Craft-repair/Transport-moving vs. Not-in-family in Prof-specialty/Exec-managerial), suggesting occupation depends on relationship.",
+    "source": "relationship",
+    "target": "occupation"
+   },
+   {
+    "rationale": "Race has by far its strongest association with native_country (0.383), and the rows show race-linked country patterns (e.g., non-White rows from China, Mexico, Taiwan), indicating native_country depends on race.",
+    "source": "race",
+    "target": "native_country"
+   },
+   {
+    "rationale": "Race shows a notable association with relationship (0.166), and rows show race-linked relationship categories (e.g., non-White Husband/Wife vs. White Not-in-family), suggesting relationship depends on race.",
+    "source": "race",
+    "target": "relationship"
+   },
+   {
+    "rationale": "Race is associated with marital_status (0.132), and rows show differing marital categories by race (e.g., non-White Married-civ-spouse vs. White Never-married), indicating a direct dependency.",
+    "source": "race",
+    "target": "marital_status"
+   },
+   {
+    "rationale": "Race has a moderate association with occupation (0.129), and rows show race-typed occupations (e.g., non-White Other-service/Transport-moving vs. White Exec-managerial), suggesting occupation depends on race.",
+    "source": "race",
+    "target": "occupation"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "race",
+    "target": "workclass"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "race",
+    "target": "income"
+   },
+   {
+    "rationale": "Sex has the strongest association with relationship (0.65), and the rows show a deterministic mapping (e.g., Wife/Husband vs. Unmarried/Not-in-family), so relationship is directly determined by sex.",
+    "source": "sex",
+    "target": "relationship"
+   },
+   {
+    "rationale": "Sex is strongly associated with marital_status (0.464), and the data show sex-linked marital categories (e.g., Married-civ-spouse with Husband/Wife), indicating a direct dependency.",
+    "source": "sex",
+    "target": "marital_status"
+   },
+   {
+    "rationale": "Sex has a high association with occupation (0.438), and rows show sex-typed occupations (e.g., Adm-clerical/Other-service for females vs. Craft-repair/Transport-moving for males), suggesting occupation depends on sex.",
+    "source": "sex",
+    "target": "occupation"
+   },
+   {
+    "rationale": "Sex shows a moderate association with hours_per_week (0.232), and the rows show differing work-hour patterns by sex (e.g., females at 4/20/40 vs. males at 40-60), indicating a direct dependency.",
+    "source": "sex",
+    "target": "hours_per_week"
+   },
+   {
+    "rationale": "Sex is associated with income (0.216), and the rows show income differences by sex within similar occupations, so income depends on sex.",
+    "source": "sex",
+    "target": "income"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "sex",
+    "target": "workclass"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "sex",
+    "target": "education"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "sex",
+    "target": "capital_gain"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "sex",
+    "target": "native_country"
+   },
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "hours_per_week",
+    "target": "income"
+   },
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "native_country",
+    "target": "income"
+   }
+  ]
+ },
+ "R": [
+  "workclass",
+  "education",
+  "education_num",
+  "capital_gain",
+  "capital_loss"
+ ],
+ "P": [
+  "occupation",
+  "relationship"
+ ],
+ "cut": [
+  [
+   "age",
+   "income"
+  ],
+  [
+   "hours_per_week",
+   "income"
+  ],
+  [
+   "marital_status",
+   "income"
+  ],
+  [
+   "native_country",
+   "income"
+  ],
+  [
+   "occupation",
+   "income"
+  ],
+  [
+   "race",
+   "income"
+  ],
+  [
+   "relationship",
+   "income"
+  ],
+  [
+   "sex",
+   "income"
+  ]
+ ],
+ "ops": {
+  "sex->income": "cut",
+  "occupation->income": "cut",
+  "age->income": "cut",
+  "native_country->income": "cut",
+  "relationship->income": "cut",
+  "hours_per_week->income": "cut",
+  "race->income": "cut",
+  "marital_status->income": "cut"
+ },
+ "cost": {
+  "age->marital_status": 0.01735715129138249,
+  "age->relationship": 0.0554487090155773,
+  "age->income": 0.006496994343095919,
+  "age->hours_per_week": 0.02379310273319843,
+  "age->occupation": 0.001,
+  "age->native_country": 0.06005670888942727,
+  "marital_status->income": 0.001,
+  "occupation->income": 0.001,
+  "relationship->marital_status": 0.11793839339514069,
+  "relationship->income": 0.001,
+  "relationship->hours_per_week": 0.024225878218715337,
+  "relationship->occupation": 0.015141586525685211,
+  "race->native_country": 0.03429172383953216,
+  "race->relationship": 0.00386630639865837,
+  "race->marital_status": 0.003968491842996413,
+  "race->occupation": 0.02322521742728223,
+  "race->income": 0.001,
+  "sex->relationship": 0.12577436726132496,
+  "sex->marital_status": 0.001,
+  "sex->occupation": 0.09986695113405908,
+  "sex->hours_per_week": 0.01286628607446727,
+  "sex->income": 0.001,
+  "sex->native_country": 0.001,
+  "hours_per_week->income": 0.006106434276668238,
+  "native_country->income": 0.001
+ },
+ "prior_driven": [],
+ "protected": [
+  "sex",
+  "race",
+  "age"
+ ],
+ "label": "income"
+}

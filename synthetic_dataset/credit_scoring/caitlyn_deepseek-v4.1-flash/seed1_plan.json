@@ -1,0 +1,530 @@
+{
+ "G2": {
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+   {
+    "id": "Language"
+   },
+   {
+    "id": "Marital"
+   },
+   {
+    "id": "Has-Credit"
+   },
+   {
+    "id": "Field"
+   },
+   {
+    "id": "Month-of-birth"
+   },
+   {
+    "id": "Day-of-birth"
+   },
+   {
+    "id": "Region"
+   },
+   {
+    "id": "Number_of_credits"
+   },
+   {
+    "id": "Linked-cards"
+   },
+   {
+    "id": "INPS_mln_sum"
+   },
+   {
+    "id": "INPS-yes-no"
+   },
+   {
+    "id": "Score-level"
+   },
+   {
+    "id": "Score-class"
+   },
+   {
+    "id": "Score_point"
+   },
+   {
+    "id": "Changed-phone-number"
+   },
+   {
+    "id": "label"
+   },
+   {
+    "id": "sex"
+   },
+   {
+    "id": "age"
+   }
+  ],
+  "links": [
+   {
+    "rationale": "Language has its highest association with Region (0.14) among all other columns, well above the next highest (Marital at 0.107), suggesting Region's distribution may depend on Language.",
+    "source": "Language",
+    "target": "Region"
+   },
+   {
+    "rationale": "Marital's association with Field is 0.244, the highest among all non-protected columns, and the example rows show Field values varying systematically across Marital categories, indicating Field's distribution depends on Marital.",
+    "source": "Marital",
+    "target": "Field"
+   },
+   {
+    "rationale": "Field has the highest association with Changed-phone-number (0.466) among all non-protected, non-label columns, indicating Changed-phone-number's distribution depends on Field.",
+    "source": "Field",
+    "target": "Changed-phone-number"
+   },
+   {
+    "rationale": "Field shows a strong association of 0.296 with INPS-yes-no, well above most other columns, suggesting INPS-yes-no's distribution depends on Field.",
+    "source": "Field",
+    "target": "INPS-yes-no"
+   },
+   {
+    "rationale": "Field is associated with Region at 0.136, notably higher than most remaining columns, indicating Region's distribution may depend on Field.",
+    "source": "Field",
+    "target": "Region"
+   },
+   {
+    "rationale": "Field has an association of 0.113 with Linked-cards, above the majority of columns, suggesting Linked-cards' distribution depends on Field.",
+    "source": "Field",
+    "target": "Linked-cards"
+   },
+   {
+    "rationale": "Field shows an association of 0.091 with Day-of-birth, higher than most other columns, indicating Day-of-birth's distribution may depend on Field.",
+    "source": "Field",
+    "target": "Day-of-birth"
+   },
+   {
+    "rationale": "Field is associated with Number_of_credits at 0.07, above most remaining columns, suggesting Number_of_credits' distribution depends on Field.",
+    "source": "Field",
+    "target": "Number_of_credits"
+   },
+   {
+    "rationale": "Field has an association of 0.068 with Score-class, higher than the majority of columns, indicating Score-class's distribution may depend on Field.",
+    "source": "Field",
+    "target": "Score-class"
+   },
+   {
+    "rationale": "Field shows an association of 0.045 with Month-of-birth, above most other columns, suggesting Month-of-birth's distribution depends on Field.",
+    "source": "Field",
+    "target": "Month-of-birth"
+   },
+   {
+    "rationale": "Field is associated with INPS_mln_sum at 0.045, above most remaining columns, indicating INPS_mln_sum's distribution may depend on Field.",
+    "source": "Field",
+    "target": "INPS_mln_sum"
+   },
+   {
+    "rationale": "Field has an association of 0.036 with Score-level, higher than most other columns, suggesting Score-level's distribution depends on Field.",
+    "source": "Field",
+    "target": "Score-level"
+   },
+   {
+    "rationale": "Field shows an association of 0.03 with Score_point, above most remaining columns, indicating Score_point's distribution may depend on Field.",
+    "source": "Field",
+    "target": "Score_point"
+   },
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "Linked-cards",
+    "target": "label"
+   },
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "INPS_mln_sum",
+    "target": "label"
+   },
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "INPS-yes-no",
+    "target": "label"
+   },
+   {
+    "rationale": "Score-level has an association of 1.0 with Score-class, essentially deterministic, indicating Score-class directly depends on Score-level.",
+    "source": "Score-level",
+    "target": "Score-class"
+   },
+   {
+    "rationale": "Score-level has an association of 0.995 with Score_point, near-deterministic, indicating Score_point directly depends on Score-level.",
+    "source": "Score-level",
+    "target": "Score_point"
+   },
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "Changed-phone-number",
+    "target": "label"
+   },
+   {
+    "rationale": "Association with sex is 0.99, essentially deterministic, indicating Marital is a direct proxy for sex and must be generated after sex.",
+    "source": "sex",
+    "target": "Marital"
+   },
+   {
+    "rationale": "Association with sex is 0.227, notably higher than most other columns, suggesting Field's distribution depends on sex.",
+    "source": "sex",
+    "target": "Field"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "sex",
+    "target": "Region"
+   },
+   {
+    "rationale": "Age has the highest association with Marital (0.398), far above all other columns, and the example rows show Marital values clustering differently by age group, indicating Marital's distribution depends on age.",
+    "source": "age",
+    "target": "Marital"
+   },
+   {
+    "rationale": "Age shows a notable association with Field (0.173), well above most other columns, and Field values vary across age groups in the examples, indicating Field's distribution depends on age.",
+    "source": "age",
+    "target": "Field"
+   },
+   {
+    "rationale": "Age is associated with Changed-phone-number at 0.12, higher than most other columns, indicating its distribution may depend on age.",
+    "source": "age",
+    "target": "Changed-phone-number"
+   },
+   {
+    "rationale": "Age shows an association of 0.114 with Score-level, above the majority of columns, suggesting Score-level's distribution depends on age.",
+    "source": "age",
+    "target": "Score-level"
+   },
+   {
+    "rationale": "Age is associated with Score-class at 0.113, notably higher than most columns, indicating Score-class's distribution depends on age.",
+    "source": "age",
+    "target": "Score-class"
+   },
+   {
+    "rationale": "Age has an association of 0.101 with Score_point, above most other columns, suggesting Score_point's distribution depends on age.",
+    "source": "age",
+    "target": "Score_point"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "Region"
+   }
+  ]
+ },
+ "G": {
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+   {
+    "id": "Language"
+   },
+   {
+    "id": "Marital"
+   },
+   {
+    "id": "Has-Credit"
+   },
+   {
+    "id": "Field"
+   },
+   {
+    "id": "Month-of-birth"
+   },
+   {
+    "id": "Day-of-birth"
+   },
+   {
+    "id": "Region"
+   },
+   {
+    "id": "Number_of_credits"
+   },
+   {
+    "id": "Linked-cards"
+   },
+   {
+    "id": "INPS_mln_sum"
+   },
+   {
+    "id": "INPS-yes-no"
+   },
+   {
+    "id": "Score-level"
+   },
+   {
+    "id": "Score-class"
+   },
+   {
+    "id": "Score_point"
+   },
+   {
+    "id": "Changed-phone-number"
+   },
+   {
+    "id": "label"
+   },
+   {
+    "id": "sex"
+   },
+   {
+    "id": "age"
+   }
+  ],
+  "links": [
+   {
+    "rationale": "Language has its highest association with Region (0.14) among all other columns, well above the next highest (Marital at 0.107), suggesting Region's distribution may depend on Language.",
+    "source": "Language",
+    "target": "Region"
+   },
+   {
+    "rationale": "Marital's association with Field is 0.244, the highest among all non-protected columns, and the example rows show Field values varying systematically across Marital categories, indicating Field's distribution depends on Marital.",
+    "source": "Marital",
+    "target": "Field"
+   },
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "Marital",
+    "target": "label"
+   },
+   {
+    "rationale": "Field has the highest association with Changed-phone-number (0.466) among all non-protected, non-label columns, indicating Changed-phone-number's distribution depends on Field.",
+    "source": "Field",
+    "target": "Changed-phone-number"
+   },
+   {
+    "rationale": "Field shows a strong association of 0.296 with INPS-yes-no, well above most other columns, suggesting INPS-yes-no's distribution depends on Field.",
+    "source": "Field",
+    "target": "INPS-yes-no"
+   },
+   {
+    "rationale": "Field is associated with Region at 0.136, notably higher than most remaining columns, indicating Region's distribution may depend on Field.",
+    "source": "Field",
+    "target": "Region"
+   },
+   {
+    "rationale": "Field has an association of 0.113 with Linked-cards, above the majority of columns, suggesting Linked-cards' distribution depends on Field.",
+    "source": "Field",
+    "target": "Linked-cards"
+   },
+   {
+    "rationale": "Field shows an association of 0.091 with Day-of-birth, higher than most other columns, indicating Day-of-birth's distribution may depend on Field.",
+    "source": "Field",
+    "target": "Day-of-birth"
+   },
+   {
+    "rationale": "Field is associated with Number_of_credits at 0.07, above most remaining columns, suggesting Number_of_credits' distribution depends on Field.",
+    "source": "Field",
+    "target": "Number_of_credits"
+   },
+   {
+    "rationale": "Field has an association of 0.068 with Score-class, higher than the majority of columns, indicating Score-class's distribution may depend on Field.",
+    "source": "Field",
+    "target": "Score-class"
+   },
+   {
+    "rationale": "Field shows an association of 0.045 with Month-of-birth, above most other columns, suggesting Month-of-birth's distribution depends on Field.",
+    "source": "Field",
+    "target": "Month-of-birth"
+   },
+   {
+    "rationale": "Field is associated with INPS_mln_sum at 0.045, above most remaining columns, indicating INPS_mln_sum's distribution may depend on Field.",
+    "source": "Field",
+    "target": "INPS_mln_sum"
+   },
+   {
+    "rationale": "Field has an association of 0.036 with Score-level, higher than most other columns, suggesting Score-level's distribution depends on Field.",
+    "source": "Field",
+    "target": "Score-level"
+   },
+   {
+    "rationale": "Field shows an association of 0.03 with Score_point, above most remaining columns, indicating Score_point's distribution may depend on Field.",
+    "source": "Field",
+    "target": "Score_point"
+   },
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "Field",
+    "target": "label"
+   },
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "Day-of-birth",
+    "target": "label"
+   },
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "Number_of_credits",
+    "target": "label"
+   },
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "Linked-cards",
+    "target": "label"
+   },
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "INPS_mln_sum",
+    "target": "label"
+   },
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "INPS-yes-no",
+    "target": "label"
+   },
+   {
+    "rationale": "Score-level has an association of 1.0 with Score-class, essentially deterministic, indicating Score-class directly depends on Score-level.",
+    "source": "Score-level",
+    "target": "Score-class"
+   },
+   {
+    "rationale": "Score-level has an association of 0.995 with Score_point, near-deterministic, indicating Score_point directly depends on Score-level.",
+    "source": "Score-level",
+    "target": "Score_point"
+   },
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "Score_point",
+    "target": "label"
+   },
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "Changed-phone-number",
+    "target": "label"
+   },
+   {
+    "rationale": "Association with sex is 0.99, essentially deterministic, indicating Marital is a direct proxy for sex and must be generated after sex.",
+    "source": "sex",
+    "target": "Marital"
+   },
+   {
+    "rationale": "Association with sex is 0.227, notably higher than most other columns, suggesting Field's distribution depends on sex.",
+    "source": "sex",
+    "target": "Field"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "sex",
+    "target": "Region"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "sex",
+    "target": "label"
+   },
+   {
+    "rationale": "Age has the highest association with Marital (0.398), far above all other columns, and the example rows show Marital values clustering differently by age group, indicating Marital's distribution depends on age.",
+    "source": "age",
+    "target": "Marital"
+   },
+   {
+    "rationale": "Age shows a notable association with Field (0.173), well above most other columns, and Field values vary across age groups in the examples, indicating Field's distribution depends on age.",
+    "source": "age",
+    "target": "Field"
+   },
+   {
+    "rationale": "Age has an association of 0.123 with label, the highest among the remaining non-protected columns, suggesting the label distribution depends on age.",
+    "source": "age",
+    "target": "label"
+   },
+   {
+    "rationale": "Age is associated with Changed-phone-number at 0.12, higher than most other columns, indicating its distribution may depend on age.",
+    "source": "age",
+    "target": "Changed-phone-number"
+   },
+   {
+    "rationale": "Age shows an association of 0.114 with Score-level, above the majority of columns, suggesting Score-level's distribution depends on age.",
+    "source": "age",
+    "target": "Score-level"
+   },
+   {
+    "rationale": "Age is associated with Score-class at 0.113, notably higher than most columns, indicating Score-class's distribution depends on age.",
+    "source": "age",
+    "target": "Score-class"
+   },
+   {
+    "rationale": "Age has an association of 0.101 with Score_point, above most other columns, suggesting Score_point's distribution depends on age.",
+    "source": "age",
+    "target": "Score_point"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "Region"
+   }
+  ]
+ },
+ "R": [
+  "Linked-cards",
+  "INPS_mln_sum",
+  "INPS-yes-no",
+  "Changed-phone-number"
+ ],
+ "P": [
+  "Field",
+  "Marital",
+  "Score-level"
+ ],
+ "cut": [
+  [
+   "Day-of-birth",
+   "label"
+  ],
+  [
+   "Field",
+   "label"
+  ],
+  [
+   "Marital",
+   "label"
+  ],
+  [
+   "Number_of_credits",
+   "label"
+  ],
+  [
+   "Score_point",
+   "label"
+  ],
+  [
+   "age",
+   "label"
+  ],
+  [
+   "sex",
+   "label"
+  ]
+ ],
+ "ops": {
+  "Field->label": "cut",
+  "Number_of_credits->label": "cut",
+  "Day-of-birth->label": "cut",
+  "sex->label": "cut",
+  "Marital->label": "cut",
+  "Score_point->label": "cut",
+  "age->label": "cut"
+ },
+ "cost": {
+  "Marital->Field": 0.001,
+  "Marital->label": 0.001,
+  "Field->Day-of-birth": 0.02519624563882284,
+  "Field->Number_of_credits": 0.08137765569870072,
+  "Field->Score-level": 0.0694447714347687,
+  "Field->Score_point": 0.001,
+  "Field->label": 0.001,
+  "Day-of-birth->label": 0.001,
+  "Number_of_credits->label": 0.001,
+  "Score-level->Score_point": 0.9394701918644954,
+  "Score_point->label": 0.001,
+  "sex->Marital": 0.22063960475354338,
+  "sex->Field": 0.001,
+  "sex->label": 0.001,
+  "age->Marital": 0.06756282642590306,
+  "age->Field": 0.010520801628767826,
+  "age->label": 0.001,
+  "age->Score-level": 0.029067584785772205,
+  "age->Score_point": 0.001
+ },
+ "prior_driven": [],
+ "protected": [
+  "sex",
+  "age"
+ ],
+ "label": "label"
+}

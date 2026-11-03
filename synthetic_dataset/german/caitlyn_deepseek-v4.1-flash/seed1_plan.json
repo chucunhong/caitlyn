@@ -1,0 +1,858 @@
+{
+ "G2": {
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+   {
+    "id": "checking_status"
+   },
+   {
+    "id": "duration"
+   },
+   {
+    "id": "credit_history"
+   },
+   {
+    "id": "purpose"
+   },
+   {
+    "id": "credit_amount"
+   },
+   {
+    "id": "savings"
+   },
+   {
+    "id": "employment"
+   },
+   {
+    "id": "installment_rate"
+   },
+   {
+    "id": "other_debtors"
+   },
+   {
+    "id": "residence_since"
+   },
+   {
+    "id": "property"
+   },
+   {
+    "id": "age"
+   },
+   {
+    "id": "other_installment_plans"
+   },
+   {
+    "id": "housing"
+   },
+   {
+    "id": "existing_credits"
+   },
+   {
+    "id": "job"
+   },
+   {
+    "id": "num_dependents"
+   },
+   {
+    "id": "telephone"
+   },
+   {
+    "id": "foreign_worker"
+   },
+   {
+    "id": "sex"
+   },
+   {
+    "id": "credit"
+   }
+  ],
+  "links": [
+   {
+    "rationale": "checking_status has its highest association with credit (0.347), far above all other columns, indicating a strong direct relationship with the label.",
+    "source": "checking_status",
+    "target": "credit"
+   },
+   {
+    "rationale": "Association with checking_status is 0.163, the second highest score and notably elevated relative to most other columns, supporting a plausible direct dependency.",
+    "source": "checking_status",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "Association with checking_status is 0.139, moderately elevated and above most other columns, consistent with a direct dependency.",
+    "source": "checking_status",
+    "target": "credit_history"
+   },
+   {
+    "rationale": "Association with checking_status is 0.139, moderately elevated relative to most other columns, indicating a plausible direct dependency.",
+    "source": "checking_status",
+    "target": "savings"
+   },
+   {
+    "rationale": "Association with checking_status is 0.137, moderately elevated and above most other columns, supporting a plausible direct dependency.",
+    "source": "checking_status",
+    "target": "duration"
+   },
+   {
+    "rationale": "Association with duration is 0.212, moderately elevated and above most other columns, consistent with a direct dependency on duration.",
+    "source": "duration",
+    "target": "credit"
+   },
+   {
+    "rationale": "Association with duration is 0.208, moderately elevated relative to most other columns, indicating a plausible direct dependency.",
+    "source": "duration",
+    "target": "credit_history"
+   },
+   {
+    "rationale": "Association with duration is 0.202, moderately elevated and above most other columns, supporting a plausible direct dependency.",
+    "source": "duration",
+    "target": "telephone"
+   },
+   {
+    "rationale": "Association with duration is 0.133, moderately elevated relative to most other columns, indicating a plausible direct dependency.",
+    "source": "duration",
+    "target": "installment_rate"
+   },
+   {
+    "rationale": "Association with duration is 0.127, moderately elevated relative to most other columns, consistent with a direct dependency.",
+    "source": "duration",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "Association with duration is 0.114, moderately elevated relative to most other columns, indicating a plausible direct dependency.",
+    "source": "duration",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "Association with credit_history is 0.382, by far the highest among all columns, indicating a strong direct relationship worth modeling as a dependency.",
+    "source": "credit_history",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "Association with credit_history is 0.248, the second highest score and notably elevated relative to most other columns, consistent with a direct dependency on credit_history.",
+    "source": "credit_history",
+    "target": "credit"
+   },
+   {
+    "rationale": "Association with credit_history is 0.221, a notably elevated score relative to most other columns, supporting a plausible direct dependency.",
+    "source": "credit_history",
+    "target": "other_installment_plans"
+   },
+   {
+    "rationale": "Association with purpose is 0.351, by far the highest among all columns, indicating a strong direct relationship worth modeling as a dependency.",
+    "source": "purpose",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "Association with purpose is 0.209, moderately elevated and above most other columns, consistent with a direct dependency.",
+    "source": "purpose",
+    "target": "property"
+   },
+   {
+    "rationale": "Association with purpose is 0.207, moderately elevated relative to the rest, supporting a plausible direct dependency.",
+    "source": "purpose",
+    "target": "housing"
+   },
+   {
+    "rationale": "Association with purpose is 0.206, moderately elevated and above most other columns, indicating a plausible direct dependency.",
+    "source": "purpose",
+    "target": "telephone"
+   },
+   {
+    "rationale": "Association with purpose is 0.195, moderately elevated relative to most other columns, consistent with a direct dependency.",
+    "source": "purpose",
+    "target": "job"
+   },
+   {
+    "rationale": "Association with purpose is 0.188, moderately elevated and above most other columns, consistent with a direct dependency on purpose.",
+    "source": "purpose",
+    "target": "credit"
+   },
+   {
+    "rationale": "Association with credit_amount is 0.361, a notably high score indicating a direct relationship between job and credit amount.",
+    "source": "credit_amount",
+    "target": "job"
+   },
+   {
+    "rationale": "Association with credit_amount is 0.324, moderately elevated and above most other columns, consistent with a direct dependency.",
+    "source": "credit_amount",
+    "target": "property"
+   },
+   {
+    "rationale": "Association with credit_amount is 0.317, moderately elevated relative to most other columns, indicating a plausible direct dependency.",
+    "source": "credit_amount",
+    "target": "telephone"
+   },
+   {
+    "rationale": "Association with credit_amount is 0.277, moderately elevated and above most other columns, supporting a plausible direct dependency.",
+    "source": "credit_amount",
+    "target": "installment_rate"
+   },
+   {
+    "rationale": "Association with credit_amount is 0.211, moderately elevated and above most other columns, indicating a plausible direct dependency.",
+    "source": "credit_amount",
+    "target": "housing"
+   },
+   {
+    "rationale": "Association with credit_amount is 0.192, moderately elevated relative to most other columns, consistent with a direct dependency.",
+    "source": "credit_amount",
+    "target": "credit_history"
+   },
+   {
+    "rationale": "Savings has its highest association with credit (0.193), notably above all other columns, indicating a plausible direct dependency on savings.",
+    "source": "savings",
+    "target": "credit"
+   },
+   {
+    "rationale": "Association with savings is 0.162, the second highest score and clearly elevated relative to most other columns, supporting a plausible direct dependency.",
+    "source": "savings",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "Association with savings is 0.141, moderately elevated and above most other columns, consistent with a plausible direct dependency.",
+    "source": "savings",
+    "target": "duration"
+   },
+   {
+    "rationale": "Association with employment is 0.278, a notably high score indicating a direct relationship between employment and residence duration.",
+    "source": "employment",
+    "target": "residence_since"
+   },
+   {
+    "rationale": "Association with employment is 0.135, moderately elevated relative to most other columns, indicating a plausible direct dependency.",
+    "source": "employment",
+    "target": "telephone"
+   },
+   {
+    "rationale": "Association with employment is 0.106, moderately elevated and consistent with a direct dependency.",
+    "source": "employment",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "Association with employment is 0.102, moderately elevated relative to most other columns, indicating a plausible direct dependency.",
+    "source": "employment",
+    "target": "installment_rate"
+   },
+   {
+    "rationale": "Association with installment_rate is 0.113, moderately elevated relative to the rest, indicating a plausible direct dependency.",
+    "source": "installment_rate",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "other_debtors has its highest association with purpose (0.152), clearly above all other columns, indicating a plausible direct dependency.",
+    "source": "other_debtors",
+    "target": "purpose"
+   },
+   {
+    "rationale": "Association with other_debtors is 0.144, the second highest score and notably elevated relative to most other columns, supporting a plausible direct dependency.",
+    "source": "other_debtors",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "Association with other_debtors is 0.132, moderately elevated and above most other columns, consistent with a direct dependency.",
+    "source": "other_debtors",
+    "target": "property"
+   },
+   {
+    "rationale": "Association with other_debtors is 0.109, moderately elevated relative to most other columns, indicating a plausible direct dependency.",
+    "source": "other_debtors",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "Association with other_debtors is 0.102, moderately elevated and above most other columns, consistent with a direct dependency on other_debtors.",
+    "source": "other_debtors",
+    "target": "credit"
+   },
+   {
+    "rationale": "Association with residence_since is 0.221, notably elevated relative to all other columns, supporting a plausible direct dependency.",
+    "source": "residence_since",
+    "target": "housing"
+   },
+   {
+    "rationale": "Association of property with duration is 0.282, a notably elevated score relative to most other columns, consistent with a direct dependency.",
+    "source": "property",
+    "target": "duration"
+   },
+   {
+    "rationale": "Association of property with telephone is 0.216, moderately elevated and above most other columns, indicating a plausible direct dependency.",
+    "source": "property",
+    "target": "telephone"
+   },
+   {
+    "rationale": "Association with age is 0.332, the highest among all columns, indicating a strong direct relationship worth modeling as a dependency.",
+    "source": "age",
+    "target": "housing"
+   },
+   {
+    "rationale": "Association with age is 0.227, a notably high score indicating a direct relationship between age and employment status.",
+    "source": "age",
+    "target": "employment"
+   },
+   {
+    "rationale": "Association with age is 0.16, moderately elevated relative to the rest, consistent with a direct dependency.",
+    "source": "age",
+    "target": "telephone"
+   },
+   {
+    "rationale": "Association with age is 0.148, moderately elevated and consistent with a direct dependency.",
+    "source": "age",
+    "target": "job"
+   },
+   {
+    "rationale": "Association with age is 0.146, moderately elevated and consistent with a direct dependency.",
+    "source": "age",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "Association with housing is 0.549, by far the highest among all columns, indicating a strong direct relationship worth modeling as a dependency.",
+    "source": "housing",
+    "target": "property"
+   },
+   {
+    "rationale": "Association with existing_credits is 0.155, the second highest score and notably elevated relative to most other columns, supporting a plausible direct dependency.",
+    "source": "existing_credits",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "Association of job with telephone is 0.411, the highest score among all columns, indicating a strong direct relationship worth modeling as a dependency.",
+    "source": "job",
+    "target": "telephone"
+   },
+   {
+    "rationale": "Association of job with employment is 0.304, the highest score for employment, indicating a strong direct relationship worth modeling as a dependency.",
+    "source": "job",
+    "target": "employment"
+   },
+   {
+    "rationale": "Association of job with num_dependents is 0.136, moderately elevated and consistent with a direct dependency.",
+    "source": "job",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "Association of job with existing_credits is 0.128, moderately elevated and above most other columns, consistent with a direct dependency.",
+    "source": "job",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "Association with sex is 0.255, the highest among all columns, indicating a strong direct relationship worth modeling as a dependency.",
+    "source": "sex",
+    "target": "employment"
+   },
+   {
+    "rationale": "Association with sex is 0.2, a notably high score indicating a direct relationship between sex and housing status.",
+    "source": "sex",
+    "target": "housing"
+   },
+   {
+    "rationale": "Association with sex is 0.194, a relatively high score suggesting a direct dependency on sex.",
+    "source": "sex",
+    "target": "num_dependents"
+   }
+  ]
+ },
+ "G": {
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+   {
+    "id": "checking_status"
+   },
+   {
+    "id": "duration"
+   },
+   {
+    "id": "credit_history"
+   },
+   {
+    "id": "purpose"
+   },
+   {
+    "id": "credit_amount"
+   },
+   {
+    "id": "savings"
+   },
+   {
+    "id": "employment"
+   },
+   {
+    "id": "installment_rate"
+   },
+   {
+    "id": "other_debtors"
+   },
+   {
+    "id": "residence_since"
+   },
+   {
+    "id": "property"
+   },
+   {
+    "id": "age"
+   },
+   {
+    "id": "other_installment_plans"
+   },
+   {
+    "id": "housing"
+   },
+   {
+    "id": "existing_credits"
+   },
+   {
+    "id": "job"
+   },
+   {
+    "id": "num_dependents"
+   },
+   {
+    "id": "telephone"
+   },
+   {
+    "id": "foreign_worker"
+   },
+   {
+    "id": "sex"
+   },
+   {
+    "id": "credit"
+   }
+  ],
+  "links": [
+   {
+    "rationale": "checking_status has its highest association with credit (0.347), far above all other columns, indicating a strong direct relationship with the label.",
+    "source": "checking_status",
+    "target": "credit"
+   },
+   {
+    "rationale": "Association with checking_status is 0.163, the second highest score and notably elevated relative to most other columns, supporting a plausible direct dependency.",
+    "source": "checking_status",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "Association with checking_status is 0.139, moderately elevated and above most other columns, consistent with a direct dependency.",
+    "source": "checking_status",
+    "target": "credit_history"
+   },
+   {
+    "rationale": "Association with checking_status is 0.139, moderately elevated relative to most other columns, indicating a plausible direct dependency.",
+    "source": "checking_status",
+    "target": "savings"
+   },
+   {
+    "rationale": "Association with checking_status is 0.137, moderately elevated and above most other columns, supporting a plausible direct dependency.",
+    "source": "checking_status",
+    "target": "duration"
+   },
+   {
+    "rationale": "Association with duration is 0.212, moderately elevated and above most other columns, consistent with a direct dependency on duration.",
+    "source": "duration",
+    "target": "credit"
+   },
+   {
+    "rationale": "Association with duration is 0.208, moderately elevated relative to most other columns, indicating a plausible direct dependency.",
+    "source": "duration",
+    "target": "credit_history"
+   },
+   {
+    "rationale": "Association with duration is 0.202, moderately elevated and above most other columns, supporting a plausible direct dependency.",
+    "source": "duration",
+    "target": "telephone"
+   },
+   {
+    "rationale": "Association with duration is 0.133, moderately elevated relative to most other columns, indicating a plausible direct dependency.",
+    "source": "duration",
+    "target": "installment_rate"
+   },
+   {
+    "rationale": "Association with duration is 0.127, moderately elevated relative to most other columns, consistent with a direct dependency.",
+    "source": "duration",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "Association with duration is 0.114, moderately elevated relative to most other columns, indicating a plausible direct dependency.",
+    "source": "duration",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "Association with credit_history is 0.382, by far the highest among all columns, indicating a strong direct relationship worth modeling as a dependency.",
+    "source": "credit_history",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "Association with credit_history is 0.248, the second highest score and notably elevated relative to most other columns, consistent with a direct dependency on credit_history.",
+    "source": "credit_history",
+    "target": "credit"
+   },
+   {
+    "rationale": "Association with credit_history is 0.221, a notably elevated score relative to most other columns, supporting a plausible direct dependency.",
+    "source": "credit_history",
+    "target": "other_installment_plans"
+   },
+   {
+    "rationale": "Association with purpose is 0.351, by far the highest among all columns, indicating a strong direct relationship worth modeling as a dependency.",
+    "source": "purpose",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "Association with purpose is 0.209, moderately elevated and above most other columns, consistent with a direct dependency.",
+    "source": "purpose",
+    "target": "property"
+   },
+   {
+    "rationale": "Association with purpose is 0.207, moderately elevated relative to the rest, supporting a plausible direct dependency.",
+    "source": "purpose",
+    "target": "housing"
+   },
+   {
+    "rationale": "Association with purpose is 0.206, moderately elevated and above most other columns, indicating a plausible direct dependency.",
+    "source": "purpose",
+    "target": "telephone"
+   },
+   {
+    "rationale": "Association with purpose is 0.195, moderately elevated relative to most other columns, consistent with a direct dependency.",
+    "source": "purpose",
+    "target": "job"
+   },
+   {
+    "rationale": "Association with purpose is 0.188, moderately elevated and above most other columns, consistent with a direct dependency on purpose.",
+    "source": "purpose",
+    "target": "credit"
+   },
+   {
+    "rationale": "Association with credit_amount is 0.361, a notably high score indicating a direct relationship between job and credit amount.",
+    "source": "credit_amount",
+    "target": "job"
+   },
+   {
+    "rationale": "Association with credit_amount is 0.324, moderately elevated and above most other columns, consistent with a direct dependency.",
+    "source": "credit_amount",
+    "target": "property"
+   },
+   {
+    "rationale": "Association with credit_amount is 0.317, moderately elevated relative to most other columns, indicating a plausible direct dependency.",
+    "source": "credit_amount",
+    "target": "telephone"
+   },
+   {
+    "rationale": "Association with credit_amount is 0.277, moderately elevated and above most other columns, supporting a plausible direct dependency.",
+    "source": "credit_amount",
+    "target": "installment_rate"
+   },
+   {
+    "rationale": "Association with credit_amount is 0.211, moderately elevated and above most other columns, indicating a plausible direct dependency.",
+    "source": "credit_amount",
+    "target": "housing"
+   },
+   {
+    "rationale": "Association with credit_amount is 0.192, moderately elevated relative to most other columns, consistent with a direct dependency.",
+    "source": "credit_amount",
+    "target": "credit_history"
+   },
+   {
+    "rationale": "Savings has its highest association with credit (0.193), notably above all other columns, indicating a plausible direct dependency on savings.",
+    "source": "savings",
+    "target": "credit"
+   },
+   {
+    "rationale": "Association with savings is 0.162, the second highest score and clearly elevated relative to most other columns, supporting a plausible direct dependency.",
+    "source": "savings",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "Association with savings is 0.141, moderately elevated and above most other columns, consistent with a plausible direct dependency.",
+    "source": "savings",
+    "target": "duration"
+   },
+   {
+    "rationale": "Association with employment is 0.278, a notably high score indicating a direct relationship between employment and residence duration.",
+    "source": "employment",
+    "target": "residence_since"
+   },
+   {
+    "rationale": "Association with employment is 0.141, moderately elevated and consistent with a direct dependency on employment.",
+    "source": "employment",
+    "target": "credit"
+   },
+   {
+    "rationale": "Association with employment is 0.135, moderately elevated relative to most other columns, indicating a plausible direct dependency.",
+    "source": "employment",
+    "target": "telephone"
+   },
+   {
+    "rationale": "Association with employment is 0.106, moderately elevated and consistent with a direct dependency.",
+    "source": "employment",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "Association with employment is 0.102, moderately elevated relative to most other columns, indicating a plausible direct dependency.",
+    "source": "employment",
+    "target": "installment_rate"
+   },
+   {
+    "rationale": "Association with installment_rate is 0.113, moderately elevated relative to the rest, indicating a plausible direct dependency.",
+    "source": "installment_rate",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "other_debtors has its highest association with purpose (0.152), clearly above all other columns, indicating a plausible direct dependency.",
+    "source": "other_debtors",
+    "target": "purpose"
+   },
+   {
+    "rationale": "Association with other_debtors is 0.144, the second highest score and notably elevated relative to most other columns, supporting a plausible direct dependency.",
+    "source": "other_debtors",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "Association with other_debtors is 0.132, moderately elevated and above most other columns, consistent with a direct dependency.",
+    "source": "other_debtors",
+    "target": "property"
+   },
+   {
+    "rationale": "Association with other_debtors is 0.109, moderately elevated relative to most other columns, indicating a plausible direct dependency.",
+    "source": "other_debtors",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "Association with other_debtors is 0.102, moderately elevated and above most other columns, consistent with a direct dependency on other_debtors.",
+    "source": "other_debtors",
+    "target": "credit"
+   },
+   {
+    "rationale": "Association with residence_since is 0.221, notably elevated relative to all other columns, supporting a plausible direct dependency.",
+    "source": "residence_since",
+    "target": "housing"
+   },
+   {
+    "rationale": "Association of property with duration is 0.282, a notably elevated score relative to most other columns, consistent with a direct dependency.",
+    "source": "property",
+    "target": "duration"
+   },
+   {
+    "rationale": "Association of property with telephone is 0.216, moderately elevated and above most other columns, indicating a plausible direct dependency.",
+    "source": "property",
+    "target": "telephone"
+   },
+   {
+    "rationale": "Association with age is 0.332, the highest among all columns, indicating a strong direct relationship worth modeling as a dependency.",
+    "source": "age",
+    "target": "housing"
+   },
+   {
+    "rationale": "Association with age is 0.227, a notably high score indicating a direct relationship between age and employment status.",
+    "source": "age",
+    "target": "employment"
+   },
+   {
+    "rationale": "Association with age is 0.164, moderately elevated and above most other columns, supporting a plausible direct dependency.",
+    "source": "age",
+    "target": "credit_history"
+   },
+   {
+    "rationale": "Association with age is 0.16, moderately elevated relative to the rest, consistent with a direct dependency.",
+    "source": "age",
+    "target": "telephone"
+   },
+   {
+    "rationale": "Association with age is 0.148, moderately elevated and consistent with a direct dependency.",
+    "source": "age",
+    "target": "job"
+   },
+   {
+    "rationale": "Association with age is 0.146, moderately elevated and consistent with a direct dependency.",
+    "source": "age",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "Association with age is 0.122, moderately elevated and consistent with a direct dependency on age.",
+    "source": "age",
+    "target": "credit"
+   },
+   {
+    "rationale": "Association with housing is 0.549, by far the highest among all columns, indicating a strong direct relationship worth modeling as a dependency.",
+    "source": "housing",
+    "target": "property"
+   },
+   {
+    "rationale": "Association with existing_credits is 0.155, the second highest score and notably elevated relative to most other columns, supporting a plausible direct dependency.",
+    "source": "existing_credits",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "Association of job with telephone is 0.411, the highest score among all columns, indicating a strong direct relationship worth modeling as a dependency.",
+    "source": "job",
+    "target": "telephone"
+   },
+   {
+    "rationale": "Association of job with employment is 0.304, the highest score for employment, indicating a strong direct relationship worth modeling as a dependency.",
+    "source": "job",
+    "target": "employment"
+   },
+   {
+    "rationale": "Association of job with num_dependents is 0.136, moderately elevated and consistent with a direct dependency.",
+    "source": "job",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "Association of job with existing_credits is 0.128, moderately elevated and above most other columns, consistent with a direct dependency.",
+    "source": "job",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "Association with sex is 0.255, the highest among all columns, indicating a strong direct relationship worth modeling as a dependency.",
+    "source": "sex",
+    "target": "employment"
+   },
+   {
+    "rationale": "Association with sex is 0.2, a notably high score indicating a direct relationship between sex and housing status.",
+    "source": "sex",
+    "target": "housing"
+   },
+   {
+    "rationale": "Association with sex is 0.194, a relatively high score suggesting a direct dependency on sex.",
+    "source": "sex",
+    "target": "num_dependents"
+   }
+  ]
+ },
+ "R": [
+  "checking_status",
+  "duration",
+  "savings",
+  "other_debtors",
+  "property",
+  "other_installment_plans"
+ ],
+ "P": [
+  "employment"
+ ],
+ "cut": [
+  [
+   "age",
+   "credit"
+  ],
+  [
+   "age",
+   "credit_history"
+  ],
+  [
+   "employment",
+   "credit"
+  ]
+ ],
+ "ops": {
+  "age->credit": "cut",
+  "employment->credit": "cut",
+  "age->credit_history": "cut"
+ },
+ "cost": {
+  "credit_history->credit": 0.012414965986394577,
+  "employment->credit": 0.001,
+  "age->employment": 0.01956396929908355,
+  "age->credit_history": 0.001,
+  "age->job": 0.006764352954418018,
+  "age->credit": 0.001,
+  "job->employment": 0.07857523742918737,
+  "sex->employment": 0.026588680880382687
+ },
+ "prior_driven": [
+  {
+   "edge": [
+    "age",
+    "purpose"
+   ],
+   "assoc": 0.14671322825247612,
+   "p_holm": 0.09861932938856016,
+   "rationale": "Association with age is 0.147, moderately elevated and consistent with a direct dependency."
+  },
+  {
+   "edge": [
+    "age",
+    "existing_credits"
+   ],
+   "assoc": 0.13215836457933328,
+   "p_holm": 0.08875739644970415,
+   "rationale": "Association with age is 0.132, moderately elevated and consistent with a direct dependency."
+  },
+  {
+   "edge": [
+    "age",
+    "checking_status"
+   ],
+   "assoc": 0.1243476115651766,
+   "p_holm": 0.07363576594345825,
+   "rationale": "Association with age is 0.124, moderately elevated relative to the rest, supporting a direct dependency."
+  },
+  {
+   "edge": [
+    "age",
+    "property"
+   ],
+   "assoc": 0.12057501717620459,
+   "p_holm": 0.24589086127547666,
+   "rationale": "Association with age is 0.121, moderately elevated and consistent with a direct dependency."
+  },
+  {
+   "edge": [
+    "age",
+    "installment_rate"
+   ],
+   "assoc": 0.09812281813892325,
+   "p_holm": 0.26232741617357,
+   "rationale": "Association with age is 0.098, moderately elevated relative to most other columns, indicating a plausible direct dependency."
+  },
+  {
+   "edge": [
+    "sex",
+    "installment_rate"
+   ],
+   "assoc": 0.12703846228346494,
+   "p_holm": 0.08875739644970415,
+   "rationale": "Association with sex is 0.127, moderately elevated and above most other columns, indicating a plausible direct dependency."
+  },
+  {
+   "edge": [
+    "sex",
+    "duration"
+   ],
+   "assoc": 0.11249211409058976,
+   "p_holm": 0.09861932938856016,
+   "rationale": "Association with sex is 0.112, moderately elevated relative to the rest, supporting a direct dependency."
+  },
+  {
+   "edge": [
+    "sex",
+    "purpose"
+   ],
+   "assoc": 0.10595210967182586,
+   "p_holm": 0.9618671926364234,
+   "rationale": "Association with sex is 0.106, moderately elevated and consistent with a direct dependency."
+  },
+  {
+   "edge": [
+    "sex",
+    "credit_amount"
+   ],
+   "assoc": 0.1060887626097537,
+   "p_holm": 0.1663379355687048,
+   "rationale": "Association with sex is 0.106, moderately elevated and consistent with a direct dependency."
+  },
+  {
+   "edge": [
+    "sex",
+    "existing_credits"
+   ],
+   "assoc": 0.10292383451149179,
+   "p_holm": 0.2892833662064431,
+   "rationale": "Association with sex is 0.103, moderately elevated and consistent with a direct dependency."
+  }
+ ],
+ "protected": [
+  "sex",
+  "age"
+ ],
+ "label": "credit"
+}

@@ -1,0 +1,355 @@
+{
+ "G2": {
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+   {
+    "id": "Language"
+   },
+   {
+    "id": "Marital"
+   },
+   {
+    "id": "Has-Credit"
+   },
+   {
+    "id": "Field"
+   },
+   {
+    "id": "Month-of-birth"
+   },
+   {
+    "id": "Day-of-birth"
+   },
+   {
+    "id": "Region"
+   },
+   {
+    "id": "Number_of_credits"
+   },
+   {
+    "id": "Linked-cards"
+   },
+   {
+    "id": "INPS_mln_sum"
+   },
+   {
+    "id": "INPS-yes-no"
+   },
+   {
+    "id": "Score-level"
+   },
+   {
+    "id": "Score-class"
+   },
+   {
+    "id": "Score_point"
+   },
+   {
+    "id": "Changed-phone-number"
+   },
+   {
+    "id": "label"
+   },
+   {
+    "id": "sex"
+   },
+   {
+    "id": "age"
+   }
+  ],
+  "links": [
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "Has-Credit",
+    "target": "label"
+   },
+   {
+    "rationale": "Field has its second-highest association with Changed-phone-number (0.46), far above most other columns, indicating a direct dependence.",
+    "source": "Field",
+    "target": "Changed-phone-number"
+   },
+   {
+    "rationale": "Field shows a notable association of 0.281 with INPS-yes-no, the highest among the remaining non-label columns, suggesting a direct dependence.",
+    "source": "Field",
+    "target": "INPS-yes-no"
+   },
+   {
+    "rationale": "Field has a moderate association of 0.242 with Marital, indicating a plausible direct dependence.",
+    "source": "Field",
+    "target": "Marital"
+   },
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "Day-of-birth",
+    "target": "label"
+   },
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "INPS-yes-no",
+    "target": "label"
+   },
+   {
+    "rationale": "Score-level has an association of 1.0 with Score-class, the maximum possible, and the example rows show Score-class values tracking Score-level exactly (e.g., Score-level 0 with Score-class 0, Score-level 3 with Score-class 6/7), indicating Score-class is directly determined by Score-level.",
+    "source": "Score-level",
+    "target": "Score-class"
+   },
+   {
+    "rationale": "Score-level has an association of 0.995 with Score_point, near-perfect, and the example rows show Score_point values consistent with Score-level (e.g., Score-level 0 with Score_point 0, Score-level 3 with Score_point 263/293), indicating a direct dependence.",
+    "source": "Score-level",
+    "target": "Score_point"
+   },
+   {
+    "rationale": "Changed-phone-number has a very high association of 0.854 with label, the strongest of any column, indicating label directly depends on it.",
+    "source": "Changed-phone-number",
+    "target": "label"
+   },
+   {
+    "rationale": "Changed-phone-number shows a strong association of 0.439 with INPS-yes-no, far above most other columns, suggesting a direct dependence.",
+    "source": "Changed-phone-number",
+    "target": "INPS-yes-no"
+   },
+   {
+    "rationale": "Marital has an association of 0.991 with sex, by far the highest of any column, indicating it is almost entirely determined by sex and thus directly depends on it.",
+    "source": "sex",
+    "target": "Marital"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "sex",
+    "target": "Field"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "sex",
+    "target": "Region"
+   },
+   {
+    "rationale": "Marital has the highest association with age among all columns (0.391), far above any other, and the example rows show marital status shifting with age (e.g., value 7 appears with >36 while 4 dominates <=36), indicating a direct dependence on age.",
+    "source": "age",
+    "target": "Marital"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "Field"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "Score-level"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "Region"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "Linked-cards"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "Changed-phone-number"
+   }
+  ]
+ },
+ "G": {
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+   {
+    "id": "Language"
+   },
+   {
+    "id": "Marital"
+   },
+   {
+    "id": "Has-Credit"
+   },
+   {
+    "id": "Field"
+   },
+   {
+    "id": "Month-of-birth"
+   },
+   {
+    "id": "Day-of-birth"
+   },
+   {
+    "id": "Region"
+   },
+   {
+    "id": "Number_of_credits"
+   },
+   {
+    "id": "Linked-cards"
+   },
+   {
+    "id": "INPS_mln_sum"
+   },
+   {
+    "id": "INPS-yes-no"
+   },
+   {
+    "id": "Score-level"
+   },
+   {
+    "id": "Score-class"
+   },
+   {
+    "id": "Score_point"
+   },
+   {
+    "id": "Changed-phone-number"
+   },
+   {
+    "id": "label"
+   },
+   {
+    "id": "sex"
+   },
+   {
+    "id": "age"
+   }
+  ],
+  "links": [
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "Has-Credit",
+    "target": "label"
+   },
+   {
+    "rationale": "Field has the highest association with label (0.533) of any column, indicating label is strongly determined by Field and thus directly depends on it.",
+    "source": "Field",
+    "target": "label"
+   },
+   {
+    "rationale": "Field has its second-highest association with Changed-phone-number (0.46), far above most other columns, indicating a direct dependence.",
+    "source": "Field",
+    "target": "Changed-phone-number"
+   },
+   {
+    "rationale": "Field shows a notable association of 0.281 with INPS-yes-no, the highest among the remaining non-label columns, suggesting a direct dependence.",
+    "source": "Field",
+    "target": "INPS-yes-no"
+   },
+   {
+    "rationale": "Field has a moderate association of 0.242 with Marital, indicating a plausible direct dependence.",
+    "source": "Field",
+    "target": "Marital"
+   },
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "Day-of-birth",
+    "target": "label"
+   },
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "INPS-yes-no",
+    "target": "label"
+   },
+   {
+    "rationale": "Score-level has an association of 1.0 with Score-class, the maximum possible, and the example rows show Score-class values tracking Score-level exactly (e.g., Score-level 0 with Score-class 0, Score-level 3 with Score-class 6/7), indicating Score-class is directly determined by Score-level.",
+    "source": "Score-level",
+    "target": "Score-class"
+   },
+   {
+    "rationale": "Score-level has an association of 0.995 with Score_point, near-perfect, and the example rows show Score_point values consistent with Score-level (e.g., Score-level 0 with Score_point 0, Score-level 3 with Score_point 263/293), indicating a direct dependence.",
+    "source": "Score-level",
+    "target": "Score_point"
+   },
+   {
+    "rationale": "Changed-phone-number has a very high association of 0.854 with label, the strongest of any column, indicating label directly depends on it.",
+    "source": "Changed-phone-number",
+    "target": "label"
+   },
+   {
+    "rationale": "Changed-phone-number shows a strong association of 0.439 with INPS-yes-no, far above most other columns, suggesting a direct dependence.",
+    "source": "Changed-phone-number",
+    "target": "INPS-yes-no"
+   },
+   {
+    "rationale": "Marital has an association of 0.991 with sex, by far the highest of any column, indicating it is almost entirely determined by sex and thus directly depends on it.",
+    "source": "sex",
+    "target": "Marital"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "sex",
+    "target": "Field"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "sex",
+    "target": "Region"
+   },
+   {
+    "rationale": "Marital has the highest association with age among all columns (0.391), far above any other, and the example rows show marital status shifting with age (e.g., value 7 appears with >36 while 4 dominates <=36), indicating a direct dependence on age.",
+    "source": "age",
+    "target": "Marital"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "Field"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "Score-level"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "Region"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "Linked-cards"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "Changed-phone-number"
+   }
+  ]
+ },
+ "R": [
+  "Number_of_credits",
+  "Linked-cards",
+  "INPS_mln_sum",
+  "INPS-yes-no",
+  "Score-level",
+  "Score-class",
+  "Changed-phone-number"
+ ],
+ "P": [
+  "Field"
+ ],
+ "cut": [
+  [
+   "Field",
+   "label"
+  ]
+ ],
+ "ops": {
+  "Field->label": "cut"
+ },
+ "cost": {
+  "Field->label": 0.001,
+  "sex->Field": 0.03621098932069482,
+  "age->Field": 0.015880439143749675
+ },
+ "prior_driven": [],
+ "protected": [
+  "sex",
+  "age"
+ ],
+ "label": "label"
+}

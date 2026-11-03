@@ -1,0 +1,1690 @@
+{
+ "G2": {
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+   {
+    "id": "checking_status"
+   },
+   {
+    "id": "duration"
+   },
+   {
+    "id": "credit_history"
+   },
+   {
+    "id": "purpose"
+   },
+   {
+    "id": "credit_amount"
+   },
+   {
+    "id": "savings"
+   },
+   {
+    "id": "employment"
+   },
+   {
+    "id": "installment_rate"
+   },
+   {
+    "id": "other_debtors"
+   },
+   {
+    "id": "residence_since"
+   },
+   {
+    "id": "property"
+   },
+   {
+    "id": "age"
+   },
+   {
+    "id": "other_installment_plans"
+   },
+   {
+    "id": "housing"
+   },
+   {
+    "id": "existing_credits"
+   },
+   {
+    "id": "job"
+   },
+   {
+    "id": "num_dependents"
+   },
+   {
+    "id": "telephone"
+   },
+   {
+    "id": "foreign_worker"
+   },
+   {
+    "id": "sex"
+   },
+   {
+    "id": "credit"
+   },
+   {
+    "hidden": true,
+    "surrogate_of": "job",
+    "masked": [
+     "age"
+    ],
+    "id": "job__sur"
+   },
+   {
+    "hidden": true,
+    "surrogate_of": "credit_history",
+    "masked": [
+     "age"
+    ],
+    "id": "credit_history__sur"
+   }
+  ],
+  "links": [
+   {
+    "rationale": "checking_status has its strongest association with the label credit (0.37), indicating the target directly depends on checking status.",
+    "source": "checking_status",
+    "target": "credit"
+   },
+   {
+    "rationale": "checking_status shows a notable association with savings (0.161), suggesting savings distribution co-varies with checking status.",
+    "source": "checking_status",
+    "target": "savings"
+   },
+   {
+    "rationale": "checking_status has a modest association with duration (0.13), indicating loan duration co-varies with checking status.",
+    "source": "checking_status",
+    "target": "duration"
+   },
+   {
+    "rationale": "checking_status shows a modest association with housing (0.13), suggesting housing status distribution depends on checking status.",
+    "source": "checking_status",
+    "target": "housing"
+   },
+   {
+    "rationale": "checking_status has a modest association with credit_amount (0.119), indicating loan amount co-varies with checking status.",
+    "source": "checking_status",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "checking_status has a modest association with purpose (0.115), indicating loan purpose distribution co-varies with checking status.",
+    "source": "checking_status",
+    "target": "purpose"
+   },
+   {
+    "rationale": "checking_status shows a modest association with credit_history (0.11), suggesting credit history distribution co-varies with checking status.",
+    "source": "checking_status",
+    "target": "credit_history"
+   },
+   {
+    "rationale": "checking_status has a small but nonzero association with other_debtors (0.096), suggesting a weak dependency.",
+    "source": "checking_status",
+    "target": "other_debtors"
+   },
+   {
+    "rationale": "checking_status shows a small but nonzero association with num_dependents (0.09), suggesting a weak dependency.",
+    "source": "checking_status",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "checking_status has a small but nonzero association with property (0.082), suggesting property type weakly co-varies with checking status.",
+    "source": "checking_status",
+    "target": "property"
+   },
+   {
+    "rationale": "checking_status shows a small but nonzero association with existing_credits (0.064), suggesting a weak dependency.",
+    "source": "checking_status",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "checking_status has a small but nonzero association with residence_since (0.061), suggesting a weak dependency.",
+    "source": "checking_status",
+    "target": "residence_since"
+   },
+   {
+    "rationale": "checking_status shows a small but nonzero association with employment (0.058), suggesting a weak dependency.",
+    "source": "checking_status",
+    "target": "employment"
+   },
+   {
+    "rationale": "checking_status has a small but nonzero association with job (0.048), suggesting a weak dependency.",
+    "source": "checking_status",
+    "target": "job"
+   },
+   {
+    "rationale": "checking_status shows a small but nonzero association with telephone (0.046), suggesting a weak dependency.",
+    "source": "checking_status",
+    "target": "telephone"
+   },
+   {
+    "rationale": "checking_status has a small but nonzero association with foreign_worker (0.04), suggesting a weak dependency.",
+    "source": "checking_status",
+    "target": "foreign_worker"
+   },
+   {
+    "source": "checking_status",
+    "target": "job__sur"
+   },
+   {
+    "source": "checking_status",
+    "target": "credit_history__sur"
+   },
+   {
+    "rationale": "duration has its strongest association with credit_amount (0.619), indicating loan amount strongly co-varies with loan duration.",
+    "source": "duration",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "duration shows a notable association with property (0.302), suggesting property type co-varies with loan duration.",
+    "source": "duration",
+    "target": "property"
+   },
+   {
+    "rationale": "duration has a notable association with purpose (0.285), suggesting loan purpose distribution depends on loan duration.",
+    "source": "duration",
+    "target": "purpose"
+   },
+   {
+    "rationale": "The label credit has a notable association with duration (0.247), indicating the target depends on loan duration.",
+    "source": "duration",
+    "target": "credit"
+   },
+   {
+    "rationale": "duration shows a moderate association with job (0.211), suggesting job category co-varies with loan duration.",
+    "source": "duration",
+    "target": "job"
+   },
+   {
+    "rationale": "duration has a moderate association with housing (0.169), indicating housing status co-varies with loan duration.",
+    "source": "duration",
+    "target": "housing"
+   },
+   {
+    "rationale": "duration shows a moderate association with credit_history (0.164), suggesting credit history distribution co-varies with loan duration.",
+    "source": "duration",
+    "target": "credit_history"
+   },
+   {
+    "rationale": "duration has a modest association with foreign_worker (0.139), suggesting foreign worker status co-varies with loan duration.",
+    "source": "duration",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "duration shows a modest association with telephone (0.136), suggesting phone ownership co-varies with loan duration.",
+    "source": "duration",
+    "target": "telephone"
+   },
+   {
+    "rationale": "duration shows a modest association with savings (0.12), suggesting savings distribution co-varies with loan duration.",
+    "source": "duration",
+    "target": "savings"
+   },
+   {
+    "rationale": "duration has a modest association with existing_credits (0.115), suggesting existing credit count co-varies with loan duration.",
+    "source": "duration",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "duration shows a small but nonzero association with residence_since (0.103), suggesting a weak dependency.",
+    "source": "duration",
+    "target": "residence_since"
+   },
+   {
+    "rationale": "duration has a small but nonzero association with installment_rate (0.092), suggesting installment rate weakly co-varies with loan duration.",
+    "source": "duration",
+    "target": "installment_rate"
+   },
+   {
+    "rationale": "duration shows a small but nonzero association with employment (0.078), suggesting a weak dependency.",
+    "source": "duration",
+    "target": "employment"
+   },
+   {
+    "rationale": "duration has a small but nonzero association with other_installment_plans (0.067), suggesting a weak dependency.",
+    "source": "duration",
+    "target": "other_installment_plans"
+   },
+   {
+    "rationale": "duration shows a small but nonzero association with other_debtors (0.053), suggesting a weak dependency.",
+    "source": "duration",
+    "target": "other_debtors"
+   },
+   {
+    "rationale": "duration has a small but nonzero association with num_dependents (0.016), suggesting a weak dependency.",
+    "source": "duration",
+    "target": "num_dependents"
+   },
+   {
+    "source": "duration",
+    "target": "job__sur"
+   },
+   {
+    "source": "duration",
+    "target": "credit_history__sur"
+   },
+   {
+    "rationale": "credit_history has its strongest association with existing_credits (0.381), indicating the count of existing credits strongly co-varies with credit history.",
+    "source": "credit_history",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "credit_history shows a notable association with other_installment_plans (0.183), suggesting the distribution of other installment plans depends on credit history.",
+    "source": "credit_history",
+    "target": "other_installment_plans"
+   },
+   {
+    "rationale": "credit_history has a modest association with employment (0.105), suggesting employment status distribution depends on credit history.",
+    "source": "credit_history",
+    "target": "employment"
+   },
+   {
+    "rationale": "credit_history shows a modest association with num_dependents (0.095), suggesting number of dependents co-varies with credit history.",
+    "source": "credit_history",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "credit_history has a modest association with housing (0.086), indicating housing status co-varies with credit history.",
+    "source": "credit_history",
+    "target": "housing"
+   },
+   {
+    "rationale": "credit_history shows a small but nonzero association with other_debtors (0.069), suggesting a weak dependency.",
+    "source": "credit_history",
+    "target": "other_debtors"
+   },
+   {
+    "rationale": "credit_history has a small but nonzero association with savings (0.046), suggesting savings distribution weakly depends on credit history.",
+    "source": "credit_history",
+    "target": "savings"
+   },
+   {
+    "rationale": "credit_history shows a small but nonzero association with foreign_worker (0.019), suggesting a weak dependency.",
+    "source": "credit_history",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "purpose has a notable association with other_debtors (0.186), indicating the presence of other debtors co-varies with loan purpose.",
+    "source": "purpose",
+    "target": "other_debtors"
+   },
+   {
+    "rationale": "purpose shows a modest association with foreign_worker (0.138), suggesting foreign worker status co-varies with loan purpose.",
+    "source": "purpose",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "The label credit has a modest association with purpose (0.109), indicating the target depends on loan purpose.",
+    "source": "purpose",
+    "target": "credit"
+   },
+   {
+    "rationale": "purpose shows a modest association with other_installment_plans (0.097), suggesting the distribution of other installment plans co-varies with loan purpose.",
+    "source": "purpose",
+    "target": "other_installment_plans"
+   },
+   {
+    "rationale": "purpose has a small but nonzero association with savings (0.057), suggesting savings distribution weakly depends on loan purpose.",
+    "source": "purpose",
+    "target": "savings"
+   },
+   {
+    "rationale": "purpose has a strong association with credit_amount (0.405), indicating loan amount strongly co-varies with loan purpose.",
+    "source": "credit_amount",
+    "target": "purpose"
+   },
+   {
+    "rationale": "job shows a notable association with credit_amount (0.326), suggesting job category co-varies with loan amount.",
+    "source": "credit_amount",
+    "target": "job"
+   },
+   {
+    "rationale": "property has a notable association with credit_amount (0.318), indicating property type co-varies with loan amount.",
+    "source": "credit_amount",
+    "target": "property"
+   },
+   {
+    "rationale": "telephone shows a moderate association with credit_amount (0.279), suggesting phone ownership co-varies with loan amount.",
+    "source": "credit_amount",
+    "target": "telephone"
+   },
+   {
+    "rationale": "installment_rate has a moderate association with credit_amount (0.272), indicating loan amount co-varies with installment rate.",
+    "source": "credit_amount",
+    "target": "installment_rate"
+   },
+   {
+    "rationale": "housing shows a moderate association with credit_amount (0.216), indicating loan amount co-varies with housing status.",
+    "source": "credit_amount",
+    "target": "housing"
+   },
+   {
+    "rationale": "The label credit has a notable association with credit_amount (0.181), indicating the target depends on loan amount.",
+    "source": "credit_amount",
+    "target": "credit"
+   },
+   {
+    "rationale": "savings shows a modest association with credit_amount (0.154), suggesting savings distribution co-varies with loan amount.",
+    "source": "credit_amount",
+    "target": "savings"
+   },
+   {
+    "rationale": "credit_history has a moderate association with credit_amount (0.139), suggesting loan amount depends on credit history.",
+    "source": "credit_amount",
+    "target": "credit_history"
+   },
+   {
+    "rationale": "other_debtors has a small but nonzero association with credit_amount (0.099), suggesting a weak dependency.",
+    "source": "credit_amount",
+    "target": "other_debtors"
+   },
+   {
+    "rationale": "residence_since shows a small but nonzero association with credit_amount (0.094), suggesting a weak dependency.",
+    "source": "credit_amount",
+    "target": "residence_since"
+   },
+   {
+    "rationale": "employment has a modest association with credit_amount (0.08), suggesting loan amount depends on employment.",
+    "source": "credit_amount",
+    "target": "employment"
+   },
+   {
+    "rationale": "foreign_worker shows a small but nonzero association with credit_amount (0.042), suggesting a weak dependency.",
+    "source": "credit_amount",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "existing_credits has a small but nonzero association with credit_amount (0.034), indicating a weak dependency.",
+    "source": "credit_amount",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "other_installment_plans shows a small but nonzero association with credit_amount (0.031), suggesting a weak dependency.",
+    "source": "credit_amount",
+    "target": "other_installment_plans"
+   },
+   {
+    "source": "credit_amount",
+    "target": "job__sur"
+   },
+   {
+    "source": "credit_amount",
+    "target": "credit_history__sur"
+   },
+   {
+    "rationale": "Employment has a notable association with housing (0.19), consistent with housing status co-varying with employment.",
+    "source": "employment",
+    "target": "housing"
+   },
+   {
+    "rationale": "Employment shows a modest association with num_dependents (0.11), suggesting dependents co-vary with employment status.",
+    "source": "employment",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "Employment shows a modest association with existing_credits (0.096), suggesting existing credits depend on employment.",
+    "source": "employment",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "Employment has a modest association with installment_rate (0.083), indicating installment rate co-varies with employment.",
+    "source": "employment",
+    "target": "installment_rate"
+   },
+   {
+    "rationale": "installment_rate has a modest association with foreign_worker (0.101), indicating foreign worker status co-varies with installment rate.",
+    "source": "installment_rate",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "installment_rate has a small but nonzero association with savings (0.064), suggesting savings distribution weakly depends on installment rate.",
+    "source": "installment_rate",
+    "target": "savings"
+   },
+   {
+    "rationale": "installment_rate shows a small but nonzero association with num_dependents (0.034), suggesting a weak dependency.",
+    "source": "installment_rate",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "installment_rate has a small but nonzero association with existing_credits (0.022), indicating a weak dependency.",
+    "source": "installment_rate",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "other_debtors shows a small but nonzero association with foreign_worker (0.098), suggesting foreign worker status weakly co-varies with other debtors.",
+    "source": "other_debtors",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "other_debtors shows a small but nonzero association with savings (0.085), suggesting savings distribution weakly co-varies with other debtors.",
+    "source": "other_debtors",
+    "target": "savings"
+   },
+   {
+    "rationale": "other_debtors shows a small but nonzero association with other_installment_plans (0.077), suggesting a weak dependency.",
+    "source": "other_debtors",
+    "target": "other_installment_plans"
+   },
+   {
+    "rationale": "other_debtors shows a small but nonzero association with housing (0.057), suggesting housing status weakly co-varies with other debtors.",
+    "source": "other_debtors",
+    "target": "housing"
+   },
+   {
+    "rationale": "other_debtors shows a small but nonzero association with telephone (0.037), suggesting phone ownership weakly co-varies with other debtors.",
+    "source": "other_debtors",
+    "target": "telephone"
+   },
+   {
+    "rationale": "residence_since has its strongest association with employment (0.231), suggesting length of residence depends on employment stability.",
+    "source": "residence_since",
+    "target": "employment"
+   },
+   {
+    "rationale": "residence_since shows a notable association with housing (0.217), indicating housing status co-varies with length of residence.",
+    "source": "residence_since",
+    "target": "housing"
+   },
+   {
+    "rationale": "residence_since has a small but nonzero association with purpose (0.076), suggesting a weak dependency.",
+    "source": "residence_since",
+    "target": "purpose"
+   },
+   {
+    "rationale": "residence_since has a small but nonzero association with existing_credits (0.061), suggesting a weak dependency.",
+    "source": "residence_since",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "residence_since has a small but nonzero association with savings (0.041), suggesting a weak dependency.",
+    "source": "residence_since",
+    "target": "savings"
+   },
+   {
+    "rationale": "residence_since shows a small but nonzero association with telephone (0.04), suggesting a weak dependency.",
+    "source": "residence_since",
+    "target": "telephone"
+   },
+   {
+    "rationale": "residence_since has a small but nonzero association with foreign_worker (0.03), suggesting a weak dependency.",
+    "source": "residence_since",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "Housing has the strongest association with property (0.555), indicating property type strongly co-varies with housing status.",
+    "source": "property",
+    "target": "housing"
+   },
+   {
+    "rationale": "Job has a moderate association with property (0.201), indicating property type co-varies with job category.",
+    "source": "property",
+    "target": "job"
+   },
+   {
+    "rationale": "Purpose shows a moderate association with property (0.177), suggesting property type co-varies with loan purpose.",
+    "source": "property",
+    "target": "purpose"
+   },
+   {
+    "rationale": "Employment has a moderate association with property (0.146), indicating property type depends on employment.",
+    "source": "property",
+    "target": "employment"
+   },
+   {
+    "rationale": "Telephone shows a moderate association with property (0.143), suggesting property type co-varies with phone ownership.",
+    "source": "property",
+    "target": "telephone"
+   },
+   {
+    "rationale": "Foreign_worker has a modest association with property (0.121), suggesting foreign worker status co-varies with property type.",
+    "source": "property",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "Residence_since shows a modest association with property (0.12), suggesting length of residence co-varies with property type.",
+    "source": "property",
+    "target": "residence_since"
+   },
+   {
+    "rationale": "Other_debtors has a modest association with property (0.117), indicating presence of other debtors co-varies with property type.",
+    "source": "property",
+    "target": "other_debtors"
+   },
+   {
+    "rationale": "Num_dependents shows a modest association with property (0.083), suggesting property type co-varies with number of dependents.",
+    "source": "property",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "Savings has a modest association with property (0.083), suggesting savings distribution co-varies with property type.",
+    "source": "property",
+    "target": "savings"
+   },
+   {
+    "rationale": "Existing_credits has a small but nonzero association with property (0.049), suggesting a weak dependency.",
+    "source": "property",
+    "target": "existing_credits"
+   },
+   {
+    "source": "property",
+    "target": "job__sur"
+   },
+   {
+    "rationale": "Housing has the strongest association with age (0.311), indicating housing status strongly co-varies with age.",
+    "source": "age",
+    "target": "housing"
+   },
+   {
+    "rationale": "Employment shows a high association with age (0.249), consistent with employment duration depending on age.",
+    "source": "age",
+    "target": "employment"
+   },
+   {
+    "rationale": "Credit history has a notable association with age (0.185), suggesting credit history distribution depends on age.",
+    "source": "age",
+    "target": "credit_history"
+   },
+   {
+    "rationale": "Number of dependents has a notable association with age (0.165), consistent with dependents being related to age.",
+    "source": "age",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "Telephone has a moderate association with age (0.156), suggesting phone ownership co-varies with age.",
+    "source": "age",
+    "target": "telephone"
+   },
+   {
+    "rationale": "Job shows a moderate association with age (0.146), indicating job category depends on age.",
+    "source": "age",
+    "target": "job"
+   },
+   {
+    "rationale": "num_dependents shows a small but nonzero association with other_installment_plans (0.072), and the graph records num_dependents -> other_installment_plans, suggesting a weak dependency.",
+    "source": "other_installment_plans",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "installment_rate shows a small but nonzero association with other_installment_plans (0.035), and the graph records installment_rate -> other_installment_plans, suggesting a weak dependency.",
+    "source": "other_installment_plans",
+    "target": "installment_rate"
+   },
+   {
+    "rationale": "Housing has a modest association with num_dependents (0.114), suggesting dependents co-vary with housing status.",
+    "source": "housing",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "Housing shows a modest association with existing_credits (0.087), suggesting existing credits depend on housing.",
+    "source": "housing",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "Housing has a small but nonzero association with other_installment_plans (0.071), suggesting a weak dependency.",
+    "source": "housing",
+    "target": "other_installment_plans"
+   },
+   {
+    "rationale": "Housing has a small but nonzero association with foreign_worker (0.055), suggesting a weak dependency.",
+    "source": "housing",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "telephone has the strongest association with job (0.414), indicating phone ownership strongly co-varies with job category.",
+    "source": "job",
+    "target": "telephone"
+   },
+   {
+    "rationale": "employment has a strong association with job (0.294), indicating job category strongly co-varies with employment status.",
+    "source": "job",
+    "target": "employment"
+   },
+   {
+    "rationale": "housing shows a modest association with job (0.144), suggesting housing status co-varies with job category.",
+    "source": "job",
+    "target": "housing"
+   },
+   {
+    "rationale": "num_dependents has a modest association with job (0.135), suggesting number of dependents co-varies with job category.",
+    "source": "job",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "existing_credits shows a modest association with job (0.112), suggesting existing credit count co-varies with job category.",
+    "source": "job",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "foreign_worker has a small but nonzero association with job (0.088), suggesting foreign worker status weakly co-varies with job category.",
+    "source": "job",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "other_debtors shows a small but nonzero association with job (0.08), suggesting a weak dependency on job category.",
+    "source": "job",
+    "target": "other_debtors"
+   },
+   {
+    "rationale": "installment_rate has a small but nonzero association with job (0.078), suggesting installment rate weakly co-varies with job category.",
+    "source": "job",
+    "target": "installment_rate"
+   },
+   {
+    "rationale": "savings shows a small but nonzero association with job (0.06), suggesting savings distribution weakly depends on job category.",
+    "source": "job",
+    "target": "savings"
+   },
+   {
+    "rationale": "other_installment_plans shows a small but nonzero association with job (0.039), suggesting a weak dependency on job category.",
+    "source": "job",
+    "target": "other_installment_plans"
+   },
+   {
+    "rationale": "num_dependents shows a notable association with existing_credits (0.12), indicating existing credit count depends on number of dependents.",
+    "source": "num_dependents",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "num_dependents shows a small but nonzero association with foreign_worker (0.051), suggesting a weak dependency.",
+    "source": "num_dependents",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "telephone shows a modest association with savings (0.107), suggesting savings distribution co-varies with phone ownership.",
+    "source": "telephone",
+    "target": "savings"
+   },
+   {
+    "rationale": "telephone has a modest association with foreign_worker (0.1), suggesting foreign worker status co-varies with phone ownership.",
+    "source": "telephone",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "telephone shows a modest association with existing_credits (0.087), suggesting existing credit count co-varies with phone ownership.",
+    "source": "telephone",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "Employment shows a strong association with sex (0.24), suggesting the employment category distribution differs by sex and thus depends on it.",
+    "source": "sex",
+    "target": "employment"
+   },
+   {
+    "rationale": "Housing has a high association with sex (0.225), indicating housing status co-varies with sex in the data.",
+    "source": "sex",
+    "target": "housing"
+   },
+   {
+    "rationale": "Number of dependents has a notable association with sex (0.218), consistent with dependents being related to the protected attribute.",
+    "source": "sex",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "Installment rate shows a moderate association with sex (0.171), suggesting its distribution depends on sex.",
+    "source": "sex",
+    "target": "installment_rate"
+   },
+   {
+    "source": "job__sur",
+    "target": "purpose"
+   },
+   {
+    "source": "credit_history__sur",
+    "target": "purpose"
+   }
+  ]
+ },
+ "G": {
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+   {
+    "id": "checking_status"
+   },
+   {
+    "id": "duration"
+   },
+   {
+    "id": "credit_history"
+   },
+   {
+    "id": "purpose"
+   },
+   {
+    "id": "credit_amount"
+   },
+   {
+    "id": "savings"
+   },
+   {
+    "id": "employment"
+   },
+   {
+    "id": "installment_rate"
+   },
+   {
+    "id": "other_debtors"
+   },
+   {
+    "id": "residence_since"
+   },
+   {
+    "id": "property"
+   },
+   {
+    "id": "age"
+   },
+   {
+    "id": "other_installment_plans"
+   },
+   {
+    "id": "housing"
+   },
+   {
+    "id": "existing_credits"
+   },
+   {
+    "id": "job"
+   },
+   {
+    "id": "num_dependents"
+   },
+   {
+    "id": "telephone"
+   },
+   {
+    "id": "foreign_worker"
+   },
+   {
+    "id": "sex"
+   },
+   {
+    "id": "credit"
+   }
+  ],
+  "links": [
+   {
+    "rationale": "checking_status has its strongest association with the label credit (0.37), indicating the target directly depends on checking status.",
+    "source": "checking_status",
+    "target": "credit"
+   },
+   {
+    "rationale": "checking_status shows a notable association with savings (0.161), suggesting savings distribution co-varies with checking status.",
+    "source": "checking_status",
+    "target": "savings"
+   },
+   {
+    "rationale": "checking_status has a modest association with duration (0.13), indicating loan duration co-varies with checking status.",
+    "source": "checking_status",
+    "target": "duration"
+   },
+   {
+    "rationale": "checking_status shows a modest association with housing (0.13), suggesting housing status distribution depends on checking status.",
+    "source": "checking_status",
+    "target": "housing"
+   },
+   {
+    "rationale": "checking_status has a modest association with credit_amount (0.119), indicating loan amount co-varies with checking status.",
+    "source": "checking_status",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "checking_status has a modest association with purpose (0.115), indicating loan purpose distribution co-varies with checking status.",
+    "source": "checking_status",
+    "target": "purpose"
+   },
+   {
+    "rationale": "checking_status shows a modest association with credit_history (0.11), suggesting credit history distribution co-varies with checking status.",
+    "source": "checking_status",
+    "target": "credit_history"
+   },
+   {
+    "rationale": "checking_status has a small but nonzero association with other_debtors (0.096), suggesting a weak dependency.",
+    "source": "checking_status",
+    "target": "other_debtors"
+   },
+   {
+    "rationale": "checking_status shows a small but nonzero association with num_dependents (0.09), suggesting a weak dependency.",
+    "source": "checking_status",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "checking_status has a small but nonzero association with property (0.082), suggesting property type weakly co-varies with checking status.",
+    "source": "checking_status",
+    "target": "property"
+   },
+   {
+    "rationale": "checking_status shows a small but nonzero association with existing_credits (0.064), suggesting a weak dependency.",
+    "source": "checking_status",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "checking_status has a small but nonzero association with residence_since (0.061), suggesting a weak dependency.",
+    "source": "checking_status",
+    "target": "residence_since"
+   },
+   {
+    "rationale": "checking_status shows a small but nonzero association with employment (0.058), suggesting a weak dependency.",
+    "source": "checking_status",
+    "target": "employment"
+   },
+   {
+    "rationale": "checking_status has a small but nonzero association with job (0.048), suggesting a weak dependency.",
+    "source": "checking_status",
+    "target": "job"
+   },
+   {
+    "rationale": "checking_status shows a small but nonzero association with telephone (0.046), suggesting a weak dependency.",
+    "source": "checking_status",
+    "target": "telephone"
+   },
+   {
+    "rationale": "checking_status has a small but nonzero association with foreign_worker (0.04), suggesting a weak dependency.",
+    "source": "checking_status",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "duration has its strongest association with credit_amount (0.619), indicating loan amount strongly co-varies with loan duration.",
+    "source": "duration",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "duration shows a notable association with property (0.302), suggesting property type co-varies with loan duration.",
+    "source": "duration",
+    "target": "property"
+   },
+   {
+    "rationale": "duration has a notable association with purpose (0.285), suggesting loan purpose distribution depends on loan duration.",
+    "source": "duration",
+    "target": "purpose"
+   },
+   {
+    "rationale": "The label credit has a notable association with duration (0.247), indicating the target depends on loan duration.",
+    "source": "duration",
+    "target": "credit"
+   },
+   {
+    "rationale": "duration shows a moderate association with job (0.211), suggesting job category co-varies with loan duration.",
+    "source": "duration",
+    "target": "job"
+   },
+   {
+    "rationale": "duration has a moderate association with housing (0.169), indicating housing status co-varies with loan duration.",
+    "source": "duration",
+    "target": "housing"
+   },
+   {
+    "rationale": "duration shows a moderate association with credit_history (0.164), suggesting credit history distribution co-varies with loan duration.",
+    "source": "duration",
+    "target": "credit_history"
+   },
+   {
+    "rationale": "duration has a modest association with foreign_worker (0.139), suggesting foreign worker status co-varies with loan duration.",
+    "source": "duration",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "duration shows a modest association with telephone (0.136), suggesting phone ownership co-varies with loan duration.",
+    "source": "duration",
+    "target": "telephone"
+   },
+   {
+    "rationale": "duration shows a modest association with savings (0.12), suggesting savings distribution co-varies with loan duration.",
+    "source": "duration",
+    "target": "savings"
+   },
+   {
+    "rationale": "duration has a modest association with existing_credits (0.115), suggesting existing credit count co-varies with loan duration.",
+    "source": "duration",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "duration shows a small but nonzero association with residence_since (0.103), suggesting a weak dependency.",
+    "source": "duration",
+    "target": "residence_since"
+   },
+   {
+    "rationale": "duration has a small but nonzero association with installment_rate (0.092), suggesting installment rate weakly co-varies with loan duration.",
+    "source": "duration",
+    "target": "installment_rate"
+   },
+   {
+    "rationale": "duration shows a small but nonzero association with employment (0.078), suggesting a weak dependency.",
+    "source": "duration",
+    "target": "employment"
+   },
+   {
+    "rationale": "duration has a small but nonzero association with other_installment_plans (0.067), suggesting a weak dependency.",
+    "source": "duration",
+    "target": "other_installment_plans"
+   },
+   {
+    "rationale": "duration shows a small but nonzero association with other_debtors (0.053), suggesting a weak dependency.",
+    "source": "duration",
+    "target": "other_debtors"
+   },
+   {
+    "rationale": "duration has a small but nonzero association with num_dependents (0.016), suggesting a weak dependency.",
+    "source": "duration",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "credit_history has its strongest association with existing_credits (0.381), indicating the count of existing credits strongly co-varies with credit history.",
+    "source": "credit_history",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "The label credit has a notable association with credit_history (0.254), indicating the target depends on credit history.",
+    "source": "credit_history",
+    "target": "credit"
+   },
+   {
+    "rationale": "credit_history shows a notable association with other_installment_plans (0.183), suggesting the distribution of other installment plans depends on credit history.",
+    "source": "credit_history",
+    "target": "other_installment_plans"
+   },
+   {
+    "rationale": "credit_history has a moderate association with purpose (0.125), suggesting loan purpose distribution varies with credit history.",
+    "source": "credit_history",
+    "target": "purpose"
+   },
+   {
+    "rationale": "credit_history has a modest association with employment (0.105), suggesting employment status distribution depends on credit history.",
+    "source": "credit_history",
+    "target": "employment"
+   },
+   {
+    "rationale": "credit_history shows a modest association with num_dependents (0.095), suggesting number of dependents co-varies with credit history.",
+    "source": "credit_history",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "credit_history has a modest association with housing (0.086), indicating housing status co-varies with credit history.",
+    "source": "credit_history",
+    "target": "housing"
+   },
+   {
+    "rationale": "credit_history shows a small but nonzero association with other_debtors (0.069), suggesting a weak dependency.",
+    "source": "credit_history",
+    "target": "other_debtors"
+   },
+   {
+    "rationale": "credit_history has a small but nonzero association with savings (0.046), suggesting savings distribution weakly depends on credit history.",
+    "source": "credit_history",
+    "target": "savings"
+   },
+   {
+    "rationale": "credit_history shows a small but nonzero association with foreign_worker (0.019), suggesting a weak dependency.",
+    "source": "credit_history",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "purpose has a notable association with other_debtors (0.186), indicating the presence of other debtors co-varies with loan purpose.",
+    "source": "purpose",
+    "target": "other_debtors"
+   },
+   {
+    "rationale": "purpose shows a modest association with foreign_worker (0.138), suggesting foreign worker status co-varies with loan purpose.",
+    "source": "purpose",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "The label credit has a modest association with purpose (0.109), indicating the target depends on loan purpose.",
+    "source": "purpose",
+    "target": "credit"
+   },
+   {
+    "rationale": "purpose shows a modest association with other_installment_plans (0.097), suggesting the distribution of other installment plans co-varies with loan purpose.",
+    "source": "purpose",
+    "target": "other_installment_plans"
+   },
+   {
+    "rationale": "purpose has a small but nonzero association with savings (0.057), suggesting savings distribution weakly depends on loan purpose.",
+    "source": "purpose",
+    "target": "savings"
+   },
+   {
+    "rationale": "purpose has a strong association with credit_amount (0.405), indicating loan amount strongly co-varies with loan purpose.",
+    "source": "credit_amount",
+    "target": "purpose"
+   },
+   {
+    "rationale": "job shows a notable association with credit_amount (0.326), suggesting job category co-varies with loan amount.",
+    "source": "credit_amount",
+    "target": "job"
+   },
+   {
+    "rationale": "property has a notable association with credit_amount (0.318), indicating property type co-varies with loan amount.",
+    "source": "credit_amount",
+    "target": "property"
+   },
+   {
+    "rationale": "telephone shows a moderate association with credit_amount (0.279), suggesting phone ownership co-varies with loan amount.",
+    "source": "credit_amount",
+    "target": "telephone"
+   },
+   {
+    "rationale": "installment_rate has a moderate association with credit_amount (0.272), indicating loan amount co-varies with installment rate.",
+    "source": "credit_amount",
+    "target": "installment_rate"
+   },
+   {
+    "rationale": "housing shows a moderate association with credit_amount (0.216), indicating loan amount co-varies with housing status.",
+    "source": "credit_amount",
+    "target": "housing"
+   },
+   {
+    "rationale": "The label credit has a notable association with credit_amount (0.181), indicating the target depends on loan amount.",
+    "source": "credit_amount",
+    "target": "credit"
+   },
+   {
+    "rationale": "savings shows a modest association with credit_amount (0.154), suggesting savings distribution co-varies with loan amount.",
+    "source": "credit_amount",
+    "target": "savings"
+   },
+   {
+    "rationale": "credit_history has a moderate association with credit_amount (0.139), suggesting loan amount depends on credit history.",
+    "source": "credit_amount",
+    "target": "credit_history"
+   },
+   {
+    "rationale": "other_debtors has a small but nonzero association with credit_amount (0.099), suggesting a weak dependency.",
+    "source": "credit_amount",
+    "target": "other_debtors"
+   },
+   {
+    "rationale": "residence_since shows a small but nonzero association with credit_amount (0.094), suggesting a weak dependency.",
+    "source": "credit_amount",
+    "target": "residence_since"
+   },
+   {
+    "rationale": "employment has a modest association with credit_amount (0.08), suggesting loan amount depends on employment.",
+    "source": "credit_amount",
+    "target": "employment"
+   },
+   {
+    "rationale": "foreign_worker shows a small but nonzero association with credit_amount (0.042), suggesting a weak dependency.",
+    "source": "credit_amount",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "existing_credits has a small but nonzero association with credit_amount (0.034), indicating a weak dependency.",
+    "source": "credit_amount",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "other_installment_plans shows a small but nonzero association with credit_amount (0.031), suggesting a weak dependency.",
+    "source": "credit_amount",
+    "target": "other_installment_plans"
+   },
+   {
+    "rationale": "Employment has a notable association with housing (0.19), consistent with housing status co-varying with employment.",
+    "source": "employment",
+    "target": "housing"
+   },
+   {
+    "rationale": "The label credit has a modest association with employment (0.127), indicating the target depends on employment.",
+    "source": "employment",
+    "target": "credit"
+   },
+   {
+    "rationale": "Employment shows a modest association with num_dependents (0.11), suggesting dependents co-vary with employment status.",
+    "source": "employment",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "Employment shows a modest association with existing_credits (0.096), suggesting existing credits depend on employment.",
+    "source": "employment",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "Employment has a modest association with installment_rate (0.083), indicating installment rate co-varies with employment.",
+    "source": "employment",
+    "target": "installment_rate"
+   },
+   {
+    "rationale": "installment_rate has a modest association with foreign_worker (0.101), indicating foreign worker status co-varies with installment rate.",
+    "source": "installment_rate",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "installment_rate has a small but nonzero association with savings (0.064), suggesting savings distribution weakly depends on installment rate.",
+    "source": "installment_rate",
+    "target": "savings"
+   },
+   {
+    "rationale": "installment_rate shows a small but nonzero association with num_dependents (0.034), suggesting a weak dependency.",
+    "source": "installment_rate",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "installment_rate has a small but nonzero association with existing_credits (0.022), indicating a weak dependency.",
+    "source": "installment_rate",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "The label credit has a small but nonzero association with installment_rate (0.02), indicating the target weakly depends on installment rate.",
+    "source": "installment_rate",
+    "target": "credit"
+   },
+   {
+    "rationale": "other_debtors shows a small but nonzero association with foreign_worker (0.098), suggesting foreign worker status weakly co-varies with other debtors.",
+    "source": "other_debtors",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "other_debtors shows a small but nonzero association with savings (0.085), suggesting savings distribution weakly co-varies with other debtors.",
+    "source": "other_debtors",
+    "target": "savings"
+   },
+   {
+    "rationale": "other_debtors shows a small but nonzero association with other_installment_plans (0.077), suggesting a weak dependency.",
+    "source": "other_debtors",
+    "target": "other_installment_plans"
+   },
+   {
+    "rationale": "other_debtors shows a small but nonzero association with housing (0.057), suggesting housing status weakly co-varies with other debtors.",
+    "source": "other_debtors",
+    "target": "housing"
+   },
+   {
+    "rationale": "other_debtors shows a small but nonzero association with telephone (0.037), suggesting phone ownership weakly co-varies with other debtors.",
+    "source": "other_debtors",
+    "target": "telephone"
+   },
+   {
+    "rationale": "residence_since has its strongest association with employment (0.231), suggesting length of residence depends on employment stability.",
+    "source": "residence_since",
+    "target": "employment"
+   },
+   {
+    "rationale": "residence_since shows a notable association with housing (0.217), indicating housing status co-varies with length of residence.",
+    "source": "residence_since",
+    "target": "housing"
+   },
+   {
+    "rationale": "residence_since has a small but nonzero association with purpose (0.076), suggesting a weak dependency.",
+    "source": "residence_since",
+    "target": "purpose"
+   },
+   {
+    "rationale": "residence_since has a small but nonzero association with existing_credits (0.061), suggesting a weak dependency.",
+    "source": "residence_since",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "residence_since has a small but nonzero association with savings (0.041), suggesting a weak dependency.",
+    "source": "residence_since",
+    "target": "savings"
+   },
+   {
+    "rationale": "residence_since shows a small but nonzero association with telephone (0.04), suggesting a weak dependency.",
+    "source": "residence_since",
+    "target": "telephone"
+   },
+   {
+    "rationale": "residence_since has a small but nonzero association with foreign_worker (0.03), suggesting a weak dependency.",
+    "source": "residence_since",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "Housing has the strongest association with property (0.555), indicating property type strongly co-varies with housing status.",
+    "source": "property",
+    "target": "housing"
+   },
+   {
+    "rationale": "Job has a moderate association with property (0.201), indicating property type co-varies with job category.",
+    "source": "property",
+    "target": "job"
+   },
+   {
+    "rationale": "Purpose shows a moderate association with property (0.177), suggesting property type co-varies with loan purpose.",
+    "source": "property",
+    "target": "purpose"
+   },
+   {
+    "rationale": "Employment has a moderate association with property (0.146), indicating property type depends on employment.",
+    "source": "property",
+    "target": "employment"
+   },
+   {
+    "rationale": "Telephone shows a moderate association with property (0.143), suggesting property type co-varies with phone ownership.",
+    "source": "property",
+    "target": "telephone"
+   },
+   {
+    "rationale": "Foreign_worker has a modest association with property (0.121), suggesting foreign worker status co-varies with property type.",
+    "source": "property",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "Residence_since shows a modest association with property (0.12), suggesting length of residence co-varies with property type.",
+    "source": "property",
+    "target": "residence_since"
+   },
+   {
+    "rationale": "Other_debtors has a modest association with property (0.117), indicating presence of other debtors co-varies with property type.",
+    "source": "property",
+    "target": "other_debtors"
+   },
+   {
+    "rationale": "Num_dependents shows a modest association with property (0.083), suggesting property type co-varies with number of dependents.",
+    "source": "property",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "Savings has a modest association with property (0.083), suggesting savings distribution co-varies with property type.",
+    "source": "property",
+    "target": "savings"
+   },
+   {
+    "rationale": "Existing_credits has a small but nonzero association with property (0.049), suggesting a weak dependency.",
+    "source": "property",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "Housing has the strongest association with age (0.311), indicating housing status strongly co-varies with age.",
+    "source": "age",
+    "target": "housing"
+   },
+   {
+    "rationale": "Employment shows a high association with age (0.249), consistent with employment duration depending on age.",
+    "source": "age",
+    "target": "employment"
+   },
+   {
+    "rationale": "Credit history has a notable association with age (0.185), suggesting credit history distribution depends on age.",
+    "source": "age",
+    "target": "credit_history"
+   },
+   {
+    "rationale": "Number of dependents has a notable association with age (0.165), consistent with dependents being related to age.",
+    "source": "age",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "Telephone has a moderate association with age (0.156), suggesting phone ownership co-varies with age.",
+    "source": "age",
+    "target": "telephone"
+   },
+   {
+    "rationale": "Job shows a moderate association with age (0.146), indicating job category depends on age.",
+    "source": "age",
+    "target": "job"
+   },
+   {
+    "rationale": "The label credit has a modest association with age (0.122), indicating the target depends on age.",
+    "source": "age",
+    "target": "credit"
+   },
+   {
+    "rationale": "num_dependents shows a small but nonzero association with other_installment_plans (0.072), and the graph records num_dependents -> other_installment_plans, suggesting a weak dependency.",
+    "source": "other_installment_plans",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "installment_rate shows a small but nonzero association with other_installment_plans (0.035), and the graph records installment_rate -> other_installment_plans, suggesting a weak dependency.",
+    "source": "other_installment_plans",
+    "target": "installment_rate"
+   },
+   {
+    "rationale": "The label credit has a modest association with housing (0.148), indicating the target depends on housing.",
+    "source": "housing",
+    "target": "credit"
+   },
+   {
+    "rationale": "Housing has a modest association with num_dependents (0.114), suggesting dependents co-vary with housing status.",
+    "source": "housing",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "Housing shows a modest association with existing_credits (0.087), suggesting existing credits depend on housing.",
+    "source": "housing",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "Housing has a small but nonzero association with other_installment_plans (0.071), suggesting a weak dependency.",
+    "source": "housing",
+    "target": "other_installment_plans"
+   },
+   {
+    "rationale": "Housing has a small but nonzero association with foreign_worker (0.055), suggesting a weak dependency.",
+    "source": "housing",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "telephone has the strongest association with job (0.414), indicating phone ownership strongly co-varies with job category.",
+    "source": "job",
+    "target": "telephone"
+   },
+   {
+    "rationale": "employment has a strong association with job (0.294), indicating job category strongly co-varies with employment status.",
+    "source": "job",
+    "target": "employment"
+   },
+   {
+    "rationale": "purpose shows a moderate association with job (0.17), suggesting loan purpose distribution co-varies with job category.",
+    "source": "job",
+    "target": "purpose"
+   },
+   {
+    "rationale": "housing shows a modest association with job (0.144), suggesting housing status co-varies with job category.",
+    "source": "job",
+    "target": "housing"
+   },
+   {
+    "rationale": "num_dependents has a modest association with job (0.135), suggesting number of dependents co-varies with job category.",
+    "source": "job",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "existing_credits shows a modest association with job (0.112), suggesting existing credit count co-varies with job category.",
+    "source": "job",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "foreign_worker has a small but nonzero association with job (0.088), suggesting foreign worker status weakly co-varies with job category.",
+    "source": "job",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "other_debtors shows a small but nonzero association with job (0.08), suggesting a weak dependency on job category.",
+    "source": "job",
+    "target": "other_debtors"
+   },
+   {
+    "rationale": "installment_rate has a small but nonzero association with job (0.078), suggesting installment rate weakly co-varies with job category.",
+    "source": "job",
+    "target": "installment_rate"
+   },
+   {
+    "rationale": "savings shows a small but nonzero association with job (0.06), suggesting savings distribution weakly depends on job category.",
+    "source": "job",
+    "target": "savings"
+   },
+   {
+    "rationale": "other_installment_plans shows a small but nonzero association with job (0.039), suggesting a weak dependency on job category.",
+    "source": "job",
+    "target": "other_installment_plans"
+   },
+   {
+    "rationale": "num_dependents shows a notable association with existing_credits (0.12), indicating existing credit count depends on number of dependents.",
+    "source": "num_dependents",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "num_dependents shows a small but nonzero association with foreign_worker (0.051), suggesting a weak dependency.",
+    "source": "num_dependents",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "telephone shows a modest association with savings (0.107), suggesting savings distribution co-varies with phone ownership.",
+    "source": "telephone",
+    "target": "savings"
+   },
+   {
+    "rationale": "telephone has a modest association with foreign_worker (0.1), suggesting foreign worker status co-varies with phone ownership.",
+    "source": "telephone",
+    "target": "foreign_worker"
+   },
+   {
+    "rationale": "telephone shows a modest association with existing_credits (0.087), suggesting existing credit count co-varies with phone ownership.",
+    "source": "telephone",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "Employment shows a strong association with sex (0.24), suggesting the employment category distribution differs by sex and thus depends on it.",
+    "source": "sex",
+    "target": "employment"
+   },
+   {
+    "rationale": "Housing has a high association with sex (0.225), indicating housing status co-varies with sex in the data.",
+    "source": "sex",
+    "target": "housing"
+   },
+   {
+    "rationale": "Number of dependents has a notable association with sex (0.218), consistent with dependents being related to the protected attribute.",
+    "source": "sex",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "Installment rate shows a moderate association with sex (0.171), suggesting its distribution depends on sex.",
+    "source": "sex",
+    "target": "installment_rate"
+   }
+  ]
+ },
+ "R": [
+  "checking_status",
+  "duration",
+  "savings",
+  "property"
+ ],
+ "P": [
+  "credit_history",
+  "employment",
+  "housing",
+  "job"
+ ],
+ "cut": [
+  [
+   "age",
+   "credit"
+  ],
+  [
+   "credit_history",
+   "credit"
+  ],
+  [
+   "credit_history",
+   "purpose"
+  ],
+  [
+   "employment",
+   "credit"
+  ],
+  [
+   "housing",
+   "credit"
+  ],
+  [
+   "installment_rate",
+   "credit"
+  ],
+  [
+   "job",
+   "purpose"
+  ]
+ ],
+ "ops": {
+  "installment_rate->credit": "cut",
+  "credit_history->credit": "cut",
+  "housing->credit": "cut",
+  "employment->credit": "cut",
+  "job->purpose": "surrogate",
+  "credit_history->purpose": "surrogate",
+  "age->credit": "cut"
+ },
+ "cost": {
+  "credit_history->credit": 0.001,
+  "credit_history->other_installment_plans": 0.01645043203785291,
+  "credit_history->purpose": 0.001,
+  "credit_history->employment": 0.001,
+  "credit_history->housing": 0.001,
+  "credit_history->other_debtors": 0.001,
+  "purpose->other_debtors": 0.03511387153064838,
+  "purpose->credit": 0.01593780369290576,
+  "purpose->other_installment_plans": 0.001,
+  "employment->housing": 0.001,
+  "employment->credit": 0.001,
+  "employment->installment_rate": 0.001,
+  "installment_rate->credit": 0.003255587949465455,
+  "other_debtors->other_installment_plans": 0.009407301942705781,
+  "other_debtors->housing": 0.001,
+  "age->housing": 0.006965910818625298,
+  "age->employment": 0.013643379809597289,
+  "age->credit_history": 0.016379538775082025,
+  "age->job": 0.011021788113679487,
+  "age->credit": 0.001,
+  "other_installment_plans->installment_rate": 0.004183788376921682,
+  "housing->credit": 0.001,
+  "housing->other_installment_plans": 0.028842598763647816,
+  "job->employment": 0.03106292555785429,
+  "job->purpose": 0.001,
+  "job->housing": 0.001,
+  "job->other_debtors": 0.001,
+  "job->installment_rate": 0.0029366629306376655,
+  "job->other_installment_plans": 0.001,
+  "sex->employment": 0.01713472508925218,
+  "sex->housing": 0.011450415280390702,
+  "sex->installment_rate": 0.006982276879499039
+ },
+ "prior_driven": [
+  {
+   "edge": [
+    "age",
+    "existing_credits"
+   ],
+   "assoc": 0.14673627042955867,
+   "p_holm": 0.05325443786982249,
+   "rationale": "Existing credits have a moderate association with age (0.147), indicating a dependency relationship."
+  },
+  {
+   "edge": [
+    "age",
+    "checking_status"
+   ],
+   "assoc": 0.11811024900351401,
+   "p_holm": 0.08547008547008547,
+   "rationale": "Checking status has a modest association with age (0.118), suggesting its distribution depends on age."
+  },
+  {
+   "edge": [
+    "age",
+    "property"
+   ],
+   "assoc": 0.10460828198305316,
+   "p_holm": 0.3313609467455621,
+   "rationale": "Property has a modest association with age (0.105), suggesting property type co-varies with age."
+  },
+  {
+   "edge": [
+    "age",
+    "purpose"
+   ],
+   "assoc": 0.09666723648074092,
+   "p_holm": 1.0,
+   "rationale": "Purpose shows a modest association with age (0.097), suggesting loan purpose distribution varies with age."
+  },
+  {
+   "edge": [
+    "sex",
+    "credit_history"
+   ],
+   "assoc": 0.1239355086618699,
+   "p_holm": 0.14792899408284024,
+   "rationale": "Credit history has a moderate association with sex (0.124), indicating a direct statistical dependency."
+  },
+  {
+   "edge": [
+    "sex",
+    "purpose"
+   ],
+   "assoc": 0.1061138415957524,
+   "p_holm": 0.8152531229454306,
+   "rationale": "Purpose shows a moderate association with sex (0.106), suggesting loan purpose distribution varies with sex."
+  },
+  {
+   "edge": [
+    "sex",
+    "existing_credits"
+   ],
+   "assoc": 0.1003489176452957,
+   "p_holm": 0.3760683760683761,
+   "rationale": "Existing credits have a moderate association with sex (0.1), indicating a dependency relationship."
+  },
+  {
+   "edge": [
+    "sex",
+    "duration"
+   ],
+   "assoc": 0.09582895315677883,
+   "p_holm": 0.3629191321499014,
+   "rationale": "Duration has a modest association with sex (0.096), suggesting loan duration depends on sex."
+  },
+  {
+   "edge": [
+    "sex",
+    "credit_amount"
+   ],
+   "assoc": 0.08243926875036135,
+   "p_holm": 0.8152531229454306,
+   "rationale": "Credit amount shows a modest association with sex (0.082), indicating a direct dependency."
+  },
+  {
+   "edge": [
+    "sex",
+    "telephone"
+   ],
+   "assoc": 0.08184847725381371,
+   "p_holm": 0.4003944773175543,
+   "rationale": "Telephone has a modest association with sex (0.082), suggesting phone ownership co-varies with sex."
+  },
+  {
+   "edge": [
+    "sex",
+    "job"
+   ],
+   "assoc": 0.06954918772112866,
+   "p_holm": 1.0,
+   "rationale": "Job shows a modest association with sex (0.07), indicating job category depends on sex."
+  },
+  {
+   "edge": [
+    "sex",
+    "credit"
+   ],
+   "assoc": 0.06303168680795118,
+   "p_holm": 1.0,
+   "rationale": "The label credit has a modest association with sex (0.063), indicating the target depends on the protected attribute."
+  },
+  {
+   "edge": [
+    "sex",
+    "property"
+   ],
+   "assoc": 0.05394925897537333,
+   "p_holm": 1.0,
+   "rationale": "Property has a modest association with sex (0.054), suggesting property type co-varies with sex."
+  },
+  {
+   "edge": [
+    "sex",
+    "foreign_worker"
+   ],
+   "assoc": 0.05361069541241177,
+   "p_holm": 1.0,
+   "rationale": "Foreign worker status has a modest association with sex (0.054), indicating a dependency."
+  },
+  {
+   "edge": [
+    "sex",
+    "residence_since"
+   ],
+   "assoc": 0.04031950298034857,
+   "p_holm": 1.0,
+   "rationale": "Residence since shows a small but nonzero association with sex (0.04), suggesting a weak direct dependency."
+  }
+ ],
+ "protected": [
+  "sex",
+  "age"
+ ],
+ "label": "credit"
+}

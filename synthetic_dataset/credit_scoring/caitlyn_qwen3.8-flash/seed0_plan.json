@@ -1,0 +1,583 @@
+{
+ "G2": {
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+   {
+    "id": "Language"
+   },
+   {
+    "id": "Marital"
+   },
+   {
+    "id": "Has-Credit"
+   },
+   {
+    "id": "Field"
+   },
+   {
+    "id": "Month-of-birth"
+   },
+   {
+    "id": "Day-of-birth"
+   },
+   {
+    "id": "Region"
+   },
+   {
+    "id": "Number_of_credits"
+   },
+   {
+    "id": "Linked-cards"
+   },
+   {
+    "id": "INPS_mln_sum"
+   },
+   {
+    "id": "INPS-yes-no"
+   },
+   {
+    "id": "Score-level"
+   },
+   {
+    "id": "Score-class"
+   },
+   {
+    "id": "Score_point"
+   },
+   {
+    "id": "Changed-phone-number"
+   },
+   {
+    "id": "label"
+   },
+   {
+    "id": "sex"
+   },
+   {
+    "id": "age"
+   },
+   {
+    "hidden": true,
+    "surrogate_of": "sex",
+    "masked": [],
+    "id": "sex__sur"
+   },
+   {
+    "hidden": true,
+    "surrogate_of": "Marital",
+    "masked": [
+     "sex",
+     "age"
+    ],
+    "id": "Marital__sur"
+   },
+   {
+    "hidden": true,
+    "surrogate_of": "Region",
+    "masked": [
+     "sex",
+     "age"
+    ],
+    "id": "Region__sur"
+   },
+   {
+    "hidden": true,
+    "surrogate_of": "age",
+    "masked": [],
+    "id": "age__sur"
+   }
+  ],
+  "links": [
+   {
+    "rationale": "There is a low but non-zero association (0.106) between Marital and Language, indicating a weak potential link where language preference might correlate with marital status in this dataset.",
+    "source": "Marital",
+    "target": "Language"
+   },
+   {
+    "rationale": "The association score between Has-Credit and INPS-yes-no is the highest among all non-protected columns (0.166), indicating a strong statistical dependency where credit status likely influences or correlates with INPS enrollment.",
+    "source": "Has-Credit",
+    "target": "INPS-yes-no"
+   },
+   {
+    "rationale": "There is a moderate association (0.142) between Has-Credit and Number_of_credits, suggesting that the presence of credit is linked to the specific count of credits held.",
+    "source": "Has-Credit",
+    "target": "Number_of_credits"
+   },
+   {
+    "rationale": "The association score between Has-Credit and Linked-cards is also moderate (0.142), implying that having credit is correlated with the number of linked cards in the dataset.",
+    "source": "Has-Credit",
+    "target": "Linked-cards"
+   },
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "Field",
+    "target": "label"
+   },
+   {
+    "rationale": "The association score between Day-of-birth and label is the highest among all non-protected columns (0.202), indicating a strong statistical dependency where the day of birth correlates with the target outcome.",
+    "source": "Day-of-birth",
+    "target": "label"
+   },
+   {
+    "rationale": "There is a moderate association (0.174) between Day-of-birth and Changed-phone-number, suggesting that phone number change status may be linked to the specific day of birth in this dataset.",
+    "source": "Day-of-birth",
+    "target": "Changed-phone-number"
+   },
+   {
+    "rationale": "The association score between Day-of-birth and INPS-yes-no is 0.123, indicating a potential link where INPS enrollment status correlates with the day of birth.",
+    "source": "Day-of-birth",
+    "target": "INPS-yes-no"
+   },
+   {
+    "rationale": "The association score between Region and Score_point is the highest among all non-protected columns (0.184), indicating a strong statistical dependency where geographic region correlates with credit score points.",
+    "source": "Region",
+    "target": "Score_point"
+   },
+   {
+    "rationale": "There is a moderate association (0.139) between Region and Language, suggesting that language preference varies significantly by geographic region in this dataset.",
+    "source": "Region",
+    "target": "Language"
+   },
+   {
+    "rationale": "The association score between Number_of_credits and Linked-cards is 0.0, indicating no statistical dependency exists to justify an edge in the generation order.",
+    "source": "Number_of_credits",
+    "target": "Linked-cards"
+   },
+   {
+    "rationale": "The association score between Number_of_credits and INPS_mln_sum is very low (0.03), suggesting a negligible direct dependency that does not warrant inclusion as a strong child node.",
+    "source": "Number_of_credits",
+    "target": "INPS_mln_sum"
+   },
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "Number_of_credits",
+    "target": "label"
+   },
+   {
+    "rationale": "The association score between Linked-cards and label is the highest among all non-protected columns (0.181), indicating a strong statistical dependency where the number of linked cards correlates with the target outcome.",
+    "source": "Linked-cards",
+    "target": "label"
+   },
+   {
+    "rationale": "There is a moderate association (0.151) between Linked-cards and INPS-yes-no, suggesting that the status of having linked cards is correlated with INPS enrollment status.",
+    "source": "Linked-cards",
+    "target": "INPS-yes-no"
+   },
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "INPS_mln_sum",
+    "target": "label"
+   },
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "INPS-yes-no",
+    "target": "label"
+   },
+   {
+    "rationale": "The association score between Score-level and Score-class is perfect (1.0), indicating that the categorical score class is directly determined by the score level.",
+    "source": "Score-level",
+    "target": "Score-class"
+   },
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "Score-level",
+    "target": "label"
+   },
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "Score-class",
+    "target": "label"
+   },
+   {
+    "rationale": "The association score between Score_point and Score-level is extremely high (0.995), indicating that the credit score level is almost entirely determined by the specific score point value.",
+    "source": "Score_point",
+    "target": "Score-level"
+   },
+   {
+    "rationale": "The association score between Score_point and Score-class is nearly perfect (0.999), suggesting that the score class is a direct categorical mapping of the continuous score point variable.",
+    "source": "Score_point",
+    "target": "Score-class"
+   },
+   {
+    "rationale": "The association score between sex and Marital is extremely high (0.991), indicating that marital status is strongly determined by or correlated with gender in this dataset.",
+    "source": "sex",
+    "target": "Marital"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "sex",
+    "target": "Region"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "Marital"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "Score_point"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "Changed-phone-number"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "Region"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "Linked-cards"
+   },
+   {
+    "source": "sex__sur",
+    "target": "Field"
+   },
+   {
+    "source": "Marital__sur",
+    "target": "Field"
+   },
+   {
+    "source": "Region__sur",
+    "target": "Field"
+   },
+   {
+    "source": "age__sur",
+    "target": "Field"
+   }
+  ]
+ },
+ "G": {
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+   {
+    "id": "Language"
+   },
+   {
+    "id": "Marital"
+   },
+   {
+    "id": "Has-Credit"
+   },
+   {
+    "id": "Field"
+   },
+   {
+    "id": "Month-of-birth"
+   },
+   {
+    "id": "Day-of-birth"
+   },
+   {
+    "id": "Region"
+   },
+   {
+    "id": "Number_of_credits"
+   },
+   {
+    "id": "Linked-cards"
+   },
+   {
+    "id": "INPS_mln_sum"
+   },
+   {
+    "id": "INPS-yes-no"
+   },
+   {
+    "id": "Score-level"
+   },
+   {
+    "id": "Score-class"
+   },
+   {
+    "id": "Score_point"
+   },
+   {
+    "id": "Changed-phone-number"
+   },
+   {
+    "id": "label"
+   },
+   {
+    "id": "sex"
+   },
+   {
+    "id": "age"
+   }
+  ],
+  "links": [
+   {
+    "rationale": "The association score between Marital and Field is moderate (0.242), suggesting that professional field distribution varies by marital status, making it a candidate for dependency.",
+    "source": "Marital",
+    "target": "Field"
+   },
+   {
+    "rationale": "There is a low but non-zero association (0.106) between Marital and Language, indicating a weak potential link where language preference might correlate with marital status in this dataset.",
+    "source": "Marital",
+    "target": "Language"
+   },
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "Marital",
+    "target": "label"
+   },
+   {
+    "rationale": "The association score between Has-Credit and INPS-yes-no is the highest among all non-protected columns (0.166), indicating a strong statistical dependency where credit status likely influences or correlates with INPS enrollment.",
+    "source": "Has-Credit",
+    "target": "INPS-yes-no"
+   },
+   {
+    "rationale": "There is a moderate association (0.142) between Has-Credit and Number_of_credits, suggesting that the presence of credit is linked to the specific count of credits held.",
+    "source": "Has-Credit",
+    "target": "Number_of_credits"
+   },
+   {
+    "rationale": "The association score between Has-Credit and Linked-cards is also moderate (0.142), implying that having credit is correlated with the number of linked cards in the dataset.",
+    "source": "Has-Credit",
+    "target": "Linked-cards"
+   },
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "Field",
+    "target": "label"
+   },
+   {
+    "rationale": "The association score between Day-of-birth and label is the highest among all non-protected columns (0.202), indicating a strong statistical dependency where the day of birth correlates with the target outcome.",
+    "source": "Day-of-birth",
+    "target": "label"
+   },
+   {
+    "rationale": "There is a moderate association (0.174) between Day-of-birth and Changed-phone-number, suggesting that phone number change status may be linked to the specific day of birth in this dataset.",
+    "source": "Day-of-birth",
+    "target": "Changed-phone-number"
+   },
+   {
+    "rationale": "The association score between Day-of-birth and INPS-yes-no is 0.123, indicating a potential link where INPS enrollment status correlates with the day of birth.",
+    "source": "Day-of-birth",
+    "target": "INPS-yes-no"
+   },
+   {
+    "rationale": "The association score between Region and Score_point is the highest among all non-protected columns (0.184), indicating a strong statistical dependency where geographic region correlates with credit score points.",
+    "source": "Region",
+    "target": "Score_point"
+   },
+   {
+    "rationale": "There is a moderate association (0.139) between Region and Language, suggesting that language preference varies significantly by geographic region in this dataset.",
+    "source": "Region",
+    "target": "Language"
+   },
+   {
+    "rationale": "The association score between Region and Field is moderate (0.127), implying that professional field distribution is influenced by or correlated with the specific region of residence.",
+    "source": "Region",
+    "target": "Field"
+   },
+   {
+    "rationale": "The association score between Number_of_credits and Linked-cards is 0.0, indicating no statistical dependency exists to justify an edge in the generation order.",
+    "source": "Number_of_credits",
+    "target": "Linked-cards"
+   },
+   {
+    "rationale": "The association score between Number_of_credits and INPS_mln_sum is very low (0.03), suggesting a negligible direct dependency that does not warrant inclusion as a strong child node.",
+    "source": "Number_of_credits",
+    "target": "INPS_mln_sum"
+   },
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "Number_of_credits",
+    "target": "label"
+   },
+   {
+    "rationale": "The association score between Linked-cards and label is the highest among all non-protected columns (0.181), indicating a strong statistical dependency where the number of linked cards correlates with the target outcome.",
+    "source": "Linked-cards",
+    "target": "label"
+   },
+   {
+    "rationale": "There is a moderate association (0.151) between Linked-cards and INPS-yes-no, suggesting that the status of having linked cards is correlated with INPS enrollment status.",
+    "source": "Linked-cards",
+    "target": "INPS-yes-no"
+   },
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "INPS_mln_sum",
+    "target": "label"
+   },
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "INPS-yes-no",
+    "target": "label"
+   },
+   {
+    "rationale": "The association score between Score-level and Score-class is perfect (1.0), indicating that the categorical score class is directly determined by the score level.",
+    "source": "Score-level",
+    "target": "Score-class"
+   },
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "Score-level",
+    "target": "label"
+   },
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "Score-class",
+    "target": "label"
+   },
+   {
+    "rationale": "The association score between Score_point and Score-level is extremely high (0.995), indicating that the credit score level is almost entirely determined by the specific score point value.",
+    "source": "Score_point",
+    "target": "Score-level"
+   },
+   {
+    "rationale": "The association score between Score_point and Score-class is nearly perfect (0.999), suggesting that the score class is a direct categorical mapping of the continuous score point variable.",
+    "source": "Score_point",
+    "target": "Score-class"
+   },
+   {
+    "rationale": "label parent added by likelihood-ratio test",
+    "source": "Score_point",
+    "target": "label"
+   },
+   {
+    "rationale": "The association score between sex and Marital is extremely high (0.991), indicating that marital status is strongly determined by or correlated with gender in this dataset.",
+    "source": "sex",
+    "target": "Marital"
+   },
+   {
+    "rationale": "There is a moderate association (0.224) between sex and Field, suggesting that certain professional fields are more likely to be associated with specific genders.",
+    "source": "sex",
+    "target": "Field"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "sex",
+    "target": "Region"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "sex",
+    "target": "label"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "Marital"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "label"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "Score_point"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "Field"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "Changed-phone-number"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "Region"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "Linked-cards"
+   }
+  ]
+ },
+ "R": [
+  "Number_of_credits",
+  "Linked-cards",
+  "INPS_mln_sum",
+  "INPS-yes-no",
+  "Score-level",
+  "Score-class"
+ ],
+ "P": [
+  "Marital",
+  "Region"
+ ],
+ "cut": [
+  [
+   "Marital",
+   "Field"
+  ],
+  [
+   "Marital",
+   "label"
+  ],
+  [
+   "Region",
+   "Field"
+  ],
+  [
+   "Score_point",
+   "label"
+  ],
+  [
+   "age",
+   "Field"
+  ],
+  [
+   "age",
+   "label"
+  ],
+  [
+   "sex",
+   "Field"
+  ],
+  [
+   "sex",
+   "label"
+  ]
+ ],
+ "ops": {
+  "sex->Field": "surrogate",
+  "sex->label": "cut",
+  "Score_point->label": "cut",
+  "Marital->Field": "surrogate",
+  "Region->Field": "surrogate",
+  "age->Field": "surrogate",
+  "age->label": "cut",
+  "Marital->label": "cut"
+ },
+ "cost": {
+  "Marital->Field": 0.001,
+  "Marital->label": 0.001,
+  "Field->label": 0.11406826596280806,
+  "Region->Score_point": 0.024779594319900913,
+  "Region->Field": 0.001,
+  "Score_point->label": 0.001,
+  "sex->Marital": 0.21193861009485537,
+  "sex->Field": 0.001,
+  "sex->Region": 0.018971051759986812,
+  "sex->label": 0.001,
+  "age->Marital": 0.06372463801077832,
+  "age->label": 0.001,
+  "age->Score_point": 0.01879663503883122,
+  "age->Field": 0.012001223713613923,
+  "age->Region": 0.023873130426949052
+ },
+ "prior_driven": [],
+ "protected": [
+  "sex",
+  "age"
+ ],
+ "label": "label"
+}

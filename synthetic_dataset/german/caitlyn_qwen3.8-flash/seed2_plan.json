@@ -1,0 +1,857 @@
+{
+ "G2": {
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+   {
+    "id": "checking_status"
+   },
+   {
+    "id": "duration"
+   },
+   {
+    "id": "credit_history"
+   },
+   {
+    "id": "purpose"
+   },
+   {
+    "id": "credit_amount"
+   },
+   {
+    "id": "savings"
+   },
+   {
+    "id": "employment"
+   },
+   {
+    "id": "installment_rate"
+   },
+   {
+    "id": "other_debtors"
+   },
+   {
+    "id": "residence_since"
+   },
+   {
+    "id": "property"
+   },
+   {
+    "id": "age"
+   },
+   {
+    "id": "other_installment_plans"
+   },
+   {
+    "id": "housing"
+   },
+   {
+    "id": "existing_credits"
+   },
+   {
+    "id": "job"
+   },
+   {
+    "id": "num_dependents"
+   },
+   {
+    "id": "telephone"
+   },
+   {
+    "id": "foreign_worker"
+   },
+   {
+    "id": "sex"
+   },
+   {
+    "id": "credit"
+   }
+  ],
+  "links": [
+   {
+    "rationale": "The label 'credit' has a strong association with checking_status (0.37), indicating that the status of the applicant's checking account is a primary determinant in assessing creditworthiness and loan approval.",
+    "source": "checking_status",
+    "target": "credit"
+   },
+   {
+    "rationale": "The label 'credit' has a moderate association with duration (0.247), indicating that the loan repayment term is a significant factor in determining whether an applicant is considered creditworthy.",
+    "source": "duration",
+    "target": "credit"
+   },
+   {
+    "rationale": "Purpose shows a strong association with credit_amount (0.405), reflecting that different loan purposes (e.g., car vs. radio) typically require distinct average funding amounts.",
+    "source": "purpose",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "Duration has a moderate-to-high association with purpose (0.285), indicating that the intended use of the loan significantly influences the chosen repayment term length, such as longer terms for cars versus shorter terms for consumer goods.",
+    "source": "purpose",
+    "target": "duration"
+   },
+   {
+    "rationale": "Telephone shows a low-to-moderate association with purpose (0.183), implying that specific loan purposes may be more common among individuals who have established contactability via a phone line.",
+    "source": "purpose",
+    "target": "telephone"
+   },
+   {
+    "rationale": "Other debtors has a low-to-moderate association with purpose (0.186), suggesting that certain loan types, such as business or large purchases, are more likely to involve co-applicants or guarantors.",
+    "source": "purpose",
+    "target": "other_debtors"
+   },
+   {
+    "rationale": "Housing has a low-to-moderate association with purpose (0.182), indicating that homeownership status correlates with the type of loan taken, potentially due to collateral availability or financial stability associated with owning property.",
+    "source": "purpose",
+    "target": "housing"
+   },
+   {
+    "rationale": "Property has a low-to-moderate association with purpose (0.177), reflecting that asset ownership influences the likelihood of taking out loans for specific purposes like repairs or furniture, where existing assets might serve as security or indicate financial capacity.",
+    "source": "purpose",
+    "target": "property"
+   },
+   {
+    "rationale": "Job has a low-to-moderate association with purpose (0.170), indicating that different occupations tend to have distinct typical reasons for taking out loans, such as business investments versus consumer goods.",
+    "source": "purpose",
+    "target": "job"
+   },
+   {
+    "rationale": "Duration has the highest association with credit_amount (0.619), indicating that loan repayment terms are strongly determined by or correlated with the requested loan size.",
+    "source": "credit_amount",
+    "target": "duration"
+   },
+   {
+    "rationale": "Job has a moderate-to-high association with credit_amount (0.326), suggesting that occupational status influences the maximum loan amount an individual is eligible for.",
+    "source": "credit_amount",
+    "target": "job"
+   },
+   {
+    "rationale": "Telephone has a moderate association with credit_amount (0.279), potentially indicating that contactability or stability associated with having a phone line correlates with larger credit requests.",
+    "source": "credit_amount",
+    "target": "telephone"
+   },
+   {
+    "rationale": "Installment rate has a moderate association with credit_amount (0.272), implying that the chosen monthly payment burden is logically linked to the total principal amount borrowed.",
+    "source": "credit_amount",
+    "target": "installment_rate"
+   },
+   {
+    "rationale": "The label 'credit' has a moderate association with savings (0.159), indicating that the level of personal savings is a significant factor in determining an applicant's creditworthiness and loan approval status.",
+    "source": "savings",
+    "target": "credit"
+   },
+   {
+    "rationale": "Checking status shows a low-to-moderate association with savings (0.161), reflecting that individuals with higher savings balances often maintain more active or positive checking account histories, while those with no savings may have limited banking activity.",
+    "source": "savings",
+    "target": "checking_status"
+   },
+   {
+    "rationale": "Credit amount has a moderate association with savings (0.154), suggesting that applicants with substantial savings are often eligible for or request larger loan amounts due to perceived lower risk and greater financial capacity.",
+    "source": "savings",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "Duration has a low association with savings (0.120), implying that borrowers with stronger financial reserves might opt for different repayment terms, potentially choosing shorter durations to minimize interest costs or longer ones to manage cash flow.",
+    "source": "savings",
+    "target": "duration"
+   },
+   {
+    "rationale": "Telephone has a low association with savings (0.107), indicating that financial stability reflected in savings levels weakly correlates with the possession of a telephone line, which serves as a proxy for contactability and established residence.",
+    "source": "savings",
+    "target": "telephone"
+   },
+   {
+    "rationale": "Residence since shows a moderate association with employment (0.231), suggesting that individuals with longer employment histories tend to have more stable residence durations.",
+    "source": "employment",
+    "target": "residence_since"
+   },
+   {
+    "rationale": "Housing has a moderate association with employment (0.190), implying that employment status influences housing tenure, such as employed individuals being more likely to own homes.",
+    "source": "employment",
+    "target": "housing"
+   },
+   {
+    "rationale": "Telephone has a low-to-moderate association with employment (0.149), potentially reflecting that stable employment is associated with having a telephone line for contact purposes.",
+    "source": "employment",
+    "target": "telephone"
+   },
+   {
+    "rationale": "Property has a low-to-moderate association with employment (0.146), indicating that employment history contributes to asset accumulation, including property ownership.",
+    "source": "employment",
+    "target": "property"
+   },
+   {
+    "rationale": "Duration has a low-to-moderate association with residence_since (0.103), indicating that stability in residence might correlate with the chosen repayment term length, possibly reflecting borrower confidence or lender assessment of long-term stability.",
+    "source": "residence_since",
+    "target": "duration"
+   },
+   {
+    "rationale": "Credit amount has a strong association with property (0.318), indicating that individuals with significant assets like real estate or cars are often eligible for larger loan amounts due to perceived lower risk and collateral value.",
+    "source": "property",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "Duration shows a moderate-to-high association with property (0.302), suggesting that borrowers with established assets may opt for longer repayment terms, as their financial stability supports extended credit commitments.",
+    "source": "property",
+    "target": "duration"
+   },
+   {
+    "rationale": "Housing has the highest association score with age (0.311), indicating that age is a strong predictor of housing status, such as younger individuals being more likely to rent.",
+    "source": "age",
+    "target": "housing"
+   },
+   {
+    "rationale": "Employment shows a high association with age (0.249), reflecting the logical dependency where older individuals are more likely to have longer employment histories or be retired/unemployed.",
+    "source": "age",
+    "target": "employment"
+   },
+   {
+    "rationale": "The number of dependents has a moderate association with age (0.165), suggesting that family size and dependent count often correlate with an individual's life stage and age.",
+    "source": "age",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "job"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "telephone"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "credit_history"
+   },
+   {
+    "rationale": "The label 'credit_history' has a moderate association with other_installment_plans (0.183), indicating that the presence of existing installment plans is a significant factor in determining an applicant's recorded credit performance status.",
+    "source": "other_installment_plans",
+    "target": "credit_history"
+   },
+   {
+    "rationale": "Purpose shows a low-to-moderate association with other_installment_plans (0.097), suggesting that specific loan purposes may correlate with whether an applicant already holds other installment commitments.",
+    "source": "other_installment_plans",
+    "target": "purpose"
+   },
+   {
+    "rationale": "Other debtors has a low-to-moderate association with other_installment_plans (0.077), implying that applicants with existing installment plans might be more likely to involve co-applicants or guarantors for additional financial support.",
+    "source": "other_installment_plans",
+    "target": "other_debtors"
+   },
+   {
+    "rationale": "Number of dependents has a low-to-moderate association with other_installment_plans (0.072), reflecting that family size can influence the likelihood of having multiple concurrent installment obligations.",
+    "source": "other_installment_plans",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "Housing has a low-to-moderate association with other_installment_plans (0.071), indicating that housing status weakly correlates with the possession of other installment plans, possibly due to differing financial stability profiles.",
+    "source": "other_installment_plans",
+    "target": "housing"
+   },
+   {
+    "rationale": "Duration has a very low association with other_installment_plans (0.067), suggesting that while not a primary driver, existing installment commitments may slightly influence the chosen repayment term length.",
+    "source": "other_installment_plans",
+    "target": "duration"
+   },
+   {
+    "rationale": "Property has the highest association score with housing (0.555), indicating a strong logical dependency where individuals who own their home are more likely to possess real estate assets, while renters or those living for free typically do not.",
+    "source": "housing",
+    "target": "property"
+   },
+   {
+    "rationale": "Residence since shows a moderate association with housing (0.217), suggesting that homeowners tend to have longer residence durations compared to renters who may move more frequently.",
+    "source": "housing",
+    "target": "residence_since"
+   },
+   {
+    "rationale": "Credit amount has a moderate association with housing (0.216), reflecting that homeowners often qualify for larger credit amounts due to perceived lower risk and asset backing compared to renters.",
+    "source": "housing",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "Credit history has the highest association with existing_credits (0.381), indicating that the number of current credit obligations is a primary determinant of an applicant's recorded credit performance status.",
+    "source": "existing_credits",
+    "target": "credit_history"
+   },
+   {
+    "rationale": "Number of dependents has a low-to-moderate association with existing_credits (0.120), suggesting that larger family sizes may correlate with a higher number of active credit accounts for household expenses.",
+    "source": "existing_credits",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "Duration has a low association with existing_credits (0.115), implying that borrowers with more existing credits might opt for different repayment terms, possibly due to tighter budget constraints or lender risk assessments.",
+    "source": "existing_credits",
+    "target": "duration"
+   },
+   {
+    "rationale": "Duration has a low-to-moderate association with job (0.211), implying that certain occupational groups may prefer or be approved for specific repayment term lengths based on their financial planning habits.",
+    "source": "job",
+    "target": "duration"
+   },
+   {
+    "rationale": "Number of dependents has a low association with job (0.135), potentially indicating that family size varies by occupation type, possibly due to income constraints or cultural factors associated with different roles.",
+    "source": "job",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "Existing credits has a very low association with job (0.112), implying that the number of current credit obligations is only weakly determined by occupational category.",
+    "source": "job",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "Other debtors has a very low association with job (0.080), indicating that the presence of co-applicants or guarantors is largely independent of the applicant's specific job role.",
+    "source": "job",
+    "target": "other_debtors"
+   },
+   {
+    "rationale": "Installment rate has a very low association with job (0.078), suggesting that the chosen monthly payment burden is primarily driven by the loan amount and duration rather than the borrower's occupation.",
+    "source": "job",
+    "target": "installment_rate"
+   },
+   {
+    "rationale": "Checking status has a negligible association with job (0.048), suggesting that bank account history is largely independent of the applicant's profession.",
+    "source": "job",
+    "target": "checking_status"
+   },
+   {
+    "rationale": "Credit history has a negligible association with job (0.035), suggesting that past credit performance is not strongly predicted by current occupational status.",
+    "source": "job",
+    "target": "credit_history"
+   },
+   {
+    "rationale": "Duration has a low association with telephone (0.136), potentially indicating that borrowers with a telephone line might opt for different repayment terms due to perceived stability or lender assessment criteria.",
+    "source": "telephone",
+    "target": "duration"
+   },
+   {
+    "rationale": "Existing credits has a negligible association with telephone (0.087), indicating that the number of current credit obligations is largely independent of whether an applicant has a telephone line.",
+    "source": "telephone",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "Number of dependents has a negligible association with telephone (0.038), suggesting family size is unrelated to the decision or ability to maintain a telephone line.",
+    "source": "telephone",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "Residence since has a negligible association with telephone (0.040), indicating that length of residence at current address does not significantly predict telephone ownership.",
+    "source": "telephone",
+    "target": "residence_since"
+   },
+   {
+    "rationale": "Checking status has a negligible association with telephone (0.046), implying that bank account history is largely independent of telephone availability.",
+    "source": "telephone",
+    "target": "checking_status"
+   },
+   {
+    "rationale": "Other debtors has a negligible association with telephone (0.037), suggesting the presence of co-applicants or guarantors is unrelated to telephone ownership.",
+    "source": "telephone",
+    "target": "other_debtors"
+   },
+   {
+    "rationale": "Credit history has a negligible association with telephone (0.037), indicating that past credit performance is not predicted by telephone status.",
+    "source": "telephone",
+    "target": "credit_history"
+   },
+   {
+    "rationale": "Duration has a low-to-moderate association with foreign_worker (0.139), suggesting that loan repayment terms may vary slightly based on the applicant's residency status, potentially reflecting different financial planning habits or lender risk assessments for foreign workers.",
+    "source": "foreign_worker",
+    "target": "duration"
+   },
+   {
+    "rationale": "Property has a low-to-moderate association with foreign_worker (0.121), implying that asset ownership status correlates with residency type, where foreign workers might have different property holding patterns compared to native residents.",
+    "source": "foreign_worker",
+    "target": "property"
+   },
+   {
+    "rationale": "Installment rate has a low association with foreign_worker (0.101), suggesting that the chosen monthly payment burden is weakly influenced by the applicant's status as a foreign worker, possibly due to income stability perceptions.",
+    "source": "foreign_worker",
+    "target": "installment_rate"
+   },
+   {
+    "rationale": "Telephone has a very low association with foreign_worker (0.100), indicating that while there is a slight link, it is not a primary determinant of telephone ownership in this dataset.",
+    "source": "foreign_worker",
+    "target": "telephone"
+   },
+   {
+    "rationale": "Other debtors has a very low association with foreign_worker (0.098), suggesting that the presence of co-applicants or guarantors is only weakly related to the applicant's residency status.",
+    "source": "foreign_worker",
+    "target": "other_debtors"
+   },
+   {
+    "rationale": "Foreign worker status has a very low association with job (0.088), suggesting that while some jobs may be more common among foreign workers, the link is not strong enough to be a primary determinant.",
+    "source": "foreign_worker",
+    "target": "job"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "sex",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "sex",
+    "target": "employment"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "sex",
+    "target": "housing"
+   }
+  ]
+ },
+ "G": {
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+   {
+    "id": "checking_status"
+   },
+   {
+    "id": "duration"
+   },
+   {
+    "id": "credit_history"
+   },
+   {
+    "id": "purpose"
+   },
+   {
+    "id": "credit_amount"
+   },
+   {
+    "id": "savings"
+   },
+   {
+    "id": "employment"
+   },
+   {
+    "id": "installment_rate"
+   },
+   {
+    "id": "other_debtors"
+   },
+   {
+    "id": "residence_since"
+   },
+   {
+    "id": "property"
+   },
+   {
+    "id": "age"
+   },
+   {
+    "id": "other_installment_plans"
+   },
+   {
+    "id": "housing"
+   },
+   {
+    "id": "existing_credits"
+   },
+   {
+    "id": "job"
+   },
+   {
+    "id": "num_dependents"
+   },
+   {
+    "id": "telephone"
+   },
+   {
+    "id": "foreign_worker"
+   },
+   {
+    "id": "sex"
+   },
+   {
+    "id": "credit"
+   }
+  ],
+  "links": [
+   {
+    "rationale": "The label 'credit' has a strong association with checking_status (0.37), indicating that the status of the applicant's checking account is a primary determinant in assessing creditworthiness and loan approval.",
+    "source": "checking_status",
+    "target": "credit"
+   },
+   {
+    "rationale": "The label 'credit' has a moderate association with duration (0.247), indicating that the loan repayment term is a significant factor in determining whether an applicant is considered creditworthy.",
+    "source": "duration",
+    "target": "credit"
+   },
+   {
+    "rationale": "The label 'credit' has a moderate association with credit_history (0.254), indicating that an applicant's recorded past credit performance is a significant determinant in the final loan approval decision.",
+    "source": "credit_history",
+    "target": "credit"
+   },
+   {
+    "rationale": "Purpose shows a strong association with credit_amount (0.405), reflecting that different loan purposes (e.g., car vs. radio) typically require distinct average funding amounts.",
+    "source": "purpose",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "Duration has a moderate-to-high association with purpose (0.285), indicating that the intended use of the loan significantly influences the chosen repayment term length, such as longer terms for cars versus shorter terms for consumer goods.",
+    "source": "purpose",
+    "target": "duration"
+   },
+   {
+    "rationale": "Telephone shows a low-to-moderate association with purpose (0.183), implying that specific loan purposes may be more common among individuals who have established contactability via a phone line.",
+    "source": "purpose",
+    "target": "telephone"
+   },
+   {
+    "rationale": "Other debtors has a low-to-moderate association with purpose (0.186), suggesting that certain loan types, such as business or large purchases, are more likely to involve co-applicants or guarantors.",
+    "source": "purpose",
+    "target": "other_debtors"
+   },
+   {
+    "rationale": "Housing has a low-to-moderate association with purpose (0.182), indicating that homeownership status correlates with the type of loan taken, potentially due to collateral availability or financial stability associated with owning property.",
+    "source": "purpose",
+    "target": "housing"
+   },
+   {
+    "rationale": "Property has a low-to-moderate association with purpose (0.177), reflecting that asset ownership influences the likelihood of taking out loans for specific purposes like repairs or furniture, where existing assets might serve as security or indicate financial capacity.",
+    "source": "purpose",
+    "target": "property"
+   },
+   {
+    "rationale": "Job has a low-to-moderate association with purpose (0.170), indicating that different occupations tend to have distinct typical reasons for taking out loans, such as business investments versus consumer goods.",
+    "source": "purpose",
+    "target": "job"
+   },
+   {
+    "rationale": "Duration has the highest association with credit_amount (0.619), indicating that loan repayment terms are strongly determined by or correlated with the requested loan size.",
+    "source": "credit_amount",
+    "target": "duration"
+   },
+   {
+    "rationale": "Job has a moderate-to-high association with credit_amount (0.326), suggesting that occupational status influences the maximum loan amount an individual is eligible for.",
+    "source": "credit_amount",
+    "target": "job"
+   },
+   {
+    "rationale": "Telephone has a moderate association with credit_amount (0.279), potentially indicating that contactability or stability associated with having a phone line correlates with larger credit requests.",
+    "source": "credit_amount",
+    "target": "telephone"
+   },
+   {
+    "rationale": "Installment rate has a moderate association with credit_amount (0.272), implying that the chosen monthly payment burden is logically linked to the total principal amount borrowed.",
+    "source": "credit_amount",
+    "target": "installment_rate"
+   },
+   {
+    "rationale": "The label 'credit' has a moderate association with savings (0.159), indicating that the level of personal savings is a significant factor in determining an applicant's creditworthiness and loan approval status.",
+    "source": "savings",
+    "target": "credit"
+   },
+   {
+    "rationale": "Checking status shows a low-to-moderate association with savings (0.161), reflecting that individuals with higher savings balances often maintain more active or positive checking account histories, while those with no savings may have limited banking activity.",
+    "source": "savings",
+    "target": "checking_status"
+   },
+   {
+    "rationale": "Credit amount has a moderate association with savings (0.154), suggesting that applicants with substantial savings are often eligible for or request larger loan amounts due to perceived lower risk and greater financial capacity.",
+    "source": "savings",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "Duration has a low association with savings (0.120), implying that borrowers with stronger financial reserves might opt for different repayment terms, potentially choosing shorter durations to minimize interest costs or longer ones to manage cash flow.",
+    "source": "savings",
+    "target": "duration"
+   },
+   {
+    "rationale": "Telephone has a low association with savings (0.107), indicating that financial stability reflected in savings levels weakly correlates with the possession of a telephone line, which serves as a proxy for contactability and established residence.",
+    "source": "savings",
+    "target": "telephone"
+   },
+   {
+    "rationale": "Residence since shows a moderate association with employment (0.231), suggesting that individuals with longer employment histories tend to have more stable residence durations.",
+    "source": "employment",
+    "target": "residence_since"
+   },
+   {
+    "rationale": "Housing has a moderate association with employment (0.190), implying that employment status influences housing tenure, such as employed individuals being more likely to own homes.",
+    "source": "employment",
+    "target": "housing"
+   },
+   {
+    "rationale": "Telephone has a low-to-moderate association with employment (0.149), potentially reflecting that stable employment is associated with having a telephone line for contact purposes.",
+    "source": "employment",
+    "target": "telephone"
+   },
+   {
+    "rationale": "Property has a low-to-moderate association with employment (0.146), indicating that employment history contributes to asset accumulation, including property ownership.",
+    "source": "employment",
+    "target": "property"
+   },
+   {
+    "rationale": "Duration has a low-to-moderate association with residence_since (0.103), indicating that stability in residence might correlate with the chosen repayment term length, possibly reflecting borrower confidence or lender assessment of long-term stability.",
+    "source": "residence_since",
+    "target": "duration"
+   },
+   {
+    "rationale": "Credit amount has a strong association with property (0.318), indicating that individuals with significant assets like real estate or cars are often eligible for larger loan amounts due to perceived lower risk and collateral value.",
+    "source": "property",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "Duration shows a moderate-to-high association with property (0.302), suggesting that borrowers with established assets may opt for longer repayment terms, as their financial stability supports extended credit commitments.",
+    "source": "property",
+    "target": "duration"
+   },
+   {
+    "rationale": "Housing has the highest association score with age (0.311), indicating that age is a strong predictor of housing status, such as younger individuals being more likely to rent.",
+    "source": "age",
+    "target": "housing"
+   },
+   {
+    "rationale": "Employment shows a high association with age (0.249), reflecting the logical dependency where older individuals are more likely to have longer employment histories or be retired/unemployed.",
+    "source": "age",
+    "target": "employment"
+   },
+   {
+    "rationale": "The number of dependents has a moderate association with age (0.165), suggesting that family size and dependent count often correlate with an individual's life stage and age.",
+    "source": "age",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "job"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "telephone"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "credit_history"
+   },
+   {
+    "rationale": "The label 'credit_history' has a moderate association with other_installment_plans (0.183), indicating that the presence of existing installment plans is a significant factor in determining an applicant's recorded credit performance status.",
+    "source": "other_installment_plans",
+    "target": "credit_history"
+   },
+   {
+    "rationale": "Purpose shows a low-to-moderate association with other_installment_plans (0.097), suggesting that specific loan purposes may correlate with whether an applicant already holds other installment commitments.",
+    "source": "other_installment_plans",
+    "target": "purpose"
+   },
+   {
+    "rationale": "Other debtors has a low-to-moderate association with other_installment_plans (0.077), implying that applicants with existing installment plans might be more likely to involve co-applicants or guarantors for additional financial support.",
+    "source": "other_installment_plans",
+    "target": "other_debtors"
+   },
+   {
+    "rationale": "Number of dependents has a low-to-moderate association with other_installment_plans (0.072), reflecting that family size can influence the likelihood of having multiple concurrent installment obligations.",
+    "source": "other_installment_plans",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "Housing has a low-to-moderate association with other_installment_plans (0.071), indicating that housing status weakly correlates with the possession of other installment plans, possibly due to differing financial stability profiles.",
+    "source": "other_installment_plans",
+    "target": "housing"
+   },
+   {
+    "rationale": "Duration has a very low association with other_installment_plans (0.067), suggesting that while not a primary driver, existing installment commitments may slightly influence the chosen repayment term length.",
+    "source": "other_installment_plans",
+    "target": "duration"
+   },
+   {
+    "rationale": "Property has the highest association score with housing (0.555), indicating a strong logical dependency where individuals who own their home are more likely to possess real estate assets, while renters or those living for free typically do not.",
+    "source": "housing",
+    "target": "property"
+   },
+   {
+    "rationale": "Residence since shows a moderate association with housing (0.217), suggesting that homeowners tend to have longer residence durations compared to renters who may move more frequently.",
+    "source": "housing",
+    "target": "residence_since"
+   },
+   {
+    "rationale": "Credit amount has a moderate association with housing (0.216), reflecting that homeowners often qualify for larger credit amounts due to perceived lower risk and asset backing compared to renters.",
+    "source": "housing",
+    "target": "credit_amount"
+   },
+   {
+    "rationale": "Credit history has the highest association with existing_credits (0.381), indicating that the number of current credit obligations is a primary determinant of an applicant's recorded credit performance status.",
+    "source": "existing_credits",
+    "target": "credit_history"
+   },
+   {
+    "rationale": "Number of dependents has a low-to-moderate association with existing_credits (0.120), suggesting that larger family sizes may correlate with a higher number of active credit accounts for household expenses.",
+    "source": "existing_credits",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "Duration has a low association with existing_credits (0.115), implying that borrowers with more existing credits might opt for different repayment terms, possibly due to tighter budget constraints or lender risk assessments.",
+    "source": "existing_credits",
+    "target": "duration"
+   },
+   {
+    "rationale": "Duration has a low-to-moderate association with job (0.211), implying that certain occupational groups may prefer or be approved for specific repayment term lengths based on their financial planning habits.",
+    "source": "job",
+    "target": "duration"
+   },
+   {
+    "rationale": "Number of dependents has a low association with job (0.135), potentially indicating that family size varies by occupation type, possibly due to income constraints or cultural factors associated with different roles.",
+    "source": "job",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "Existing credits has a very low association with job (0.112), implying that the number of current credit obligations is only weakly determined by occupational category.",
+    "source": "job",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "Other debtors has a very low association with job (0.080), indicating that the presence of co-applicants or guarantors is largely independent of the applicant's specific job role.",
+    "source": "job",
+    "target": "other_debtors"
+   },
+   {
+    "rationale": "Installment rate has a very low association with job (0.078), suggesting that the chosen monthly payment burden is primarily driven by the loan amount and duration rather than the borrower's occupation.",
+    "source": "job",
+    "target": "installment_rate"
+   },
+   {
+    "rationale": "Checking status has a negligible association with job (0.048), suggesting that bank account history is largely independent of the applicant's profession.",
+    "source": "job",
+    "target": "checking_status"
+   },
+   {
+    "rationale": "Credit history has a negligible association with job (0.035), suggesting that past credit performance is not strongly predicted by current occupational status.",
+    "source": "job",
+    "target": "credit_history"
+   },
+   {
+    "rationale": "Duration has a low association with telephone (0.136), potentially indicating that borrowers with a telephone line might opt for different repayment terms due to perceived stability or lender assessment criteria.",
+    "source": "telephone",
+    "target": "duration"
+   },
+   {
+    "rationale": "Existing credits has a negligible association with telephone (0.087), indicating that the number of current credit obligations is largely independent of whether an applicant has a telephone line.",
+    "source": "telephone",
+    "target": "existing_credits"
+   },
+   {
+    "rationale": "Number of dependents has a negligible association with telephone (0.038), suggesting family size is unrelated to the decision or ability to maintain a telephone line.",
+    "source": "telephone",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "Residence since has a negligible association with telephone (0.040), indicating that length of residence at current address does not significantly predict telephone ownership.",
+    "source": "telephone",
+    "target": "residence_since"
+   },
+   {
+    "rationale": "Checking status has a negligible association with telephone (0.046), implying that bank account history is largely independent of telephone availability.",
+    "source": "telephone",
+    "target": "checking_status"
+   },
+   {
+    "rationale": "Other debtors has a negligible association with telephone (0.037), suggesting the presence of co-applicants or guarantors is unrelated to telephone ownership.",
+    "source": "telephone",
+    "target": "other_debtors"
+   },
+   {
+    "rationale": "Credit history has a negligible association with telephone (0.037), indicating that past credit performance is not predicted by telephone status.",
+    "source": "telephone",
+    "target": "credit_history"
+   },
+   {
+    "rationale": "Duration has a low-to-moderate association with foreign_worker (0.139), suggesting that loan repayment terms may vary slightly based on the applicant's residency status, potentially reflecting different financial planning habits or lender risk assessments for foreign workers.",
+    "source": "foreign_worker",
+    "target": "duration"
+   },
+   {
+    "rationale": "Property has a low-to-moderate association with foreign_worker (0.121), implying that asset ownership status correlates with residency type, where foreign workers might have different property holding patterns compared to native residents.",
+    "source": "foreign_worker",
+    "target": "property"
+   },
+   {
+    "rationale": "Installment rate has a low association with foreign_worker (0.101), suggesting that the chosen monthly payment burden is weakly influenced by the applicant's status as a foreign worker, possibly due to income stability perceptions.",
+    "source": "foreign_worker",
+    "target": "installment_rate"
+   },
+   {
+    "rationale": "Telephone has a very low association with foreign_worker (0.100), indicating that while there is a slight link, it is not a primary determinant of telephone ownership in this dataset.",
+    "source": "foreign_worker",
+    "target": "telephone"
+   },
+   {
+    "rationale": "Other debtors has a very low association with foreign_worker (0.098), suggesting that the presence of co-applicants or guarantors is only weakly related to the applicant's residency status.",
+    "source": "foreign_worker",
+    "target": "other_debtors"
+   },
+   {
+    "rationale": "Foreign worker status has a very low association with job (0.088), suggesting that while some jobs may be more common among foreign workers, the link is not strong enough to be a primary determinant.",
+    "source": "foreign_worker",
+    "target": "job"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "sex",
+    "target": "num_dependents"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "sex",
+    "target": "employment"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "sex",
+    "target": "housing"
+   }
+  ]
+ },
+ "R": [
+  "checking_status",
+  "duration",
+  "savings",
+  "property"
+ ],
+ "P": [
+  "credit_amount",
+  "credit_history",
+  "employment"
+ ],
+ "cut": [
+  [
+   "credit_history",
+   "credit"
+  ]
+ ],
+ "ops": {
+  "credit_history->credit": "cut"
+ },
+ "cost": {
+  "credit_history->credit": 0.001,
+  "credit_amount->job": 0.0062872688341152425,
+  "credit_amount->telephone": 0.012554760355671166,
+  "employment->housing": 0.002044911041459105,
+  "employment->telephone": 0.001,
+  "age->housing": 0.022427389261437836,
+  "age->employment": 0.014424668142001273,
+  "age->job": 0.001,
+  "age->telephone": 0.00568206462806331,
+  "age->credit_history": 0.0027636122031221566,
+  "housing->credit_amount": 0.001,
+  "existing_credits->credit_history": 0.1298927631836817,
+  "job->existing_credits": 0.001,
+  "job->credit_history": 0.001,
+  "telephone->existing_credits": 0.010043028301829793,
+  "telephone->credit_history": 0.001,
+  "sex->employment": 0.0205830271252041,
+  "sex->housing": 0.010347500587725933
+ },
+ "prior_driven": [],
+ "protected": [
+  "sex",
+  "age"
+ ],
+ "label": "credit"
+}

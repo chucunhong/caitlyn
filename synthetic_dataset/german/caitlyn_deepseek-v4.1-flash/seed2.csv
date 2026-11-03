@@ -1,0 +1,1001 @@
+checking_status,duration,credit_history,purpose,credit_amount,savings,employment,installment_rate,other_debtors,residence_since,property,age,other_installment_plans,housing,existing_credits,job,num_dependents,telephone,foreign_worker,sex,credit
+<0 DM,15,critical account,furniture/equipment,2210,<100 DM,4<= <7 years,3,none,2,real estate,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+no account,12,existing credits paid back duly till now,car (new),2190,<100 DM,1<= < 4 years,3,none,3,real estate,>25,none,rent,1,unskilled - resident,1,none,yes,male,1
+no account,12,existing credits paid back duly till now,domestic appliances,968,no savings account,1<= < 4 years,4,none,4,real estate,<=25,none,own,1,skilled employee / official,1,none,yes,female,1
+<0 DM,12,critical account,radio/television,3802,<100 DM,1<= < 4 years,4,none,2,real estate,>25,none,own,1,unskilled - resident,2,none,yes,male,1
+<0 DM,24,existing credits paid back duly till now,furniture/equipment,2673,<100 DM,1<= < 4 years,2,none,2,savings agreement/life insurance,>25,none,own,1,management/ highly qualified employee,1,none,yes,female,0
+>= 200 DM,24,existing credits paid back duly till now,furniture/equipment,2143,100 <= <500 DM,1<= < 4 years,4,none,1,real estate,<=25,none,rent,1,skilled employee / official,1,yes,yes,female,1
+0 <= <200 DM,24,existing credits paid back duly till now,car (used),4536,<100 DM,4<= <7 years,2,none,1,car or other,>25,none,own,1,management/ highly qualified employee,1,yes,yes,male,0
+0 <= <200 DM,9,existing credits paid back duly till now,radio/television,2873,<100 DM,1<= < 4 years,4,none,3,real estate,>25,none,own,1,skilled employee / official,2,none,yes,male,1
+no account,9,critical account,car (new),3187,no savings account,1<= < 4 years,2,none,2,real estate,>25,none,own,3,skilled employee / official,1,yes,yes,male,1
+0 <= <200 DM,15,existing credits paid back duly till now,radio/television,1187,<100 DM,1<= < 4 years,4,none,1,car or other,>25,none,own,1,skilled employee / official,1,none,yes,female,1
+no account,15,delay in paying off,car (new),2843,<100 DM,1<= < 4 years,4,none,3,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,none,yes,female,1
+<0 DM,12,critical account,car (new),815,<100 DM,4<= <7 years,2,none,3,savings agreement/life insurance,>25,none,own,2,skilled employee / official,1,none,no,male,0
+<0 DM,42,existing credits paid back duly till now,radio/television,6718,<100 DM,>=7 years,4,none,3,unknown / no property,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+no account,6,all credits at this bank paid back duly,radio/television,1450,no savings account,1<= < 4 years,2,none,2,savings agreement/life insurance,>25,none,own,1,unskilled - resident,1,none,yes,female,1
+<0 DM,24,existing credits paid back duly till now,car (used),1497,<100 DM,1<= < 4 years,2,guarantor,2,savings agreement/life insurance,>25,none,own,1,unskilled - resident,1,yes,yes,male,1
+<0 DM,12,existing credits paid back duly till now,furniture/equipment,1268,<100 DM,<1 years,4,none,4,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,none,yes,female,1
+0 <= <200 DM,12,delay in paying off,radio/television,1043,<100 DM,<1 years,4,co-applicant,1,real estate,<=25,none,own,2,skilled employee / official,1,none,yes,male,1
+0 <= <200 DM,36,existing credits paid back duly till now,car (new),12680,100 <= <500 DM,>=7 years,2,none,4,unknown / no property,>25,none,own,2,management/ highly qualified employee,1,yes,yes,female,0
+0 <= <200 DM,42,delay in paying off,car (used),9283,<100 DM,<1 years,1,none,2,car or other,>25,bank,own,1,skilled employee / official,1,none,yes,male,0
+no account,12,existing credits paid back duly till now,radio/television,701,<100 DM,1<= < 4 years,4,none,4,real estate,>25,none,own,2,skilled employee / official,1,none,yes,male,1
+<0 DM,6,critical account,radio/television,792,<100 DM,4<= <7 years,3,none,4,real estate,>25,none,own,1,skilled employee / official,1,none,no,male,1
+0 <= <200 DM,15,critical account,furniture/equipment,2483,<100 DM,1<= < 4 years,2,none,1,real estate,>25,bank,own,1,unskilled - resident,1,none,yes,female,1
+no account,24,existing credits paid back duly till now,car (used),4237,<100 DM,4<= <7 years,2,none,4,car or other,<=25,none,own,2,skilled employee / official,2,none,yes,male,1
+no account,12,critical account,furniture/equipment,1563,no savings account,<1 years,3,none,4,real estate,<=25,none,rent,1,skilled employee / official,1,none,yes,female,1
+<0 DM,15,existing credits paid back duly till now,radio/television,1226,<100 DM,<1 years,1,none,1,savings agreement/life insurance,>25,none,rent,1,skilled employee / official,1,none,yes,male,1
+<0 DM,24,existing credits paid back duly till now,car (new),2456,<100 DM,<1 years,4,none,1,unknown / no property,<=25,none,rent,2,skilled employee / official,1,none,yes,male,0
+no account,12,delay in paying off,car (new),1720,<100 DM,1<= < 4 years,4,none,2,real estate,>25,none,own,1,unskilled - resident,1,none,yes,male,1
+<0 DM,12,critical account,car (used),1168,<100 DM,1<= < 4 years,4,none,4,unknown / no property,>25,none,own,2,skilled employee / official,1,none,yes,female,1
+no account,24,critical account,car (used),8648,>= 1000 DM,>=7 years,2,none,4,car or other,>25,none,own,2,skilled employee / official,1,none,yes,male,1
+no account,30,critical account,car (used),4060,<100 DM,4<= <7 years,2,none,4,car or other,>25,none,own,2,skilled employee / official,2,yes,yes,male,1
+no account,15,existing credits paid back duly till now,car (new),1190,no savings account,4<= <7 years,4,none,2,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,yes,yes,male,1
+0 <= <200 DM,12,existing credits paid back duly till now,radio/television,719,<100 DM,<1 years,4,none,3,real estate,<=25,none,own,1,unskilled - resident,1,none,yes,male,1
+no account,12,existing credits paid back duly till now,radio/television,1876,no savings account,1<= < 4 years,4,none,4,car or other,>25,none,rent,1,skilled employee / official,1,yes,yes,female,1
+no account,18,existing credits paid back duly till now,radio/television,3378,no savings account,4<= <7 years,3,none,2,car or other,<=25,none,own,2,skilled employee / official,1,yes,yes,female,1
+>= 200 DM,9,existing credits paid back duly till now,radio/television,796,>= 1000 DM,<1 years,4,none,2,real estate,>25,none,own,1,unemployed/ unskilled  - non-resident,1,none,yes,female,0
+<0 DM,8,critical account,car (new),1042,<100 DM,>=7 years,4,none,4,real estate,>25,none,own,2,unskilled - resident,2,none,yes,male,0
+>= 200 DM,18,all credits at this bank paid back duly,radio/television,1622,<100 DM,>=7 years,4,none,4,car or other,>25,none,own,1,skilled employee / official,1,yes,yes,female,0
+0 <= <200 DM,12,existing credits paid back duly till now,car (new),1092,no savings account,1<= < 4 years,3,none,3,real estate,>25,none,own,1,unskilled - resident,1,none,yes,female,0
+<0 DM,48,existing credits paid back duly till now,car (used),7214,<100 DM,<1 years,1,none,4,car or other,<=25,none,rent,1,skilled employee / official,1,none,yes,female,0
+no account,24,existing credits paid back duly till now,car (new),2513,100 <= <500 DM,4<= <7 years,4,none,4,savings agreement/life insurance,>25,none,rent,1,skilled employee / official,1,yes,yes,male,1
+0 <= <200 DM,15,all credits at this bank paid back duly,furniture/equipment,1093,<100 DM,<1 years,3,none,2,savings agreement/life insurance,<=25,none,own,1,skilled employee / official,1,yes,yes,male,0
+<0 DM,12,existing credits paid back duly till now,furniture/equipment,2085,<100 DM,4<= <7 years,4,none,4,unknown / no property,>25,none,for free,1,management/ highly qualified employee,2,yes,yes,female,1
+0 <= <200 DM,18,existing credits paid back duly till now,car (new),2460,no savings account,1<= < 4 years,3,none,2,savings agreement/life insurance,<=25,none,own,1,skilled employee / official,1,none,yes,female,1
+0 <= <200 DM,24,critical account,radio/television,1876,<100 DM,1<= < 4 years,3,none,4,real estate,>25,none,own,2,skilled employee / official,1,none,yes,male,1
+0 <= <200 DM,12,critical account,radio/television,3143,100 <= <500 DM,4<= <7 years,4,none,4,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,yes,yes,female,1
+no account,36,critical account,business,9217,no savings account,4<= <7 years,4,guarantor,4,car or other,>25,none,own,2,skilled employee / official,1,yes,yes,male,1
+0 <= <200 DM,48,delay in paying off,business,3278,100 <= <500 DM,unemployed,4,co-applicant,4,unknown / no property,>25,none,own,1,unemployed/ unskilled  - non-resident,1,none,yes,female,0
+<0 DM,12,all credits at this bank paid back duly,furniture/equipment,3047,<100 DM,>=7 years,3,none,4,unknown / no property,>25,store,own,2,management/ highly qualified employee,1,yes,yes,male,1
+<0 DM,36,existing credits paid back duly till now,car (used),8396,<100 DM,>=7 years,3,none,4,unknown / no property,>25,none,for free,1,skilled employee / official,1,none,yes,male,0
+<0 DM,24,existing credits paid back duly till now,furniture/equipment,3194,<100 DM,>=7 years,4,none,4,real estate,>25,none,own,1,skilled employee / official,1,none,yes,male,0
+0 <= <200 DM,30,critical account,business,3975,no savings account,>=7 years,2,none,4,car or other,>25,none,own,2,skilled employee / official,1,none,yes,female,0
+no account,24,existing credits paid back duly till now,radio/television,2954,100 <= <500 DM,4<= <7 years,3,none,4,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,yes,yes,male,1
+no account,24,critical account,car (used),3214,no savings account,4<= <7 years,3,none,4,car or other,<=25,none,own,1,skilled employee / official,1,none,yes,male,1
+no account,6,delay in paying off,car (new),1721,<100 DM,<1 years,4,none,2,real estate,<=25,none,rent,2,skilled employee / official,1,none,yes,female,1
+<0 DM,21,all credits at this bank paid back duly,radio/television,2143,100 <= <500 DM,>=7 years,4,none,2,savings agreement/life insurance,>25,none,own,2,skilled employee / official,1,yes,yes,male,1
+<0 DM,12,existing credits paid back duly till now,business,2579,<100 DM,<1 years,4,none,4,savings agreement/life insurance,<=25,bank,own,1,skilled employee / official,1,none,yes,male,0
+0 <= <200 DM,12,existing credits paid back duly till now,furniture/equipment,1720,no savings account,<1 years,4,none,3,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,none,yes,female,1
+<0 DM,36,critical account,furniture/equipment,3847,<100 DM,<1 years,1,none,4,savings agreement/life insurance,<=25,none,own,2,skilled employee / official,1,none,yes,female,1
+<0 DM,36,delay in paying off,car (used),8732,>= 1000 DM,4<= <7 years,2,none,2,savings agreement/life insurance,>25,bank,own,2,skilled employee / official,1,none,yes,male,0
+no account,24,critical account,radio/television,9521,no savings account,1<= < 4 years,2,none,3,savings agreement/life insurance,>25,none,own,2,skilled employee / official,1,yes,yes,male,1
+<0 DM,9,critical account,radio/television,1283,<100 DM,1<= < 4 years,3,none,4,real estate,>25,none,own,1,skilled employee / official,1,none,yes,male,0
+0 <= <200 DM,27,delay in paying off,car (new),7429,<100 DM,1<= < 4 years,3,none,2,savings agreement/life insurance,>25,none,own,1,skilled employee / official,2,yes,yes,male,1
+no account,12,critical account,furniture/equipment,1842,>= 1000 DM,>=7 years,3,none,4,real estate,>25,none,own,3,unskilled - resident,1,none,yes,female,1
+0 <= <200 DM,18,critical account,furniture/equipment,3960,<100 DM,1<= < 4 years,1,none,4,car or other,>25,none,own,2,skilled employee / official,1,none,yes,male,1
+0 <= <200 DM,36,existing credits paid back duly till now,car (new),14318,100 <= <500 DM,>=7 years,4,none,4,unknown / no property,>25,none,for free,1,management/ highly qualified employee,1,yes,yes,male,0
+no account,12,existing credits paid back duly till now,repairs,864,<100 DM,<1 years,1,none,4,real estate,<=25,none,own,1,skilled employee / official,1,yes,yes,female,1
+<0 DM,6,critical account,domestic appliances,1063,<100 DM,>=7 years,2,none,4,real estate,>25,none,own,1,skilled employee / official,2,none,no,male,1
+no account,24,existing credits paid back duly till now,furniture/equipment,1826,no savings account,>=7 years,4,none,1,car or other,>25,none,own,1,skilled employee / official,1,yes,yes,male,1
+no account,24,existing credits paid back duly till now,radio/television,2260,no savings account,4<= <7 years,3,none,3,savings agreement/life insurance,>25,none,own,1,unskilled - resident,1,yes,yes,male,1
+<0 DM,48,delay in paying off,car (used),5102,no savings account,>=7 years,3,none,2,savings agreement/life insurance,>25,none,rent,2,management/ highly qualified employee,1,yes,yes,female,1
+>= 200 DM,36,critical account,car (new),4050,>= 1000 DM,4<= <7 years,3,co-applicant,1,savings agreement/life insurance,>25,none,own,2,skilled employee / official,1,yes,yes,female,1
+no account,18,existing credits paid back duly till now,radio/television,3185,<100 DM,4<= <7 years,3,none,3,savings agreement/life insurance,<=25,none,rent,1,skilled employee / official,1,none,yes,male,1
+0 <= <200 DM,24,critical account,furniture/equipment,3196,<100 DM,1<= < 4 years,3,none,1,savings agreement/life insurance,<=25,none,own,2,skilled employee / official,1,yes,yes,female,0
+no account,36,delay in paying off,car (used),4820,no savings account,4<= <7 years,4,none,4,car or other,>25,none,own,2,skilled employee / official,1,none,yes,female,1
+<0 DM,40,existing credits paid back duly till now,business,8634,no savings account,>=7 years,4,none,2,unknown / no property,>25,none,rent,1,management/ highly qualified employee,1,yes,yes,female,0
+no account,12,critical account,radio/television,1318,no savings account,>=7 years,2,none,4,real estate,>25,none,own,2,skilled employee / official,1,yes,yes,female,1
+<0 DM,12,existing credits paid back duly till now,radio/television,1372,<100 DM,<1 years,3,none,4,savings agreement/life insurance,<=25,none,own,1,skilled employee / official,1,none,yes,male,1
+0 <= <200 DM,12,existing credits paid back duly till now,radio/television,1358,<100 DM,1<= < 4 years,4,none,3,real estate,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+no account,24,existing credits paid back duly till now,car (used),4591,<100 DM,4<= <7 years,3,none,3,unknown / no property,>25,none,own,2,management/ highly qualified employee,1,yes,yes,female,1
+<0 DM,48,critical account,car (used),5482,<100 DM,1<= < 4 years,2,none,4,unknown / no property,>25,none,for free,2,unskilled - resident,2,none,yes,female,0
+0 <= <200 DM,36,existing credits paid back duly till now,business,2745,100 <= <500 DM,4<= <7 years,4,none,4,unknown / no property,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+no account,24,critical account,car (used),3986,no savings account,1<= < 4 years,4,none,2,real estate,>25,none,own,1,skilled employee / official,1,yes,yes,male,1
+<0 DM,60,critical account,car (used),6150,<100 DM,4<= <7 years,4,none,4,car or other,<=25,none,own,2,skilled employee / official,1,none,yes,male,0
+no account,6,critical account,radio/television,3240,no savings account,1<= < 4 years,4,none,2,car or other,<=25,none,rent,2,skilled employee / official,1,yes,yes,female,1
+no account,27,critical account,car (new),4632,no savings account,4<= <7 years,3,none,4,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+no account,24,existing credits paid back duly till now,business,4128,no savings account,4<= <7 years,3,none,4,unknown / no property,>25,none,own,2,skilled employee / official,1,none,yes,male,1
+no account,12,critical account,repairs,4612,no savings account,>=7 years,4,none,4,savings agreement/life insurance,>25,none,own,2,skilled employee / official,1,yes,yes,male,0
+>= 200 DM,15,existing credits paid back duly till now,radio/television,2543,<100 DM,1<= < 4 years,4,none,4,savings agreement/life insurance,<=25,none,rent,1,skilled employee / official,1,yes,yes,female,1
+no account,36,critical account,radio/television,4620,500 <= < 1000 DM,4<= <7 years,3,none,4,real estate,>25,none,own,2,skilled employee / official,1,yes,yes,male,1
+0 <= <200 DM,18,existing credits paid back duly till now,radio/television,2290,<100 DM,>=7 years,4,none,1,savings agreement/life insurance,>25,none,own,1,unskilled - resident,1,none,yes,male,1
+0 <= <200 DM,12,existing credits paid back duly till now,car (used),6812,<100 DM,<1 years,2,none,3,car or other,<=25,none,own,1,skilled employee / official,1,yes,yes,male,1
+no account,12,existing credits paid back duly till now,radio/television,1652,no savings account,4<= <7 years,4,none,2,car or other,>25,none,own,1,skilled employee / official,1,yes,yes,male,1
+no account,12,critical account,furniture/equipment,1010,500 <= < 1000 DM,>=7 years,4,none,4,savings agreement/life insurance,>25,none,own,2,skilled employee / official,2,none,yes,male,1
+0 <= <200 DM,18,existing credits paid back duly till now,business,5472,100 <= <500 DM,4<= <7 years,3,none,4,real estate,>25,none,own,1,skilled employee / official,1,yes,yes,male,0
+0 <= <200 DM,24,delay in paying off,repairs,2977,no savings account,1<= < 4 years,4,none,2,savings agreement/life insurance,>25,bank,own,1,management/ highly qualified employee,1,none,yes,male,1
+0 <= <200 DM,12,existing credits paid back duly till now,car (used),4823,no savings account,1<= < 4 years,3,none,2,car or other,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+0 <= <200 DM,12,existing credits paid back duly till now,radio/television,1264,<100 DM,1<= < 4 years,4,none,1,real estate,>25,none,own,2,skilled employee / official,1,none,yes,female,1
+no account,4,critical account,radio/television,610,no savings account,1<= < 4 years,1,none,4,car or other,>25,none,own,2,skilled employee / official,2,none,yes,male,1
+no account,21,critical account,furniture/equipment,2621,<100 DM,>=7 years,4,none,4,real estate,>25,none,own,2,skilled employee / official,1,none,yes,male,1
+>= 200 DM,24,existing credits paid back duly till now,car (new),3395,<100 DM,4<= <7 years,3,none,3,car or other,>25,bank,own,1,skilled employee / official,1,yes,yes,male,1
+<0 DM,15,existing credits paid back duly till now,radio/television,3120,<100 DM,1<= < 4 years,2,none,1,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+<0 DM,36,existing credits paid back duly till now,furniture/equipment,4872,<100 DM,>=7 years,4,none,4,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,yes,yes,male,0
+no account,6,critical account,business,1390,<100 DM,1<= < 4 years,3,guarantor,1,real estate,>25,none,rent,1,skilled employee / official,1,none,yes,female,1
+no account,24,existing credits paid back duly till now,radio/television,4231,>= 1000 DM,>=7 years,4,none,4,savings agreement/life insurance,>25,none,own,1,management/ highly qualified employee,1,yes,yes,male,1
+<0 DM,15,existing credits paid back duly till now,car (new),3124,<100 DM,<1 years,3,none,4,car or other,<=25,none,rent,1,skilled employee / official,1,none,yes,male,0
+<0 DM,36,delay in paying off,car (used),2874,<100 DM,1<= < 4 years,3,none,3,car or other,<=25,none,own,1,skilled employee / official,1,none,yes,male,1
+0 <= <200 DM,9,existing credits paid back duly till now,radio/television,980,<100 DM,1<= < 4 years,3,none,4,real estate,>25,none,own,1,unskilled - resident,1,none,yes,male,1
+0 <= <200 DM,12,existing credits paid back duly till now,radio/television,862,100 <= <500 DM,<1 years,4,none,1,real estate,>25,none,own,1,skilled employee / official,1,yes,yes,male,1
+<0 DM,24,existing credits paid back duly till now,car (new),1176,no savings account,1<= < 4 years,4,none,2,car or other,>25,none,rent,1,skilled employee / official,1,none,yes,female,0
+no account,10,critical account,car (new),1980,500 <= < 1000 DM,1<= < 4 years,3,none,4,car or other,<=25,none,own,2,skilled employee / official,1,none,yes,female,1
+no account,24,critical account,education,2510,500 <= < 1000 DM,>=7 years,4,none,2,car or other,>25,none,own,1,skilled employee / official,1,yes,yes,male,1
+no account,48,existing credits paid back duly till now,radio/television,5742,no savings account,4<= <7 years,4,none,4,savings agreement/life insurance,>25,none,own,1,skilled employee / official,2,none,yes,male,1
+0 <= <200 DM,60,existing credits paid back duly till now,radio/television,8290,no savings account,unemployed,1,none,2,unknown / no property,>25,none,own,1,unemployed/ unskilled  - non-resident,2,yes,yes,male,0
+<0 DM,12,existing credits paid back duly till now,radio/television,963,<100 DM,>=7 years,4,guarantor,3,savings agreement/life insurance,>25,none,own,1,unskilled - resident,1,none,yes,female,0
+<0 DM,24,existing credits paid back duly till now,furniture/equipment,3129,<100 DM,1<= < 4 years,2,none,4,real estate,<=25,none,rent,1,skilled employee / official,1,none,yes,male,1
+0 <= <200 DM,15,existing credits paid back duly till now,car (new),2289,500 <= < 1000 DM,<1 years,4,none,2,savings agreement/life insurance,<=25,none,own,1,unskilled - resident,1,none,yes,male,0
+<0 DM,24,all credits at this bank paid back duly,radio/television,1188,<100 DM,1<= < 4 years,4,none,4,real estate,<=25,none,own,1,skilled employee / official,1,none,yes,female,0
+no account,12,existing credits paid back duly till now,furniture/equipment,1128,<100 DM,>=7 years,4,none,4,real estate,>25,none,own,1,unskilled - resident,1,none,yes,male,1
+no account,48,existing credits paid back duly till now,car (used),4210,<100 DM,<1 years,3,none,4,car or other,<=25,none,own,1,skilled employee / official,1,none,yes,male,1
+no account,24,critical account,car (new),5630,100 <= <500 DM,>=7 years,2,none,4,unknown / no property,>25,none,own,2,skilled employee / official,1,yes,yes,female,1
+<0 DM,12,delay in paying off,radio/television,1429,<100 DM,unemployed,2,none,3,real estate,>25,none,for free,2,skilled employee / official,1,none,yes,male,0
+no account,36,existing credits paid back duly till now,radio/television,1219,no savings account,4<= <7 years,2,none,3,real estate,>25,none,own,1,skilled employee / official,1,yes,yes,male,1
+<0 DM,12,critical account,education,1741,<100 DM,4<= <7 years,2,none,4,savings agreement/life insurance,>25,none,own,2,unskilled - resident,1,yes,yes,female,1
+<0 DM,12,critical account,furniture/equipment,1004,100 <= <500 DM,4<= <7 years,3,none,4,savings agreement/life insurance,>25,none,own,2,skilled employee / official,1,none,yes,male,1
+no account,12,existing credits paid back duly till now,car (new),1495,<100 DM,>=7 years,4,none,4,car or other,>25,none,own,1,management/ highly qualified employee,1,none,yes,male,1
+0 <= <200 DM,18,existing credits paid back duly till now,radio/television,1745,<100 DM,1<= < 4 years,4,guarantor,2,savings agreement/life insurance,<=25,none,rent,1,unskilled - resident,1,none,yes,female,1
+no account,12,critical account,car (used),3128,<100 DM,4<= <7 years,3,none,4,real estate,<=25,none,own,1,skilled employee / official,1,yes,yes,female,1
+0 <= <200 DM,24,existing credits paid back duly till now,business,6810,>= 1000 DM,4<= <7 years,2,none,4,car or other,>25,none,own,2,skilled employee / official,2,none,yes,female,1
+0 <= <200 DM,18,existing credits paid back duly till now,radio/television,1102,<100 DM,1<= < 4 years,3,none,2,car or other,<=25,none,own,1,unskilled - resident,1,none,yes,female,1
+no account,12,existing credits paid back duly till now,car (used),1456,<100 DM,>=7 years,4,none,4,car or other,>25,none,own,1,unskilled - resident,1,none,yes,male,1
+no account,6,critical account,car (used),5230,500 <= < 1000 DM,1<= < 4 years,4,none,2,car or other,<=25,none,own,2,skilled employee / official,1,none,yes,male,0
+no account,10,critical account,radio/television,684,<100 DM,1<= < 4 years,3,none,4,car or other,>25,none,own,2,skilled employee / official,1,yes,yes,female,1
+0 <= <200 DM,24,existing credits paid back duly till now,car (used),3689,<100 DM,1<= < 4 years,2,none,2,car or other,<=25,none,rent,1,unskilled - resident,2,none,yes,male,0
+no account,24,existing credits paid back duly till now,car (used),3542,>= 1000 DM,>=7 years,3,none,4,car or other,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+0 <= <200 DM,12,existing credits paid back duly till now,car (used),2917,100 <= <500 DM,1<= < 4 years,2,none,3,car or other,<=25,none,own,1,skilled employee / official,1,none,yes,male,1
+<0 DM,18,existing credits paid back duly till now,car (used),2698,<100 DM,4<= <7 years,3,none,3,car or other,>25,none,own,1,unskilled - resident,1,none,yes,female,1
+no account,12,existing credits paid back duly till now,car (new),4238,no savings account,1<= < 4 years,2,none,3,real estate,>25,none,own,1,skilled employee / official,1,none,yes,female,1
+0 <= <200 DM,12,existing credits paid back duly till now,car (new),1128,<100 DM,1<= < 4 years,4,none,3,real estate,>25,none,own,1,skilled employee / official,1,none,yes,male,0
+<0 DM,24,existing credits paid back duly till now,furniture/equipment,2711,<100 DM,unemployed,2,none,4,unknown / no property,>25,bank,for free,3,unemployed/ unskilled  - non-resident,2,none,yes,female,1
+no account,30,delay in paying off,radio/television,5605,no savings account,4<= <7 years,4,none,2,savings agreement/life insurance,>25,none,own,1,management/ highly qualified employee,1,yes,yes,male,1
+<0 DM,24,existing credits paid back duly till now,radio/television,3874,<100 DM,4<= <7 years,4,none,2,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,yes,yes,male,1
+no account,24,critical account,radio/television,1146,100 <= <500 DM,4<= <7 years,3,none,2,real estate,>25,none,own,2,skilled employee / official,1,none,yes,male,1
+no account,12,critical account,car (new),1372,<100 DM,1<= < 4 years,4,none,2,real estate,<=25,none,own,2,skilled employee / official,1,none,yes,male,1
+no account,15,critical account,car (new),2890,no savings account,>=7 years,3,none,4,unknown / no property,>25,none,for free,2,management/ highly qualified employee,1,yes,yes,female,1
+no account,15,existing credits paid back duly till now,business,4890,100 <= <500 DM,>=7 years,2,none,2,car or other,>25,none,own,3,management/ highly qualified employee,1,yes,yes,male,1
+<0 DM,9,critical account,radio/television,1142,<100 DM,4<= <7 years,2,none,3,real estate,>25,none,own,2,unskilled - resident,1,none,yes,male,1
+<0 DM,48,no credits taken,car (new),6210,<100 DM,>=7 years,4,none,4,unknown / no property,>25,bank,for free,2,unskilled - resident,2,none,yes,male,0
+>= 200 DM,30,existing credits paid back duly till now,domestic appliances,4108,<100 DM,1<= < 4 years,3,none,2,car or other,<=25,none,own,1,management/ highly qualified employee,1,none,yes,female,1
+<0 DM,24,all credits at this bank paid back duly,radio/television,1673,<100 DM,<1 years,4,none,4,unknown / no property,>25,bank,own,1,unskilled - resident,1,none,yes,male,1
+no account,48,existing credits paid back duly till now,car (new),9871,no savings account,1<= < 4 years,2,none,4,car or other,<=25,none,own,2,skilled employee / official,1,none,yes,male,0
+no account,15,existing credits paid back duly till now,furniture/equipment,4837,<100 DM,<1 years,2,none,4,savings agreement/life insurance,<=25,none,own,2,skilled employee / official,1,none,yes,male,1
+0 <= <200 DM,24,critical account,car (used),2137,<100 DM,>=7 years,4,none,4,car or other,>25,none,own,2,skilled employee / official,1,yes,yes,male,0
+no account,18,existing credits paid back duly till now,car (used),2640,>= 1000 DM,4<= <7 years,3,none,4,car or other,>25,none,own,1,skilled employee / official,1,none,yes,female,1
+no account,9,existing credits paid back duly till now,furniture/equipment,2268,<100 DM,1<= < 4 years,2,none,4,unknown / no property,>25,none,for free,1,skilled employee / official,1,none,yes,male,1
+no account,36,delay in paying off,car (used),3701,>= 1000 DM,4<= <7 years,2,none,2,car or other,>25,none,own,1,management/ highly qualified employee,2,yes,yes,female,1
+no account,12,critical account,radio/television,1043,<100 DM,1<= < 4 years,4,none,2,savings agreement/life insurance,>25,none,own,2,skilled employee / official,1,none,yes,male,1
+0 <= <200 DM,12,existing credits paid back duly till now,domestic appliances,845,no savings account,<1 years,4,none,2,car or other,>25,none,own,1,unskilled - resident,1,none,yes,male,1
+no account,6,critical account,education,549,<100 DM,1<= < 4 years,4,none,4,car or other,>25,none,own,2,skilled employee / official,1,none,yes,female,1
+>= 200 DM,6,critical account,radio/television,842,500 <= < 1000 DM,>=7 years,4,none,3,car or other,>25,none,own,1,skilled employee / official,1,yes,yes,female,1
+0 <= <200 DM,12,existing credits paid back duly till now,radio/television,890,<100 DM,1<= < 4 years,4,guarantor,3,real estate,>25,none,own,1,unskilled - resident,1,none,no,female,1
+<0 DM,18,existing credits paid back duly till now,furniture/equipment,4512,<100 DM,1<= < 4 years,2,none,4,car or other,<=25,store,own,1,skilled employee / official,2,yes,yes,male,1
+<0 DM,24,existing credits paid back duly till now,radio/television,2230,<100 DM,1<= < 4 years,4,none,4,real estate,>25,none,own,2,skilled employee / official,1,none,yes,male,0
+0 <= <200 DM,15,existing credits paid back duly till now,car (used),2158,no savings account,>=7 years,4,none,2,car or other,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+no account,6,existing credits paid back duly till now,radio/television,2613,500 <= < 1000 DM,1<= < 4 years,2,none,2,savings agreement/life insurance,>25,none,own,1,unskilled - resident,1,none,yes,male,1
+>= 200 DM,15,existing credits paid back duly till now,furniture/equipment,1742,>= 1000 DM,>=7 years,4,none,2,car or other,>25,none,own,1,skilled employee / official,1,yes,yes,female,1
+0 <= <200 DM,60,existing credits paid back duly till now,business,6873,<100 DM,4<= <7 years,2,co-applicant,4,car or other,<=25,none,rent,1,unskilled - resident,2,none,yes,male,1
+<0 DM,24,delay in paying off,car (new),1207,<100 DM,1<= < 4 years,4,none,2,real estate,>25,none,rent,2,unskilled - resident,2,yes,yes,female,0
+no account,24,existing credits paid back duly till now,radio/television,3045,no savings account,4<= <7 years,3,none,2,car or other,<=25,none,rent,1,skilled employee / official,1,none,yes,female,1
+<0 DM,24,existing credits paid back duly till now,radio/television,3720,<100 DM,1<= < 4 years,4,none,4,real estate,<=25,none,rent,2,skilled employee / official,1,none,yes,male,1
+<0 DM,36,existing credits paid back duly till now,radio/television,3128,<100 DM,1<= < 4 years,4,none,4,car or other,>25,bank,rent,1,unskilled - resident,1,none,yes,male,0
+no account,6,no credits taken,radio/television,941,<100 DM,4<= <7 years,4,none,4,car or other,>25,none,own,2,skilled employee / official,1,yes,yes,male,1
+no account,12,existing credits paid back duly till now,radio/television,1642,no savings account,1<= < 4 years,4,co-applicant,2,real estate,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+<0 DM,18,no credits taken,car (new),2867,<100 DM,1<= < 4 years,4,none,2,savings agreement/life insurance,>25,bank,own,1,skilled employee / official,1,none,yes,male,1
+<0 DM,24,existing credits paid back duly till now,others,2088,<100 DM,1<= < 4 years,3,none,4,real estate,>25,none,own,1,unskilled - resident,2,none,yes,female,1
+0 <= <200 DM,18,all credits at this bank paid back duly,furniture/equipment,1876,<100 DM,1<= < 4 years,2,none,4,savings agreement/life insurance,<=25,none,rent,1,skilled employee / official,1,none,yes,male,0
+no account,12,critical account,radio/television,1789,<100 DM,1<= < 4 years,3,none,3,real estate,>25,none,own,1,skilled employee / official,1,yes,yes,male,1
+>= 200 DM,10,critical account,radio/television,1043,no savings account,4<= <7 years,4,none,4,real estate,>25,none,own,1,skilled employee / official,1,none,yes,female,1
+no account,12,existing credits paid back duly till now,radio/television,1874,no savings account,1<= < 4 years,4,none,2,unknown / no property,>25,none,own,1,unskilled - resident,1,none,yes,female,1
+<0 DM,33,existing credits paid back duly till now,business,4021,<100 DM,>=7 years,4,none,4,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,yes,yes,male,0
+<0 DM,24,all credits at this bank paid back duly,car (new),1120,500 <= < 1000 DM,1<= < 4 years,2,none,3,car or other,<=25,none,own,1,unskilled - resident,1,yes,yes,male,0
+0 <= <200 DM,48,existing credits paid back duly till now,car (new),10653,100 <= <500 DM,1<= < 4 years,4,none,2,car or other,<=25,none,own,2,management/ highly qualified employee,1,yes,yes,female,0
+<0 DM,18,all credits at this bank paid back duly,car (new),6824,100 <= <500 DM,1<= < 4 years,2,none,3,car or other,<=25,none,own,1,unskilled - resident,1,none,yes,male,0
+no account,12,critical account,radio/television,2317,<100 DM,1<= < 4 years,4,none,2,car or other,>25,none,own,2,skilled employee / official,1,yes,yes,male,1
+<0 DM,24,existing credits paid back duly till now,car (new),2296,500 <= < 1000 DM,4<= <7 years,4,none,3,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,yes,yes,male,0
+no account,18,critical account,radio/television,712,<100 DM,1<= < 4 years,4,none,4,real estate,>25,none,own,2,skilled employee / official,1,none,yes,male,1
+no account,60,existing credits paid back duly till now,car (used),7960,100 <= <500 DM,1<= < 4 years,2,none,4,car or other,<=25,none,own,1,skilled employee / official,2,none,yes,female,0
+no account,12,existing credits paid back duly till now,radio/television,1187,no savings account,<1 years,4,none,2,car or other,<=25,none,rent,1,skilled employee / official,1,yes,yes,male,1
+no account,9,critical account,radio/television,2281,>= 1000 DM,>=7 years,2,none,2,car or other,>25,none,own,2,skilled employee / official,1,none,yes,male,1
+0 <= <200 DM,18,existing credits paid back duly till now,business,1963,<100 DM,1<= < 4 years,4,none,3,car or other,<=25,none,rent,1,unskilled - resident,1,yes,yes,female,1
+no account,28,existing credits paid back duly till now,car (used),8024,no savings account,1<= < 4 years,4,none,4,real estate,<=25,none,rent,1,skilled employee / official,1,yes,yes,female,1
+<0 DM,24,existing credits paid back duly till now,radio/television,1856,no savings account,1<= < 4 years,3,guarantor,3,car or other,<=25,none,rent,2,unskilled - resident,1,none,yes,male,0
+no account,15,delay in paying off,car (used),2648,<100 DM,1<= < 4 years,4,none,1,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+no account,18,existing credits paid back duly till now,furniture/equipment,968,<100 DM,4<= <7 years,4,none,4,real estate,>25,none,own,1,skilled employee / official,1,none,yes,female,1
+no account,24,existing credits paid back duly till now,radio/television,4802,no savings account,1<= < 4 years,2,none,2,real estate,>25,none,own,1,management/ highly qualified employee,1,yes,yes,male,1
+no account,15,existing credits paid back duly till now,car (used),4632,no savings account,4<= <7 years,2,none,2,car or other,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+no account,18,critical account,car (used),2143,<100 DM,1<= < 4 years,4,none,4,real estate,<=25,none,rent,2,skilled employee / official,1,none,yes,female,1
+no account,4,critical account,car (new),3127,<100 DM,1<= < 4 years,2,none,2,real estate,>25,none,own,2,skilled employee / official,1,none,yes,male,1
+no account,24,critical account,car (used),4770,<100 DM,>=7 years,2,none,2,real estate,>25,none,own,1,skilled employee / official,1,yes,yes,female,1
+0 <= <200 DM,9,existing credits paid back duly till now,radio/television,1032,<100 DM,>=7 years,4,none,4,savings agreement/life insurance,>25,none,own,1,unskilled - resident,1,none,yes,male,1
+no account,12,existing credits paid back duly till now,radio/television,1872,<100 DM,4<= <7 years,4,none,2,car or other,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+>= 200 DM,15,existing credits paid back duly till now,car (new),3140,<100 DM,<1 years,4,none,4,savings agreement/life insurance,<=25,none,own,1,skilled employee / official,1,none,yes,male,0
+no account,6,existing credits paid back duly till now,radio/television,1082,<100 DM,1<= < 4 years,4,none,2,savings agreement/life insurance,>25,none,own,1,unskilled - resident,1,none,yes,male,1
+no account,18,existing credits paid back duly till now,car (new),2415,100 <= <500 DM,4<= <7 years,3,guarantor,1,savings agreement/life insurance,>25,none,own,2,skilled employee / official,1,none,yes,male,1
+<0 DM,24,all credits at this bank paid back duly,car (new),2483,<100 DM,4<= <7 years,4,guarantor,3,car or other,>25,none,own,2,skilled employee / official,1,none,yes,male,0
+0 <= <200 DM,24,critical account,car (used),2478,<100 DM,1<= < 4 years,4,none,3,car or other,>25,none,own,2,skilled employee / official,1,yes,yes,male,0
+0 <= <200 DM,6,existing credits paid back duly till now,radio/television,968,<100 DM,4<= <7 years,2,guarantor,4,real estate,>25,none,own,1,unskilled - resident,1,none,yes,male,1
+>= 200 DM,6,no credits taken,radio/television,1148,<100 DM,>=7 years,3,none,2,car or other,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+<0 DM,18,no credits taken,car (new),4980,<100 DM,<1 years,1,none,1,unknown / no property,<=25,none,rent,1,skilled employee / official,1,none,no,female,0
+0 <= <200 DM,9,critical account,car (new),934,no savings account,1<= < 4 years,4,none,2,real estate,>25,none,rent,2,unskilled - resident,1,none,yes,female,1
+no account,30,critical account,business,6382,no savings account,1<= < 4 years,4,none,4,real estate,>25,store,own,2,skilled employee / official,1,none,yes,male,0
+no account,12,existing credits paid back duly till now,radio/television,1176,<100 DM,1<= < 4 years,3,none,2,car or other,<=25,none,own,2,skilled employee / official,1,none,yes,male,1
+0 <= <200 DM,24,critical account,car (used),1743,<100 DM,1<= < 4 years,3,none,4,unknown / no property,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+no account,21,no credits taken,repairs,4650,no savings account,1<= < 4 years,4,none,4,savings agreement/life insurance,>25,none,own,2,unskilled - resident,1,none,yes,female,1
+0 <= <200 DM,18,existing credits paid back duly till now,furniture/equipment,2260,no savings account,1<= < 4 years,2,none,4,savings agreement/life insurance,<=25,none,own,1,skilled employee / official,1,none,yes,female,1
+<0 DM,6,critical account,car (new),1287,<100 DM,1<= < 4 years,1,none,4,real estate,>25,bank,own,2,unskilled - resident,1,none,yes,male,1
+<0 DM,12,existing credits paid back duly till now,car (new),1473,<100 DM,1<= < 4 years,4,none,1,car or other,>25,none,own,1,skilled employee / official,1,none,yes,male,0
+>= 200 DM,36,existing credits paid back duly till now,domestic appliances,2417,<100 DM,1<= < 4 years,4,none,2,car or other,<=25,none,own,1,skilled employee / official,1,none,yes,male,1
+<0 DM,24,no credits taken,car (new),5894,<100 DM,unemployed,1,none,4,unknown / no property,<=25,none,for free,2,skilled employee / official,2,none,yes,male,0
+no account,28,critical account,car (used),4275,>= 1000 DM,>=7 years,4,none,2,car or other,>25,none,own,2,skilled employee / official,2,none,yes,male,1
+no account,12,existing credits paid back duly till now,education,3924,no savings account,4<= <7 years,3,none,2,unknown / no property,>25,none,own,1,skilled employee / official,1,yes,yes,male,0
+no account,6,no credits taken,business,1476,<100 DM,<1 years,3,none,2,unknown / no property,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+no account,10,existing credits paid back duly till now,radio/television,1367,>= 1000 DM,>=7 years,4,none,4,real estate,>25,none,own,2,skilled employee / official,1,yes,yes,female,1
+no account,12,existing credits paid back duly till now,radio/television,2489,<100 DM,<1 years,4,none,4,car or other,<=25,none,rent,1,skilled employee / official,1,yes,yes,male,1
+0 <= <200 DM,12,existing credits paid back duly till now,business,6893,<100 DM,<1 years,2,none,1,real estate,<=25,none,own,1,skilled employee / official,1,none,yes,male,1
+<0 DM,6,existing credits paid back duly till now,radio/television,512,<100 DM,<1 years,4,none,2,savings agreement/life insurance,<=25,none,own,1,unskilled - resident,1,none,yes,male,1
+no account,15,critical account,car (used),2620,>= 1000 DM,>=7 years,4,none,4,car or other,>25,none,own,2,skilled employee / official,1,yes,yes,male,1
+0 <= <200 DM,45,existing credits paid back duly till now,business,14893,100 <= <500 DM,1<= < 4 years,2,none,2,unknown / no property,>25,none,for free,1,management/ highly qualified employee,1,none,yes,female,0
+no account,18,existing credits paid back duly till now,radio/television,1943,100 <= <500 DM,4<= <7 years,3,none,3,car or other,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+no account,18,existing credits paid back duly till now,car (new),1943,<100 DM,4<= <7 years,2,none,3,real estate,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+<0 DM,24,existing credits paid back duly till now,furniture/equipment,4210,100 <= <500 DM,4<= <7 years,3,none,2,savings agreement/life insurance,>25,none,own,1,management/ highly qualified employee,1,yes,yes,male,1
+no account,18,critical account,radio/television,1622,100 <= <500 DM,>=7 years,4,none,3,real estate,>25,none,own,2,skilled employee / official,1,yes,yes,male,1
+<0 DM,12,delay in paying off,car (new),1867,<100 DM,1<= < 4 years,3,none,2,real estate,>25,none,own,2,unskilled - resident,2,none,no,male,1
+0 <= <200 DM,24,critical account,car (new),1873,<100 DM,>=7 years,4,none,4,real estate,>25,bank,own,3,unskilled - resident,1,none,yes,male,0
+no account,6,no credits taken,repairs,1130,no savings account,>=7 years,4,none,4,unknown / no property,>25,none,own,1,unskilled - resident,1,none,no,male,1
+no account,36,critical account,radio/television,3975,no savings account,4<= <7 years,2,none,3,car or other,>25,none,own,2,skilled employee / official,1,yes,yes,male,1
+no account,18,critical account,radio/television,1345,<100 DM,1<= < 4 years,4,none,3,savings agreement/life insurance,>25,bank,own,1,unskilled - resident,1,yes,yes,female,1
+<0 DM,21,critical account,radio/television,1523,no savings account,>=7 years,2,none,4,real estate,>25,none,own,1,unskilled - resident,1,none,yes,male,0
+<0 DM,12,critical account,car (new),2714,<100 DM,>=7 years,4,none,3,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,yes,yes,male,1
+<0 DM,9,existing credits paid back duly till now,radio/television,1287,<100 DM,1<= < 4 years,3,none,3,savings agreement/life insurance,>25,none,own,1,unskilled - resident,1,none,yes,female,0
+0 <= <200 DM,12,existing credits paid back duly till now,radio/television,812,no savings account,1<= < 4 years,4,none,1,car or other,>25,none,own,1,skilled employee / official,1,yes,yes,male,1
+<0 DM,36,existing credits paid back duly till now,car (used),8874,<100 DM,>=7 years,2,none,4,unknown / no property,>25,none,for free,1,management/ highly qualified employee,2,yes,yes,female,1
+>= 200 DM,10,existing credits paid back duly till now,car (new),1387,<100 DM,<1 years,4,none,4,car or other,<=25,none,rent,1,skilled employee / official,1,yes,yes,male,1
+<0 DM,12,critical account,car (new),573,<100 DM,>=7 years,2,none,2,real estate,>25,none,own,2,unskilled - resident,1,none,yes,male,0
+no account,9,critical account,radio/television,2301,no savings account,4<= <7 years,4,none,2,car or other,>25,none,rent,2,skilled employee / official,1,yes,yes,female,1
+0 <= <200 DM,48,critical account,radio/television,8487,<100 DM,>=7 years,4,none,4,car or other,>25,none,own,1,skilled employee / official,2,yes,yes,male,0
+0 <= <200 DM,30,critical account,radio/television,4875,<100 DM,unemployed,3,none,4,real estate,<=25,none,rent,2,unemployed/ unskilled  - non-resident,1,none,yes,male,0
+no account,15,existing credits paid back duly till now,car (new),5243,<100 DM,4<= <7 years,2,none,2,car or other,>25,none,own,1,skilled employee / official,1,yes,yes,female,1
+0 <= <200 DM,24,existing credits paid back duly till now,car (new),4120,<100 DM,1<= < 4 years,4,none,4,car or other,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+>= 200 DM,24,all credits at this bank paid back duly,car (used),1197,>= 1000 DM,1<= < 4 years,4,none,3,car or other,>25,none,own,2,skilled employee / official,1,yes,yes,male,1
+0 <= <200 DM,48,delay in paying off,car (used),8612,<100 DM,1<= < 4 years,2,none,2,car or other,>25,none,own,2,skilled employee / official,1,yes,yes,male,1
+no account,10,critical account,furniture/equipment,1523,<100 DM,>=7 years,3,none,4,real estate,>25,none,own,2,skilled employee / official,1,none,yes,male,1
+no account,12,critical account,radio/television,760,<100 DM,>=7 years,2,none,4,real estate,>25,none,own,2,unskilled - resident,1,none,yes,male,1
+no account,24,existing credits paid back duly till now,radio/television,937,<100 DM,<1 years,4,none,2,car or other,<=25,none,own,1,skilled employee / official,1,none,yes,female,1
+0 <= <200 DM,8,existing credits paid back duly till now,radio/television,741,<100 DM,1<= < 4 years,4,none,2,car or other,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+<0 DM,18,delay in paying off,car (new),5127,<100 DM,1<= < 4 years,2,none,1,savings agreement/life insurance,>25,none,for free,1,skilled employee / official,2,none,yes,male,0
+no account,18,critical account,radio/television,1367,no savings account,1<= < 4 years,2,none,2,savings agreement/life insurance,>25,none,own,2,skilled employee / official,1,none,yes,male,1
+>= 200 DM,15,critical account,car (new),2089,<100 DM,<1 years,1,none,4,unknown / no property,>25,none,own,2,skilled employee / official,2,yes,yes,male,1
+<0 DM,8,existing credits paid back duly till now,furniture/equipment,684,<100 DM,1<= < 4 years,1,none,4,savings agreement/life insurance,<=25,none,rent,1,skilled employee / official,1,none,yes,female,1
+no account,24,existing credits paid back duly till now,radio/television,1364,<100 DM,1<= < 4 years,3,none,2,car or other,>25,none,own,1,skilled employee / official,2,none,yes,male,1
+no account,12,existing credits paid back duly till now,radio/television,918,no savings account,>=7 years,2,none,2,car or other,>25,none,own,1,unskilled - resident,1,none,yes,male,0
+<0 DM,12,existing credits paid back duly till now,car (used),7620,<100 DM,>=7 years,4,none,4,unknown / no property,>25,none,own,1,skilled employee / official,1,yes,yes,male,0
+no account,6,critical account,radio/television,1590,no savings account,>=7 years,3,none,2,real estate,>25,none,own,2,unskilled - resident,1,none,yes,male,1
+0 <= <200 DM,6,all credits at this bank paid back duly,furniture/equipment,874,<100 DM,1<= < 4 years,3,none,1,savings agreement/life insurance,<=25,none,own,1,skilled employee / official,1,none,yes,female,1
+no account,21,existing credits paid back duly till now,car (used),2580,no savings account,>=7 years,4,none,4,unknown / no property,>25,none,own,1,management/ highly qualified employee,1,none,yes,male,1
+no account,12,existing credits paid back duly till now,radio/television,1689,<100 DM,<1 years,4,none,2,car or other,>25,none,own,1,skilled employee / official,2,none,yes,male,1
+>= 200 DM,12,existing credits paid back duly till now,car (new),3127,100 <= <500 DM,>=7 years,4,none,2,car or other,>25,none,own,1,skilled employee / official,1,yes,yes,male,1
+>= 200 DM,6,existing credits paid back duly till now,car (new),640,<100 DM,<1 years,1,none,1,savings agreement/life insurance,<=25,bank,rent,1,unskilled - resident,1,none,yes,female,1
+0 <= <200 DM,48,no credits taken,car (new),7863,100 <= <500 DM,<1 years,3,none,4,car or other,>25,bank,rent,1,skilled employee / official,2,yes,yes,male,0
+<0 DM,12,existing credits paid back duly till now,car (new),1262,<100 DM,1<= < 4 years,4,none,3,real estate,>25,bank,own,1,unskilled - resident,1,none,yes,female,1
+<0 DM,24,existing credits paid back duly till now,car (new),2550,no savings account,>=7 years,2,none,4,unknown / no property,>25,none,own,1,skilled employee / official,1,none,yes,male,0
+>= 200 DM,6,existing credits paid back duly till now,radio/television,1263,>= 1000 DM,1<= < 4 years,2,none,2,real estate,>25,none,own,1,skilled employee / official,1,yes,yes,male,1
+0 <= <200 DM,30,delay in paying off,business,3207,<100 DM,1<= < 4 years,1,none,4,unknown / no property,>25,none,for free,1,skilled employee / official,1,none,yes,male,1
+<0 DM,24,all credits at this bank paid back duly,furniture/equipment,2038,<100 DM,1<= < 4 years,4,none,4,real estate,<=25,none,rent,1,skilled employee / official,1,yes,yes,female,1
+no account,36,existing credits paid back duly till now,car (used),5217,100 <= <500 DM,<1 years,1,none,2,car or other,<=25,none,own,1,skilled employee / official,1,none,yes,female,1
+<0 DM,18,critical account,car (new),2749,<100 DM,4<= <7 years,3,none,1,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,yes,yes,male,0
+0 <= <200 DM,18,existing credits paid back duly till now,business,2946,no savings account,1<= < 4 years,2,none,2,savings agreement/life insurance,<=25,none,own,1,skilled employee / official,1,none,yes,female,0
+no account,18,critical account,furniture/equipment,1721,<100 DM,1<= < 4 years,4,none,3,savings agreement/life insurance,>25,none,own,1,unskilled - resident,1,none,yes,male,1
+<0 DM,15,critical account,radio/television,2196,<100 DM,4<= <7 years,3,none,2,real estate,>25,none,own,2,skilled employee / official,1,yes,yes,female,1
+<0 DM,12,existing credits paid back duly till now,education,1355,100 <= <500 DM,4<= <7 years,2,co-applicant,3,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,yes,yes,male,0
+<0 DM,36,existing credits paid back duly till now,car (used),14986,500 <= < 1000 DM,>=7 years,2,none,4,savings agreement/life insurance,>25,none,own,2,management/ highly qualified employee,1,yes,yes,male,0
+>= 200 DM,36,existing credits paid back duly till now,furniture/equipment,1395,500 <= < 1000 DM,>=7 years,2,none,1,real estate,>25,bank,own,1,skilled employee / official,1,none,yes,male,1
+no account,36,critical account,car (used),4271,no savings account,1<= < 4 years,4,none,4,car or other,<=25,none,own,2,skilled employee / official,2,none,yes,male,0
+<0 DM,15,existing credits paid back duly till now,furniture/equipment,3510,<100 DM,unemployed,2,none,4,unknown / no property,>25,none,for free,1,unemployed/ unskilled  - non-resident,2,none,yes,male,1
+no account,12,existing credits paid back duly till now,car (used),1425,no savings account,4<= <7 years,4,none,4,car or other,<=25,none,own,1,skilled employee / official,1,none,yes,male,1
+<0 DM,18,no credits taken,furniture/equipment,2874,<100 DM,<1 years,4,none,1,savings agreement/life insurance,>25,none,rent,1,skilled employee / official,1,none,yes,male,1
+<0 DM,18,existing credits paid back duly till now,furniture/equipment,3671,100 <= <500 DM,4<= <7 years,3,none,4,car or other,>25,none,own,1,skilled employee / official,1,yes,yes,male,1
+<0 DM,24,existing credits paid back duly till now,furniture/equipment,3690,no savings account,>=7 years,4,none,4,savings agreement/life insurance,>25,none,own,1,management/ highly qualified employee,1,yes,yes,male,1
+no account,60,existing credits paid back duly till now,car (used),11267,500 <= < 1000 DM,>=7 years,4,none,3,car or other,>25,none,own,1,skilled employee / official,2,yes,yes,female,1
+no account,39,critical account,car (used),4825,no savings account,4<= <7 years,2,none,2,car or other,>25,none,own,2,skilled employee / official,1,none,yes,male,1
+no account,15,critical account,furniture/equipment,1732,<100 DM,<1 years,1,none,2,savings agreement/life insurance,>25,none,own,2,unskilled - resident,1,none,yes,male,1
+0 <= <200 DM,24,existing credits paid back duly till now,car (new),2197,<100 DM,<1 years,2,none,4,unknown / no property,>25,none,own,1,skilled employee / official,1,none,yes,male,0
+no account,18,existing credits paid back duly till now,business,1610,no savings account,>=7 years,4,none,3,real estate,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+no account,12,existing credits paid back duly till now,furniture/equipment,1503,<100 DM,<1 years,1,none,2,real estate,<=25,none,own,1,skilled employee / official,1,none,yes,female,0
+<0 DM,24,existing credits paid back duly till now,radio/television,2210,<100 DM,>=7 years,4,none,4,real estate,>25,none,own,1,skilled employee / official,1,none,yes,male,0
+0 <= <200 DM,48,delay in paying off,car (used),7924,<100 DM,4<= <7 years,4,none,4,car or other,>25,bank,own,2,skilled employee / official,1,yes,yes,male,0
+<0 DM,28,delay in paying off,car (new),4956,<100 DM,>=7 years,3,none,1,unknown / no property,>25,none,own,2,management/ highly qualified employee,2,none,yes,male,0
+<0 DM,48,critical account,furniture/equipment,6834,<100 DM,>=7 years,4,none,4,unknown / no property,>25,none,for free,2,skilled employee / official,1,none,yes,male,0
+no account,24,existing credits paid back duly till now,car (new),8917,no savings account,<1 years,3,none,3,unknown / no property,>25,bank,own,1,skilled employee / official,1,yes,yes,male,1
+0 <= <200 DM,18,existing credits paid back duly till now,radio/television,1327,<100 DM,1<= < 4 years,4,none,2,real estate,<=25,none,own,1,skilled employee / official,1,none,yes,female,1
+<0 DM,24,existing credits paid back duly till now,furniture/equipment,1692,500 <= < 1000 DM,>=7 years,4,guarantor,1,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,none,yes,female,1
+no account,15,existing credits paid back duly till now,car (used),1620,>= 1000 DM,4<= <7 years,3,none,3,car or other,>25,none,own,1,skilled employee / official,1,yes,yes,male,1
+no account,36,critical account,car (used),7104,<100 DM,>=7 years,3,none,4,savings agreement/life insurance,>25,none,own,2,skilled employee / official,2,yes,yes,male,1
+<0 DM,36,no credits taken,car (new),7263,<100 DM,<1 years,1,none,4,unknown / no property,<=25,none,rent,1,skilled employee / official,1,none,yes,female,0
+<0 DM,20,existing credits paid back duly till now,furniture/equipment,2045,no savings account,1<= < 4 years,4,none,2,car or other,>25,none,own,1,skilled employee / official,2,yes,yes,female,0
+no account,15,existing credits paid back duly till now,radio/television,2540,no savings account,1<= < 4 years,2,none,2,real estate,<=25,none,rent,1,unskilled - resident,1,none,yes,male,1
+<0 DM,24,all credits at this bank paid back duly,furniture/equipment,2910,<100 DM,1<= < 4 years,2,guarantor,4,real estate,<=25,store,own,2,skilled employee / official,1,none,yes,male,1
+<0 DM,6,existing credits paid back duly till now,car (new),1248,<100 DM,4<= <7 years,4,none,3,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,none,yes,male,0
+no account,24,existing credits paid back duly till now,car (used),1367,>= 1000 DM,>=7 years,4,none,4,car or other,>25,none,own,1,skilled employee / official,1,yes,yes,female,1
+no account,12,existing credits paid back duly till now,education,1648,<100 DM,<1 years,4,none,4,car or other,>25,none,own,1,management/ highly qualified employee,1,none,yes,female,1
+0 <= <200 DM,18,existing credits paid back duly till now,car (new),2247,<100 DM,4<= <7 years,4,none,3,real estate,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+0 <= <200 DM,6,existing credits paid back duly till now,radio/television,297,<100 DM,<1 years,4,guarantor,4,real estate,>25,bank,own,1,skilled employee / official,1,none,yes,male,1
+<0 DM,12,all credits at this bank paid back duly,radio/television,1032,no savings account,<1 years,4,none,4,real estate,<=25,none,rent,1,skilled employee / official,1,none,yes,female,0
+<0 DM,24,existing credits paid back duly till now,furniture/equipment,2647,<100 DM,1<= < 4 years,2,none,1,real estate,>25,none,rent,1,skilled employee / official,1,none,yes,female,0
+0 <= <200 DM,9,existing credits paid back duly till now,domestic appliances,1420,100 <= <500 DM,1<= < 4 years,3,none,1,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,none,yes,female,1
+<0 DM,36,existing credits paid back duly till now,furniture/equipment,3249,500 <= < 1000 DM,4<= <7 years,3,none,2,savings agreement/life insurance,>25,none,own,1,management/ highly qualified employee,1,yes,yes,male,1
+no account,24,existing credits paid back duly till now,radio/television,2760,100 <= <500 DM,1<= < 4 years,3,none,4,savings agreement/life insurance,<=25,none,rent,1,unskilled - resident,1,none,yes,male,1
+<0 DM,21,critical account,car (new),1712,<100 DM,1<= < 4 years,4,none,2,real estate,<=25,none,rent,1,unskilled - resident,2,none,yes,female,1
+<0 DM,10,existing credits paid back duly till now,furniture/equipment,1120,<100 DM,4<= <7 years,4,none,4,car or other,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+<0 DM,30,critical account,car (used),8931,<100 DM,1<= < 4 years,2,none,4,unknown / no property,<=25,bank,for free,1,management/ highly qualified employee,2,yes,yes,female,1
+<0 DM,24,all credits at this bank paid back duly,furniture/equipment,2359,<100 DM,<1 years,4,guarantor,4,car or other,<=25,store,own,1,unskilled - resident,1,none,yes,male,1
+no account,12,critical account,radio/television,2014,no savings account,<1 years,2,none,3,car or other,<=25,none,rent,2,skilled employee / official,1,none,yes,female,1
+<0 DM,42,critical account,car (used),7142,<100 DM,1<= < 4 years,4,none,3,unknown / no property,>25,none,own,1,skilled employee / official,1,none,yes,male,0
+<0 DM,36,critical account,furniture/equipment,5023,no savings account,4<= <7 years,3,none,2,savings agreement/life insurance,>25,none,own,1,management/ highly qualified employee,1,yes,yes,male,0
+<0 DM,36,existing credits paid back duly till now,car (new),5102,<100 DM,>=7 years,3,none,4,unknown / no property,>25,none,own,1,management/ highly qualified employee,1,yes,yes,male,1
+no account,11,critical account,car (new),1214,<100 DM,>=7 years,4,none,4,car or other,>25,none,own,2,skilled employee / official,1,none,yes,male,1
+<0 DM,12,no credits taken,car (new),941,no savings account,1<= < 4 years,4,none,2,car or other,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+0 <= <200 DM,15,existing credits paid back duly till now,car (new),1546,<100 DM,1<= < 4 years,4,none,3,car or other,<=25,none,rent,1,skilled employee / official,1,none,yes,female,0
+no account,21,existing credits paid back duly till now,furniture/equipment,2216,<100 DM,1<= < 4 years,3,none,1,car or other,<=25,none,rent,1,skilled employee / official,1,none,yes,female,1
+no account,15,delay in paying off,furniture/equipment,1743,no savings account,4<= <7 years,2,none,2,real estate,>25,none,own,1,skilled employee / official,1,none,yes,female,1
+0 <= <200 DM,30,critical account,radio/television,7492,<100 DM,1<= < 4 years,4,none,4,real estate,<=25,none,own,1,skilled employee / official,1,none,yes,female,0
+<0 DM,10,existing credits paid back duly till now,radio/television,1038,<100 DM,1<= < 4 years,3,none,4,real estate,>25,none,own,1,skilled employee / official,1,none,yes,female,1
+<0 DM,12,existing credits paid back duly till now,furniture/equipment,1200,<100 DM,<1 years,3,none,3,real estate,>25,none,own,1,unskilled - resident,1,none,yes,male,1
+0 <= <200 DM,18,existing credits paid back duly till now,car (used),1643,no savings account,1<= < 4 years,2,none,3,car or other,<=25,none,rent,1,skilled employee / official,1,yes,yes,female,1
+<0 DM,12,existing credits paid back duly till now,radio/television,880,<100 DM,1<= < 4 years,4,none,4,car or other,>25,none,rent,1,skilled employee / official,1,none,yes,male,1
+<0 DM,24,existing credits paid back duly till now,car (new),2303,<100 DM,>=7 years,4,none,4,unknown / no property,<=25,none,for free,1,skilled employee / official,2,yes,yes,male,0
+>= 200 DM,10,existing credits paid back duly till now,radio/television,1046,>= 1000 DM,1<= < 4 years,3,guarantor,2,real estate,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+no account,48,all credits at this bank paid back duly,business,2381,>= 1000 DM,4<= <7 years,4,none,2,real estate,>25,none,own,1,skilled employee / official,1,yes,yes,male,1
+no account,36,critical account,radio/television,5216,no savings account,1<= < 4 years,1,none,3,real estate,<=25,none,rent,2,skilled employee / official,2,none,yes,female,1
+no account,6,critical account,radio/television,4611,>= 1000 DM,>=7 years,4,none,1,real estate,>25,bank,own,2,management/ highly qualified employee,1,yes,yes,male,1
+0 <= <200 DM,60,existing credits paid back duly till now,car (used),8137,<100 DM,1<= < 4 years,3,none,1,car or other,<=25,none,own,2,skilled employee / official,2,none,yes,male,0
+0 <= <200 DM,12,critical account,radio/television,967,no savings account,>=7 years,4,none,1,real estate,>25,none,own,1,skilled employee / official,1,yes,yes,male,1
+0 <= <200 DM,6,existing credits paid back duly till now,furniture/equipment,1183,no savings account,<1 years,4,none,4,savings agreement/life insurance,<=25,none,own,1,skilled employee / official,1,none,yes,female,0
+no account,48,critical account,car (used),3860,<100 DM,>=7 years,4,none,2,car or other,>25,none,own,2,management/ highly qualified employee,1,none,yes,male,1
+no account,11,critical account,radio/television,1154,<100 DM,4<= <7 years,4,none,2,car or other,>25,none,rent,1,skilled employee / official,1,yes,yes,female,1
+0 <= <200 DM,24,critical account,car (used),1174,<100 DM,1<= < 4 years,4,none,2,car or other,>25,none,own,2,skilled employee / official,1,yes,yes,female,1
+no account,15,delay in paying off,radio/television,1148,100 <= <500 DM,1<= < 4 years,4,none,4,car or other,>25,none,own,2,skilled employee / official,1,yes,yes,male,1
+<0 DM,24,delay in paying off,furniture/equipment,4523,<100 DM,4<= <7 years,3,none,1,unknown / no property,>25,bank,own,2,skilled employee / official,1,none,yes,female,1
+<0 DM,18,existing credits paid back duly till now,business,3521,100 <= <500 DM,1<= < 4 years,3,co-applicant,4,car or other,>25,none,own,2,skilled employee / official,1,yes,yes,male,0
+<0 DM,30,existing credits paid back duly till now,radio/television,3271,<100 DM,>=7 years,4,none,1,unknown / no property,>25,none,for free,1,skilled employee / official,1,yes,yes,male,1
+<0 DM,12,critical account,car (used),5534,<100 DM,1<= < 4 years,3,none,2,real estate,>25,none,own,2,skilled employee / official,1,none,yes,male,0
+no account,24,critical account,car (new),2547,no savings account,1<= < 4 years,3,none,3,savings agreement/life insurance,>25,none,own,2,skilled employee / official,1,yes,yes,female,0
+0 <= <200 DM,48,all credits at this bank paid back duly,car (new),3485,<100 DM,>=7 years,3,none,3,car or other,>25,bank,own,1,skilled employee / official,1,yes,yes,male,0
+0 <= <200 DM,12,existing credits paid back duly till now,furniture/equipment,1342,no savings account,4<= <7 years,4,none,4,car or other,>25,none,own,2,skilled employee / official,1,yes,yes,male,1
+>= 200 DM,36,existing credits paid back duly till now,radio/television,2543,<100 DM,<1 years,3,none,2,car or other,<=25,none,own,1,skilled employee / official,1,none,yes,female,1
+<0 DM,24,existing credits paid back duly till now,furniture/equipment,3127,no savings account,1<= < 4 years,4,none,4,real estate,>25,none,own,2,skilled employee / official,1,yes,yes,female,0
+0 <= <200 DM,30,existing credits paid back duly till now,business,2614,100 <= <500 DM,4<= <7 years,4,none,4,car or other,>25,none,own,1,skilled employee / official,1,yes,yes,male,1
+no account,24,critical account,car (new),2765,no savings account,1<= < 4 years,3,none,3,savings agreement/life insurance,>25,none,own,2,skilled employee / official,1,yes,yes,male,1
+no account,24,critical account,radio/television,2371,<100 DM,1<= < 4 years,2,none,3,car or other,>25,none,own,1,skilled employee / official,1,yes,yes,female,1
+no account,24,critical account,business,1502,no savings account,>=7 years,2,none,4,real estate,>25,none,own,1,skilled employee / official,1,yes,yes,male,1
+<0 DM,18,existing credits paid back duly till now,furniture/equipment,1631,<100 DM,1<= < 4 years,2,none,4,car or other,>25,none,own,1,skilled employee / official,1,none,yes,male,0
+no account,9,critical account,retraining,2517,<100 DM,1<= < 4 years,1,none,1,car or other,<=25,none,own,2,skilled employee / official,1,none,yes,male,1
+0 <= <200 DM,7,delay in paying off,furniture/equipment,1327,<100 DM,>=7 years,3,none,4,car or other,>25,none,own,1,skilled employee / official,1,yes,yes,male,1
+no account,6,existing credits paid back duly till now,retraining,430,no savings account,<1 years,4,none,3,car or other,<=25,none,rent,1,skilled employee / official,1,none,yes,female,1
+>= 200 DM,12,no credits taken,car (new),1683,<100 DM,>=7 years,4,none,4,car or other,>25,none,own,1,skilled employee / official,1,yes,yes,female,1
+no account,24,critical account,car (used),3040,<100 DM,>=7 years,3,guarantor,4,car or other,>25,none,own,2,skilled employee / official,1,yes,yes,female,1
+no account,18,critical account,car (used),3872,no savings account,>=7 years,4,none,4,real estate,>25,none,own,3,skilled employee / official,1,yes,yes,female,1
+<0 DM,10,existing credits paid back duly till now,furniture/equipment,1173,100 <= <500 DM,1<= < 4 years,1,none,3,savings agreement/life insurance,<=25,none,own,1,skilled employee / official,1,none,yes,female,1
+no account,18,existing credits paid back duly till now,furniture/equipment,935,<100 DM,1<= < 4 years,4,none,2,real estate,<=25,none,own,1,unskilled - resident,1,none,yes,male,1
+<0 DM,24,existing credits paid back duly till now,radio/television,2083,<100 DM,<1 years,3,none,4,real estate,<=25,none,rent,1,skilled employee / official,1,none,yes,male,0
+<0 DM,24,existing credits paid back duly till now,furniture/equipment,2645,<100 DM,unemployed,1,none,4,unknown / no property,>25,none,for free,2,unemployed/ unskilled  - non-resident,1,none,yes,male,1
+0 <= <200 DM,8,existing credits paid back duly till now,radio/television,907,<100 DM,<1 years,4,guarantor,3,real estate,>25,bank,rent,1,unskilled - resident,1,none,yes,male,1
+>= 200 DM,30,existing credits paid back duly till now,car (new),2143,<100 DM,<1 years,2,none,4,savings agreement/life insurance,<=25,none,rent,1,skilled employee / official,1,yes,yes,male,1
+no account,12,critical account,car (new),1662,<100 DM,>=7 years,4,none,2,real estate,>25,none,own,4,skilled employee / official,1,none,yes,male,1
+0 <= <200 DM,18,delay in paying off,domestic appliances,1289,no savings account,>=7 years,4,none,2,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+0 <= <200 DM,6,existing credits paid back duly till now,radio/television,1145,<100 DM,<1 years,1,none,1,car or other,<=25,none,own,1,unskilled - resident,1,yes,yes,female,1
+0 <= <200 DM,24,existing credits paid back duly till now,radio/television,3729,<100 DM,1<= < 4 years,4,none,4,car or other,<=25,none,rent,1,skilled employee / official,1,none,yes,male,1
+0 <= <200 DM,21,existing credits paid back duly till now,car (used),2300,100 <= <500 DM,4<= <7 years,4,none,3,car or other,<=25,none,own,1,skilled employee / official,1,none,yes,female,0
+no account,10,critical account,education,2630,no savings account,1<= < 4 years,2,none,2,car or other,>25,none,own,2,skilled employee / official,1,none,yes,female,1
+<0 DM,18,critical account,furniture/equipment,1876,100 <= <500 DM,1<= < 4 years,2,none,1,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+<0 DM,24,all credits at this bank paid back duly,car (used),2187,<100 DM,<1 years,4,guarantor,1,real estate,<=25,none,rent,1,unskilled - resident,1,none,yes,male,1
+no account,12,existing credits paid back duly till now,radio/television,872,no savings account,1<= < 4 years,4,none,4,car or other,<=25,none,rent,1,unskilled - resident,1,none,yes,female,1
+<0 DM,24,all credits at this bank paid back duly,car (new),3138,<100 DM,<1 years,3,none,2,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,none,yes,female,1
+0 <= <200 DM,24,critical account,car (new),2941,<100 DM,<1 years,1,none,1,unknown / no property,>25,none,own,1,skilled employee / official,2,none,yes,male,1
+0 <= <200 DM,24,existing credits paid back duly till now,car (used),10487,>= 1000 DM,4<= <7 years,2,none,2,car or other,>25,none,own,1,skilled employee / official,1,yes,yes,male,1
+<0 DM,15,existing credits paid back duly till now,car (used),3418,100 <= <500 DM,1<= < 4 years,3,none,4,car or other,>25,none,own,2,unskilled - resident,1,none,yes,male,0
+0 <= <200 DM,6,existing credits paid back duly till now,furniture/equipment,618,<100 DM,<1 years,2,none,4,real estate,<=25,none,own,1,unskilled - resident,1,none,yes,male,1
+0 <= <200 DM,18,existing credits paid back duly till now,furniture/equipment,1824,100 <= <500 DM,1<= < 4 years,1,none,4,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+no account,18,critical account,car (new),1278,<100 DM,4<= <7 years,2,none,1,real estate,>25,none,own,1,unskilled - resident,2,none,yes,male,1
+<0 DM,24,critical account,car (new),1310,<100 DM,4<= <7 years,4,none,2,car or other,>25,none,own,1,skilled employee / official,1,none,yes,female,0
+>= 200 DM,30,critical account,radio/television,4127,<100 DM,>=7 years,3,none,4,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+0 <= <200 DM,18,no credits taken,car (new),1832,<100 DM,1<= < 4 years,4,none,3,car or other,>25,none,own,1,skilled employee / official,1,yes,yes,female,0
+<0 DM,48,existing credits paid back duly till now,car (used),5210,<100 DM,<1 years,4,none,2,savings agreement/life insurance,<=25,none,rent,1,skilled employee / official,1,none,yes,male,1
+<0 DM,36,existing credits paid back duly till now,car (used),3418,<100 DM,<1 years,4,none,4,car or other,<=25,none,rent,1,skilled employee / official,1,none,yes,female,0
+no account,6,critical account,radio/television,1897,<100 DM,<1 years,3,none,1,real estate,>25,none,own,2,unskilled - resident,1,none,yes,male,1
+0 <= <200 DM,30,existing credits paid back duly till now,business,4513,<100 DM,4<= <7 years,3,none,4,car or other,<=25,none,rent,2,skilled employee / official,1,none,yes,male,1
+no account,36,existing credits paid back duly till now,car (used),7435,500 <= < 1000 DM,>=7 years,2,none,2,car or other,>25,bank,own,1,skilled employee / official,1,none,yes,male,1
+0 <= <200 DM,45,existing credits paid back duly till now,car (used),3276,100 <= <500 DM,>=7 years,4,none,2,real estate,>25,none,for free,1,management/ highly qualified employee,1,yes,yes,female,0
+no account,24,existing credits paid back duly till now,furniture/equipment,3247,>= 1000 DM,4<= <7 years,3,none,3,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,yes,yes,male,1
+0 <= <200 DM,36,existing credits paid back duly till now,car (used),10547,100 <= <500 DM,1<= < 4 years,4,none,2,car or other,<=25,none,own,1,skilled employee / official,1,yes,yes,male,1
+no account,12,critical account,education,1210,no savings account,1<= < 4 years,3,none,3,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,yes,yes,male,1
+<0 DM,24,existing credits paid back duly till now,furniture/equipment,3892,<100 DM,1<= < 4 years,4,none,4,real estate,<=25,none,own,1,unskilled - resident,1,none,yes,female,1
+no account,15,critical account,car (new),1710,100 <= <500 DM,1<= < 4 years,4,none,2,savings agreement/life insurance,>25,none,own,2,unskilled - resident,1,none,yes,female,1
+<0 DM,12,critical account,education,810,<100 DM,1<= < 4 years,2,co-applicant,4,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,none,yes,female,0
+<0 DM,15,no credits taken,car (new),1425,<100 DM,1<= < 4 years,4,none,2,car or other,>25,none,own,1,skilled employee / official,2,none,yes,male,0
+no account,12,existing credits paid back duly till now,car (used),1495,100 <= <500 DM,4<= <7 years,2,none,4,car or other,>25,none,own,1,skilled employee / official,1,none,yes,female,1
+no account,24,existing credits paid back duly till now,radio/television,1393,<100 DM,<1 years,1,none,4,real estate,<=25,none,own,1,skilled employee / official,1,none,yes,male,1
+0 <= <200 DM,18,existing credits paid back duly till now,car (new),2145,<100 DM,1<= < 4 years,2,none,2,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,none,yes,female,0
+no account,20,existing credits paid back duly till now,radio/television,3421,<100 DM,>=7 years,3,none,2,car or other,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+no account,18,critical account,business,1210,no savings account,1<= < 4 years,4,none,3,savings agreement/life insurance,>25,none,own,2,skilled employee / official,1,yes,yes,male,1
+no account,42,critical account,radio/television,4042,<100 DM,1<= < 4 years,4,none,1,real estate,>25,none,own,2,skilled employee / official,1,none,yes,male,0
+no account,12,critical account,car (new),1262,no savings account,<1 years,4,none,4,real estate,<=25,none,rent,2,unskilled - resident,1,none,yes,female,1
+no account,6,critical account,car (new),3518,no savings account,1<= < 4 years,2,none,3,real estate,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+0 <= <200 DM,15,existing credits paid back duly till now,radio/television,2436,<100 DM,1<= < 4 years,4,none,4,car or other,>25,none,own,1,skilled employee / official,1,yes,yes,male,1
+no account,18,critical account,radio/television,1582,>= 1000 DM,1<= < 4 years,3,none,1,car or other,>25,none,own,2,skilled employee / official,1,none,yes,female,1
+<0 DM,12,existing credits paid back duly till now,car (new),1264,<100 DM,1<= < 4 years,3,none,4,car or other,<=25,bank,own,1,unskilled - resident,1,none,yes,male,1
+no account,42,delay in paying off,radio/television,2834,no savings account,4<= <7 years,2,none,4,real estate,>25,none,own,1,skilled employee / official,1,yes,yes,male,1
+<0 DM,12,existing credits paid back duly till now,education,1479,<100 DM,1<= < 4 years,4,none,3,savings agreement/life insurance,>25,none,rent,1,skilled employee / official,1,none,yes,female,0
+no account,12,critical account,car (new),1358,<100 DM,unemployed,4,co-applicant,4,unknown / no property,>25,none,own,1,management/ highly qualified employee,1,yes,yes,male,1
+<0 DM,18,existing credits paid back duly till now,education,1132,<100 DM,1<= < 4 years,4,none,4,car or other,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+<0 DM,36,delay in paying off,furniture/equipment,4127,<100 DM,1<= < 4 years,3,none,4,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+>= 200 DM,24,existing credits paid back duly till now,radio/television,1560,<100 DM,>=7 years,4,none,4,real estate,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+0 <= <200 DM,30,critical account,car (used),3948,no savings account,>=7 years,4,none,4,car or other,>25,none,own,2,skilled employee / official,1,none,yes,male,1
+0 <= <200 DM,9,existing credits paid back duly till now,radio/television,1154,100 <= <500 DM,1<= < 4 years,1,none,3,real estate,>25,none,own,1,skilled employee / official,1,none,no,male,1
+no account,24,existing credits paid back duly till now,radio/television,1439,no savings account,<1 years,4,none,4,real estate,<=25,none,rent,1,unskilled - resident,1,none,yes,male,1
+no account,24,existing credits paid back duly till now,radio/television,1320,<100 DM,<1 years,3,none,3,savings agreement/life insurance,>25,none,own,1,unskilled - resident,1,none,yes,female,1
+no account,15,critical account,furniture/equipment,1048,500 <= < 1000 DM,4<= <7 years,4,none,3,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,yes,yes,male,1
+0 <= <200 DM,30,delay in paying off,furniture/equipment,3467,<100 DM,4<= <7 years,4,none,4,savings agreement/life insurance,>25,none,own,2,skilled employee / official,1,yes,yes,male,0
+no account,15,existing credits paid back duly till now,retraining,1943,<100 DM,<1 years,3,none,3,real estate,<=25,none,rent,1,skilled employee / official,1,none,yes,female,1
+0 <= <200 DM,12,critical account,radio/television,1980,500 <= < 1000 DM,1<= < 4 years,4,none,2,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+no account,24,critical account,business,5914,<100 DM,>=7 years,2,none,1,unknown / no property,>25,none,for free,2,skilled employee / official,2,none,yes,male,1
+<0 DM,6,critical account,radio/television,980,<100 DM,<1 years,2,none,4,real estate,>25,none,own,1,unskilled - resident,1,none,yes,male,1
+0 <= <200 DM,48,delay in paying off,car (new),4062,<100 DM,<1 years,3,none,2,unknown / no property,>25,none,rent,1,skilled employee / official,1,none,yes,female,1
+no account,18,existing credits paid back duly till now,car (new),812,<100 DM,1<= < 4 years,4,none,4,real estate,>25,none,own,1,skilled employee / official,1,none,yes,female,1
+<0 DM,24,existing credits paid back duly till now,car (used),1438,<100 DM,<1 years,4,none,4,car or other,<=25,none,rent,1,skilled employee / official,1,none,yes,female,1
+no account,6,no credits taken,car (new),897,no savings account,1<= < 4 years,4,none,4,unknown / no property,>25,none,for free,2,unskilled - resident,1,none,yes,male,1
+<0 DM,24,existing credits paid back duly till now,car (new),1305,<100 DM,4<= <7 years,4,none,3,car or other,<=25,none,rent,1,skilled employee / official,1,none,yes,female,0
+<0 DM,36,critical account,car (new),5394,<100 DM,<1 years,4,none,3,unknown / no property,<=25,none,rent,2,management/ highly qualified employee,2,yes,yes,female,0
+0 <= <200 DM,48,existing credits paid back duly till now,furniture/equipment,7024,<100 DM,<1 years,2,none,4,savings agreement/life insurance,<=25,none,own,1,skilled employee / official,1,none,yes,female,0
+<0 DM,24,existing credits paid back duly till now,car (used),4639,<100 DM,<1 years,2,none,4,car or other,<=25,none,rent,1,unskilled - resident,1,none,yes,female,1
+<0 DM,36,existing credits paid back duly till now,business,8147,<100 DM,>=7 years,4,none,2,unknown / no property,>25,none,own,1,management/ highly qualified employee,1,yes,yes,male,0
+<0 DM,24,delay in paying off,furniture/equipment,4110,no savings account,4<= <7 years,4,none,1,unknown / no property,>25,none,for free,2,management/ highly qualified employee,1,yes,yes,male,0
+no account,12,existing credits paid back duly till now,furniture/equipment,1105,no savings account,1<= < 4 years,3,none,2,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,none,yes,female,1
+0 <= <200 DM,6,delay in paying off,domestic appliances,742,<100 DM,1<= < 4 years,1,none,4,savings agreement/life insurance,>25,bank,own,1,unskilled - resident,2,none,yes,male,1
+0 <= <200 DM,12,existing credits paid back duly till now,car (new),1083,<100 DM,1<= < 4 years,4,none,3,real estate,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+<0 DM,28,existing credits paid back duly till now,car (new),3152,<100 DM,4<= <7 years,3,none,2,car or other,>25,bank,own,1,management/ highly qualified employee,1,yes,yes,male,0
+0 <= <200 DM,48,no credits taken,radio/television,3979,no savings account,4<= <7 years,2,none,1,car or other,>25,none,own,2,skilled employee / official,2,none,yes,male,0
+no account,15,critical account,car (new),3180,<100 DM,4<= <7 years,2,none,3,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+>= 200 DM,12,existing credits paid back duly till now,education,1426,<100 DM,1<= < 4 years,1,none,4,savings agreement/life insurance,<=25,bank,own,1,skilled employee / official,1,yes,yes,female,1
+no account,18,critical account,radio/television,1339,<100 DM,4<= <7 years,4,none,2,savings agreement/life insurance,>25,none,own,2,skilled employee / official,1,none,yes,male,1
+no account,12,existing credits paid back duly till now,radio/television,1389,<100 DM,1<= < 4 years,2,none,4,real estate,<=25,bank,rent,1,unskilled - resident,1,none,yes,female,1
+0 <= <200 DM,12,all credits at this bank paid back duly,furniture/equipment,1424,500 <= < 1000 DM,1<= < 4 years,4,none,2,savings agreement/life insurance,<=25,none,own,1,skilled employee / official,1,none,yes,male,1
+no account,24,existing credits paid back duly till now,furniture/equipment,3340,500 <= < 1000 DM,4<= <7 years,3,none,4,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+no account,15,existing credits paid back duly till now,car (used),2708,100 <= <500 DM,>=7 years,4,none,4,car or other,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+0 <= <200 DM,24,existing credits paid back duly till now,education,1398,no savings account,>=7 years,3,none,4,unknown / no property,>25,store,own,1,management/ highly qualified employee,1,yes,yes,female,1
+0 <= <200 DM,24,existing credits paid back duly till now,radio/television,1327,<100 DM,<1 years,4,none,2,car or other,<=25,bank,own,1,skilled employee / official,1,yes,yes,female,1
+<0 DM,12,existing credits paid back duly till now,furniture/equipment,832,<100 DM,>=7 years,4,none,4,unknown / no property,>25,none,for free,1,skilled employee / official,1,yes,yes,male,1
+no account,24,existing credits paid back duly till now,radio/television,1543,no savings account,<1 years,4,none,4,real estate,<=25,store,own,1,skilled employee / official,1,yes,yes,female,1
+0 <= <200 DM,18,delay in paying off,car (new),1834,<100 DM,>=7 years,4,none,2,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,none,yes,male,0
+no account,12,existing credits paid back duly till now,radio/television,1108,no savings account,4<= <7 years,3,none,2,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,yes,yes,male,1
+<0 DM,24,existing credits paid back duly till now,car (new),1183,<100 DM,>=7 years,3,co-applicant,4,real estate,>25,none,own,1,skilled employee / official,1,yes,yes,female,0
+no account,6,critical account,car (new),1837,no savings account,unemployed,3,none,2,real estate,>25,none,own,1,unskilled - resident,1,none,yes,female,1
+0 <= <200 DM,12,existing credits paid back duly till now,furniture/equipment,945,500 <= < 1000 DM,1<= < 4 years,3,none,3,real estate,<=25,none,own,1,unskilled - resident,1,none,yes,female,0
+0 <= <200 DM,48,no credits taken,car (new),14829,no savings account,4<= <7 years,2,none,2,unknown / no property,>25,none,for free,1,skilled employee / official,2,yes,yes,female,0
+no account,18,critical account,radio/television,2846,<100 DM,4<= <7 years,4,none,3,car or other,>25,none,own,2,skilled employee / official,1,none,yes,male,1
+no account,24,critical account,radio/television,2710,<100 DM,>=7 years,2,none,2,car or other,>25,none,own,2,skilled employee / official,1,none,yes,female,1
+0 <= <200 DM,24,existing credits paid back duly till now,furniture/equipment,6241,no savings account,1<= < 4 years,3,none,2,savings agreement/life insurance,>25,none,own,1,unskilled - resident,1,none,yes,male,1
+no account,24,critical account,car (new),5021,<100 DM,>=7 years,3,none,2,unknown / no property,>25,none,for free,1,management/ highly qualified employee,2,yes,yes,female,1
+<0 DM,27,existing credits paid back duly till now,car (new),4872,100 <= <500 DM,4<= <7 years,3,none,2,car or other,>25,none,own,1,skilled employee / official,1,yes,yes,male,0
+no account,24,existing credits paid back duly till now,radio/television,2538,500 <= < 1000 DM,4<= <7 years,4,none,4,savings agreement/life insurance,>25,none,own,1,skilled employee / official,2,yes,yes,female,1
+<0 DM,33,existing credits paid back duly till now,car (used),6741,<100 DM,<1 years,2,none,4,real estate,<=25,none,rent,2,unskilled - resident,2,none,yes,female,1
+no account,18,existing credits paid back duly till now,car (new),2084,>= 1000 DM,>=7 years,4,none,4,car or other,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+<0 DM,21,critical account,furniture/equipment,2074,<100 DM,>=7 years,4,none,4,car or other,>25,none,own,2,management/ highly qualified employee,1,yes,yes,male,0
+>= 200 DM,10,existing credits paid back duly till now,car (new),1342,<100 DM,1<= < 4 years,4,none,2,car or other,<=25,none,own,1,skilled employee / official,1,none,yes,male,0
+0 <= <200 DM,39,existing credits paid back duly till now,radio/television,5280,100 <= <500 DM,1<= < 4 years,2,co-applicant,2,unknown / no property,<=25,none,rent,1,unskilled - resident,1,none,yes,male,0
+<0 DM,18,existing credits paid back duly till now,car (new),8471,>= 1000 DM,>=7 years,1,none,2,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,yes,yes,male,0
+<0 DM,24,existing credits paid back duly till now,furniture/equipment,4892,<100 DM,1<= < 4 years,3,none,4,car or other,<=25,none,rent,1,unskilled - resident,1,none,yes,male,1
+0 <= <200 DM,12,critical account,radio/television,2941,<100 DM,1<= < 4 years,2,none,4,car or other,>25,none,own,2,skilled employee / official,1,yes,yes,male,1
+0 <= <200 DM,24,no credits taken,radio/television,6241,<100 DM,1<= < 4 years,4,none,4,real estate,>25,none,own,1,unskilled - resident,1,none,yes,female,0
+<0 DM,12,existing credits paid back duly till now,car (new),894,<100 DM,1<= < 4 years,2,none,3,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,none,yes,male,0
+no account,12,existing credits paid back duly till now,radio/television,921,<100 DM,>=7 years,4,none,4,real estate,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+no account,6,existing credits paid back duly till now,repairs,1150,<100 DM,<1 years,4,none,1,savings agreement/life insurance,<=25,none,rent,1,skilled employee / official,1,none,yes,male,1
+no account,12,critical account,radio/television,2471,no savings account,>=7 years,2,none,4,real estate,>25,none,own,2,unskilled - resident,1,none,yes,female,1
+<0 DM,36,no credits taken,car (used),7540,<100 DM,1<= < 4 years,2,none,4,unknown / no property,<=25,none,for free,2,skilled employee / official,2,none,yes,male,1
+<0 DM,24,existing credits paid back duly till now,car (new),4020,<100 DM,1<= < 4 years,4,none,2,car or other,>25,none,own,1,skilled employee / official,1,none,yes,female,0
+no account,24,existing credits paid back duly till now,radio/television,7814,no savings account,1<= < 4 years,2,none,3,car or other,<=25,none,rent,1,skilled employee / official,1,none,yes,male,1
+no account,24,critical account,radio/television,2517,<100 DM,1<= < 4 years,4,none,4,real estate,>25,none,own,2,unskilled - resident,1,none,yes,female,1
+0 <= <200 DM,12,critical account,radio/television,3480,<100 DM,1<= < 4 years,4,none,4,real estate,>25,none,own,1,unskilled - resident,1,none,yes,male,1
+no account,18,no credits taken,business,5860,500 <= < 1000 DM,4<= <7 years,3,none,2,car or other,>25,store,own,2,management/ highly qualified employee,1,yes,yes,female,0
+no account,11,critical account,radio/television,894,no savings account,1<= < 4 years,4,none,3,real estate,>25,none,own,2,skilled employee / official,1,none,yes,male,1
+0 <= <200 DM,9,existing credits paid back duly till now,car (new),1113,<100 DM,1<= < 4 years,4,guarantor,2,real estate,<=25,none,own,1,skilled employee / official,1,yes,yes,female,1
+no account,36,existing credits paid back duly till now,car (new),1187,no savings account,<1 years,4,none,3,real estate,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+0 <= <200 DM,18,existing credits paid back duly till now,car (used),6128,100 <= <500 DM,1<= < 4 years,2,none,3,car or other,<=25,none,own,1,skilled employee / official,1,none,yes,male,0
+<0 DM,47,critical account,business,2984,no savings account,1<= < 4 years,3,none,4,unknown / no property,>25,none,for free,2,skilled employee / official,1,yes,yes,male,1
+<0 DM,24,existing credits paid back duly till now,car (new),4531,<100 DM,4<= <7 years,3,co-applicant,4,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,yes,yes,female,0
+<0 DM,24,existing credits paid back duly till now,car (used),6472,<100 DM,<1 years,3,none,4,unknown / no property,<=25,none,rent,2,unskilled - resident,1,none,yes,female,0
+>= 200 DM,36,existing credits paid back duly till now,radio/television,3426,<100 DM,>=7 years,4,none,2,car or other,>25,bank,own,1,management/ highly qualified employee,1,yes,yes,female,1
+<0 DM,24,existing credits paid back duly till now,furniture/equipment,3842,500 <= < 1000 DM,unemployed,2,none,3,savings agreement/life insurance,>25,none,own,3,skilled employee / official,1,yes,yes,male,1
+0 <= <200 DM,18,existing credits paid back duly till now,car (new),1478,no savings account,1<= < 4 years,4,none,3,car or other,<=25,none,own,1,unskilled - resident,1,none,yes,female,0
+no account,24,existing credits paid back duly till now,car (new),2647,<100 DM,>=7 years,3,none,2,car or other,>25,none,own,2,skilled employee / official,1,none,yes,male,1
+no account,15,existing credits paid back duly till now,radio/television,2540,500 <= < 1000 DM,4<= <7 years,4,co-applicant,4,savings agreement/life insurance,>25,none,own,2,skilled employee / official,1,yes,yes,male,1
+no account,6,existing credits paid back duly till now,furniture/equipment,1732,<100 DM,<1 years,2,none,4,savings agreement/life insurance,>25,none,own,2,skilled employee / official,1,none,yes,female,1
+no account,24,existing credits paid back duly till now,radio/television,2245,<100 DM,<1 years,4,none,2,car or other,<=25,none,own,1,skilled employee / official,1,yes,yes,male,1
+no account,18,critical account,radio/television,2138,<100 DM,>=7 years,4,none,2,unknown / no property,>25,none,own,2,skilled employee / official,1,none,yes,male,1
+0 <= <200 DM,30,no credits taken,car (new),4859,no savings account,>=7 years,3,none,4,car or other,>25,none,own,2,skilled employee / official,1,yes,yes,male,1
+0 <= <200 DM,24,delay in paying off,car (used),1850,<100 DM,1<= < 4 years,3,none,1,car or other,>25,none,own,2,skilled employee / official,1,yes,yes,female,1
+no account,24,existing credits paid back duly till now,car (new),4591,<100 DM,4<= <7 years,3,none,4,unknown / no property,>25,none,for free,2,skilled employee / official,1,yes,yes,male,1
+<0 DM,12,all credits at this bank paid back duly,car (new),1262,<100 DM,1<= < 4 years,4,none,4,real estate,<=25,none,own,1,skilled employee / official,1,none,yes,male,0
+no account,27,delay in paying off,car (new),5982,<100 DM,4<= <7 years,4,none,4,car or other,>25,none,own,2,skilled employee / official,1,yes,yes,female,0
+no account,6,existing credits paid back duly till now,furniture/equipment,2265,500 <= < 1000 DM,1<= < 4 years,1,none,2,savings agreement/life insurance,>25,none,own,2,skilled employee / official,1,yes,yes,male,1
+no account,6,critical account,car (new),692,<100 DM,1<= < 4 years,4,none,3,car or other,>25,none,own,1,unskilled - resident,1,none,yes,male,1
+0 <= <200 DM,18,existing credits paid back duly till now,radio/television,2312,<100 DM,4<= <7 years,3,guarantor,2,real estate,>25,store,own,1,skilled employee / official,2,none,yes,male,1
+<0 DM,6,critical account,furniture/equipment,1734,<100 DM,>=7 years,4,none,3,real estate,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+0 <= <200 DM,24,existing credits paid back duly till now,car (used),2218,100 <= <500 DM,1<= < 4 years,2,none,4,car or other,<=25,none,own,1,skilled employee / official,1,none,yes,male,1
+no account,24,existing credits paid back duly till now,radio/television,1462,no savings account,4<= <7 years,4,none,2,car or other,>25,none,own,1,skilled employee / official,1,yes,yes,male,1
+<0 DM,48,all credits at this bank paid back duly,car (new),6331,100 <= <500 DM,>=7 years,4,none,4,car or other,>25,none,own,2,unskilled - resident,2,none,yes,male,0
+<0 DM,6,critical account,radio/television,812,<100 DM,1<= < 4 years,4,none,4,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,none,yes,male,0
+0 <= <200 DM,24,existing credits paid back duly till now,car (new),3040,100 <= <500 DM,4<= <7 years,2,none,1,car or other,>25,none,own,2,skilled employee / official,1,none,yes,female,1
+no account,6,critical account,furniture/equipment,3518,500 <= < 1000 DM,1<= < 4 years,1,co-applicant,2,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+0 <= <200 DM,9,existing credits paid back duly till now,radio/television,790,<100 DM,1<= < 4 years,4,guarantor,2,real estate,>25,none,own,1,unskilled - resident,1,none,no,male,1
+<0 DM,24,existing credits paid back duly till now,radio/television,2956,500 <= < 1000 DM,>=7 years,4,none,1,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,none,yes,male,0
+no account,12,critical account,radio/television,2141,<100 DM,1<= < 4 years,4,none,4,real estate,<=25,none,rent,3,skilled employee / official,1,none,yes,female,1
+no account,30,existing credits paid back duly till now,car (new),5021,no savings account,>=7 years,3,co-applicant,3,unknown / no property,>25,bank,for free,1,management/ highly qualified employee,1,yes,yes,male,1
+0 <= <200 DM,18,existing credits paid back duly till now,radio/television,1739,<100 DM,1<= < 4 years,2,none,4,real estate,<=25,none,rent,2,skilled employee / official,1,yes,yes,female,0
+no account,24,delay in paying off,car (new),4170,no savings account,1<= < 4 years,3,none,2,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,yes,yes,male,1
+0 <= <200 DM,12,existing credits paid back duly till now,radio/television,1286,<100 DM,1<= < 4 years,3,guarantor,3,real estate,>25,none,own,2,skilled employee / official,1,none,no,male,1
+0 <= <200 DM,12,existing credits paid back duly till now,radio/television,1489,<100 DM,>=7 years,4,none,1,real estate,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+<0 DM,36,delay in paying off,car (used),2367,<100 DM,<1 years,4,none,4,unknown / no property,<=25,none,rent,1,skilled employee / official,1,none,yes,female,1
+no account,18,critical account,car (new),967,>= 1000 DM,1<= < 4 years,4,none,3,car or other,>25,none,own,2,skilled employee / official,1,yes,yes,female,1
+<0 DM,12,critical account,business,2577,<100 DM,1<= < 4 years,4,none,1,real estate,>25,none,own,2,unskilled - resident,1,none,yes,female,0
+<0 DM,27,all credits at this bank paid back duly,business,3166,<100 DM,1<= < 4 years,4,none,2,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+0 <= <200 DM,18,critical account,radio/television,1478,<100 DM,>=7 years,2,none,3,real estate,>25,none,own,1,unskilled - resident,2,none,yes,female,1
+>= 200 DM,24,existing credits paid back duly till now,domestic appliances,2687,<100 DM,1<= < 4 years,4,none,2,car or other,<=25,none,own,1,skilled employee / official,1,none,yes,male,1
+0 <= <200 DM,15,all credits at this bank paid back duly,car (new),1537,<100 DM,1<= < 4 years,4,none,4,savings agreement/life insurance,<=25,none,rent,1,skilled employee / official,1,yes,yes,female,0
+<0 DM,6,existing credits paid back duly till now,car (new),3120,<100 DM,1<= < 4 years,1,none,4,car or other,<=25,none,own,1,skilled employee / official,1,none,yes,male,1
+no account,12,existing credits paid back duly till now,radio/television,1694,<100 DM,<1 years,3,none,3,car or other,>25,none,own,1,skilled employee / official,2,yes,yes,female,1
+0 <= <200 DM,24,delay in paying off,radio/television,2558,100 <= <500 DM,4<= <7 years,4,none,4,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,yes,yes,male,1
+0 <= <200 DM,24,existing credits paid back duly till now,radio/television,1289,<100 DM,>=7 years,4,none,2,real estate,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+>= 200 DM,12,existing credits paid back duly till now,retraining,2186,>= 1000 DM,<1 years,3,none,4,savings agreement/life insurance,<=25,none,rent,1,management/ highly qualified employee,1,yes,yes,female,1
+no account,6,critical account,radio/television,1450,<100 DM,<1 years,4,none,4,savings agreement/life insurance,<=25,none,rent,2,skilled employee / official,1,none,yes,female,0
+no account,12,critical account,business,2040,<100 DM,1<= < 4 years,2,none,2,car or other,>25,none,rent,1,skilled employee / official,1,yes,yes,female,1
+<0 DM,12,existing credits paid back duly till now,car (new),2204,<100 DM,1<= < 4 years,4,none,1,real estate,<=25,none,own,1,management/ highly qualified employee,1,none,yes,female,1
+no account,24,existing credits paid back duly till now,car (used),3082,>= 1000 DM,>=7 years,4,none,4,unknown / no property,>25,none,own,1,management/ highly qualified employee,1,yes,yes,male,1
+no account,24,critical account,car (used),3045,<100 DM,1<= < 4 years,2,none,4,car or other,<=25,none,own,2,skilled employee / official,1,none,no,female,1
+<0 DM,6,critical account,repairs,873,<100 DM,4<= <7 years,3,none,4,real estate,>25,none,own,2,skilled employee / official,1,none,no,female,1
+<0 DM,12,critical account,car (new),2578,<100 DM,<1 years,4,none,1,real estate,>25,none,own,1,unskilled - resident,2,none,yes,male,1
+no account,24,critical account,furniture/equipment,2894,<100 DM,1<= < 4 years,3,none,4,savings agreement/life insurance,>25,none,own,2,unskilled - resident,1,none,yes,female,1
+<0 DM,16,existing credits paid back duly till now,radio/television,1388,<100 DM,<1 years,3,none,3,real estate,>25,none,rent,2,skilled employee / official,1,none,yes,female,0
+0 <= <200 DM,18,no credits taken,car (new),1897,no savings account,unemployed,2,none,3,car or other,>25,none,rent,1,unemployed/ unskilled  - non-resident,1,none,yes,male,0
+<0 DM,9,existing credits paid back duly till now,radio/television,812,<100 DM,<1 years,4,none,4,savings agreement/life insurance,<=25,none,rent,1,skilled employee / official,1,none,yes,male,0
+no account,12,existing credits paid back duly till now,radio/television,1620,no savings account,<1 years,4,none,4,car or other,<=25,none,own,1,skilled employee / official,1,none,yes,female,1
+>= 200 DM,24,delay in paying off,furniture/equipment,1985,>= 1000 DM,4<= <7 years,3,guarantor,3,real estate,>25,none,own,1,skilled employee / official,1,yes,yes,male,1
+no account,18,critical account,education,1450,100 <= <500 DM,1<= < 4 years,4,none,4,savings agreement/life insurance,>25,none,own,2,skilled employee / official,1,none,yes,male,1
+<0 DM,12,critical account,education,1741,<100 DM,1<= < 4 years,3,none,3,savings agreement/life insurance,>25,none,own,2,unskilled - resident,1,none,yes,male,1
+no account,24,existing credits paid back duly till now,furniture/equipment,1634,<100 DM,<1 years,2,none,1,car or other,<=25,none,rent,1,skilled employee / official,1,yes,yes,male,1
+0 <= <200 DM,27,critical account,radio/television,3878,<100 DM,4<= <7 years,3,none,4,savings agreement/life insurance,>25,none,own,2,skilled employee / official,1,yes,yes,male,1
+<0 DM,6,existing credits paid back duly till now,radio/television,1374,<100 DM,<1 years,3,none,3,savings agreement/life insurance,<=25,none,own,1,skilled employee / official,1,none,yes,female,1
+no account,12,existing credits paid back duly till now,furniture/equipment,2673,<100 DM,1<= < 4 years,1,none,4,real estate,>25,none,own,1,unskilled - resident,2,none,yes,female,1
+<0 DM,24,delay in paying off,furniture/equipment,1659,<100 DM,1<= < 4 years,2,guarantor,4,real estate,>25,bank,own,1,skilled employee / official,2,none,yes,male,0
+0 <= <200 DM,12,existing credits paid back duly till now,radio/television,758,<100 DM,1<= < 4 years,2,guarantor,1,real estate,>25,bank,own,1,unskilled - resident,1,none,yes,male,1
+no account,12,critical account,radio/television,1205,>= 1000 DM,>=7 years,4,none,2,real estate,>25,none,own,2,skilled employee / official,1,none,yes,male,0
+no account,15,existing credits paid back duly till now,radio/television,1298,<100 DM,1<= < 4 years,4,none,3,real estate,<=25,none,own,2,skilled employee / official,1,none,yes,female,1
+<0 DM,24,all credits at this bank paid back duly,car (used),4673,<100 DM,>=7 years,4,none,4,unknown / no property,>25,none,for free,1,management/ highly qualified employee,2,yes,yes,male,1
+>= 200 DM,18,existing credits paid back duly till now,furniture/equipment,2385,<100 DM,>=7 years,4,none,4,car or other,>25,none,own,1,unskilled - resident,1,none,yes,male,1
+no account,24,existing credits paid back duly till now,car (new),2611,500 <= < 1000 DM,1<= < 4 years,3,none,3,savings agreement/life insurance,<=25,none,rent,1,skilled employee / official,1,none,yes,male,1
+<0 DM,18,all credits at this bank paid back duly,furniture/equipment,2210,500 <= < 1000 DM,>=7 years,2,none,1,unknown / no property,>25,none,own,1,management/ highly qualified employee,1,yes,yes,female,0
+no account,9,critical account,radio/television,2375,no savings account,>=7 years,1,none,3,car or other,>25,none,own,2,skilled employee / official,1,yes,yes,male,1
+no account,6,existing credits paid back duly till now,radio/television,1452,<100 DM,4<= <7 years,4,none,2,car or other,<=25,none,rent,1,skilled employee / official,1,yes,yes,male,1
+no account,15,existing credits paid back duly till now,car (new),2761,<100 DM,4<= <7 years,2,none,3,car or other,>25,none,own,1,skilled employee / official,1,none,yes,female,1
+0 <= <200 DM,12,existing credits paid back duly till now,radio/television,3542,<100 DM,1<= < 4 years,3,none,1,real estate,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+0 <= <200 DM,6,existing credits paid back duly till now,furniture/equipment,1054,no savings account,1<= < 4 years,4,none,3,real estate,>25,bank,own,1,skilled employee / official,2,none,yes,male,1
+0 <= <200 DM,12,no credits taken,repairs,1638,<100 DM,>=7 years,4,none,4,real estate,>25,none,rent,1,unskilled - resident,1,yes,yes,female,0
+0 <= <200 DM,18,existing credits paid back duly till now,car (new),910,<100 DM,1<= < 4 years,4,none,2,real estate,>25,store,own,1,unskilled - resident,1,none,yes,male,0
+no account,15,critical account,furniture/equipment,3390,no savings account,1<= < 4 years,3,none,4,car or other,<=25,none,own,2,skilled employee / official,1,none,yes,male,1
+<0 DM,24,existing credits paid back duly till now,furniture/equipment,1980,no savings account,1<= < 4 years,3,none,4,real estate,<=25,none,rent,1,unskilled - resident,1,none,yes,female,1
+no account,12,existing credits paid back duly till now,car (new),1468,<100 DM,<1 years,3,none,3,car or other,>25,none,own,1,skilled employee / official,2,none,yes,female,1
+no account,36,existing credits paid back duly till now,car (used),1102,no savings account,4<= <7 years,4,none,2,car or other,<=25,none,rent,1,skilled employee / official,1,none,yes,female,1
+<0 DM,6,critical account,radio/television,1489,<100 DM,<1 years,4,none,4,real estate,<=25,none,own,2,skilled employee / official,1,none,yes,female,1
+no account,12,existing credits paid back duly till now,radio/television,1533,500 <= < 1000 DM,1<= < 4 years,3,none,2,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+no account,9,existing credits paid back duly till now,radio/television,2784,500 <= < 1000 DM,4<= <7 years,2,none,2,car or other,<=25,bank,own,1,skilled employee / official,1,none,yes,female,1
+0 <= <200 DM,8,existing credits paid back duly till now,radio/television,760,<100 DM,1<= < 4 years,4,none,3,real estate,>25,none,rent,1,unskilled - resident,1,none,yes,male,1
+no account,18,delay in paying off,car (new),3378,<100 DM,<1 years,4,none,4,savings agreement/life insurance,>25,none,own,2,skilled employee / official,1,none,yes,female,1
+0 <= <200 DM,24,existing credits paid back duly till now,car (new),2645,100 <= <500 DM,<1 years,4,none,3,car or other,<=25,none,own,1,unskilled - resident,1,yes,yes,female,1
+<0 DM,42,existing credits paid back duly till now,car (used),6781,<100 DM,>=7 years,2,none,2,unknown / no property,>25,none,own,1,management/ highly qualified employee,2,yes,yes,male,0
+no account,10,existing credits paid back duly till now,domestic appliances,950,no savings account,1<= < 4 years,4,none,1,unknown / no property,>25,none,own,1,skilled employee / official,1,yes,yes,male,1
+>= 200 DM,10,existing credits paid back duly till now,radio/television,1312,<100 DM,1<= < 4 years,3,none,1,savings agreement/life insurance,<=25,none,own,1,skilled employee / official,1,none,yes,male,1
+<0 DM,24,existing credits paid back duly till now,car (new),2340,no savings account,<1 years,2,none,4,car or other,<=25,none,own,1,skilled employee / official,1,none,yes,male,0
+<0 DM,24,existing credits paid back duly till now,car (used),3127,no savings account,1<= < 4 years,2,none,1,unknown / no property,>25,none,for free,2,skilled employee / official,1,none,yes,male,1
+no account,12,critical account,car (new),1543,>= 1000 DM,4<= <7 years,4,none,4,real estate,>25,none,own,1,skilled employee / official,1,none,yes,female,0
+0 <= <200 DM,12,critical account,radio/television,2471,100 <= <500 DM,1<= < 4 years,3,none,1,car or other,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+no account,24,existing credits paid back duly till now,radio/television,2550,no savings account,4<= <7 years,4,none,4,car or other,>25,none,own,1,skilled employee / official,1,yes,yes,male,1
+no account,6,existing credits paid back duly till now,furniture/equipment,1385,<100 DM,<1 years,1,none,4,savings agreement/life insurance,<=25,none,own,1,skilled employee / official,1,none,yes,male,1
+0 <= <200 DM,48,critical account,car (used),3280,no savings account,>=7 years,4,none,4,car or other,>25,none,own,2,skilled employee / official,1,yes,yes,female,0
+<0 DM,8,existing credits paid back duly till now,radio/television,2530,<100 DM,<1 years,2,none,3,savings agreement/life insurance,<=25,none,rent,1,skilled employee / official,1,none,yes,female,1
+<0 DM,12,delay in paying off,retraining,1347,<100 DM,<1 years,4,none,4,unknown / no property,>25,none,own,1,skilled employee / official,1,none,yes,male,0
+<0 DM,24,existing credits paid back duly till now,car (new),1972,no savings account,1<= < 4 years,2,co-applicant,4,savings agreement/life insurance,<=25,none,rent,1,skilled employee / official,1,yes,yes,female,0
+0 <= <200 DM,18,delay in paying off,business,5124,500 <= < 1000 DM,1<= < 4 years,2,none,4,savings agreement/life insurance,>25,none,own,2,skilled employee / official,1,yes,yes,female,0
+0 <= <200 DM,9,critical account,business,1225,<100 DM,1<= < 4 years,1,none,2,real estate,>25,none,own,2,skilled employee / official,1,none,yes,male,1
+<0 DM,24,existing credits paid back duly till now,car (new),2384,no savings account,>=7 years,1,none,4,unknown / no property,>25,bank,for free,1,management/ highly qualified employee,1,none,yes,male,0
+<0 DM,24,all credits at this bank paid back duly,radio/television,3632,500 <= < 1000 DM,1<= < 4 years,4,none,1,unknown / no property,>25,none,own,1,skilled employee / official,1,none,yes,male,0
+no account,6,existing credits paid back duly till now,car (new),810,no savings account,unemployed,4,none,2,real estate,>25,none,own,1,unskilled - resident,1,none,yes,female,1
+>= 200 DM,18,existing credits paid back duly till now,car (used),2980,<100 DM,>=7 years,3,none,4,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,yes,yes,male,0
+0 <= <200 DM,8,existing credits paid back duly till now,business,1330,<100 DM,1<= < 4 years,4,none,4,car or other,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+<0 DM,15,existing credits paid back duly till now,radio/television,1287,<100 DM,<1 years,4,none,4,savings agreement/life insurance,<=25,none,rent,1,skilled employee / official,1,none,yes,female,1
+no account,12,existing credits paid back duly till now,car (new),2216,<100 DM,<1 years,4,none,2,real estate,>25,none,own,1,skilled employee / official,1,none,yes,female,1
+<0 DM,24,existing credits paid back duly till now,furniture/equipment,1402,<100 DM,1<= < 4 years,3,none,2,savings agreement/life insurance,>25,none,own,1,management/ highly qualified employee,1,yes,yes,female,1
+no account,12,existing credits paid back duly till now,education,810,<100 DM,1<= < 4 years,4,none,2,car or other,>25,none,own,1,skilled employee / official,1,yes,yes,male,1
+0 <= <200 DM,36,existing credits paid back duly till now,car (used),2451,<100 DM,1<= < 4 years,4,none,4,car or other,<=25,none,rent,1,skilled employee / official,1,none,yes,female,1
+no account,9,existing credits paid back duly till now,education,1415,<100 DM,1<= < 4 years,4,none,2,real estate,>25,none,own,1,unskilled - resident,1,none,yes,female,0
+no account,24,existing credits paid back duly till now,radio/television,1189,<100 DM,1<= < 4 years,3,none,4,real estate,<=25,none,own,1,unskilled - resident,1,none,yes,male,1
+no account,48,critical account,car (used),6893,no savings account,<1 years,1,none,3,car or other,<=25,none,own,2,skilled employee / official,2,none,yes,male,1
+0 <= <200 DM,30,existing credits paid back duly till now,business,6730,no savings account,1<= < 4 years,2,none,4,car or other,<=25,none,own,1,management/ highly qualified employee,1,yes,yes,male,0
+0 <= <200 DM,18,critical account,radio/television,2084,100 <= <500 DM,4<= <7 years,3,none,2,real estate,>25,none,own,1,skilled employee / official,1,none,yes,female,1
+0 <= <200 DM,24,existing credits paid back duly till now,radio/television,1965,<100 DM,1<= < 4 years,4,none,2,car or other,<=25,none,own,1,unskilled - resident,2,yes,yes,female,1
+<0 DM,60,existing credits paid back duly till now,car (used),6836,no savings account,>=7 years,3,none,4,unknown / no property,>25,bank,own,2,skilled employee / official,2,yes,yes,male,0
+<0 DM,36,no credits taken,furniture/equipment,5342,<100 DM,1<= < 4 years,4,none,4,real estate,>25,store,own,1,skilled employee / official,2,none,yes,male,0
+0 <= <200 DM,18,existing credits paid back duly till now,business,3121,100 <= <500 DM,1<= < 4 years,1,none,2,car or other,<=25,none,own,1,unskilled - resident,1,yes,yes,female,1
+no account,24,existing credits paid back duly till now,repairs,1018,>= 1000 DM,4<= <7 years,4,none,4,real estate,>25,none,own,1,skilled employee / official,1,none,yes,female,1
+no account,24,existing credits paid back duly till now,radio/television,4637,<100 DM,4<= <7 years,4,none,2,car or other,<=25,none,own,1,skilled employee / official,1,none,yes,male,1
+<0 DM,36,critical account,furniture/equipment,2755,<100 DM,1<= < 4 years,4,none,2,savings agreement/life insurance,>25,none,own,2,skilled employee / official,1,none,yes,male,0
+no account,12,critical account,car (used),1459,no savings account,1<= < 4 years,4,none,4,car or other,>25,none,own,2,skilled employee / official,1,none,yes,male,1
+<0 DM,9,critical account,radio/television,1398,<100 DM,1<= < 4 years,4,none,4,real estate,<=25,none,own,1,unskilled - resident,1,none,yes,female,1
+>= 200 DM,15,existing credits paid back duly till now,car (new),409,<100 DM,1<= < 4 years,4,none,2,real estate,>25,none,own,1,unskilled - resident,1,none,yes,female,1
+no account,36,existing credits paid back duly till now,radio/television,8210,<100 DM,<1 years,3,none,2,car or other,<=25,none,own,1,skilled employee / official,1,none,yes,female,1
+no account,12,existing credits paid back duly till now,radio/television,2103,no savings account,4<= <7 years,4,none,2,car or other,>25,none,own,1,skilled employee / official,1,yes,yes,male,1
+<0 DM,24,existing credits paid back duly till now,domestic appliances,915,<100 DM,<1 years,2,none,3,savings agreement/life insurance,<=25,none,own,1,unskilled - resident,1,none,yes,female,1
+no account,18,existing credits paid back duly till now,car (new),2580,<100 DM,1<= < 4 years,3,none,3,real estate,<=25,none,own,1,skilled employee / official,1,none,yes,female,1
+no account,12,existing credits paid back duly till now,business,1985,no savings account,<1 years,4,none,2,car or other,<=25,none,own,1,skilled employee / official,1,none,yes,male,1
+<0 DM,24,delay in paying off,car (new),1381,<100 DM,1<= < 4 years,3,none,2,real estate,>25,none,own,2,unskilled - resident,2,none,no,male,1
+no account,21,existing credits paid back duly till now,business,2764,no savings account,<1 years,2,none,2,real estate,<=25,none,rent,1,unskilled - resident,1,none,yes,male,1
+no account,15,critical account,radio/television,1885,<100 DM,>=7 years,4,none,3,car or other,>25,none,own,2,skilled employee / official,1,none,yes,male,1
+no account,12,critical account,education,697,<100 DM,>=7 years,4,none,2,savings agreement/life insurance,>25,none,own,2,unskilled - resident,1,none,yes,female,1
+no account,9,critical account,furniture/equipment,2010,<100 DM,1<= < 4 years,4,none,2,real estate,<=25,none,own,2,skilled employee / official,1,none,yes,male,1
+no account,24,critical account,radio/television,2348,no savings account,1<= < 4 years,3,none,3,savings agreement/life insurance,>25,none,own,2,skilled employee / official,1,none,yes,female,1
+no account,6,existing credits paid back duly till now,radio/television,1238,no savings account,<1 years,4,none,1,unknown / no property,>25,none,rent,1,skilled employee / official,1,none,yes,female,1
+<0 DM,14,critical account,domestic appliances,1265,<100 DM,>=7 years,4,none,4,car or other,>25,none,own,1,skilled employee / official,1,yes,yes,male,0
+no account,12,critical account,car (new),795,no savings account,1<= < 4 years,4,none,4,car or other,>25,none,own,2,skilled employee / official,1,none,yes,female,1
+<0 DM,36,critical account,furniture/equipment,6720,<100 DM,4<= <7 years,2,none,2,savings agreement/life insurance,>25,none,own,1,management/ highly qualified employee,1,yes,yes,male,0
+no account,6,critical account,car (new),1169,no savings account,1<= < 4 years,3,none,2,unknown / no property,>25,none,own,1,skilled employee / official,1,none,yes,female,1
+<0 DM,12,critical account,car (new),2040,<100 DM,1<= < 4 years,2,none,1,real estate,>25,none,own,2,unskilled - resident,1,none,no,female,0
+<0 DM,24,all credits at this bank paid back duly,business,4110,no savings account,>=7 years,2,none,4,savings agreement/life insurance,>25,none,own,2,management/ highly qualified employee,1,yes,yes,male,0
+0 <= <200 DM,12,no credits taken,business,1268,100 <= <500 DM,<1 years,2,none,4,real estate,>25,none,own,1,unskilled - resident,1,none,yes,male,0
+no account,6,existing credits paid back duly till now,furniture/equipment,3591,<100 DM,>=7 years,3,none,2,car or other,<=25,none,own,1,skilled employee / official,1,none,yes,male,1
+0 <= <200 DM,12,existing credits paid back duly till now,car (used),1946,no savings account,4<= <7 years,4,none,1,car or other,>25,none,own,1,management/ highly qualified employee,1,yes,yes,female,1
+no account,6,existing credits paid back duly till now,car (used),3267,500 <= < 1000 DM,1<= < 4 years,1,none,4,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,none,no,male,1
+>= 200 DM,6,critical account,education,1288,no savings account,1<= < 4 years,4,none,4,savings agreement/life insurance,>25,none,own,1,unskilled - resident,1,none,no,male,1
+0 <= <200 DM,8,existing credits paid back duly till now,radio/television,2045,<100 DM,<1 years,3,none,2,real estate,>25,none,own,1,skilled employee / official,1,none,yes,female,1
+no account,18,critical account,radio/television,1275,no savings account,>=7 years,4,none,3,savings agreement/life insurance,>25,bank,own,1,skilled employee / official,2,none,yes,male,1
+>= 200 DM,12,existing credits paid back duly till now,education,1020,<100 DM,1<= < 4 years,3,none,4,savings agreement/life insurance,<=25,none,own,1,skilled employee / official,1,none,yes,male,1
+no account,6,existing credits paid back duly till now,radio/television,1622,<100 DM,4<= <7 years,1,none,2,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,none,yes,female,1
+<0 DM,18,critical account,car (new),6894,<100 DM,1<= < 4 years,4,none,4,unknown / no property,>25,none,own,2,unskilled - resident,1,none,yes,female,0
+no account,30,delay in paying off,radio/television,2447,<100 DM,4<= <7 years,3,none,4,real estate,>25,none,own,2,skilled employee / official,1,yes,yes,female,1
+0 <= <200 DM,6,delay in paying off,furniture/equipment,1663,<100 DM,1<= < 4 years,4,none,4,savings agreement/life insurance,>25,store,own,1,skilled employee / official,1,none,yes,male,1
+0 <= <200 DM,24,existing credits paid back duly till now,business,4125,100 <= <500 DM,1<= < 4 years,4,none,2,car or other,<=25,none,own,1,skilled employee / official,2,none,yes,male,1
+no account,10,existing credits paid back duly till now,car (new),1441,<100 DM,4<= <7 years,4,none,3,savings agreement/life insurance,<=25,none,own,1,skilled employee / official,1,none,yes,female,1
+no account,12,existing credits paid back duly till now,radio/television,1751,100 <= <500 DM,4<= <7 years,4,none,2,real estate,>25,none,own,1,management/ highly qualified employee,1,yes,yes,male,1
+<0 DM,24,existing credits paid back duly till now,furniture/equipment,2384,<100 DM,<1 years,2,none,4,real estate,>25,bank,rent,2,unskilled - resident,1,none,yes,female,0
+0 <= <200 DM,12,existing credits paid back duly till now,radio/television,1723,>= 1000 DM,1<= < 4 years,2,none,4,real estate,>25,none,own,1,skilled employee / official,1,yes,yes,female,1
+0 <= <200 DM,30,critical account,car (new),3921,100 <= <500 DM,4<= <7 years,3,none,2,car or other,>25,none,own,1,skilled employee / official,1,yes,yes,male,1
+no account,12,existing credits paid back duly till now,radio/television,1567,<100 DM,>=7 years,4,none,4,car or other,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+0 <= <200 DM,24,existing credits paid back duly till now,car (used),3842,<100 DM,4<= <7 years,3,none,3,car or other,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+0 <= <200 DM,30,existing credits paid back duly till now,car (new),5487,no savings account,4<= <7 years,3,none,2,car or other,>25,bank,own,2,skilled employee / official,1,none,yes,female,1
+0 <= <200 DM,12,existing credits paid back duly till now,car (new),692,no savings account,1<= < 4 years,4,none,4,car or other,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+<0 DM,36,existing credits paid back duly till now,car (new),4127,<100 DM,4<= <7 years,2,co-applicant,3,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,none,yes,male,0
+no account,9,critical account,radio/television,1755,>= 1000 DM,1<= < 4 years,4,none,2,car or other,>25,none,own,2,skilled employee / official,1,none,yes,male,1
+<0 DM,48,no credits taken,furniture/equipment,4520,<100 DM,1<= < 4 years,3,none,1,unknown / no property,>25,none,for free,2,unskilled - resident,2,none,yes,male,0
+<0 DM,24,existing credits paid back duly till now,car (new),2431,<100 DM,1<= < 4 years,2,none,2,real estate,>25,none,rent,1,skilled employee / official,1,none,yes,female,0
+>= 200 DM,36,existing credits paid back duly till now,radio/television,3921,<100 DM,>=7 years,2,none,2,car or other,>25,none,for free,1,unskilled - resident,2,none,yes,female,1
+no account,12,existing credits paid back duly till now,car (new),1185,500 <= < 1000 DM,4<= <7 years,4,none,4,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,yes,yes,male,1
+<0 DM,24,critical account,car (new),1456,<100 DM,4<= <7 years,3,none,3,car or other,>25,none,rent,2,unskilled - resident,1,none,yes,female,0
+>= 200 DM,15,no credits taken,furniture/equipment,2718,500 <= < 1000 DM,>=7 years,1,none,2,savings agreement/life insurance,>25,none,rent,1,skilled employee / official,1,yes,yes,female,1
+no account,24,critical account,radio/television,5378,<100 DM,1<= < 4 years,2,none,4,unknown / no property,>25,none,own,2,skilled employee / official,1,yes,yes,male,1
+<0 DM,24,existing credits paid back duly till now,car (new),4381,<100 DM,1<= < 4 years,4,none,3,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,yes,yes,male,0
+no account,24,existing credits paid back duly till now,business,1795,<100 DM,<1 years,4,none,1,real estate,<=25,none,for free,1,unskilled - resident,1,none,yes,male,1
+0 <= <200 DM,9,existing credits paid back duly till now,radio/television,1023,<100 DM,4<= <7 years,3,guarantor,4,savings agreement/life insurance,>25,none,own,2,skilled employee / official,1,yes,yes,male,1
+0 <= <200 DM,36,existing credits paid back duly till now,radio/television,2076,500 <= < 1000 DM,1<= < 4 years,4,none,2,car or other,>25,none,own,1,skilled employee / official,2,none,yes,male,0
+<0 DM,60,existing credits paid back duly till now,business,7020,500 <= < 1000 DM,>=7 years,4,co-applicant,4,unknown / no property,>25,none,for free,1,skilled employee / official,2,none,yes,female,0
+0 <= <200 DM,18,existing credits paid back duly till now,business,2513,100 <= <500 DM,1<= < 4 years,2,none,4,real estate,<=25,bank,own,1,skilled employee / official,1,yes,yes,male,1
+no account,18,existing credits paid back duly till now,furniture/equipment,2479,100 <= <500 DM,1<= < 4 years,2,none,3,savings agreement/life insurance,>25,none,own,1,skilled employee / official,2,yes,yes,male,1
+0 <= <200 DM,12,existing credits paid back duly till now,business,1563,<100 DM,>=7 years,4,none,4,real estate,>25,none,own,1,skilled employee / official,1,yes,yes,male,1
+no account,15,critical account,radio/television,2732,<100 DM,1<= < 4 years,2,none,3,real estate,<=25,none,rent,1,skilled employee / official,1,none,yes,female,1
+0 <= <200 DM,48,existing credits paid back duly till now,radio/television,5892,100 <= <500 DM,4<= <7 years,3,none,1,car or other,>25,none,own,2,management/ highly qualified employee,1,none,yes,male,1
+no account,30,critical account,radio/television,5954,no savings account,>=7 years,4,co-applicant,2,car or other,>25,none,own,1,skilled employee / official,1,yes,yes,male,1
+no account,18,existing credits paid back duly till now,furniture/equipment,1473,500 <= < 1000 DM,>=7 years,4,none,4,unknown / no property,>25,none,for free,1,skilled employee / official,1,none,yes,female,1
+0 <= <200 DM,9,existing credits paid back duly till now,radio/television,412,<100 DM,<1 years,4,none,4,savings agreement/life insurance,<=25,none,rent,1,unskilled - resident,1,none,yes,female,1
+<0 DM,24,existing credits paid back duly till now,others,3074,<100 DM,1<= < 4 years,1,none,2,real estate,>25,none,own,1,unskilled - resident,1,none,yes,male,1
+no account,6,critical account,car (used),1164,<100 DM,1<= < 4 years,3,none,2,savings agreement/life insurance,>25,none,own,2,skilled employee / official,1,none,yes,male,1
+<0 DM,24,existing credits paid back duly till now,others,3286,<100 DM,1<= < 4 years,2,none,4,real estate,>25,none,own,1,skilled employee / official,1,yes,yes,female,0
+no account,12,existing credits paid back duly till now,business,1503,500 <= < 1000 DM,4<= <7 years,4,none,2,savings agreement/life insurance,>25,bank,own,1,skilled employee / official,1,none,yes,female,1
+0 <= <200 DM,36,existing credits paid back duly till now,furniture/equipment,8852,100 <= <500 DM,>=7 years,3,none,4,unknown / no property,>25,store,own,1,skilled employee / official,1,yes,yes,female,1
+no account,7,delay in paying off,furniture/equipment,1420,<100 DM,<1 years,3,none,1,real estate,<=25,none,own,1,unskilled - resident,1,none,yes,male,1
+0 <= <200 DM,18,existing credits paid back duly till now,radio/television,3104,<100 DM,<1 years,3,none,3,savings agreement/life insurance,<=25,none,rent,1,unskilled - resident,2,yes,yes,male,1
+no account,12,critical account,radio/television,2168,<100 DM,1<= < 4 years,3,none,2,real estate,>25,store,own,1,unskilled - resident,1,none,yes,male,1
+no account,12,existing credits paid back duly till now,radio/television,1342,500 <= < 1000 DM,1<= < 4 years,3,none,2,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+<0 DM,12,critical account,radio/television,1234,no savings account,1<= < 4 years,4,none,3,unknown / no property,>25,none,own,2,skilled employee / official,1,none,yes,male,1
+no account,12,critical account,radio/television,1284,no savings account,4<= <7 years,2,none,4,real estate,>25,none,own,2,unskilled - resident,1,none,yes,male,1
+no account,24,critical account,radio/television,2793,<100 DM,>=7 years,4,none,4,car or other,>25,none,own,2,skilled employee / official,1,yes,yes,male,1
+>= 200 DM,24,existing credits paid back duly till now,car (new),2816,>= 1000 DM,4<= <7 years,4,none,2,real estate,>25,none,own,1,skilled employee / official,1,none,yes,female,1
+0 <= <200 DM,9,existing credits paid back duly till now,radio/television,1096,<100 DM,1<= < 4 years,3,none,4,real estate,<=25,none,own,1,skilled employee / official,1,none,yes,male,1
+<0 DM,15,existing credits paid back duly till now,radio/television,3218,<100 DM,1<= < 4 years,4,none,2,real estate,>25,none,own,1,unskilled - resident,1,none,yes,male,0
+0 <= <200 DM,15,critical account,furniture/equipment,1512,<100 DM,1<= < 4 years,1,guarantor,4,real estate,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+0 <= <200 DM,24,critical account,business,4518,>= 1000 DM,4<= <7 years,4,none,1,car or other,>25,none,own,3,skilled employee / official,1,yes,yes,female,1
+0 <= <200 DM,12,existing credits paid back duly till now,furniture/equipment,1084,<100 DM,1<= < 4 years,4,guarantor,3,real estate,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+<0 DM,36,existing credits paid back duly till now,furniture/equipment,5943,<100 DM,>=7 years,4,none,3,savings agreement/life insurance,>25,none,own,1,skilled employee / official,2,none,yes,male,1
+0 <= <200 DM,18,delay in paying off,furniture/equipment,2298,<100 DM,1<= < 4 years,4,none,2,car or other,>25,none,own,2,skilled employee / official,2,none,yes,male,1
+no account,15,existing credits paid back duly till now,car (new),1280,no savings account,<1 years,4,none,2,real estate,<=25,none,own,1,skilled employee / official,1,none,yes,male,1
+0 <= <200 DM,16,no credits taken,education,1421,100 <= <500 DM,>=7 years,4,none,3,real estate,>25,none,own,1,skilled employee / official,1,yes,yes,male,0
+no account,12,existing credits paid back duly till now,radio/television,3128,no savings account,1<= < 4 years,4,none,3,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,none,no,female,1
+>= 200 DM,12,no credits taken,education,583,<100 DM,>=7 years,4,none,4,unknown / no property,>25,none,for free,1,skilled employee / official,1,none,yes,male,1
+no account,6,existing credits paid back duly till now,furniture/equipment,2410,<100 DM,<1 years,4,co-applicant,2,car or other,<=25,none,rent,1,skilled employee / official,1,none,yes,female,1
+<0 DM,15,no credits taken,car (new),950,500 <= < 1000 DM,>=7 years,4,none,3,car or other,>25,none,own,1,skilled employee / official,1,none,yes,female,1
+<0 DM,36,existing credits paid back duly till now,furniture/equipment,2456,<100 DM,4<= <7 years,4,none,2,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,none,yes,male,0
+no account,24,critical account,business,3388,500 <= < 1000 DM,1<= < 4 years,4,none,4,real estate,>25,none,own,2,skilled employee / official,1,yes,yes,male,1
+0 <= <200 DM,24,critical account,radio/television,2659,<100 DM,1<= < 4 years,3,none,3,real estate,>25,none,own,2,unskilled - resident,1,none,yes,male,1
+0 <= <200 DM,24,existing credits paid back duly till now,radio/television,2134,no savings account,1<= < 4 years,2,none,3,car or other,>25,none,own,2,skilled employee / official,1,yes,yes,male,1
+0 <= <200 DM,18,critical account,radio/television,3172,<100 DM,1<= < 4 years,4,none,3,car or other,>25,none,own,2,skilled employee / official,1,none,yes,male,1
+<0 DM,12,critical account,radio/television,452,<100 DM,>=7 years,4,none,4,savings agreement/life insurance,>25,none,rent,1,unskilled - resident,1,none,yes,male,0
+no account,24,existing credits paid back duly till now,car (new),2380,100 <= <500 DM,4<= <7 years,2,none,3,car or other,>25,none,rent,1,management/ highly qualified employee,2,yes,yes,female,1
+<0 DM,12,no credits taken,car (new),857,<100 DM,1<= < 4 years,4,none,4,car or other,>25,none,own,2,unskilled - resident,1,none,yes,female,1
+no account,7,no credits taken,furniture/equipment,760,<100 DM,1<= < 4 years,3,none,4,unknown / no property,>25,none,for free,1,skilled employee / official,1,yes,yes,male,1
+<0 DM,24,delay in paying off,car (new),1638,<100 DM,1<= < 4 years,4,none,4,car or other,>25,none,own,1,skilled employee / official,1,yes,yes,male,0
+>= 200 DM,10,existing credits paid back duly till now,car (new),896,100 <= <500 DM,1<= < 4 years,2,none,4,car or other,<=25,none,own,1,management/ highly qualified employee,1,none,yes,male,0
+0 <= <200 DM,26,existing credits paid back duly till now,education,3187,no savings account,<1 years,1,none,1,savings agreement/life insurance,<=25,none,rent,1,unskilled - resident,1,none,yes,male,0
+<0 DM,24,delay in paying off,car (new),1892,<100 DM,1<= < 4 years,3,none,4,car or other,>25,bank,own,1,unskilled - resident,2,none,yes,male,0
+0 <= <200 DM,36,existing credits paid back duly till now,radio/television,5934,<100 DM,4<= <7 years,3,none,1,car or other,>25,bank,own,2,management/ highly qualified employee,2,yes,yes,male,0
+<0 DM,24,existing credits paid back duly till now,car (new),2384,<100 DM,4<= <7 years,4,none,4,car or other,>25,none,own,1,skilled employee / official,1,yes,yes,male,0
+no account,12,delay in paying off,education,1720,<100 DM,1<= < 4 years,4,none,4,real estate,>25,store,own,1,skilled employee / official,1,none,yes,male,1
+>= 200 DM,6,critical account,car (new),1104,100 <= <500 DM,>=7 years,4,none,1,savings agreement/life insurance,>25,none,own,3,skilled employee / official,1,yes,yes,male,1
+0 <= <200 DM,8,existing credits paid back duly till now,radio/television,855,<100 DM,1<= < 4 years,4,guarantor,3,real estate,<=25,none,own,1,skilled employee / official,1,none,yes,male,1
+>= 200 DM,15,existing credits paid back duly till now,radio/television,2189,100 <= <500 DM,1<= < 4 years,3,none,2,car or other,<=25,none,own,2,management/ highly qualified employee,1,yes,yes,male,1
+no account,10,existing credits paid back duly till now,radio/television,1224,500 <= < 1000 DM,>=7 years,4,none,4,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,yes,yes,male,1
+0 <= <200 DM,24,delay in paying off,furniture/equipment,2154,<100 DM,1<= < 4 years,4,none,2,savings agreement/life insurance,>25,bank,own,1,skilled employee / official,1,none,yes,female,1
+0 <= <200 DM,12,existing credits paid back duly till now,car (new),2002,100 <= <500 DM,1<= < 4 years,4,none,4,car or other,>25,none,own,1,skilled employee / official,1,yes,yes,female,0
+<0 DM,36,existing credits paid back duly till now,furniture/equipment,4218,<100 DM,4<= <7 years,2,none,3,savings agreement/life insurance,>25,bank,own,1,skilled employee / official,1,none,yes,female,1
+no account,12,critical account,radio/television,604,<100 DM,>=7 years,4,none,4,real estate,>25,none,own,2,skilled employee / official,1,yes,yes,female,0
+no account,12,existing credits paid back duly till now,car (used),1867,no savings account,<1 years,4,none,4,car or other,<=25,none,rent,1,skilled employee / official,1,none,yes,female,1
+no account,48,critical account,car (used),4930,<100 DM,>=7 years,1,none,4,car or other,>25,none,own,2,skilled employee / official,1,yes,yes,female,1
+>= 200 DM,30,critical account,car (used),2874,<100 DM,>=7 years,3,none,1,car or other,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+no account,15,existing credits paid back duly till now,radio/television,5045,<100 DM,>=7 years,1,none,2,car or other,>25,none,own,1,skilled employee / official,1,none,yes,female,1
+<0 DM,15,existing credits paid back duly till now,radio/television,1898,100 <= <500 DM,<1 years,3,none,2,real estate,>25,store,own,2,skilled employee / official,1,none,yes,female,0
+<0 DM,24,existing credits paid back duly till now,furniture/equipment,3015,100 <= <500 DM,4<= <7 years,4,none,4,real estate,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+<0 DM,24,existing credits paid back duly till now,car (used),2738,<100 DM,>=7 years,3,none,4,real estate,>25,none,own,1,skilled employee / official,1,yes,yes,male,1
+0 <= <200 DM,12,existing credits paid back duly till now,car (new),823,<100 DM,1<= < 4 years,4,none,3,real estate,>25,none,own,1,unskilled - resident,1,none,yes,female,0
+no account,30,delay in paying off,car (new),7412,500 <= < 1000 DM,>=7 years,3,none,2,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,yes,yes,male,1
+0 <= <200 DM,24,existing credits paid back duly till now,furniture/equipment,4480,<100 DM,1<= < 4 years,3,none,1,car or other,<=25,none,rent,2,unskilled - resident,2,none,yes,female,1
+no account,18,existing credits paid back duly till now,radio/television,3890,>= 1000 DM,>=7 years,3,none,2,car or other,>25,none,own,1,management/ highly qualified employee,1,yes,yes,male,1
+no account,15,existing credits paid back duly till now,car (new),2961,<100 DM,1<= < 4 years,2,none,4,car or other,>25,none,own,1,skilled employee / official,1,none,yes,female,1
+0 <= <200 DM,24,existing credits paid back duly till now,car (used),2881,no savings account,1<= < 4 years,4,none,2,car or other,>25,none,own,1,skilled employee / official,1,none,yes,female,1
+no account,24,critical account,car (used),1642,<100 DM,1<= < 4 years,2,none,4,unknown / no property,>25,none,own,2,unskilled - resident,2,none,yes,male,1
+no account,48,delay in paying off,business,9213,500 <= < 1000 DM,<1 years,1,none,3,car or other,>25,none,rent,2,management/ highly qualified employee,1,yes,yes,male,0
+<0 DM,24,existing credits paid back duly till now,radio/television,2807,no savings account,unemployed,2,none,1,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,yes,yes,male,0
+no account,12,critical account,radio/television,1089,no savings account,>=7 years,2,none,4,real estate,>25,none,own,4,unskilled - resident,1,none,yes,male,1
+no account,24,existing credits paid back duly till now,car (used),3673,no savings account,>=7 years,2,none,4,car or other,>25,none,own,1,management/ highly qualified employee,2,yes,yes,male,1
+no account,12,existing credits paid back duly till now,education,2012,no savings account,1<= < 4 years,4,none,2,real estate,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+<0 DM,48,critical account,car (used),6820,<100 DM,1<= < 4 years,1,none,4,unknown / no property,>25,none,for free,3,skilled employee / official,2,yes,yes,female,0
+no account,18,critical account,radio/television,1520,<100 DM,4<= <7 years,3,none,3,savings agreement/life insurance,>25,none,own,2,skilled employee / official,1,yes,yes,male,1
+<0 DM,6,critical account,radio/television,362,500 <= < 1000 DM,4<= <7 years,4,none,2,real estate,>25,none,own,2,skilled employee / official,1,none,no,female,1
+<0 DM,6,existing credits paid back duly till now,furniture/equipment,1470,<100 DM,1<= < 4 years,4,none,2,savings agreement/life insurance,>25,bank,own,1,skilled employee / official,2,none,yes,male,1
+no account,24,existing credits paid back duly till now,radio/television,1210,<100 DM,>=7 years,4,none,3,car or other,>25,none,own,2,skilled employee / official,1,none,yes,male,1
+<0 DM,48,critical account,car (used),4085,<100 DM,>=7 years,3,none,4,unknown / no property,>25,store,for free,2,skilled employee / official,1,yes,yes,male,0
+<0 DM,15,existing credits paid back duly till now,radio/television,1023,<100 DM,<1 years,4,none,4,savings agreement/life insurance,<=25,none,own,1,unskilled - resident,1,none,yes,female,1
+>= 200 DM,12,no credits taken,car (new),1384,500 <= < 1000 DM,>=7 years,4,none,4,car or other,>25,none,own,1,management/ highly qualified employee,1,none,yes,male,0
+0 <= <200 DM,12,existing credits paid back duly till now,radio/television,986,<100 DM,4<= <7 years,2,none,4,real estate,<=25,none,own,1,skilled employee / official,1,none,yes,male,1
+<0 DM,24,delay in paying off,car (new),1810,<100 DM,4<= <7 years,4,none,4,car or other,>25,none,rent,1,management/ highly qualified employee,2,yes,yes,female,1
+no account,12,critical account,car (new),1730,<100 DM,1<= < 4 years,4,none,3,real estate,<=25,none,own,2,skilled employee / official,1,none,yes,male,1
+<0 DM,24,existing credits paid back duly till now,car (new),4476,100 <= <500 DM,1<= < 4 years,4,none,4,car or other,>25,none,own,1,skilled employee / official,2,yes,yes,female,0
+no account,15,delay in paying off,radio/television,1371,<100 DM,1<= < 4 years,3,none,1,real estate,>25,none,own,2,skilled employee / official,1,none,yes,male,1
+0 <= <200 DM,21,delay in paying off,furniture/equipment,3652,no savings account,4<= <7 years,4,none,2,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,none,yes,male,0
+no account,15,existing credits paid back duly till now,radio/television,1428,no savings account,1<= < 4 years,4,none,2,real estate,<=25,none,own,2,skilled employee / official,1,none,yes,male,1
+<0 DM,12,critical account,business,3590,<100 DM,1<= < 4 years,4,none,2,savings agreement/life insurance,>25,none,own,2,unskilled - resident,1,none,yes,female,1
+no account,12,existing credits paid back duly till now,car (new),1356,no savings account,4<= <7 years,4,guarantor,2,savings agreement/life insurance,>25,none,rent,2,skilled employee / official,1,none,no,male,1
+no account,18,critical account,radio/television,1284,500 <= < 1000 DM,>=7 years,4,none,3,savings agreement/life insurance,>25,none,own,2,skilled employee / official,1,yes,yes,male,1
+no account,24,existing credits paid back duly till now,education,2391,no savings account,1<= < 4 years,4,none,2,car or other,>25,bank,own,1,skilled employee / official,1,yes,yes,male,1
+0 <= <200 DM,12,critical account,furniture/equipment,3520,<100 DM,1<= < 4 years,3,none,4,car or other,>25,none,rent,1,skilled employee / official,1,yes,yes,male,1
+no account,13,existing credits paid back duly till now,car (new),1432,<100 DM,1<= < 4 years,3,none,3,car or other,>25,none,own,1,skilled employee / official,1,none,yes,male,0
+<0 DM,24,existing credits paid back duly till now,car (new),1928,<100 DM,<1 years,3,none,2,car or other,<=25,none,rent,1,skilled employee / official,1,none,yes,female,0
+<0 DM,24,existing credits paid back duly till now,radio/television,2470,<100 DM,>=7 years,3,none,1,savings agreement/life insurance,>25,none,own,1,unskilled - resident,1,none,yes,male,0
+0 <= <200 DM,18,critical account,radio/television,2418,<100 DM,1<= < 4 years,4,none,2,real estate,>25,none,own,1,unskilled - resident,1,none,yes,male,1
+<0 DM,18,no credits taken,car (used),1274,<100 DM,1<= < 4 years,2,none,2,car or other,>25,bank,own,1,skilled employee / official,1,none,yes,male,1
+<0 DM,36,critical account,car (used),4278,<100 DM,>=7 years,4,none,2,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+no account,12,existing credits paid back duly till now,car (used),1458,no savings account,<1 years,3,none,2,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+<0 DM,6,existing credits paid back duly till now,education,687,<100 DM,<1 years,1,none,3,savings agreement/life insurance,<=25,none,own,1,unskilled - resident,1,none,no,male,0
+no account,24,critical account,radio/television,3729,no savings account,4<= <7 years,4,none,2,real estate,>25,none,own,2,unskilled - resident,1,yes,yes,male,1
+0 <= <200 DM,48,all credits at this bank paid back duly,business,7642,100 <= <500 DM,>=7 years,4,guarantor,4,unknown / no property,>25,none,for free,2,skilled employee / official,2,none,yes,male,1
+0 <= <200 DM,18,existing credits paid back duly till now,car (new),1362,<100 DM,1<= < 4 years,4,guarantor,2,real estate,>25,none,own,1,unskilled - resident,1,none,yes,female,0
+0 <= <200 DM,48,existing credits paid back duly till now,car (used),9127,<100 DM,>=7 years,3,none,1,car or other,>25,none,own,1,skilled employee / official,2,none,yes,female,1
+no account,10,critical account,radio/television,1410,<100 DM,4<= <7 years,2,none,2,real estate,>25,none,own,1,unskilled - resident,2,none,yes,male,1
+no account,10,existing credits paid back duly till now,radio/television,1597,no savings account,1<= < 4 years,2,none,4,car or other,>25,none,own,1,skilled employee / official,1,yes,yes,female,1
+no account,24,existing credits paid back duly till now,furniture/equipment,5124,no savings account,1<= < 4 years,4,none,2,car or other,<=25,none,own,1,skilled employee / official,1,none,yes,male,1
+no account,28,existing credits paid back duly till now,car (new),2455,<100 DM,<1 years,3,none,3,real estate,<=25,none,own,1,skilled employee / official,1,none,yes,female,1
+0 <= <200 DM,36,existing credits paid back duly till now,radio/television,2519,<100 DM,1<= < 4 years,4,guarantor,4,savings agreement/life insurance,<=25,bank,own,1,unskilled - resident,2,none,yes,male,0
+<0 DM,9,existing credits paid back duly till now,radio/television,1455,<100 DM,<1 years,4,none,2,real estate,<=25,none,own,1,skilled employee / official,1,none,yes,female,1
+0 <= <200 DM,39,no credits taken,furniture/equipment,9874,100 <= <500 DM,>=7 years,3,none,4,unknown / no property,>25,none,own,1,skilled employee / official,2,none,yes,male,0
+no account,12,existing credits paid back duly till now,radio/television,1561,<100 DM,1<= < 4 years,4,none,2,real estate,<=25,none,own,1,skilled employee / official,1,none,yes,female,1
+0 <= <200 DM,24,existing credits paid back duly till now,car (new),9740,no savings account,1<= < 4 years,2,none,2,car or other,>25,none,own,2,skilled employee / official,1,yes,yes,female,1
+<0 DM,12,existing credits paid back duly till now,furniture/equipment,583,<100 DM,<1 years,3,none,3,real estate,>25,none,rent,1,unskilled - resident,1,none,yes,male,1
+<0 DM,30,existing credits paid back duly till now,furniture/equipment,5721,<100 DM,>=7 years,1,none,2,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,none,yes,male,0
+no account,24,critical account,radio/television,2687,no savings account,4<= <7 years,4,none,4,real estate,<=25,none,own,2,skilled employee / official,1,none,yes,male,1
+no account,30,critical account,car (used),4176,no savings account,>=7 years,4,none,4,car or other,>25,none,own,1,management/ highly qualified employee,1,yes,yes,female,1
+0 <= <200 DM,24,existing credits paid back duly till now,car (new),1355,<100 DM,4<= <7 years,4,none,3,real estate,>25,none,own,1,skilled employee / official,1,none,yes,male,0
+no account,12,critical account,repairs,890,no savings account,>=7 years,4,none,2,real estate,>25,none,own,1,skilled employee / official,1,none,yes,female,1
+<0 DM,12,delay in paying off,business,1876,<100 DM,1<= < 4 years,4,none,2,real estate,>25,none,rent,2,unskilled - resident,2,none,yes,female,0
+0 <= <200 DM,12,existing credits paid back duly till now,furniture/equipment,1291,no savings account,<1 years,3,none,3,real estate,>25,none,rent,1,skilled employee / official,1,none,yes,male,0
+no account,24,existing credits paid back duly till now,radio/television,1721,no savings account,4<= <7 years,4,none,2,car or other,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+0 <= <200 DM,12,all credits at this bank paid back duly,retraining,1152,no savings account,1<= < 4 years,1,none,2,savings agreement/life insurance,<=25,none,rent,1,unskilled - resident,1,none,yes,female,1
+0 <= <200 DM,12,existing credits paid back duly till now,radio/television,741,500 <= < 1000 DM,>=7 years,3,none,4,savings agreement/life insurance,>25,none,own,2,unskilled - resident,1,none,yes,male,1
+no account,24,existing credits paid back duly till now,car (used),7128,no savings account,>=7 years,2,none,4,car or other,>25,none,own,1,skilled employee / official,1,yes,yes,female,1
+>= 200 DM,18,existing credits paid back duly till now,car (new),2743,no savings account,>=7 years,4,none,4,unknown / no property,>25,none,own,2,management/ highly qualified employee,1,yes,yes,male,1
+<0 DM,6,critical account,car (new),720,<100 DM,1<= < 4 years,1,none,2,car or other,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+no account,15,existing credits paid back duly till now,furniture/equipment,1873,<100 DM,<1 years,4,none,4,real estate,<=25,none,own,1,skilled employee / official,1,none,yes,female,1
+no account,15,existing credits paid back duly till now,car (used),5045,no savings account,>=7 years,3,none,3,car or other,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+no account,6,existing credits paid back duly till now,radio/television,5890,<100 DM,<1 years,1,none,4,car or other,<=25,none,own,1,skilled employee / official,1,none,yes,female,1
+<0 DM,12,existing credits paid back duly till now,radio/television,2738,<100 DM,<1 years,3,none,4,savings agreement/life insurance,<=25,none,rent,1,skilled employee / official,1,none,yes,female,1
+no account,15,delay in paying off,furniture/equipment,3320,no savings account,>=7 years,1,none,3,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,none,yes,female,1
+>= 200 DM,10,critical account,car (new),1180,no savings account,unemployed,2,none,2,real estate,>25,none,own,3,unemployed/ unskilled  - non-resident,1,none,yes,male,0
+0 <= <200 DM,24,existing credits paid back duly till now,car (new),3624,<100 DM,4<= <7 years,4,none,4,car or other,>25,none,own,1,skilled employee / official,1,yes,yes,male,0
+no account,24,existing credits paid back duly till now,furniture/equipment,1317,<100 DM,1<= < 4 years,4,none,1,real estate,<=25,none,rent,1,unskilled - resident,1,none,yes,male,1
+0 <= <200 DM,24,critical account,radio/television,2038,<100 DM,1<= < 4 years,3,guarantor,4,real estate,>25,none,own,2,unskilled - resident,2,yes,yes,female,1
+no account,36,critical account,radio/television,7120,no savings account,4<= <7 years,2,none,2,car or other,>25,none,own,2,management/ highly qualified employee,2,none,yes,male,1
+no account,18,critical account,car (new),2073,no savings account,<1 years,3,co-applicant,4,unknown / no property,>25,none,for free,1,management/ highly qualified employee,1,yes,yes,female,1
+0 <= <200 DM,48,critical account,business,8132,100 <= <500 DM,>=7 years,4,none,2,car or other,>25,bank,own,2,management/ highly qualified employee,1,yes,yes,male,0
+0 <= <200 DM,12,critical account,business,3617,<100 DM,1<= < 4 years,2,none,3,savings agreement/life insurance,>25,none,own,2,skilled employee / official,1,none,yes,male,0
+no account,18,existing credits paid back duly till now,repairs,1080,<100 DM,<1 years,4,none,4,real estate,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+no account,24,existing credits paid back duly till now,car (new),2032,<100 DM,<1 years,2,guarantor,4,real estate,<=25,none,own,1,skilled employee / official,1,none,yes,female,1
+no account,36,critical account,car (used),3314,<100 DM,1<= < 4 years,4,none,4,car or other,>25,none,own,1,skilled employee / official,1,yes,yes,female,1
+no account,6,existing credits paid back duly till now,radio/television,322,no savings account,<1 years,4,none,3,car or other,<=25,none,rent,1,skilled employee / official,1,none,yes,female,1
+no account,15,existing credits paid back duly till now,car (used),1632,no savings account,<1 years,2,none,1,real estate,<=25,none,own,1,unskilled - resident,1,none,yes,male,1
+0 <= <200 DM,36,existing credits paid back duly till now,furniture/equipment,4120,<100 DM,4<= <7 years,4,none,4,car or other,<=25,none,own,1,skilled employee / official,1,yes,yes,male,1
+0 <= <200 DM,24,critical account,car (used),5286,<100 DM,<1 years,4,none,2,car or other,<=25,none,rent,2,unskilled - resident,1,none,yes,female,0
+no account,24,critical account,car (used),5511,<100 DM,unemployed,4,none,4,unknown / no property,>25,none,for free,2,management/ highly qualified employee,1,yes,yes,male,1
+no account,4,existing credits paid back duly till now,radio/television,1544,<100 DM,<1 years,3,none,2,savings agreement/life insurance,>25,none,own,1,unskilled - resident,1,none,yes,male,1
+no account,18,critical account,car (new),3084,no savings account,1<= < 4 years,3,none,4,real estate,>25,none,own,1,skilled employee / official,2,none,yes,male,1
+0 <= <200 DM,6,existing credits paid back duly till now,radio/television,968,<100 DM,1<= < 4 years,3,none,3,real estate,>25,none,own,1,unskilled - resident,1,none,no,female,1
+no account,12,existing credits paid back duly till now,radio/television,1128,<100 DM,>=7 years,4,none,4,real estate,>25,none,own,1,unskilled - resident,1,none,yes,male,1
+>= 200 DM,10,critical account,car (new),1253,<100 DM,4<= <7 years,4,none,4,savings agreement/life insurance,>25,none,for free,2,skilled employee / official,1,yes,yes,male,1
+>= 200 DM,24,existing credits paid back duly till now,business,1258,100 <= <500 DM,<1 years,4,none,1,real estate,<=25,none,own,1,skilled employee / official,1,none,yes,male,1
+no account,24,existing credits paid back duly till now,business,1390,<100 DM,<1 years,4,none,4,real estate,>25,none,own,1,skilled employee / official,1,yes,yes,male,1
+<0 DM,24,existing credits paid back duly till now,furniture/equipment,1988,<100 DM,<1 years,4,co-applicant,2,savings agreement/life insurance,>25,none,own,1,unskilled - resident,1,none,yes,male,1
+0 <= <200 DM,18,critical account,furniture/equipment,2352,<100 DM,>=7 years,4,none,4,real estate,>25,none,own,2,skilled employee / official,1,none,yes,female,1
+<0 DM,18,existing credits paid back duly till now,car (new),2856,no savings account,unemployed,1,none,4,car or other,<=25,none,own,1,skilled employee / official,1,none,yes,male,0
+0 <= <200 DM,24,existing credits paid back duly till now,car (used),3720,no savings account,1<= < 4 years,1,none,2,unknown / no property,<=25,bank,rent,1,unskilled - resident,2,none,yes,female,0
+no account,12,existing credits paid back duly till now,radio/television,2493,100 <= <500 DM,<1 years,2,none,2,car or other,<=25,none,rent,1,skilled employee / official,1,none,yes,male,1
+0 <= <200 DM,9,existing credits paid back duly till now,radio/television,756,<100 DM,4<= <7 years,4,none,4,savings agreement/life insurance,>25,none,own,2,management/ highly qualified employee,1,yes,yes,male,1
+no account,9,existing credits paid back duly till now,car (new),3074,<100 DM,1<= < 4 years,4,none,2,car or other,<=25,none,own,2,skilled employee / official,1,none,yes,female,1
+no account,9,existing credits paid back duly till now,radio/television,3074,no savings account,>=7 years,4,none,2,savings agreement/life insurance,>25,none,own,1,skilled employee / official,2,yes,yes,male,0
+no account,27,existing credits paid back duly till now,radio/television,6437,>= 1000 DM,4<= <7 years,3,none,3,savings agreement/life insurance,>25,none,own,1,management/ highly qualified employee,1,yes,yes,male,1
+0 <= <200 DM,24,existing credits paid back duly till now,radio/television,3684,500 <= < 1000 DM,4<= <7 years,3,none,4,car or other,>25,none,own,2,skilled employee / official,2,yes,yes,male,0
+<0 DM,6,existing credits paid back duly till now,car (new),3496,<100 DM,1<= < 4 years,1,co-applicant,3,real estate,>25,none,own,1,management/ highly qualified employee,1,yes,yes,male,1
+<0 DM,24,existing credits paid back duly till now,radio/television,3176,<100 DM,1<= < 4 years,2,none,2,car or other,<=25,none,own,1,skilled employee / official,1,none,yes,female,0
+<0 DM,6,critical account,car (new),512,<100 DM,>=7 years,3,none,4,unknown / no property,>25,none,own,2,skilled employee / official,1,none,yes,male,0
+0 <= <200 DM,30,delay in paying off,car (new),4010,500 <= < 1000 DM,>=7 years,3,none,1,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,none,yes,male,0
+<0 DM,30,existing credits paid back duly till now,car (used),3532,<100 DM,1<= < 4 years,3,none,2,car or other,>25,none,own,2,unskilled - resident,1,none,yes,male,1
+<0 DM,60,existing credits paid back duly till now,car (used),8235,no savings account,4<= <7 years,2,none,4,unknown / no property,>25,none,for free,1,skilled employee / official,1,none,yes,female,0
+no account,12,existing credits paid back duly till now,radio/television,1864,no savings account,4<= <7 years,4,none,2,car or other,>25,none,own,1,skilled employee / official,1,none,yes,female,1
+no account,12,critical account,radio/television,1360,no savings account,>=7 years,4,none,2,savings agreement/life insurance,>25,none,own,2,skilled employee / official,1,none,yes,male,1
+>= 200 DM,6,existing credits paid back duly till now,car (new),2116,<100 DM,<1 years,4,none,4,car or other,<=25,none,own,1,skilled employee / official,1,none,yes,female,1
+no account,18,critical account,radio/television,1572,<100 DM,1<= < 4 years,3,none,4,car or other,>25,none,own,2,skilled employee / official,1,yes,yes,female,1
+0 <= <200 DM,30,existing credits paid back duly till now,furniture/equipment,4513,<100 DM,1<= < 4 years,3,none,4,car or other,>25,none,own,1,unskilled - resident,1,none,yes,male,0
+0 <= <200 DM,12,critical account,car (used),2264,no savings account,<1 years,4,none,4,car or other,>25,none,rent,1,skilled employee / official,1,yes,yes,male,1
+<0 DM,6,existing credits paid back duly till now,radio/television,1374,<100 DM,<1 years,3,none,4,savings agreement/life insurance,<=25,none,rent,1,skilled employee / official,1,none,yes,male,1
+no account,9,existing credits paid back duly till now,car (new),3168,no savings account,1<= < 4 years,1,none,1,car or other,<=25,none,own,2,skilled employee / official,1,none,yes,male,1
+0 <= <200 DM,18,existing credits paid back duly till now,business,3321,<100 DM,>=7 years,1,guarantor,2,real estate,>25,bank,own,1,unskilled - resident,1,none,yes,male,1
+<0 DM,24,existing credits paid back duly till now,car (new),1542,no savings account,>=7 years,4,none,4,car or other,>25,none,own,2,management/ highly qualified employee,1,yes,yes,male,0
+<0 DM,21,existing credits paid back duly till now,car (used),489,<100 DM,<1 years,1,none,4,car or other,<=25,none,own,1,unskilled - resident,1,none,yes,male,1
+<0 DM,6,existing credits paid back duly till now,car (new),612,<100 DM,<1 years,2,none,4,car or other,<=25,bank,own,1,unskilled - resident,1,none,yes,female,1
+no account,12,existing credits paid back duly till now,radio/television,1180,no savings account,1<= < 4 years,4,none,4,savings agreement/life insurance,>25,none,rent,1,unskilled - resident,1,none,yes,female,1
+0 <= <200 DM,12,existing credits paid back duly till now,domestic appliances,1498,500 <= < 1000 DM,4<= <7 years,4,none,3,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+no account,36,existing credits paid back duly till now,business,3620,no savings account,<1 years,1,none,2,car or other,<=25,none,own,1,skilled employee / official,1,none,yes,female,1
+no account,30,existing credits paid back duly till now,radio/television,2846,<100 DM,>=7 years,4,none,2,car or other,>25,none,own,1,skilled employee / official,1,yes,yes,male,1
+<0 DM,24,existing credits paid back duly till now,furniture/equipment,2647,<100 DM,<1 years,4,none,4,savings agreement/life insurance,<=25,none,own,1,skilled employee / official,1,none,yes,female,0
+no account,12,existing credits paid back duly till now,radio/television,1806,no savings account,4<= <7 years,4,none,3,car or other,<=25,none,own,1,skilled employee / official,1,none,yes,female,1
+<0 DM,24,existing credits paid back duly till now,furniture/equipment,2617,no savings account,>=7 years,2,none,4,real estate,>25,none,rent,1,skilled employee / official,1,none,yes,female,0
+<0 DM,18,existing credits paid back duly till now,car (new),4210,no savings account,4<= <7 years,3,none,4,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,none,yes,male,0
+<0 DM,48,existing credits paid back duly till now,repairs,6938,<100 DM,>=7 years,3,none,4,unknown / no property,>25,none,for free,1,skilled employee / official,2,yes,yes,female,0
+<0 DM,18,existing credits paid back duly till now,furniture/equipment,3050,<100 DM,4<= <7 years,2,none,4,car or other,>25,none,own,2,skilled employee / official,2,none,yes,male,0
+no account,15,existing credits paid back duly till now,domestic appliances,1092,>= 1000 DM,4<= <7 years,4,none,1,savings agreement/life insurance,>25,none,own,2,skilled employee / official,1,none,yes,male,1
+no account,12,critical account,radio/television,968,<100 DM,>=7 years,4,none,2,real estate,>25,bank,own,2,unskilled - resident,1,yes,yes,male,1
+no account,18,existing credits paid back duly till now,furniture/equipment,1194,no savings account,<1 years,2,none,4,real estate,<=25,none,rent,2,unskilled - resident,1,none,yes,female,0
+0 <= <200 DM,12,no credits taken,furniture/equipment,1246,100 <= <500 DM,1<= < 4 years,4,none,4,real estate,>25,none,own,1,skilled employee / official,1,yes,yes,male,0
+<0 DM,48,existing credits paid back duly till now,business,6020,<100 DM,4<= <7 years,4,none,2,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,none,yes,male,0
+no account,12,critical account,radio/television,2012,no savings account,4<= <7 years,4,none,2,car or other,>25,none,own,2,skilled employee / official,1,none,yes,male,1
+no account,12,existing credits paid back duly till now,car (new),1128,<100 DM,1<= < 4 years,4,none,2,real estate,<=25,none,own,1,skilled employee / official,1,yes,yes,male,1
+<0 DM,12,existing credits paid back duly till now,business,1239,<100 DM,1<= < 4 years,4,none,3,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+0 <= <200 DM,12,existing credits paid back duly till now,radio/television,812,<100 DM,1<= < 4 years,4,none,1,car or other,>25,none,own,1,skilled employee / official,1,yes,yes,female,1
+0 <= <200 DM,12,existing credits paid back duly till now,radio/television,1512,<100 DM,>=7 years,4,none,2,real estate,>25,none,own,1,unskilled - resident,1,yes,yes,male,1
+<0 DM,24,existing credits paid back duly till now,car (used),1694,no savings account,<1 years,4,none,2,car or other,<=25,none,rent,1,unskilled - resident,1,none,yes,male,1
+>= 200 DM,24,critical account,furniture/equipment,1305,<100 DM,1<= < 4 years,2,none,2,real estate,>25,none,own,1,unskilled - resident,2,none,yes,male,1
+0 <= <200 DM,12,all credits at this bank paid back duly,radio/television,981,<100 DM,<1 years,4,guarantor,4,real estate,<=25,none,rent,1,unskilled - resident,1,none,yes,male,1
+0 <= <200 DM,36,all credits at this bank paid back duly,business,8243,no savings account,4<= <7 years,2,none,4,unknown / no property,>25,bank,own,2,management/ highly qualified employee,1,none,yes,female,1
+>= 200 DM,12,existing credits paid back duly till now,furniture/equipment,2874,500 <= < 1000 DM,4<= <7 years,3,none,2,real estate,>25,none,own,1,skilled employee / official,1,yes,yes,male,0
+0 <= <200 DM,24,critical account,radio/television,5084,500 <= < 1000 DM,4<= <7 years,3,none,3,car or other,>25,none,own,1,skilled employee / official,2,yes,yes,male,1
+0 <= <200 DM,27,critical account,business,8193,<100 DM,1<= < 4 years,4,none,1,savings agreement/life insurance,>25,none,own,2,unskilled - resident,1,none,yes,male,0
+no account,24,critical account,car (new),6710,no savings account,<1 years,3,none,4,unknown / no property,>25,none,for free,2,skilled employee / official,1,yes,yes,male,1
+no account,18,critical account,car (new),3128,no savings account,1<= < 4 years,4,none,3,car or other,<=25,none,own,2,skilled employee / official,1,none,yes,female,1
+<0 DM,24,all credits at this bank paid back duly,car (used),1276,<100 DM,4<= <7 years,2,none,4,unknown / no property,>25,bank,for free,1,unskilled - resident,1,yes,yes,male,1
+0 <= <200 DM,6,existing credits paid back duly till now,retraining,692,no savings account,1<= < 4 years,4,none,2,car or other,<=25,none,rent,1,unskilled - resident,1,none,yes,male,1
+<0 DM,36,critical account,car (used),3872,<100 DM,unemployed,2,none,4,unknown / no property,<=25,none,rent,2,unskilled - resident,1,none,yes,male,1
+0 <= <200 DM,36,existing credits paid back duly till now,education,10328,100 <= <500 DM,4<= <7 years,2,none,4,unknown / no property,>25,bank,for free,2,management/ highly qualified employee,2,yes,yes,male,0
+<0 DM,21,delay in paying off,car (new),1723,<100 DM,4<= <7 years,4,none,2,car or other,>25,none,own,2,management/ highly qualified employee,1,yes,yes,male,0
+no account,12,critical account,radio/television,2214,<100 DM,1<= < 4 years,4,none,2,car or other,>25,none,own,2,skilled employee / official,1,none,yes,female,1
+0 <= <200 DM,12,existing credits paid back duly till now,radio/television,3397,<100 DM,>=7 years,4,none,2,real estate,>25,none,own,1,management/ highly qualified employee,1,yes,yes,male,1
+0 <= <200 DM,9,existing credits paid back duly till now,furniture/equipment,1977,100 <= <500 DM,1<= < 4 years,3,guarantor,4,real estate,>25,none,own,2,skilled employee / official,1,none,yes,male,1
+no account,18,existing credits paid back duly till now,education,4128,no savings account,<1 years,3,none,2,car or other,<=25,none,own,1,skilled employee / official,1,none,yes,male,1
+no account,12,existing credits paid back duly till now,radio/television,2096,no savings account,4<= <7 years,4,none,4,car or other,>25,none,own,1,skilled employee / official,1,yes,yes,female,1
+no account,24,delay in paying off,business,3175,no savings account,1<= < 4 years,3,none,4,real estate,>25,none,own,1,skilled employee / official,2,none,yes,male,0
+0 <= <200 DM,24,critical account,radio/television,2571,<100 DM,>=7 years,2,none,4,car or other,>25,none,own,2,skilled employee / official,1,yes,yes,female,1
+no account,24,critical account,business,2893,no savings account,4<= <7 years,2,none,2,real estate,>25,store,own,2,management/ highly qualified employee,1,yes,yes,female,0
+no account,18,existing credits paid back duly till now,car (new),1876,<100 DM,<1 years,3,none,4,real estate,<=25,none,own,1,skilled employee / official,1,none,yes,female,1
+no account,10,existing credits paid back duly till now,car (new),1173,no savings account,1<= < 4 years,3,none,2,car or other,>25,none,own,2,skilled employee / official,1,none,yes,male,1
+0 <= <200 DM,30,critical account,car (new),2874,<100 DM,>=7 years,2,none,2,car or other,>25,none,own,1,management/ highly qualified employee,1,yes,yes,female,1
+<0 DM,24,critical account,furniture/equipment,1673,100 <= <500 DM,1<= < 4 years,3,none,1,savings agreement/life insurance,>25,none,own,1,management/ highly qualified employee,1,none,yes,male,0
+0 <= <200 DM,12,existing credits paid back duly till now,car (used),2890,<100 DM,1<= < 4 years,4,none,3,real estate,<=25,none,own,1,skilled employee / official,1,none,yes,female,1
+0 <= <200 DM,36,critical account,furniture/equipment,3241,500 <= < 1000 DM,1<= < 4 years,3,none,2,savings agreement/life insurance,<=25,none,own,2,skilled employee / official,1,none,yes,male,1
+no account,24,critical account,furniture/equipment,2208,<100 DM,1<= < 4 years,4,none,2,savings agreement/life insurance,>25,none,own,2,unskilled - resident,1,yes,yes,male,1
+<0 DM,36,critical account,car (used),2958,<100 DM,1<= < 4 years,2,none,4,unknown / no property,<=25,none,own,2,skilled employee / official,2,none,yes,female,1
+0 <= <200 DM,36,existing credits paid back duly till now,radio/television,2416,<100 DM,1<= < 4 years,2,none,4,savings agreement/life insurance,<=25,none,own,1,unskilled - resident,1,none,yes,male,0
+<0 DM,47,critical account,education,4328,<100 DM,4<= <7 years,2,none,4,unknown / no property,<=25,none,rent,2,skilled employee / official,1,none,yes,female,1
+0 <= <200 DM,12,existing credits paid back duly till now,car (new),1196,no savings account,1<= < 4 years,4,none,3,car or other,<=25,none,own,1,unskilled - resident,1,none,yes,female,1
+no account,24,existing credits paid back duly till now,car (used),8124,no savings account,1<= < 4 years,2,none,4,unknown / no property,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+<0 DM,48,existing credits paid back duly till now,radio/television,3576,<100 DM,1<= < 4 years,2,none,2,savings agreement/life insurance,<=25,none,own,1,unskilled - resident,2,none,yes,male,0
+no account,9,critical account,car (new),1978,<100 DM,1<= < 4 years,3,none,3,car or other,>25,none,own,2,skilled employee / official,1,yes,yes,male,1
+>= 200 DM,12,existing credits paid back duly till now,car (new),1050,<100 DM,1<= < 4 years,4,none,3,car or other,<=25,none,own,1,unskilled - resident,1,none,yes,female,1
+0 <= <200 DM,12,existing credits paid back duly till now,business,4820,<100 DM,<1 years,1,none,2,savings agreement/life insurance,<=25,none,own,1,skilled employee / official,2,none,yes,female,1
+no account,36,no credits taken,radio/television,3810,no savings account,1<= < 4 years,3,none,2,car or other,>25,none,own,1,skilled employee / official,1,none,yes,female,1
+no account,4,critical account,car (new),4829,no savings account,<1 years,3,none,4,car or other,<=25,none,own,1,skilled employee / official,1,yes,yes,male,1
+0 <= <200 DM,18,critical account,radio/television,3854,<100 DM,4<= <7 years,3,guarantor,3,real estate,<=25,none,own,1,skilled employee / official,1,none,yes,male,1
+<0 DM,6,critical account,radio/television,1286,<100 DM,1<= < 4 years,1,none,1,real estate,>25,none,rent,1,skilled employee / official,1,none,yes,male,1
+>= 200 DM,15,existing credits paid back duly till now,radio/television,476,>= 1000 DM,1<= < 4 years,4,none,3,real estate,>25,none,own,1,skilled employee / official,1,yes,yes,male,0
+0 <= <200 DM,36,existing credits paid back duly till now,furniture/equipment,7124,no savings account,1<= < 4 years,2,none,3,unknown / no property,<=25,none,for free,2,unskilled - resident,1,yes,yes,male,0
+>= 200 DM,15,existing credits paid back duly till now,radio/television,1961,<100 DM,>=7 years,4,none,4,real estate,>25,none,own,2,skilled employee / official,1,yes,yes,male,1
+no account,12,existing credits paid back duly till now,radio/television,1210,no savings account,<1 years,4,none,4,car or other,<=25,none,own,1,skilled employee / official,1,none,yes,male,1
+>= 200 DM,24,critical account,car (new),1520,<100 DM,unemployed,4,none,2,car or other,>25,bank,own,2,unskilled - resident,1,none,no,male,1
+<0 DM,24,existing credits paid back duly till now,furniture/equipment,2673,<100 DM,4<= <7 years,4,none,4,real estate,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+<0 DM,42,critical account,car (new),4108,<100 DM,1<= < 4 years,4,none,2,car or other,>25,none,own,2,skilled employee / official,2,none,yes,male,0
+no account,12,existing credits paid back duly till now,car (new),548,<100 DM,4<= <7 years,4,none,4,real estate,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+0 <= <200 DM,12,existing credits paid back duly till now,radio/television,625,<100 DM,1<= < 4 years,4,none,3,car or other,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+no account,6,all credits at this bank paid back duly,radio/television,1417,<100 DM,>=7 years,2,none,4,savings agreement/life insurance,>25,store,own,1,unskilled - resident,1,none,yes,male,1
+0 <= <200 DM,48,all credits at this bank paid back duly,car (new),5720,<100 DM,4<= <7 years,4,none,2,car or other,>25,none,own,1,skilled employee / official,1,yes,yes,male,0
+no account,24,critical account,car (new),4712,no savings account,1<= < 4 years,4,none,4,unknown / no property,>25,none,for free,2,skilled employee / official,2,none,yes,male,1
+<0 DM,18,existing credits paid back duly till now,radio/television,892,no savings account,>=7 years,4,none,4,car or other,>25,none,for free,1,skilled employee / official,1,yes,yes,male,1
+0 <= <200 DM,48,existing credits paid back duly till now,car (new),9960,100 <= <500 DM,>=7 years,3,none,4,car or other,>25,none,own,1,skilled employee / official,1,yes,yes,male,0
+no account,12,existing credits paid back duly till now,retraining,736,no savings account,4<= <7 years,4,none,3,car or other,>25,none,own,2,skilled employee / official,1,yes,yes,male,0
+no account,36,existing credits paid back duly till now,car (used),10477,<100 DM,<1 years,2,none,2,car or other,<=25,none,own,1,skilled employee / official,1,yes,yes,male,1
+no account,12,existing credits paid back duly till now,radio/television,703,<100 DM,<1 years,3,none,2,real estate,>25,none,own,1,unskilled - resident,1,none,yes,male,1
+no account,12,existing credits paid back duly till now,radio/television,2144,no savings account,1<= < 4 years,4,none,2,car or other,>25,none,own,1,skilled employee / official,1,yes,yes,female,1
+<0 DM,12,existing credits paid back duly till now,car (new),1346,<100 DM,unemployed,4,none,3,savings agreement/life insurance,<=25,none,own,1,skilled employee / official,1,none,yes,male,0
+no account,12,existing credits paid back duly till now,radio/television,804,<100 DM,1<= < 4 years,3,none,4,real estate,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+no account,30,existing credits paid back duly till now,business,4138,no savings account,>=7 years,3,none,4,car or other,>25,none,own,1,skilled employee / official,2,yes,yes,male,1
+<0 DM,16,critical account,car (new),1362,<100 DM,1<= < 4 years,4,none,3,savings agreement/life insurance,>25,none,own,2,unskilled - resident,1,none,yes,female,1
+no account,24,existing credits paid back duly till now,car (new),2481,<100 DM,1<= < 4 years,2,none,1,savings agreement/life insurance,<=25,none,own,1,skilled employee / official,1,none,yes,female,1
+<0 DM,24,existing credits paid back duly till now,radio/television,1980,<100 DM,>=7 years,3,none,1,real estate,>25,bank,rent,1,skilled employee / official,1,none,yes,male,0
+<0 DM,12,existing credits paid back duly till now,car (used),4560,<100 DM,4<= <7 years,4,none,4,car or other,<=25,none,own,1,skilled employee / official,1,none,yes,female,1
+<0 DM,12,existing credits paid back duly till now,repairs,1548,<100 DM,<1 years,4,none,2,real estate,>25,none,own,1,unskilled - resident,1,none,yes,male,1
+<0 DM,6,existing credits paid back duly till now,radio/television,1205,>= 1000 DM,4<= <7 years,1,none,1,real estate,>25,none,own,1,skilled employee / official,1,none,yes,female,1
+0 <= <200 DM,30,critical account,furniture/equipment,5062,<100 DM,4<= <7 years,4,none,2,car or other,>25,none,own,1,skilled employee / official,1,none,yes,female,0
+no account,18,existing credits paid back duly till now,radio/television,2680,no savings account,4<= <7 years,4,none,3,car or other,>25,store,own,1,skilled employee / official,1,yes,yes,male,1
+no account,7,critical account,car (used),794,<100 DM,1<= < 4 years,4,none,4,car or other,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+0 <= <200 DM,18,existing credits paid back duly till now,car (used),1830,100 <= <500 DM,1<= < 4 years,2,none,2,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+<0 DM,18,all credits at this bank paid back duly,furniture/equipment,1898,500 <= < 1000 DM,1<= < 4 years,2,none,4,unknown / no property,>25,none,own,1,skilled employee / official,2,none,yes,male,1
+no account,18,existing credits paid back duly till now,radio/television,3012,<100 DM,<1 years,4,none,3,savings agreement/life insurance,<=25,none,own,2,unskilled - resident,1,none,yes,male,1
+no account,30,existing credits paid back duly till now,radio/television,2924,<100 DM,1<= < 4 years,4,co-applicant,2,car or other,>25,none,own,1,skilled employee / official,1,yes,yes,female,1
+<0 DM,24,all credits at this bank paid back duly,radio/television,3218,<100 DM,1<= < 4 years,4,none,4,real estate,<=25,none,rent,1,skilled employee / official,1,none,yes,male,1
+no account,9,critical account,radio/television,1187,no savings account,>=7 years,1,none,2,car or other,>25,none,own,2,skilled employee / official,1,yes,yes,male,1
+0 <= <200 DM,24,critical account,radio/television,1904,<100 DM,4<= <7 years,4,none,4,real estate,>25,none,own,1,unskilled - resident,1,none,yes,female,0
+<0 DM,18,critical account,car (used),6790,<100 DM,>=7 years,4,none,4,unknown / no property,>25,none,for free,2,skilled employee / official,1,yes,yes,female,1
+<0 DM,18,existing credits paid back duly till now,radio/television,1053,<100 DM,4<= <7 years,4,none,2,car or other,>25,none,own,2,skilled employee / official,1,none,yes,male,1
+>= 200 DM,42,critical account,business,5017,<100 DM,4<= <7 years,2,none,1,savings agreement/life insurance,>25,none,own,2,skilled employee / official,1,yes,yes,female,1
+>= 200 DM,36,critical account,furniture/equipment,3180,>= 1000 DM,>=7 years,4,none,4,unknown / no property,>25,none,own,1,skilled employee / official,1,yes,yes,female,1
+no account,12,existing credits paid back duly till now,radio/television,1187,<100 DM,1<= < 4 years,4,none,4,real estate,>25,none,own,1,skilled employee / official,1,yes,yes,male,1
+<0 DM,12,existing credits paid back duly till now,furniture/equipment,892,<100 DM,1<= < 4 years,4,none,3,savings agreement/life insurance,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+no account,9,critical account,radio/television,1087,<100 DM,>=7 years,3,none,2,real estate,>25,none,own,2,skilled employee / official,1,none,yes,male,0
+no account,15,existing credits paid back duly till now,furniture/equipment,1738,<100 DM,>=7 years,4,none,4,real estate,>25,none,own,2,skilled employee / official,1,yes,yes,male,1
+<0 DM,18,critical account,furniture/equipment,1032,<100 DM,4<= <7 years,3,none,4,car or other,>25,none,own,2,skilled employee / official,1,none,yes,female,1
+<0 DM,36,critical account,domestic appliances,1996,<100 DM,>=7 years,4,co-applicant,4,car or other,>25,bank,own,1,unskilled - resident,2,none,yes,male,0
+no account,9,critical account,radio/television,1520,<100 DM,1<= < 4 years,3,none,2,real estate,>25,none,own,3,skilled employee / official,1,yes,yes,male,1
+<0 DM,18,existing credits paid back duly till now,car (new),3052,<100 DM,1<= < 4 years,3,none,4,car or other,<=25,none,own,1,skilled employee / official,1,none,yes,male,0
+<0 DM,36,critical account,furniture/equipment,2140,<100 DM,1<= < 4 years,4,guarantor,4,car or other,<=25,none,own,2,skilled employee / official,2,yes,yes,male,0
+<0 DM,21,all credits at this bank paid back duly,furniture/equipment,2140,100 <= <500 DM,4<= <7 years,4,none,4,car or other,>25,none,own,1,skilled employee / official,1,yes,yes,male,1
+no account,18,critical account,education,1052,100 <= <500 DM,1<= < 4 years,4,none,1,car or other,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+no account,24,existing credits paid back duly till now,furniture/equipment,3176,<100 DM,1<= < 4 years,4,none,1,unknown / no property,>25,none,rent,1,skilled employee / official,1,none,yes,male,1
+no account,12,existing credits paid back duly till now,car (new),763,<100 DM,<1 years,4,none,4,car or other,<=25,none,own,1,skilled employee / official,1,none,yes,male,0
+no account,18,critical account,radio/television,1359,<100 DM,1<= < 4 years,4,none,4,unknown / no property,>25,none,for free,2,skilled employee / official,1,none,yes,male,1
+<0 DM,15,existing credits paid back duly till now,car (used),3174,<100 DM,<1 years,2,none,4,unknown / no property,<=25,none,rent,1,skilled employee / official,1,none,yes,female,1
+no account,11,existing credits paid back duly till now,radio/television,1385,<100 DM,<1 years,4,none,3,car or other,<=25,none,rent,1,skilled employee / official,2,none,yes,female,1
+no account,12,delay in paying off,radio/television,1440,<100 DM,1<= < 4 years,3,none,4,real estate,>25,none,own,2,skilled employee / official,1,none,yes,male,1
+0 <= <200 DM,15,existing credits paid back duly till now,furniture/equipment,2940,<100 DM,4<= <7 years,3,none,4,car or other,>25,none,own,1,skilled employee / official,1,none,yes,male,0
+0 <= <200 DM,12,existing credits paid back duly till now,radio/television,585,<100 DM,>=7 years,4,none,4,car or other,>25,none,own,1,skilled employee / official,1,none,yes,male,1
+<0 DM,48,existing credits paid back duly till now,education,3410,<100 DM,1<= < 4 years,3,none,4,savings agreement/life insurance,>25,none,own,2,unskilled - resident,1,none,yes,male,0
+<0 DM,12,existing credits paid back duly till now,education,2121,<100 DM,4<= <7 years,3,none,4,savings agreement/life insurance,<=25,none,rent,1,skilled employee / official,1,none,yes,male,1
+0 <= <200 DM,30,existing credits paid back duly till now,furniture/equipment,2318,<100 DM,1<= < 4 years,3,none,4,real estate,<=25,none,own,1,unskilled - resident,1,none,yes,male,1
+no account,18,critical account,radio/television,1093,no savings account,>=7 years,4,none,1,car or other,>25,none,own,1,skilled employee / official,1,none,yes,female,1
+<0 DM,24,all credits at this bank paid back duly,car (new),3672,<100 DM,>=7 years,3,none,4,unknown / no property,>25,none,for free,2,skilled employee / official,1,yes,yes,male,0
+<0 DM,24,existing credits paid back duly till now,car (used),3418,<100 DM,>=7 years,3,none,1,unknown / no property,>25,none,for free,1,skilled employee / official,1,yes,yes,male,0
+>= 200 DM,30,critical account,furniture/equipment,3285,no savings account,4<= <7 years,4,none,4,savings agreement/life insurance,>25,none,own,2,management/ highly qualified employee,1,none,yes,male,1
+no account,42,existing credits paid back duly till now,car (used),3180,>= 1000 DM,4<= <7 years,2,none,1,unknown / no property,>25,none,for free,3,skilled employee / official,2,yes,yes,female,1
+no account,10,existing credits paid back duly till now,radio/television,1340,<100 DM,1<= < 4 years,2,none,4,real estate,>25,none,rent,1,unskilled - resident,2,none,yes,male,1
+no account,12,existing credits paid back duly till now,radio/television,1189,>= 1000 DM,>=7 years,4,none,4,real estate,>25,none,own,1,unskilled - resident,1,none,yes,male,1
+>= 200 DM,10,existing credits paid back duly till now,radio/television,1197,<100 DM,<1 years,4,none,1,car or other,<=25,none,rent,1,skilled employee / official,1,none,yes,female,1
+no account,9,critical account,radio/television,1923,<100 DM,1<= < 4 years,4,none,4,car or other,<=25,none,own,2,skilled employee / official,1,none,yes,male,0
+>= 200 DM,30,delay in paying off,furniture/equipment,4210,500 <= < 1000 DM,4<= <7 years,4,none,2,real estate,>25,none,rent,2,skilled employee / official,2,none,yes,female,1
+<0 DM,18,existing credits paid back duly till now,furniture/equipment,1230,<100 DM,<1 years,4,none,1,car or other,<=25,none,rent,1,skilled employee / official,1,none,yes,male,1

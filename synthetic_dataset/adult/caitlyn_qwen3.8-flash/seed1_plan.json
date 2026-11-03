@@ -1,0 +1,595 @@
+{
+ "G2": {
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+   {
+    "id": "age"
+   },
+   {
+    "id": "workclass"
+   },
+   {
+    "id": "education"
+   },
+   {
+    "id": "education_num"
+   },
+   {
+    "id": "marital_status"
+   },
+   {
+    "id": "occupation"
+   },
+   {
+    "id": "relationship"
+   },
+   {
+    "id": "race"
+   },
+   {
+    "id": "sex"
+   },
+   {
+    "id": "capital_gain"
+   },
+   {
+    "id": "capital_loss"
+   },
+   {
+    "id": "hours_per_week"
+   },
+   {
+    "id": "native_country"
+   },
+   {
+    "id": "income"
+   }
+  ],
+  "links": [
+   {
+    "rationale": "The association score between age and marital_status is the highest at 0.426, indicating a strong dependency where specific age groups are disproportionately associated with certain marriage categories such as 'Never-married' for younger individuals and 'Married-civ-spouse' or 'Widowed' for older ones.",
+    "source": "age",
+    "target": "marital_status"
+   },
+   {
+    "rationale": "With an association score of 0.357, relationship shows significant dependence on age, reflecting demographic patterns where family structure roles like 'Own-child' correlate strongly with younger age brackets while 'Husband' or 'Wife' correlate with middle-aged groups.",
+    "source": "age",
+    "target": "relationship"
+   },
+   {
+    "rationale": "Hours per week exhibits a moderate association score of 0.231 with age, pointing to structural correlations where work intensity varies across different life stages, such as lower hours for students or retirees compared to full-time working adults.",
+    "source": "age",
+    "target": "hours_per_week"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "education"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "workclass"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "occupation"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "capital_loss"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "native_country"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "capital_gain"
+   },
+   {
+    "rationale": "The association score between workclass and occupation is the highest at 0.218, indicating a strong structural dependency where specific job types are disproportionately associated with certain employment sectors (e.g., 'Prof-specialty' in 'Private' vs. 'State-gov').",
+    "source": "workclass",
+    "target": "occupation"
+   },
+   {
+    "rationale": "With an association score of 0.192, education_num shows significant dependence on workclass, reflecting patterns where higher educational attainment correlates with specific work environments such as government or self-employment.",
+    "source": "workclass",
+    "target": "education_num"
+   },
+   {
+    "rationale": "Hours per week exhibits a moderate association score of 0.165 with workclass, pointing to structural correlations where work intensity varies across different employment sectors, such as longer hours in private sector roles compared to some government positions.",
+    "source": "workclass",
+    "target": "hours_per_week"
+   },
+   {
+    "rationale": "Income has an association score of 0.16 with workclass, indicating that earnings brackets are predictive based on the type of employer, with certain sectors like 'Self-emp-inc' or 'Priv-house-serv' correlating with distinct income levels.",
+    "source": "workclass",
+    "target": "income"
+   },
+   {
+    "rationale": "The association score between education and education_num is 1.0, indicating a perfect deterministic mapping where each education level corresponds to a specific numeric value.",
+    "source": "education",
+    "target": "education_num"
+   },
+   {
+    "rationale": "Capital gain exhibits a moderate association score of 0.224 with education, suggesting that individuals with certain educational backgrounds are more likely to have significant capital gains.",
+    "source": "education",
+    "target": "capital_gain"
+   },
+   {
+    "rationale": "Occupation has an association score of 0.197 with education, indicating that specific job types are disproportionately associated with certain levels of educational attainment.",
+    "source": "education",
+    "target": "occupation"
+   },
+   {
+    "rationale": "Hours per week shows a moderate association score of 0.194 with education, pointing to patterns where work intensity varies across different educational groups.",
+    "source": "education",
+    "target": "hours_per_week"
+   },
+   {
+    "rationale": "The association score between education_num and income is high at 0.335, indicating that higher levels of educational attainment are strongly predictive of higher earnings brackets.",
+    "source": "education_num",
+    "target": "income"
+   },
+   {
+    "rationale": "With an association score of 0.572, occupation shows a very strong dependence on education_num, reflecting the structural requirement that specific job types (e.g., 'Prof-specialty' or 'Exec-managerial') necessitate certain minimum levels of education.",
+    "source": "education_num",
+    "target": "occupation"
+   },
+   {
+    "rationale": "With an association score of 0.256, hours per week shows moderate dependence on marital status, reflecting patterns where married individuals often work different hours compared to never-married or divorced individuals.",
+    "source": "marital_status",
+    "target": "hours_per_week"
+   },
+   {
+    "rationale": "With an association score of 0.271, hours per week shows moderate dependence on occupation, reflecting structural patterns where certain roles like 'Exec-managerial' often require longer work hours compared to part-time or service-oriented occupations.",
+    "source": "occupation",
+    "target": "hours_per_week"
+   },
+   {
+    "rationale": "The association score between relationship and marital_status is high at 0.487, indicating that family roles such as 'Husband' or 'Wife' are strongly dependent on being in a married category, while roles like 'Unmarried' or 'Not-in-family' correlate with non-married statuses.",
+    "source": "relationship",
+    "target": "marital_status"
+   },
+   {
+    "rationale": "With an association score of 0.324, hours per week shows moderate dependence on relationship, reflecting patterns where individuals in certain family structures (e.g., 'Own-child' or 'Other-relative') may have different work intensity compared to primary earners ('Husband'/'Wife').",
+    "source": "relationship",
+    "target": "hours_per_week"
+   },
+   {
+    "rationale": "The association score between race and native_country is the highest at 0.383, indicating a strong dependency where specific racial groups are disproportionately associated with certain countries of origin in the dataset.",
+    "source": "race",
+    "target": "native_country"
+   },
+   {
+    "rationale": "With an association score of 0.166, relationship shows a moderate dependence on race, reflecting demographic patterns where family structure roles correlate with racial background.",
+    "source": "race",
+    "target": "relationship"
+   },
+   {
+    "rationale": "Marital status has an association score of 0.132 with race, suggesting that marriage categories vary significantly across different racial groups.",
+    "source": "race",
+    "target": "marital_status"
+   },
+   {
+    "rationale": "Occupation exhibits an association score of 0.129 with race, pointing to structural correlations where certain job types are more frequently held by individuals of specific racial backgrounds.",
+    "source": "race",
+    "target": "occupation"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "race",
+    "target": "workclass"
+   },
+   {
+    "rationale": "The association score between sex and relationship is the highest at 0.65, indicating a strong dependency where specific relationships like 'Husband' or 'Wife' are directly determined by gender.",
+    "source": "sex",
+    "target": "relationship"
+   },
+   {
+    "rationale": "With an association score of 0.464, marital status shows significant dependence on sex, as seen in the data where categories like 'Married-civ-spouse' correlate with specific gendered relationship roles.",
+    "source": "sex",
+    "target": "marital_status"
+   },
+   {
+    "rationale": "Occupation has a moderate association score of 0.438 with sex, reflecting historical or structural correlations in the dataset where certain job types are more frequently associated with one gender.",
+    "source": "sex",
+    "target": "occupation"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "sex",
+    "target": "workclass"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "sex",
+    "target": "hours_per_week"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "sex",
+    "target": "education"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "sex",
+    "target": "native_country"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "sex",
+    "target": "capital_gain"
+   },
+   {
+    "rationale": "Income has an association score of 0.22 with capital_gain, indicating that significant capital gains are a strong predictor of higher earnings brackets, as seen in the data where individuals with non-zero capital gains (e.g., 9386 or 15024) consistently fall into the high-income category.",
+    "source": "capital_gain",
+    "target": "income"
+   },
+   {
+    "rationale": "Income has the highest association score with capital_loss at 0.15, indicating that individuals with non-zero capital losses are disproportionately associated with specific earnings brackets, often lower income categories.",
+    "source": "capital_loss",
+    "target": "income"
+   },
+   {
+    "rationale": "The association score between native_country and education_num is the highest among non-protected columns at 0.288, indicating that individuals from certain countries of origin are disproportionately associated with specific levels of educational attainment.",
+    "source": "native_country",
+    "target": "education_num"
+   }
+  ]
+ },
+ "G": {
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+   {
+    "id": "age"
+   },
+   {
+    "id": "workclass"
+   },
+   {
+    "id": "education"
+   },
+   {
+    "id": "education_num"
+   },
+   {
+    "id": "marital_status"
+   },
+   {
+    "id": "occupation"
+   },
+   {
+    "id": "relationship"
+   },
+   {
+    "id": "race"
+   },
+   {
+    "id": "sex"
+   },
+   {
+    "id": "capital_gain"
+   },
+   {
+    "id": "capital_loss"
+   },
+   {
+    "id": "hours_per_week"
+   },
+   {
+    "id": "native_country"
+   },
+   {
+    "id": "income"
+   }
+  ],
+  "links": [
+   {
+    "rationale": "The association score between age and marital_status is the highest at 0.426, indicating a strong dependency where specific age groups are disproportionately associated with certain marriage categories such as 'Never-married' for younger individuals and 'Married-civ-spouse' or 'Widowed' for older ones.",
+    "source": "age",
+    "target": "marital_status"
+   },
+   {
+    "rationale": "With an association score of 0.357, relationship shows significant dependence on age, reflecting demographic patterns where family structure roles like 'Own-child' correlate strongly with younger age brackets while 'Husband' or 'Wife' correlate with middle-aged groups.",
+    "source": "age",
+    "target": "relationship"
+   },
+   {
+    "rationale": "Hours per week exhibits a moderate association score of 0.231 with age, pointing to structural correlations where work intensity varies across different life stages, such as lower hours for students or retirees compared to full-time working adults.",
+    "source": "age",
+    "target": "hours_per_week"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "education"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "workclass"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "occupation"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "capital_loss"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "native_country"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "age",
+    "target": "capital_gain"
+   },
+   {
+    "rationale": "The association score between workclass and occupation is the highest at 0.218, indicating a strong structural dependency where specific job types are disproportionately associated with certain employment sectors (e.g., 'Prof-specialty' in 'Private' vs. 'State-gov').",
+    "source": "workclass",
+    "target": "occupation"
+   },
+   {
+    "rationale": "With an association score of 0.192, education_num shows significant dependence on workclass, reflecting patterns where higher educational attainment correlates with specific work environments such as government or self-employment.",
+    "source": "workclass",
+    "target": "education_num"
+   },
+   {
+    "rationale": "Hours per week exhibits a moderate association score of 0.165 with workclass, pointing to structural correlations where work intensity varies across different employment sectors, such as longer hours in private sector roles compared to some government positions.",
+    "source": "workclass",
+    "target": "hours_per_week"
+   },
+   {
+    "rationale": "Income has an association score of 0.16 with workclass, indicating that earnings brackets are predictive based on the type of employer, with certain sectors like 'Self-emp-inc' or 'Priv-house-serv' correlating with distinct income levels.",
+    "source": "workclass",
+    "target": "income"
+   },
+   {
+    "rationale": "The association score between education and education_num is 1.0, indicating a perfect deterministic mapping where each education level corresponds to a specific numeric value.",
+    "source": "education",
+    "target": "education_num"
+   },
+   {
+    "rationale": "With an association score of 0.367, income shows a strong dependence on education, reflecting the structural correlation where higher educational attainment is predictive of higher earnings brackets.",
+    "source": "education",
+    "target": "income"
+   },
+   {
+    "rationale": "Capital gain exhibits a moderate association score of 0.224 with education, suggesting that individuals with certain educational backgrounds are more likely to have significant capital gains.",
+    "source": "education",
+    "target": "capital_gain"
+   },
+   {
+    "rationale": "Occupation has an association score of 0.197 with education, indicating that specific job types are disproportionately associated with certain levels of educational attainment.",
+    "source": "education",
+    "target": "occupation"
+   },
+   {
+    "rationale": "Hours per week shows a moderate association score of 0.194 with education, pointing to patterns where work intensity varies across different educational groups.",
+    "source": "education",
+    "target": "hours_per_week"
+   },
+   {
+    "rationale": "The association score between education_num and income is high at 0.335, indicating that higher levels of educational attainment are strongly predictive of higher earnings brackets.",
+    "source": "education_num",
+    "target": "income"
+   },
+   {
+    "rationale": "With an association score of 0.572, occupation shows a very strong dependence on education_num, reflecting the structural requirement that specific job types (e.g., 'Prof-specialty' or 'Exec-managerial') necessitate certain minimum levels of education.",
+    "source": "education_num",
+    "target": "occupation"
+   },
+   {
+    "rationale": "The association score between marital_status and income is high at 0.447, indicating that married individuals are disproportionately associated with higher income brackets compared to other marital statuses.",
+    "source": "marital_status",
+    "target": "income"
+   },
+   {
+    "rationale": "With an association score of 0.256, hours per week shows moderate dependence on marital status, reflecting patterns where married individuals often work different hours compared to never-married or divorced individuals.",
+    "source": "marital_status",
+    "target": "hours_per_week"
+   },
+   {
+    "rationale": "The association score between occupation and income is high at 0.346, indicating that specific job types are strongly predictive of earnings brackets, such as 'Exec-managerial' or 'Prof-specialty' correlating with higher incomes compared to 'Other-service' or 'Handlers-cleaners'.",
+    "source": "occupation",
+    "target": "income"
+   },
+   {
+    "rationale": "With an association score of 0.271, hours per week shows moderate dependence on occupation, reflecting structural patterns where certain roles like 'Exec-managerial' often require longer work hours compared to part-time or service-oriented occupations.",
+    "source": "occupation",
+    "target": "hours_per_week"
+   },
+   {
+    "rationale": "The association score between relationship and marital_status is high at 0.487, indicating that family roles such as 'Husband' or 'Wife' are strongly dependent on being in a married category, while roles like 'Unmarried' or 'Not-in-family' correlate with non-married statuses.",
+    "source": "relationship",
+    "target": "marital_status"
+   },
+   {
+    "rationale": "With an association score of 0.324, hours per week shows moderate dependence on relationship, reflecting patterns where individuals in certain family structures (e.g., 'Own-child' or 'Other-relative') may have different work intensity compared to primary earners ('Husband'/'Wife').",
+    "source": "relationship",
+    "target": "hours_per_week"
+   },
+   {
+    "rationale": "The association score between race and native_country is the highest at 0.383, indicating a strong dependency where specific racial groups are disproportionately associated with certain countries of origin in the dataset.",
+    "source": "race",
+    "target": "native_country"
+   },
+   {
+    "rationale": "With an association score of 0.166, relationship shows a moderate dependence on race, reflecting demographic patterns where family structure roles correlate with racial background.",
+    "source": "race",
+    "target": "relationship"
+   },
+   {
+    "rationale": "Marital status has an association score of 0.132 with race, suggesting that marriage categories vary significantly across different racial groups.",
+    "source": "race",
+    "target": "marital_status"
+   },
+   {
+    "rationale": "Occupation exhibits an association score of 0.129 with race, pointing to structural correlations where certain job types are more frequently held by individuals of specific racial backgrounds.",
+    "source": "race",
+    "target": "occupation"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "race",
+    "target": "workclass"
+   },
+   {
+    "rationale": "The association score between sex and relationship is the highest at 0.65, indicating a strong dependency where specific relationships like 'Husband' or 'Wife' are directly determined by gender.",
+    "source": "sex",
+    "target": "relationship"
+   },
+   {
+    "rationale": "With an association score of 0.464, marital status shows significant dependence on sex, as seen in the data where categories like 'Married-civ-spouse' correlate with specific gendered relationship roles.",
+    "source": "sex",
+    "target": "marital_status"
+   },
+   {
+    "rationale": "Occupation has a moderate association score of 0.438 with sex, reflecting historical or structural correlations in the dataset where certain job types are more frequently associated with one gender.",
+    "source": "sex",
+    "target": "occupation"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "sex",
+    "target": "workclass"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "sex",
+    "target": "hours_per_week"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "sex",
+    "target": "education"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "sex",
+    "target": "native_country"
+   },
+   {
+    "rationale": "added by likelihood-ratio test",
+    "source": "sex",
+    "target": "capital_gain"
+   },
+   {
+    "rationale": "Income has an association score of 0.22 with capital_gain, indicating that significant capital gains are a strong predictor of higher earnings brackets, as seen in the data where individuals with non-zero capital gains (e.g., 9386 or 15024) consistently fall into the high-income category.",
+    "source": "capital_gain",
+    "target": "income"
+   },
+   {
+    "rationale": "Income has the highest association score with capital_loss at 0.15, indicating that individuals with non-zero capital losses are disproportionately associated with specific earnings brackets, often lower income categories.",
+    "source": "capital_loss",
+    "target": "income"
+   },
+   {
+    "rationale": "The association score between hours_per_week and income is 0.227, indicating that work intensity is a significant predictor of earnings brackets, as seen in the data where higher hours often correlate with higher income categories.",
+    "source": "hours_per_week",
+    "target": "income"
+   },
+   {
+    "rationale": "The association score between native_country and education_num is the highest among non-protected columns at 0.288, indicating that individuals from certain countries of origin are disproportionately associated with specific levels of educational attainment.",
+    "source": "native_country",
+    "target": "education_num"
+   },
+   {
+    "rationale": "With an association score of 0.098, income shows a moderate dependence on native_country, reflecting structural correlations where earnings brackets vary significantly across different national origins in the dataset.",
+    "source": "native_country",
+    "target": "income"
+   }
+  ]
+ },
+ "R": [
+  "workclass",
+  "education_num",
+  "capital_gain",
+  "capital_loss"
+ ],
+ "P": [
+  "marital_status",
+  "occupation",
+  "relationship"
+ ],
+ "cut": [
+  [
+   "education",
+   "income"
+  ],
+  [
+   "hours_per_week",
+   "income"
+  ],
+  [
+   "marital_status",
+   "income"
+  ],
+  [
+   "native_country",
+   "income"
+  ],
+  [
+   "occupation",
+   "income"
+  ]
+ ],
+ "ops": {
+  "marital_status->income": "cut",
+  "education->income": "cut",
+  "hours_per_week->income": "cut",
+  "occupation->income": "cut",
+  "native_country->income": "cut"
+ },
+ "cost": {
+  "age->marital_status": 0.028143783098345976,
+  "age->relationship": 0.08449606543378829,
+  "age->hours_per_week": 0.018766321662820884,
+  "age->education": 0.07067227084572292,
+  "age->occupation": 0.001,
+  "age->native_country": 0.023755478875612246,
+  "education->income": 0.001,
+  "education->occupation": 0.001,
+  "education->hours_per_week": 0.01951361190626333,
+  "marital_status->income": 0.05215316229048273,
+  "marital_status->hours_per_week": 0.001,
+  "occupation->income": 0.001,
+  "occupation->hours_per_week": 0.019338934994977082,
+  "relationship->marital_status": 0.1263121591510794,
+  "relationship->hours_per_week": 0.00558133213413071,
+  "race->native_country": 0.14344484805467494,
+  "race->relationship": 0.008299532692068623,
+  "race->marital_status": 0.0031212375472973175,
+  "race->occupation": 0.001,
+  "sex->relationship": 0.13883237783093805,
+  "sex->marital_status": 0.001,
+  "sex->occupation": 0.015745574765103076,
+  "sex->hours_per_week": 0.00498227129174339,
+  "sex->education": 0.011691979852288092,
+  "sex->native_country": 0.001,
+  "hours_per_week->income": 0.003689608808206346,
+  "native_country->income": 0.001
+ },
+ "prior_driven": [],
+ "protected": [
+  "sex",
+  "race",
+  "age"
+ ],
+ "label": "income"
+}
