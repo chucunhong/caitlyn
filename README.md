@@ -12,21 +12,34 @@
 
 ## 📰 Abstract
 
-LLM-based tabular generators increasingly produce training data for credit-decision models. They inherit and can amplify demographic bias, and existing fair generators protect one attribute at a time, paying repeatedly for shared proxies.
+LLM-based tabular generators increasingly produce training data. They inherit and amplify demographic bias, and fair generators protect one attribute at a time.
 
 CAITLYN represents generation as an explicit **plan**: a DAG that fixes the order of LLM calls and what each call may see. It then makes this plan fair for several protected attributes jointly, in four steps:
 
-1. It tests the LLM-induced plan against the data.
-2. It selects legitimate (resolving) variables and proxies statistically.
-3. It blocks every path from a protected attribute to the label that bypasses the legitimate variables, using **one minimum-weight cut**.
+1. It tests the LLM's plan against the data.
+2. It detects legitimate (resolving) variables and proxies.
+3. It blocks every illegitimate path to the label with **one minimum-weight cut**.
 4. It restricts each LLM call to its parents.
 
 We prove exact intersectional parity of unresolved effects when the generator follows the plan, and a leakage bound otherwise.
 
 Results on three credit benchmarks with two LLM backbones:
-- Among synthetic-data methods, CAITLYN has the lowest average statistical-parity and differential-fairness gaps over attribute combinations.
+- Among synthetic-data methods, CAITLYN has the lowest average statistical-parity gap over attribute combinations.
 - It copies no training row.
 - It stays within 0.06 to 0.15 TSTR AUC of real data on two of the benchmarks.
+
+### Why several attributes at once?
+
+Fairness rarely concerns a single attribute. A synthetic table can show equal positive rates for men and women and for younger and older people, yet still favour older men far more than young women.
+
+Repairing one attribute at a time does not remove this gap, because attributes share proxies. Occupation, for example, depends on both sex and age, so a repair for one attribute leaves the influence of the other in place. Improving fairness for one protected attribute often lowers it for another.
+
+Not every dependency is unfair either: *resolving* variables such as education may legitimately explain part of an outcome gap.
+
+Fair synthesis with a black-box LLM and several protected attributes therefore raises three challenges:
+1. Identifying legitimate dependencies without a given causal graph.
+2. Finding the columns through which protected information actually reaches the generator, not only those that encode it.
+3. Blocking the paths of all protected attributes at once, with as little loss of structure as possible.
 
 ---
 
@@ -36,7 +49,7 @@ Results on three credit benchmarks with two LLM backbones:
 - 🔍 **Generator-side proxy audit.** A column is a proxy when it both *encodes* protected information (proxy capacity, PC) and is *used* by the generator (proxy use, PU). PU is measured by value ablation of the LLM's own calls.
 - ✂️ **Joint path surgery.** One minimum `ω → Y` cut blocks all unresolved paths of all protected attributes at once. Capacities are the utility lost per edge, discounted for proxies and refined under the joint loss. The joint cut never costs more than per-attribute cuts.
 - 🔒 **Leakage-controlled synthesis.** Each call sees only its parents in the edited plan. Columns that can reach the label are generated without protected attributes in view. Exemplars are matched on parents, small cells are oversampled, and copies of training rows are regenerated without resampling the label.
-- 📐 **Guarantees.** Exact intersectional unresolved-effect parity (IUP) under plan faithfulness, and a per-call leakage bound otherwise.
+- 📐 **Guarantees.** A joint cut is never costlier than per-attribute cuts. The edited plan gives exact intersectional unresolved-effect parity (IUP) when the LLM follows it, and per-call leakage bounds the remaining effect otherwise.
 - 📊 **Full evaluation.** Every single protected attribute and every combination is evaluated with SP, EO, EOd, PP, PE, TE, ABROCA, ε-DF and CSP<sub>R</sub>. Utility (TSTR and augmentation, four classifiers), fidelity (SDMetrics, α-precision, β-recall) and privacy (copy rate, DCR, NN risk) are also reported.
 - 💸 **Cached LLM calls.** Every call is cached in SQLite, so reruns and variants that share stages cost nothing.
 
@@ -44,14 +57,28 @@ Results on three credit benchmarks with two LLM backbones:
 
 ## 🎯 Overview
 
-Given a training table with a label `Y` and protected attributes `S = (S_1, …, S_k)` (e.g. sex, race and age), a one-sentence task description and black-box access to an LLM, CAITLYN produces a table `D_synth` with these properties:
+**Inputs:**
+- a training table with a label `Y` and protected attributes `S = (S_1, …, S_k)` (e.g. sex, race and age);
+- a one-sentence task description;
+- black-box access to an LLM.
 
-- It trains accurate models for real data.
-- It satisfies **intersectional unresolved-effect parity (IUP)**. When the resolving columns `R` are held fixed and only the intersectional cell `s` (e.g. female, non-White, ≤30) is changed, the distribution of the generated label does not change:
+Without human input, CAITLYN selects a **resolving set** `R`: the columns through which protected attributes may legitimately affect `Y`. It then generates `m` rows that train accurate models for real data and satisfy the parity notion below.
 
-$$\Delta(s,s';r)=\mathrm{TV}\big(P(Y\mid do(\mathbf{S}{=}s,R{=}r)),\,P(Y\mid do(\mathbf{S}{=}s',R{=}r))\big)=0 .$$
+**Generation plan.** A plan is a DAG over the columns in which every protected attribute is a root. The LLM generates a row column by column in topological order, and the call for column `v` sees only the values of its parents `pa(v)`.
 
-IUP extends "no unresolved discrimination" to intersectional cells. Protected attributes may still shape `R` and the other columns.
+A path from some `S_i` to `Y` is **unresolved** if none of its intermediate columns is in `R`. For example, sex → relationship → income is unresolved unless relationship is in `R`.
+
+**Fairness target.** CAITLYN follows the idea of explainable discrimination:
+- A gap between groups is acceptable when a legitimate qualification explains it, such as education for income.
+- A gap that remains among equally qualified people is discrimination.
+
+Demanding equal outcomes across cells regardless of `R`, as statistical parity does, would also erase the effect of education. That lowers utility and treats differently qualified people alike.
+
+CAITLYN instead wants the generated label to depend on the cell only through `R`. Two rows with the same education but different sex and age should receive the same label distribution, while sex and age may still shape education itself. This is **intersectional unresolved-effect parity (IUP)**:
+
+$$\Delta(s,s';r)=\mathrm{TV}\big(P(Y\mid do(\mathbf{S}{=}s,R{=}r)),\,P(Y\mid do(\mathbf{S}{=}s',R{=}r))\big)=0\quad\text{for all cells } s,s' \text{ and values } r.$$
+
+IUP is imposed on every pair of intersectional cells (e.g. female, non-White, ≤30), not on each attribute separately. A gap that appears only at an intersection, such as for young women, therefore also violates it. For classifiers trained on the synthetic data, the observational counterpart of IUP is CSP<sub>R</sub>.
 
 ## 🏗️ Architecture
 
@@ -114,6 +141,16 @@ $$L(C)=\sum_v\big[\mathrm{perf}_v(\mathrm{pa}(v))-\mathrm{perf}_v(\mathrm{pa}(v)
 **Cell sampling.** Cells are drawn from a mix of the empirical cell share and the uniform distribution, so that small cells are covered.
 
 $$\pi_\lambda(s)=(1-\lambda)\,\hat p(s)+\lambda/|\mathcal{C}|$$
+
+### Theoretical guarantees
+
+Proofs are in the supplementary material of the paper.
+
+- **A joint cut is never costlier.** Let `C_i` be the cheapest cut that blocks the unresolved paths of `S_i` alone, and `C*` the cheapest cut that blocks those of all protected attributes. Then `w(C*) ≤ Σ_i w(C_i)`. The inequality is strict when two of the `C_i` share an edge, e.g. an edge out of a proxy of two attributes.
+- **Exact parity and leakage bound.** Let `A` be the columns from which `Y` can be reached in `G'` without passing through `R`.
+  - The LLM is *faithful to the plan* if every call for a column in `A` depends on the protected attributes only through its parents in `G'`. A faithful LLM satisfies IUP.
+  - Otherwise, let the leakage `ε_v` of a call be the largest change in its answer distribution when only the cell changes. The unresolved effect is then at most `Σ_{v∈A} ε_v`.
+  - Both results concern the synthetic process defined by `G'`, not causal fairness in the real world.
 
 ---
 
@@ -354,9 +391,24 @@ Real data and Real + reweighing release no synthetic table, so they are not incl
 
 These are the numbers reported in the paper. TSTR means train on synthetic data and test on real data. Fairness is computed on TSTR predictions for the real test set.
 
+### Case study: one run through the four stages
+
+This run uses Adult with `deepseek-v4.1-flash`, seed 0 (Fig. 2 of the paper; plan file: [`seed0_plan.json`](synthetic_dataset/adult/caitlyn_deepseek-v4.1-flash/seed0_plan.json)).
+
+1. **Stage A.**
+   - The evidence gate adds 15 edges from protected attributes to the LLM's plan of 25 edges.
+   - LRTs add hours per week and native country as parents of income.
+   - Of the 9 proposed legitimate columns, 5 pass the tests. Marital status, occupation, relationship and hours per week predict the protected attributes too well (PC 0.31 to 0.74).
+2. **Stage B.** Relationship encodes sex best (PC = 0.74), but the generator barely uses it (PU = 0.04). Only marital status and occupation are therefore proxies.
+3. **Stage C.**
+   - One cut of 7 edges into income (weight 0.0169) blocks every unresolved path.
+   - Per-attribute cuts would pay for five shared edges three times (weight 0.0365).
+   - DECAF-style removal of every edge on an unresolved path would delete 25 edges.
+4. **Edited plan.** Income is generated from workclass and education only.
+
 ### Utility, fidelity and privacy
 
-TSTR AUC is computed with XGBoost and averaged over seeds. Rank is the average rank over dataset × classifier blocks (four classifiers, AUC averaged over seeds). **Bold** is the best synthetic result.
+TSTR AUC is computed with XGBoost and averaged over seeds. Rank is the average rank over dataset × classifier blocks (four classifiers, AUC averaged over seeds). DCR is the mean Gower distance to the closest training row; NN-risk is ideal at 0.5. **Bold** is the best synthetic result.
 
 | Type | Method | TSTR Adult | TSTR Credit | TSTR German | Aug. AUC | Shape↑ | Trend↑ | α-P↑ | β-R↑ | Copy↓ | DCR↑ | NN-risk | Rank↓ |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -369,6 +421,15 @@ TSTR AUC is computed with XGBoost and averaged over seeds. Rank is the average r
 | Repair | Real + reweighing | 0.909 | 0.902 | 0.760 | – | – | – | – | – | – | – | – | 2.75 |
 | Ours | **CAITLYN** (qwen3.8-flash) | 0.764 | 0.756 | 0.668 | 0.856 | 0.935 | 0.877 | 0.879 | 0.408 | **0.00** | 0.100 | 0.59 | 6.92 |
 | Ours | **CAITLYN** (deepseek-v4.1-flash) | 0.641 | 0.812 | 0.697 | 0.859 | **0.956** | **0.904** | 0.874 | **0.491** | **0.00** | 0.074 | 0.62 | 6.17 |
+
+TSTR AUC by dataset:
+- **German credit.** CAITLYN trails only CLLM and SENNA (0.697 and 0.668 against 0.719 and 0.717). CTGAN, TabFairGAN and StructSynth fall to 0.45–0.51 with 700 training rows.
+- **Credit scoring.** With `deepseek-v4.1-flash`, CAITLYN trails only CTGAN (0.812 against 0.841). CLLM curates away every negative row.
+- **Adult.** CAITLYN trails the unconstrained generators and SENNA (0.764 against 0.873–0.883), because the joint cut blocks the strongest predictors of income. An oracle loses the same utility (see [Utility ceiling](#utility-ceiling-oracle)), so this gap is the price of the parity target.
+
+Other results:
+- CAITLYN has the best pair trends and β-recall.
+- Like CTGAN and SENNA, it copies no training row, against 5–10% for the other synthetic baselines.
 
 ### Fairness over attribute combinations (summary)
 
@@ -455,7 +516,12 @@ CTGAN has the lowest SP here, but its TSTR AUC (0.450) is below chance.
 
 </details>
 
-The paper's tables (and the supplementary material) also report every **single** attribute (sex, race, age) and the PE and TE gaps.
+Tables 2–4 of the paper also report every **single** attribute (sex, race, age) and the PE and TE gaps.
+
+Findings by dataset:
+- **Adult.** CAITLYN with `deepseek-v4.1-flash` has the lowest SP gap and ε-DF among synthetic-data methods in all seven settings (3 single attributes + 4 combinations), except ε-DF for race. CLLM has the lowest EO and EOd gaps in most settings.
+- **Credit scoring (sex × age).** CAITLYN has the lowest SP and EO gaps. SENNA has the lowest EOd, PP and ε-DF.
+- **German credit (sex × age).** CAITLYN has the lowest EO, EOd and ε-DF. CTGAN, whose AUC is below chance, has the lowest SP.
 
 ### Statistical tests: SP over attribute combinations
 
@@ -481,11 +547,9 @@ The paper's tables (and the supplementary material) also report every **single**
 - **CAITLYN (deepseek-v4.1-flash)** beats TabFairGAN, CTGAN, StructSynth, real data and SENNA.
 - **CAITLYN (qwen3.8-flash)** beats CTGAN, StructSynth, real data and SENNA. Its gap to TabFairGAN (2.33) is just under the CD.
 
-On TSTR AUC, the Nemenyi test separates none of the synthetic-data methods.
-
 ### Utility ceiling (oracle)
 
-The oracle samples each plan ancestrally, using LightGBM conditionals fitted on the training data. It separates the cost of the parity target from the cost of the LLM. Run it with `scripts/plan_oracle.py`.
+This table is in the supplementary material of the paper. The oracle samples each plan ancestrally, using LightGBM conditionals fitted on the training data. It separates the cost of the parity target from the cost of the LLM. Run it with `scripts/plan_oracle.py`.
 
 | Dataset | Backbone | Oracle on G | Oracle on G' | CAITLYN | Real | ΔSP∩ on G | ΔSP∩ on G' | ΔSP∩ Real |
 |---|---|---|---|---|---|---|---|---|
